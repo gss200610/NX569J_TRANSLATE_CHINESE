@@ -554,5 +554,18 @@ For more information, contact your administrator."</string>
    <string name="volume_stream_vibrate_dnd">%s vibrar — Apenas prioridade</string>
    <string name="ic_qs_take_screen">Captura de tela</string>
    <string name="unlock_tip_info_gallery">Clique duas vezes para</string>
-   
+ <!-- adicionado --> 
+    <string name="incall_time">No telefone %1$s</string>
+   <string name="call_state_dialing">Discagem</string>
+   <string name="call_state_incoming">Entrada\u0009\u0009Clique de volta</string>
+   <string name="recorder_time">Na gravação %1$s</string>
+   <string name="wifi_hotspot_count">Contagem de conexão:%d</string>
+   <string name="recording_pause">Pausa de gravação %1$s</string>
+   <string name="quick_settings_reset_confirmation_title">Ocultar %1$s?</string>
+   <string name="zen_alarm_warning_indef">"Você não vai ouvir o seu próximo alarme %1$s a menos que você desligue isso antes disso"</string>
+   <string name="zen_alarm_warning">"Você não vai ouvir o seu alarme em %s"</string>
+   <string name="alarm_template">as %1$s</string>
+   <string name="alarm_template_far">em %1$s</string>
+   <string name="accessibility_quick_settings_detail">Configurações rápidas, %s.</string>
+
 </resources>
