@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_color_list_preference">
+        <item>Preto sênior</item>
+        <item>Vermelho sênior</item>
+        <item>Verde sênior</item>
+    </string-array>
+    <string-array name="entryvalues_color_list_preference">
+        <item>Preto sênior</item>
+        <item>Vermelho sênior</item>
+        <item>Verde sênior</item>
+    </string-array>
+    <string-array name="preset_image_path">
+        <item>preset/nubia_gallery_lockscreen_preset_image_1</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_2</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_3</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_4</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_5</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_6</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_7</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_8</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_9</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_10</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_11</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_12</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_13</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_14</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_15</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_16</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_17</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_18</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_19</item>
+        <item>preset/nubia_gallery_lockscreen_preset_image_20</item>
+    </string-array>
+    <string-array name="preset_image_version">
+        <item>V1.8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="preset_images_key">
+        <item>preset_image_1</item>
+        <item>preset_image_2</item>
+        <item>preset_image_3</item>
+        <item>preset_image_4</item>
+        <item>preset_image_5</item>
+        <item>preset_image_6</item>
+        <item>preset_image_7</item>
+        <item>preset_image_8</item>
+        <item>preset_image_9</item>
+        <item>preset_image_10</item>
+        <item>preset_image_11</item>
+        <item>preset_image_12</item>
+        <item>preset_image_13</item>
+        <item>preset_image_14</item>
+        <item>preset_image_15</item>
+        <item>preset_image_16</item>
+        <item>preset_image_17</item>
+        <item>preset_image_18</item>
+        <item>preset_image_19</item>
+        <item>preset_image_20</item>
+    </string-array>
+    <string-array name="gallery_category_names">
+        <item>Recomendado</item>
+        <item>Cenário</item>
+        <item>Edifício</item>
+        <item>Beleza</item>
+        <item>Estrela</item>
+        <item>Moda</item>
+        <item>Alimento</item>
+        <item>Movie</item>
+        <item>Carro</item>
+        <item>Criativo</item>
+        <item>Esportes</item>
+    </string-array>
+    <string-array name="gallery_category_statistics">
+        <item>GalleryLockScreen_Recommend_Setting</item>
+        <item>GalleryLockScreen_Scenery_Setting</item>
+        <item>GalleryLockScreen_Building_Setting</item>
+        <item>GalleryLockScreen_Beauty_Setting</item>
+        <item>GalleryLockScreen_Star_Setting</item>
+        <item>GalleryLockScreen_Fashion_Setting</item>
+        <item>GalleryLockScreen_Food_Setting</item>
+        <item>GalleryLockScreen_Movie_Setting</item>
+        <item>GalleryLockScreen_Car_Setting</item>
+        <item>GalleryLockScreen_Originality_Setting</item>
+        <item>GalleryLockScreen_Sports_Setting</item>
+    </string-array>
+    <string-array name="preset_image_1">
+        <item>preset/nubia_gallery_lockscreen_preset_image_1</item>
+        <item>Por do sol da montanha da neve</item>
+        <item>Quando o sol se põe, você não tem nada, por exemplo, você tem um pôr do sol.</item>
+    </string-array>
+    <string-array name="preset_image_2">
+        <item>preset/nubia_gallery_lockscreen_preset_image_2</item>
+        <item>Amor do outono</item>
+        <item>O amor do final do outono, as pessoas talentosas que se atrevem a dizer.</item>
+    </string-array>
+    <string-array name="preset_image_3">
+        <item>preset/nubia_gallery_lockscreen_preset_image_3</item>
+        <item>Olhando para o céu</item>
+        <item>Quando você está confuso, não se esqueça de olhar para o céu.</item>
+    </string-array>
+    <string-array name="preset_image_4">
+        <item>preset/nubia_gallery_lockscreen_preset_image_4</item>
+        <item>Alterar</item>
+        <item>A humilhação não é chocada, e as flores estão florescendo diante da corte: a estadia não intencional não é intencional, e o céu está sem nuvens.</item>
+    </string-array>
+    <string-array name="preset_image_5">
+        <item>preset/nubia_gallery_lockscreen_preset_image_5</item>
+        <item>Caminhadas vida</item>
+        <item>A vida é como uma caminhada que nunca pára.</item>
+    </string-array>
+    <string-array name="preset_image_6">
+        <item>preset/nubia_gallery_lockscreen_preset_image_6</item>
+        <item>Outono</item>
+        <item>À noite, a maré fria olha para a montanha e as folhas amarelas da floresta estão cheias de sons.</item>
+    </string-array>
+    <string-array name="preset_image_7">
+        <item>preset/nubia_gallery_lockscreen_preset_image_7</item>
+        <item>Cidade natal nas colinas</item>
+        <item>Atravessando as colinas, apenas para encontrar os campos da cidade natal, a fragrância do solo.</item>
+    </string-array>
+    <string-array name="preset_image_8">
+        <item>preset/nubia_gallery_lockscreen_preset_image_8</item>
+        <item>Cor dos sonhos</item>
+        <item>A cor do sonho, deve ser como um conto de fadas, lindo e colorido.</item>
+    </string-array>
+    <string-array name="preset_image_9">
+        <item>preset/nubia_gallery_lockscreen_preset_image_9</item>
+        <item>Lushan Road</item>
+        <item>De todo jeito que surge, existem razões pelas quais ele tem que viajar assim.</item>
+    </string-array>
+    <string-array name="preset_image_10">
+        <item>preset/nubia_gallery_lockscreen_preset_image_10</item>
+        <item>Alta montanha</item>
+        <item>Não querendo ser pequeno, sempre alcance a altura que está sendo procurada.</item>
+    </string-array>
+    <string-array name="preset_image_11">
+        <item>preset/nubia_gallery_lockscreen_preset_image_11</item>
+        <item>Castelo da colina</item>
+        <item>Encontre um lugar que possa tocar sua casa e rir do céu.</item>
+    </string-array>
+    <string-array name="preset_image_12">
+        <item>preset/nubia_gallery_lockscreen_preset_image_12</item>
+        <item>Torre branca sob o céu noturno</item>
+        <item>Sob o pagode branco, Brahma é pintado à mão, e a poeira está dançando levemente.</item>
+    </string-array>
+    <string-array name="preset_image_13">
+        <item>preset/nubia_gallery_lockscreen_preset_image_13</item>
+        <item>Caminho para o sucesso</item>
+        <item>Neste mundo movimentado, o tráfego é como a prata fluindo, iluminando meu caminho para o sucesso. ©Vision @Fotógrafo de viagens Mumu</item>
+    </string-array>
+    <string-array name="preset_image_14">
+        <item>preset/nubia_gallery_lockscreen_preset_image_14</item>
+        <item>Cidade dos sonhos</item>
+        <item>Eu só quero afundar nessa paisagem e estou perturbado pelo mundo.</item>
+    </string-array>
+    <string-array name="preset_image_15">
+        <item>preset/nubia_gallery_lockscreen_preset_image_15</item>
+        <item>Morgan Motors</item>
+        <item>A vida é como um carro Enquanto você não evita e encolhe, o aplauso da vida tocará por você.</item>
+    </string-array>
+    <string-array name="preset_image_16">
+        <item>preset/nubia_gallery_lockscreen_preset_image_16</item>
+        <item>Chalé no campo</item>
+        <item>Os picos das montanhas nunca desistirão devido à frieza da neve.</item>
+    </string-array>
+    <string-array name="preset_image_17">
+        <item>preset/nubia_gallery_lockscreen_preset_image_17</item>
+        <item>Esqui de pico</item>
+        <item>Além do oponente e superamos a nós mesmos é o nosso objetivo e nossa crença.</item>
+    </string-array>
+    <string-array name="preset_image_18">
+        <item>preset/nubia_gallery_lockscreen_preset_image_18</item>
+        <item>Parapente</item>
+        <item>Recusou-se a experimentar a vida emocionante.</item>
+    </string-array>
+    <string-array name="preset_image_19">
+        <item>preset/nubia_gallery_lockscreen_preset_image_19</item>
+        <item>Céu estrelado galáxia</item>
+        <item>Contanto que você olhe para as estrelas, o mundo se tornará cada vez maior.</item>
+    </string-array>
+    <string-array name="preset_image_20">
+        <item>preset/nubia_gallery_lockscreen_preset_image_20</item>
+        <item>Portão de relíquias</item>
+        <item>As bordas e cantos irregulares mostram que as vicissitudes das vicissitudes da vida estão no mundo. © Vision @Zhao Jie </item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>Dom</item>
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sab</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>Janeiro</item>
+        <item>Fevereiro</item>
+        <item>Março</item>
+        <item>Abril</item>
+        <item>Maio</item>
+        <item>Junho</item>
+        <item>Julho</item>
+        <item>Agosoto</item>
+        <item>Setembro</item>
+        <item>Outubro</item>
+        <item>Novembro</item>
+        <item>Dezembro</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>Jan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>Mai</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Out</item>
+        <item>Nove</item>
+        <item>Dez</item>
+    </string-array>
+</resources>
