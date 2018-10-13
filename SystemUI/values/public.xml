@@ -37,6 +37,49 @@
     <public type="attr" name="textView" id="0x7f010022" />
     <public type="attr" name="scaledTextSize" id="0x7f010023" />
     <public type="attr" name="allCaps" id="0x7f010024" />
+    <public type="drawable" name="bugdroid" id="0x7f020012" />
+    <public type="drawable" name="cactus1" id="0x7f020013" />
+    <public type="drawable" name="cactus2" id="0x7f020014" />
+    <public type="drawable" name="cactus3" id="0x7f020015" />
+    <public type="drawable" name="cloud" id="0x7f020018" />
+    <public type="drawable" name="cloud_off" id="0x7f020019" />
+    <public type="drawable" name="dessert_android" id="0x7f02001a" />
+    <public type="drawable" name="dessert_cupcake" id="0x7f02001b" />
+    <public type="drawable" name="dessert_dandroid" id="0x7f02001c" />
+    <public type="drawable" name="dessert_donut" id="0x7f02001d" />
+    <public type="drawable" name="dessert_donutburger" id="0x7f02001e" />
+    <public type="drawable" name="dessert_eclair" id="0x7f02001f" />
+    <public type="drawable" name="dessert_flan" id="0x7f020020" />
+    <public type="drawable" name="dessert_froyo" id="0x7f020021" />
+    <public type="drawable" name="dessert_gingerbread" id="0x7f020022" />
+    <public type="drawable" name="dessert_honeycomb" id="0x7f020023" />
+    <public type="drawable" name="dessert_ics" id="0x7f020024" />
+    <public type="drawable" name="dessert_jandycane" id="0x7f020025" />
+    <public type="drawable" name="dessert_jellybean" id="0x7f020026" />
+    <public type="drawable" name="dessert_keylimepie" id="0x7f020027" />
+    <public type="drawable" name="dessert_kitkat" id="0x7f020028" />
+    <public type="drawable" name="dessert_petitfour" id="0x7f020029" />
+    <public type="drawable" name="dessert_zombiegingerbread" id="0x7f02002a" />
+    <public type="drawable" name="icon" id="0x7f02010e" />
+    <public type="drawable" name="minus" id="0x7f02013f" />
+    <public type="drawable" name="mm_antennae" id="0x7f020140" />
+    <public type="drawable" name="mm_antennae2" id="0x7f020141" />
+    <public type="drawable" name="mm_eyes" id="0x7f020142" />
+    <public type="drawable" name="mm_eyes2" id="0x7f020143" />
+    <public type="drawable" name="mm_head" id="0x7f020144" />
+    <public type="drawable" name="mm_mouth1" id="0x7f020145" />
+    <public type="drawable" name="mm_mouth2" id="0x7f020146" />
+    <public type="drawable" name="mm_mouth3" id="0x7f020147" />
+    <public type="drawable" name="mm_mouth4" id="0x7f020148" />
+    <public type="drawable" name="mountain1" id="0x7f02014a" />
+    <public type="drawable" name="mountain2" id="0x7f02014b" />
+    <public type="drawable" name="mountain3" id="0x7f02014c" />
+    <public type="drawable" name="notify_item_glow_bottom" id="0x7f020159" />
+    <public type="drawable" name="play" id="0x7f020183" />
+    <public type="drawable" name="plus" id="0x7f020184" />
+    <public type="drawable" name="ripplebg" id="0x7f0201af" />
+    <public type="drawable" name="scorecard" id="0x7f0201b0" />
+    <public type="drawable" name="star" id="0x7f0201ce" />
     <public type="drawable" name="android" id="0x7f020000" />
     <public type="drawable" name="auto_brightness_checkbox" id="0x7f020003" />
     <public type="drawable" name="brightness_high" id="0x7f020008" />
@@ -47,8 +90,6 @@
     <public type="drawable" name="btn_circle_bound_pressed" id="0x7f02000d" />
     <public type="drawable" name="btn_tasklist_killall" id="0x7f020010" />
     <public type="drawable" name="checkbox_icon" id="0x7f020017" />
-    <public type="drawable" name="cloud" id="0x7f020018" />
-    <public type="drawable" name="cloud_off" id="0x7f020019" />
     <public type="drawable" name="dismiss" id="0x7f02002d" />
     <public type="drawable" name="google_assist_background" id="0x7f020032" />
     <public type="drawable" name="heads_up_scrim" id="0x7f020038" />
@@ -193,14 +234,12 @@
     <public type="drawable" name="ripple_button" id="0x7f0201ac" />
     <public type="drawable" name="ripple_drawable" id="0x7f0201ad" />
     <public type="drawable" name="ripple_drawable_20dp" id="0x7f0201ae" />
-    <public type="drawable" name="scorecard" id="0x7f0201b0" />
     <public type="drawable" name="screen_pinning_bg_circ" id="0x7f0201b1" />
     <public type="drawable" name="screen_pinning_light_bg_circ" id="0x7f0201b2" />
     <public type="drawable" name="search_panel_scrim" id="0x7f0201c6" />
     <public type="drawable" name="segmented_buttons_background" id="0x7f0201ca" />
     <public type="drawable" name="sleep_mode" id="0x7f0201cb" />
     <public type="drawable" name="small_ripple_drawable" id="0x7f0201cc" />
-    <public type="drawable" name="star" id="0x7f0201ce" />
     <public type="drawable" name="stat_notify_more" id="0x7f0201cf" />
     <public type="drawable" name="stat_screenshot_notify" id="0x7f0201d0" />
     <public type="drawable" name="stat_screenshot_notify_error" id="0x7f0201d1" />
@@ -592,45 +631,6 @@
     <public type="drawable" name="unlock" id="0x7f02023d" />
     <public type="drawable" name="up" id="0x7f02023e" />
     <public type="drawable" name="dimiss_rotation" id="0x7f02002c" />
-    <public type="drawable" name="bugdroid" id="0x7f020012" />
-    <public type="drawable" name="cactus1" id="0x7f020013" />
-    <public type="drawable" name="cactus2" id="0x7f020014" />
-    <public type="drawable" name="cactus3" id="0x7f020015" />
-    <public type="drawable" name="dessert_android" id="0x7f02001a" />
-    <public type="drawable" name="dessert_cupcake" id="0x7f02001b" />
-    <public type="drawable" name="dessert_dandroid" id="0x7f02001c" />
-    <public type="drawable" name="dessert_donut" id="0x7f02001d" />
-    <public type="drawable" name="dessert_donutburger" id="0x7f02001e" />
-    <public type="drawable" name="dessert_eclair" id="0x7f02001f" />
-    <public type="drawable" name="dessert_flan" id="0x7f020020" />
-    <public type="drawable" name="dessert_froyo" id="0x7f020021" />
-    <public type="drawable" name="dessert_gingerbread" id="0x7f020022" />
-    <public type="drawable" name="dessert_honeycomb" id="0x7f020023" />
-    <public type="drawable" name="dessert_ics" id="0x7f020024" />
-    <public type="drawable" name="dessert_jandycane" id="0x7f020025" />
-    <public type="drawable" name="dessert_jellybean" id="0x7f020026" />
-    <public type="drawable" name="dessert_keylimepie" id="0x7f020027" />
-    <public type="drawable" name="dessert_kitkat" id="0x7f020028" />
-    <public type="drawable" name="dessert_petitfour" id="0x7f020029" />
-    <public type="drawable" name="dessert_zombiegingerbread" id="0x7f02002a" />
-    <public type="drawable" name="icon" id="0x7f02010e" />
-    <public type="drawable" name="minus" id="0x7f02013f" />
-    <public type="drawable" name="mm_antennae" id="0x7f020140" />
-    <public type="drawable" name="mm_antennae2" id="0x7f020141" />
-    <public type="drawable" name="mm_eyes" id="0x7f020142" />
-    <public type="drawable" name="mm_eyes2" id="0x7f020143" />
-    <public type="drawable" name="mm_head" id="0x7f020144" />
-    <public type="drawable" name="mm_mouth1" id="0x7f020145" />
-    <public type="drawable" name="mm_mouth2" id="0x7f020146" />
-    <public type="drawable" name="mm_mouth3" id="0x7f020147" />
-    <public type="drawable" name="mm_mouth4" id="0x7f020148" />
-    <public type="drawable" name="mountain1" id="0x7f02014a" />
-    <public type="drawable" name="mountain2" id="0x7f02014b" />
-    <public type="drawable" name="mountain3" id="0x7f02014c" />
-    <public type="drawable" name="notify_item_glow_bottom" id="0x7f020159" />
-    <public type="drawable" name="play" id="0x7f020183" />
-    <public type="drawable" name="plus" id="0x7f020184" />
-    <public type="drawable" name="ripplebg" id="0x7f0201af" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="activity_screen_shot" id="0x7f040000" />

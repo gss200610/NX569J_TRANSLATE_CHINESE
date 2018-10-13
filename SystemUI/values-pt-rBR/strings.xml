@@ -1,709 +1,1810 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="wifi_fail_to_scan">Não é possível verificar a existência de redes</string>
-    <string name="wifi_security_none">Nenhuma</string>
-    <string name="wifi_remembered">Salva</string>
-    <string name="wifi_disabled_generic">Desativado</string>
-    <string name="wifi_disabled_network_failure">Falha de configuração de IP</string>
-    <string name="wifi_disabled_wifi_failure">Falha de conexão Wi-Fi</string>
-    <string name="wifi_disabled_password_failure">Problema de autenticação</string>
-    <string name="wifi_not_in_range">Fora do alcance</string>
-    <string name="wifi_no_internet">Nenhum acesso à Internet detectado. O dispositivo não conectará automaticamente.</string>
-    <string name="saved_network">Salvas por %1$s</string>
-    <string name="connected_via_wfa">Conectado via assistente de Wi‑Fi</string>
-    <string name="connected_via_passpoint">Conectado via %1$s</string>
-    <string name="available_via_passpoint">Disponível via %1$s</string>
-    <string name="wifi_connected_no_internet">Conectada, sem Internet</string>
-    <string name="bluetooth_disconnected">Desconectado</string>
-    <string name="bluetooth_disconnecting">Desconectando…</string>
-    <string name="bluetooth_connecting">Conectando...</string>
-    <string name="bluetooth_connected">Conectado</string>
-    <string name="bluetooth_pairing">Pareando…</string>
-    <string name="bluetooth_connected_no_headset">Conectado (sem telefone)</string>
-    <string name="bluetooth_connected_no_a2dp">Conectado (sem mídia)</string>
-    <string name="bluetooth_connected_no_map">Conectado (sem acesso a mensagens)</string>
-    <string name="bluetooth_connected_no_headset_no_a2dp">Conectado (sem telefone ou mídia)</string>
-    <string name="bluetooth_profile_a2dp">Áudio da mídia</string>
-    <string name="bluetooth_profile_headset">Áudio do telefone</string>
-    <string name="bluetooth_profile_opp">Transferência de arquivo</string>
-    <string name="bluetooth_profile_hid">Dispositivo de entrada</string>
-    <string name="bluetooth_profile_pan">Acesso à Internet</string>
-    <string name="bluetooth_profile_pbap">Compartilhamento de contatos</string>
-    <string name="bluetooth_profile_pbap_summary">Usar para compartilhamento de contatos</string>
-    <string name="bluetooth_profile_pan_nap">Compartilhamento de conexão à Internet</string>
-    <string name="bluetooth_profile_map">Acesso a mensagens</string>
-    <string name="bluetooth_profile_sap">Acesso SIM</string>
-    <string name="bluetooth_a2dp_profile_summary_connected">Conectado ao áudio da mídia</string>
-    <string name="bluetooth_headset_profile_summary_connected">Conectado ao áudio do telefone</string>
-    <string name="bluetooth_opp_profile_summary_connected">Conectado ao servidor de transferência de arquivo</string>
-    <string name="bluetooth_map_profile_summary_connected">Conectado ao mapa</string>
-    <string name="bluetooth_sap_profile_summary_connected">Conectado a SAP</string>
-    <string name="bluetooth_opp_profile_summary_not_connected">Não está conectado ao servidor de transferência de arquivo</string>
-    <string name="bluetooth_hid_profile_summary_connected">Conectado ao dispositivo de entrada</string>
-    <string name="bluetooth_pan_user_profile_summary_connected">Conectado ao dispositivo para acesso à Internet</string>
-    <string name="bluetooth_pan_nap_profile_summary_connected">Compart. conexão local de Intern. com disp.</string>
-    <string name="bluetooth_pan_profile_summary_use_for">Usar para acesso à Internet</string>
-    <string name="bluetooth_map_profile_summary_use_for">Usar para mapa</string>
-    <string name="bluetooth_sap_profile_summary_use_for">Use para acesso SIM</string>
-    <string name="bluetooth_a2dp_profile_summary_use_for">Usar para áudio de mídia</string>
-    <string name="bluetooth_headset_profile_summary_use_for">Usar para áudio do telefone</string>
-    <string name="bluetooth_opp_profile_summary_use_for">Usado para transferência de arquivo</string>
-    <string name="bluetooth_hid_profile_summary_use_for">Usar para entrada</string>
-    <string name="bluetooth_pairing_accept">Parear</string>
-    <string name="bluetooth_pairing_accept_all_caps">PAREAR</string>
-    <string name="bluetooth_pairing_decline">Cancelar</string>
-    <string name="bluetooth_pairing_will_share_phonebook">O pareamento dá acesso a seus contatos e ao histórico de chamadas quando estiver conectado.</string>
-    <string name="bluetooth_pairing_error_message">Não foi possível parear com %1$s.</string>
-    <string name="bluetooth_pairing_pin_error_message">Não foi possível parear com %1$s por causa de um PIN ou senha incorretos.</string>
-    <string name="bluetooth_pairing_device_down_error_message">Não é possível se comunicar com %1$s.</string>
-    <string name="bluetooth_pairing_rejected_error_message">Emparelhamento rejeitado por %1$s.</string>
-    <string name="accessibility_wifi_off">Wi-Fi desligado.</string>
-    <string name="accessibility_no_wifi">Wi-Fi desconectado</string>
-    <string name="accessibility_wifi_one_bar">Uma barra de Wi-Fi.</string>
-    <string name="accessibility_wifi_two_bars">Duas barras de Wi-Fi.</string>
-    <string name="accessibility_wifi_three_bars">Três barras de Wi-Fi.</string>
-    <string name="accessibility_wifi_signal_full">Sinal Wi-Fi cheio.</string>
-    <string name="accessibility_ime_switch_button">Alterar botão do método de entrada.</string>
-    <string name="quick_settings_airplane_mode_label">Avião</string>
-    <string name="quick_settings_mobile_data_label">Dados móveis</string>
-    <string name="quick_settings_mobile_data1_label">Dados móveis 1</string>
-    <string name="quick_settings_mobile_data2_label">Dados móveis 2</string>
-    <string name="quick_settings_roaming_label">Roaming</string>
-    <string name="quick_settings_battery_charging_label">Carregando, %d%%</string>
-    <string name="quick_settings_battery_charged_label">Carregado</string>
-    <string name="quick_settings_bluetooth_label">Bluetooth</string>
-    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d dispositivos)</string>
-    <string name="quick_settings_bluetooth_off_label">Bluetooth deslig.</string>
-    <string name="quick_settings_bluetooth_detail_empty_text">Escaneando bluetooth</string>
-    <string name="quick_settings_brightness_label">Brilho</string>
-    <string name="quick_settings_rotation_unlocked_label">Auto-rotação</string>
-    <string name="quick_settings_rotation_locked_label">Rotação bloqueada</string>
-    <string name="quick_settings_rotation_locked_portrait_label">Retrado</string>
-    <string name="quick_settings_rotation_locked_landscape_label">Paisagem</string>
-    <string name="quick_settings_ime_label">Método entrada</string>
-    <string name="quick_settings_location_label">Localização</string>
-    <string name="quick_settings_location_off_label">Localização deslig.</string>
-    <string name="quick_settings_media_device_label">Dispositivo de mídia</string>
-    <string name="quick_settings_rssi_label">RSSI</string>
-    <string name="quick_settings_rssi_emergency_only">Apenas chamadas de emergência</string>
-    <string name="quick_settings_settings_label">Configurações</string>
-    <string name="quick_settings_time_label">Hora</string>
-    <string name="quick_settings_user_label">Meu</string>
-    <string name="quick_settings_user_title">Usuário</string>
-    <string name="quick_settings_user_new_user">Novo usuário</string>
-    <string name="quick_settings_wifi_label">Wi-Fi</string>
-    <string name="quick_settings_wifi_not_connected">Não conectado</string>
-    <string name="quick_settings_wifi_no_network">Nenhuma rede</string>
-    <string name="quick_settings_wifi_off_label">Wi-Fi desligado</string>
-    <string name="quick_settings_wifi_detail_empty_text">Escaneando wifi</string>
-    <string name="quick_settings_cast_title">Projeção tela</string>
-    <string name="quick_settings_casting">Projetando</string>
-    <string name="quick_settings_cast_device_default_name">Dispositivo sem nome</string>
-    <string name="quick_settings_cast_device_default_description">Pronto para projetar</string>
-    <string name="quick_settings_cast_detail_empty_text">Nenhum dispositivo disponível</string>
-    <string name="quick_settings_brightness_dialog_title">Brilho</string>
-    <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTO</string>
-    <string name="quick_settings_apn_switch_label">Trocar APN</string>
-    <string name="quick_settings_inversion_label">Inverter cores</string>
-    <string name="quick_settings_color_space_label">Modo de correção de cor</string>
-    <string name="quick_settings_more_settings">Mais configurações</string>
-    <string name="quick_settings_done">Feito</string>
-    <string name="quick_settings_connected">Conectado</string>
-    <string name="quick_settings_connecting">Conectando...</string>
-    <string name="quick_settings_tethering_label">Tethering</string>
-    <string name="quick_settings_hotspot_label">Ponto acesso</string>
-    <string name="quick_settings_notifications_label">Notifiçãoes</string>
-    <string name="quick_settings_flashlight_label">Lanterna</string>
-    <string name="quick_settings_cellular_detail_title">Dados móveis</string>
-    <string name="quick_settings_cellular_detail_data_usage">Uso de fluxo</string>
-    <string name="quick_settings_cellular_detail_remaining_data">Fluxo remanescente</string>
-    <string name="quick_settings_cellular_detail_over_limit">Alcançou o máximo - seu fluxo foi pausado</string>
-    <string name="quick_settings_cellular_detail_data_used">%s usado</string>
-    <string name="quick_settings_cellular_detail_data_limit">%s limite</string>
-    <string name="quick_settings_cellular_detail_data_warning">%s Atenção</string>
-    <string name="quick_settings_dds_sub">Cartão %d dados</string>
-    <string name="quick_settings_data_off">Dados desligado</string>
-    <string name="keyguard_unlock">Deslize para cima para desbloquear</string>
-    <string name="volumeui_prompt_allow">Permitir</string>
-    <string name="volumeui_prompt_deny">Negar</string>
-    <string name="unlock_tip_info">Deslize para cima para desbloquear</string>
-    <string name="unlock_camera_tip_info">Deslize para abrir a camera</string>
-    <string name="notification_swip_info">Deslize para esquerda para ver detalhes</string>
-    <string name="accessibility_status_bar_hotspot">Ponto acesso</string>
-    <string name="ic_qs_wifi">Wi-Fi</string>
-    <string name="ic_qs_bluetooth">Bluetooth</string>
-    <string name="ic_qs_gps">GPS</string>
-    <string name="ic_qs_mobile">Dados móveis</string>
-    <string name="ic_qs_syn">Sinc</string>
-    <string name="ic_qs_auto">Brilho</string>
-    <string name="ic_qs_data">Dados</string>
-    <string name="ic_qs_sync">Sinc</string>
-    <string name="ic_qs_rotation">Rotação</string>
-    <string name="ic_qs_motion">Moção</string>
-    <string name="ic_qs_ringer">Silêncio</string>
-    <string name="ic_qs_vibrate">Vibrar</string>
-    <string name="ic_qs_mute">Modo mudo</string>
-    <string name="ic_qs_airplane">Avião</string>
-    <string name="ic_qs_saving">Economia de energia</string>
-    <string name="ic_qs_pocket">Bolso</string>
-    <string name="ic_qs_meeting">Conferência</string>
-    <string name="ic_qs_sleeping">Dormir</string>
-    <string name="ic_qs_visitor">Visitante</string>
-    <string name="ic_qs_brightness">Brilho</string>
-    <string name="ic_qs_wificast">Projeção tela</string>
-    <string name="ic_qs_screen_capture">Captura de tela</string>
-    <string name="ic_qs_clear">Acelerar</string>
-    <string name="ic_qs_sort">Ordenar</string>
-    <string name="ic_qs_singlehand">Uma-mão</string>
-    <string name="ic_qs_turbomanager">Turbo</string>
-    <string name="ic_qs_settings">Configurações</string>
-    <string name="ic_qs_lockscreen">Tela bloqueio</string>
-    <string name="ic_qs_screenprojector">Projetando</string>
-    <string name="ic_qs_splitscreen">Multi-janela</string>
-    <string name="ic_qs_undisturb">Undisturbed</string>
-    <string name="ic_qs_karaoke">Karaoke</string>
-    <string name="ic_qs_flashlight">Lanterna</string>
-    <string name="ic_qs_supersnap">Supersnap</string>
-    <string name="ic_qs_userdefine">Customizar</string>
-    <string name="ic_qs_lowpowermode">Baixa-Potência</string>
-    <string name="nubia_recent_clear_complete_tips">Telefone foi acelerado</string>
-    <string name="nubia_recent_memory_close_all">Fechar tudo</string>
-    <string name="keyguard_password_enter_pin_code">Insira o código PIN</string>
-    <string name="keyguard_password_enter_puk_code">Digite o PUK do SIM e o novo código PIN.</string>
-    <string name="keyguard_password_enter_puk_prompt">Código PUK do SIM</string>
-    <string name="keyguard_password_enter_pin_prompt">Novo código PIN do SIM</string>
-    <string name="keyguard_password_entry_touch_hint"><font size="17">Toque para inserir a senha</font></string>
-    <string name="keyguard_password_enter_password_code">Digite a senha para desbloquear</string>
-    <string name="keyguard_password_enter_pin_password_code">Insira o PIN para desbloquear</string>
-    <string name="keyguard_password_wrong_pin_code">Código PIN incorreto.</string>
-    <string name="keyguard_charged">Carregado</string>
-    <string name="keyguard_plugged_in">Carregando</string>
-    <string name="keyguard_plugged_in_charging_fast">Carregando rapidamente</string>
-    <string name="keyguard_plugged_in_charging_slowly">Carregando lentamente</string>
-    <string name="keyguard_low_battery">Conecte seu carregador.</string>
-    <string name="keyguard_instructions_when_pattern_disabled">Pressione \"Menu\" para desbloquear.</string>
-    <string name="keyguard_network_locked_message">Rede bloqueada</string>
-    <string name="keyguard_missing_sim_message_short">Sem cartão SIM</string>
-    <string name="keyguard_missing_sim_message">Não há um cartão SIM no telefone.</string>
-    <string name="keyguard_missing_sim_instructions">Insira um cartão SIM.</string>
-    <string name="keyguard_missing_sim_instructions_long">O cartão SIM não foi inserido ou não é possível lê-lo. Insira um cartão SIM.</string>
-    <string name="keyguard_permanent_disabled_sim_message_short">Cartão SIM inutilizável.</string>
-    <string name="keyguard_permanent_disabled_sim_instructions">"O cartão SIM foi desativado permanentemente.
-Entre em contato com seu provedor de serviços sem fio para receber outro cartão SIM."</string>
-    <string name="keyguard_sim_locked_message">O cartão SIM está bloqueado.</string>
-    <string name="keyguard_sim_puk_locked_message">O cartão SIM está bloqueado pelo PUK.</string>
-    <string name="keyguard_sim_unlock_progress_dialog_message">Desbloqueando o cartão SIM…</string>
-    <string name="keyguard_accessibility_pattern_unlock">Desbloqueio com padrão.</string>
-    <string name="keyguard_accessibility_pin_unlock">Desbloqueio com PIN.</string>
-    <string name="keyguard_accessibility_password_unlock">Desbloqueio com senha.</string>
-    <string name="keyguard_accessibility_pattern_area">Área do padrão.</string>
-    <string name="keyguard_accessibility_slide_area">Área de deslize.</string>
-    <string name="keyguard_accessibility_pin_area">Área do PIN</string>
-    <string name="keyguard_accessibility_sim_pin_area">Área do PIN SIM</string>
-    <string name="keyguard_accessibility_sim_puk_area">Área do PUK SIM</string>
-    <string name="keyguard_accessibility_next_alarm">Próximo alarme definido para %1$s</string>
-    <string name="keyboardview_keycode_delete">Excluir</string>
-    <string name="keyboardview_keycode_enter">Enter</string>
-    <string name="kg_forgot_pattern_button_text">Esqueci o padrão</string>
-    <string name="kg_wrong_pattern">Padrão incorreto</string>
-    <string name="kg_wrong_password">Senha incorreta</string>
-    <string name="kg_wrong_pin">PIN incorreto</string>
-    <string name="kg_too_many_failed_attempts_countdown">Tente novamente em %d segundos.</string>
-    <string name="kg_pattern_instructions">Desenhe seu padrão</string>
-    <string name="kg_sim_pin_instructions">Digite o PIN do cartão SIM</string>
-    <string name="kg_sim_pin_instructions_multi">Insira o PIN do SIM para \"%1$s\"</string>
-    <string name="kg_pin_instructions">Digite o PIN</string>
-    <string name="kg_password_instructions">Digite a senha</string>
-    <string name="kg_puk_enter_puk_hint">O SIM foi desativado. Insira o código PUK para continuar. Entre em contato com a operadora para obter mais detalhes.</string>
-    <string name="kg_puk_enter_puk_hint_multi">O SIM \"%1$s\" foi desativado. Insira o código PUK para continuar. Entre em contato com a operadora para saber mais detalhes.</string>
-    <string name="kg_puk_enter_pin_hint">Digite o código PIN desejado</string>
-    <string name="kg_enter_confirm_pin_hint">Confirme o código PIN desejado</string>
-    <string name="kg_sim_unlock_progress_dialog_message">Desbloqueando o cartão SIM…</string>
-    <string name="kg_invalid_sim_pin_hint">Digite um PIN com quatro a oito números.</string>
-    <string name="kg_invalid_sim_puk_hint">O código PUK deve ter 8 números ou mais.</string>
-    <string name="kg_invalid_puk">Introduza novamente o código PUK correto. Muitas tentativas malsucedidas desativarão permanentemente o SIM.</string>
-    <string name="kg_invalid_confirm_pin_hint">Os códigos PIN não coincidem</string>
-    <string name="kg_login_too_many_attempts">Muitas tentativas de padrão</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Você digitou seu PIN incorretamente %d vezes. 
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
 
-Tente novamente em %d segundos."</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Você digitou sua senha incorretamente %d vezes. 
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
-Tente novamente em %d segundos."</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Você desenhou sua sequência de desbloqueio incorretamente %d vezes. 
+          http://www.apache.org/licenses/LICENSE-2.0
 
-Tente novamente em %d segundos."</string>
-    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Você tentou desbloquear o smartphone incorretamente %d vezes. Após mais %d tentativas malsucedidas, este smartphone será redefinido, o que excluirá todos os seus dados.</string>
-    <string name="kg_failed_attempts_now_wiping">Você tentou desbloquear o smartphone incorretamente %d vezes. Este smartphone será redefinido, o que excluirá todos os seus dados.</string>
-    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">Você tentou desbloquear o smartphone incorretamente %d vezes. Após mais %d tentativas malsucedidas, este usuário será removido, o que excluirá todos os dados do usuário.</string>
-    <string name="kg_failed_attempts_now_erasing_user">Você tentou desbloquear o smartphone incorretamente %d vezes. Este usuário será removido, o que excluirá todos os dados do usuário.</string>
-    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">Você tentou desbloquear o smartphone incorretamente %d vezes. Após mais %d tentativas malsucedidas, o perfil de trabalho será removido, o que excluirá todos os dados do perfil.</string>
-    <string name="kg_failed_attempts_now_erasing_profile">Você tentou desbloquear o smartphone incorretamente %d vezes. O perfil de trabalho será removido, o que excluirá todos os dados do perfil.</string>
-    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Você desenhou sua sequência de desbloqueio incorretamente %d vezes. Se fizer mais %d tentativas incorretas, será solicitado que você use o login do Google para desbloquear.
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
 
- Tente novamente em %d segundos."</string>
-    <string name="kg_password_wrong_pin_code_pukked">Código PIN do SIM incorreto. Entre em contato com a operadora para desbloquear o dispositivo.</string>
-    <string name="kg_password_wrong_puk_code_dead">O SIM está inutilizável. Entre em contato com a operadora.</string>
-    <string name="kg_password_pin_failed">Falha na operação de PIN do SIM.</string>
-    <string name="kg_password_puk_failed">Falha na operação de PUK do SIM.</string>
-    <string name="kg_pin_accepted">Código aceito.</string>
-    <string name="keyguard_carrier_default">Sem serviço.</string>
-    <string name="airplane_mode">Modo avião</string>
-    <string name="kg_prompt_reason_restart_pattern">O padrão é exigido quando você reinicia o dispositivo.</string>
-    <string name="kg_prompt_reason_restart_pin">O PIN é exigido quando você reinicia o dispositivo.</string>
-    <string name="kg_prompt_reason_restart_password">A senha é exigida quando você reinicia o dispositivo.</string>
-    <string name="kg_prompt_reason_timeout_pattern">O padrão é necessário para aumentar a segurança.</string>
-    <string name="kg_prompt_reason_timeout_pin">O PIN é necessário para aumentar a segurança.</string>
-    <string name="kg_prompt_reason_timeout_password">A senha é necessária para aumentar a segurança.</string>
-    <string name="kg_prompt_reason_switch_profiles_pattern">O padrão é exigido quando você troca de perfil.</string>
-    <string name="kg_prompt_reason_switch_profiles_pin">O PIN é exigido quando você troca de perfil.</string>
-    <string name="kg_prompt_reason_switch_profiles_password">A senha é exigida quando você troca de perfil.</string>
-    <string name="fingerprint_not_recognized">Não reconhecido</string>
-    <string name="keyguard_sim_enter_button">OK</string>
-    <string name="keyguard_security_cancel_button">Cancelar</string>
-    <string name="keyguard_security_skip_button">Pular</string>
-    <string name="keyguard_unlock_sim_head">Desbloquear cartão SIM %d</string>
-    <string name="keyguard_security_default_message">Entrar com a senha</string>
-    <string name="keyguard_clock_am">" AM"</string>
-    <string name="keyguard_clock_pm">" PM"</string>
-    <string name="keyguard_edge_settings_activity_title">Configure meu método de espera</string>
-    <string name="nubia_fingerprints_keyguard_fail_tips">Por favor, tente novamente</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_pin_tips">Por favor, desbloquear com sua impressão digital ou digite o PIN</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_password_tips">Por favor, desbloquear com sua impressão digital ou digite a senha</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_pattern_tips">Por favor, desbloquear com sua impressão digital ou digite o padrão</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_password_fail_tips">Digite a senha ou tente usar sua impressão digital depois %dS</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_pin_fail_tips">Digite o PIN ou tente usar a impressão digital após %dS</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_pattern_fail_tips">Digite o padrão ou tente usar a impressão digital depois %dS</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_password_boot_tips">Digite a senha depois de reiniciar seu telefone</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_pin_boot_tips">Digite o PIN depois de reiniciar seu telefone</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_pattern_boot_tips">Digite o padrão depois de reiniciar seu telefone</string>
-    <string name="gesture_set_guide_begin_set">Inicie a configuração</string>
-    <string name="gesture_set_guide_text">Segure em vez de deslizar para desbloquear na interface de bloqueio</string>
-    <string name="gesture_set_record_text">Continue tocando nas bordas da tela</string>
-    <string name="gesture_set_verify_text">Repita a operação de espera anterior</string>
-    <string name="gesture_set_success_text">Segure para desbloquear na interface de bloqueio</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_unable_to_process">Por favor, tente novamente</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_lockout">Seu telefone está bloqueado</string>
-    <string name="nubia_fingerprints_keyguard_bouncer_too_many_failed_attempts">Usando impressão digital ou tente depois %dS</string>
-    <string name="keyguard_no_sim">Sem cartão SIM.</string>
-    <string name="keyguard_security_delete_button">Excluir</string>
-    <string name="keyguard_password_timeout_dialog_title">Seu telefone está bloqueado</string>
-    <string name="weather_alarm">Aviso</string>
-    <string name="keyguard_charge_info">Carregando</string>
-	<!-- adicionado-->
-   <string name="status_bar_clear_all_button">Limpar</string>
-   <string name="status_bar_recent_remove_item_title">Remover da lista</string>
-   <string name="status_bar_recent_inspect_item_title">Informações do aplicativo</string>
-   <string name="status_bar_no_recent_apps">Nenhum aplicativo é executado agora</string>
-   <string name="status_bar_accessibility_dismiss_recents">Feche os aplicativos recentes</string>
-   <string name="status_bar_no_notifications_title">Nenhuma notificação</string>
-   <string name="status_bar_ongoing_events_title">em progresso</string>
-   <string name="status_bar_latest_events_title">Notificações</string>
-   <string name="battery_low_title">Bateria Fraca</string>
-   <string name="battery_low_subtitle">Bateria fraca causará o desligamento automático. Por favor, carregue.</string>
-   <string name="battery_low_percent_format">%d%% remanescente</string>
-   <string name="battery_low_percent_format_saver_started">%d%% restante, o Powersaver está ativado.</string>
-   <string name="invalid_charger">O carregamento por USB não é suportado. Por favor, use o seu carregador.</string>
-   <string name="invalid_charger_title">Carregamento USB não suportado.</string>
-   <string name="invalid_charger_text">Use apenas o carregador fornecido.</string>
-   <string name="battery_low_why">Configurações</string>
-   <string name="battery_saver_confirmation_title">Ativar o Powersaver?</string>
-   <string name="battery_saver_confirmation_ok">Ligar</string>
-   <string name="battery_saver_start_action">Ativar o Powersaver</string>
-   <string name="status_bar_settings_settings_button">Configurações</string>
-   <string name="status_bar_settings_wifi_button">Wi-Fi</string>
-   <string name="status_bar_settings_airplane">Modo avião</string>
-   <string name="status_bar_settings_auto_rotation">Auto-rotação</string>
-   <string name="status_bar_settings_mute_label">MUDO</string>
-   <string name="status_bar_settings_auto_brightness_label">AUTO</string>
-   <string name="status_bar_settings_notifications">Notificações</string>
-   <string name="status_bar_settings_battery_meter_format">%d%%</string>
-   <string name="status_bar_network_name_separator">|</string>
-   <string name="bluetooth_tethered">Tethering sobre Bluetooth</string>
-   <string name="status_bar_input_method_settings_configure_input_methods">Configurar um teclado</string>
-   <string name="status_bar_use_physical_keyboard">Teclado físico</string>
-   <string name="usb_device_permission_prompt">Permitir que o aplicativo %1$ s acesse o dispositivo USB?</string>
-   <string name="usb_accessory_permission_prompt">Permitir que o aplicativo %1$ s acesse o acessório USB?</string>
-   <string name="usb_device_confirm_prompt">Tem certeza de abrir %1$ s ao conectar o dispositivo USB?</string>
-   <string name="usb_accessory_confirm_prompt">Você tem certeza de abrir %1$ s ao conectar o acessório USB?</string>
-   <string name="usb_accessory_uri_prompt">Nenhum aplicativo adequado para o acessório USB está instalado. Para detalhes sobre o acessório, visite %1$s</string>
-   <string name="title_usb_accessory">Acessório USB</string>
-   <string name="label_view">Visão</string>
-   <string name="always_use_device">Usado para o dispositivo USB por padrão</string>
-   <string name="always_use_accessory">Usado para o acessório USB por padrão</string>
-   <string name="usb_debugging_title">Permitir depuração USB?</string>
-   <string name="usb_debugging_message">"A impressão digital da chave RSA do computador é:
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: "Can't scan for networks"-->
+  <string name="wifi_fail_to_scan">"Não é possível digitalizar para redes"</string>
+  <!--Original value: WEP-->
+  <string name="wifi_security_short_wep">WEP</string>
+  <!--Original value: WPA-->
+  <string name="wifi_security_short_wpa">WPA</string>
+  <!--Original value: WPA2-->
+  <string name="wifi_security_short_wpa2">WPA2</string>
+  <!--Original value: WPA/WPA2-->
+  <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+  <!--Original value: @string/wifi_security_short_wpa_wpa2-->
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+  <!--Original value: 802.1x-->
+  <string name="wifi_security_short_eap">802.1x</string>
+  <!--Original value: WAPI PSK-->
+  <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
+  <!--Original value: WAPI CERT-->
+  <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
+  <!--Original value: None-->
+  <string name="wifi_security_none">None</string>
+  <!--Original value: WEP-->
+  <string name="wifi_security_wep">WEP</string>
+  <!--Original value: WPA PSK-->
+  <string name="wifi_security_wpa">WPA PSK</string>
+  <!--Original value: WPA2 PSK-->
+  <string name="wifi_security_wpa2">WPA2 PSK</string>
+  <!--Original value: WPA/WPA2 PSK-->
+  <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+  <!--Original value: @string/wifi_security_wpa_wpa2-->
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+  <!--Original value: 802.1x EAP-->
+  <string name="wifi_security_eap">802.1x EAP</string>
+  <!--Original value: WAPI PSK-->
+  <string name="wifi_security_WAPI_PSK">WAPI PSK</string>
+  <!--Original value: WAPI CERT-->
+  <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
+  <!--Original value: Passpoint-->
+  <string name="wifi_security_passpoint">Passpoint</string>
+  <!--Original value: Saved-->
+  <string name="wifi_remembered">Salvo</string>
+  <!--Original value: Disabled-->
+  <string name="wifi_disabled_generic">Desativado</string>
+  <!--Original value: IP Configuration Failure-->
+  <string name="wifi_disabled_network_failure">Falha de Configuração de IP</string>
+  <!--Original value: WiFi Connection Failure-->
+  <string name="wifi_disabled_wifi_failure">Falha De Conexão Wi-Fi</string>
+  <!--Original value: Authentication problem-->
+  <string name="wifi_disabled_password_failure">Problema de autenticação</string>
+  <!--Original value: Not in range-->
+  <string name="wifi_not_in_range">Não no intervalo</string>
+  <!--Original value: "No Internet Access Detected, won't automatically reconnect."-->
+  <string name="wifi_no_internet">"Sem Acesso à Internet Detectado, não reconectar automaticamente."</string>
+  <!--Original value: Saved by %1$s-->
+  <string name="saved_network">Salvo por %1$s</string>
+  <!--Original value: Connected via Wi‑Fi assistant-->
+  <string name="connected_via_wfa">Conectado via Wi‑Fi assistente</string>
+  <!--Original value: Connected via %1$s-->
+  <string name="connected_via_passpoint">Conectado através de %1$s</string>
+  <!--Original value: Available via %1$s-->
+  <string name="available_via_passpoint">Disponível através de %1$s</string>
+  <!--Original value: com.android.settings-->
+  <string name="settings_package">com.android.settings</string>
+  <!--Original value: com.android.certinstaller-->
+  <string name="certinstaller_package">com.android.certinstaller</string>
+  <!--Original value: Connected, no Internet-->
+  <string name="wifi_connected_no_internet">Conectado, sem Internet</string>
+  <!--Original value: Disconnected-->
+  <string name="bluetooth_disconnected">Desconetado</string>
+  <!--Original value: Disconnecting…-->
+  <string name="bluetooth_disconnecting">Desconectando..</string>
+  <!--Original value: Connecting…-->
+  <string name="bluetooth_connecting">Conectando…</string>
+  <!--Original value: Connected-->
+  <string name="bluetooth_connected">Conectado</string>
+  <!--Original value: Pairing…-->
+  <string name="bluetooth_pairing">Emparelhando...</string>
+  <!--Original value: Connected (no phone)-->
+  <string name="bluetooth_connected_no_headset">Conectado (sem telefone)</string>
+  <!--Original value: Connected (no media)-->
+  <string name="bluetooth_connected_no_a2dp">Conectado (sem mídia)</string>
+  <!--Original value: Connected (no message access)-->
+  <string name="bluetooth_connected_no_map">Conectado (nenhuma mensagem de acesso)</string>
+  <!--Original value: Connected (no phone or media)-->
+  <string name="bluetooth_connected_no_headset_no_a2dp">Conectado (sem telefone ou mídia)</string>
+  <!--Original value: Media audio-->
+  <string name="bluetooth_profile_a2dp">Mídia de áudio</string>
+  <!--Original value: Phone audio-->
+  <string name="bluetooth_profile_headset">Telefone de áudio</string>
+  <!--Original value: File transfer-->
+  <string name="bluetooth_profile_opp">Transferência de arquivo</string>
+  <!--Original value: Input device-->
+  <string name="bluetooth_profile_hid">Dispositivo de entrada</string>
+  <!--Original value: Internet access-->
+  <string name="bluetooth_profile_pan">Acesso à Internet</string>
+  <!--Original value: Contact sharing-->
+  <string name="bluetooth_profile_pbap">Compartilhamento de contatos</string>
+  <!--Original value: Use for contact sharing-->
+  <string name="bluetooth_profile_pbap_summary">Uso para compartilhamento de contatos</string>
+  <!--Original value: Internet connection sharing-->
+  <string name="bluetooth_profile_pan_nap">Compartilhamento de conexão à Internet</string>
+  <!--Original value: Message Access-->
+  <string name="bluetooth_profile_map">Mensagem De Acesso</string>
+  <!--Original value: SIM Access-->
+  <string name="bluetooth_profile_sap">SIM Acesso</string>
+  <!--Original value: Dial-up Network Access-->
+  <string name="bluetooth_profile_dun">Dial-up de Acesso à Rede</string>
+  <!--Original value: Connected to media audio-->
+  <string name="bluetooth_a2dp_profile_summary_connected">Conectado à mídia de áudio</string>
+  <!--Original value: Connected to phone audio-->
+  <string name="bluetooth_headset_profile_summary_connected">Conectado ao telefone áudio</string>
+  <!--Original value: Connected to file transfer server-->
+  <string name="bluetooth_opp_profile_summary_connected">Conectado a transferência de arquivo de servidor</string>
+  <!--Original value: Connected to map-->
+  <string name="bluetooth_map_profile_summary_connected">Conectado ao mapa</string>
+  <!--Original value: Connected to SAP-->
+  <string name="bluetooth_sap_profile_summary_connected">Conectado ao SAP</string>
+  <!--Original value: Not connected to file transfer server-->
+  <string name="bluetooth_opp_profile_summary_not_connected">Não conectado para transferência de arquivo de servidor</string>
+  <!--Original value: Connected to input device-->
+  <string name="bluetooth_hid_profile_summary_connected">Conectado a dispositivo de entrada</string>
+  <!--Original value: Connected to device for Internet access-->
+  <string name="bluetooth_pan_user_profile_summary_connected">Conectado a dispositivo de acesso à Internet</string>
+  <!--Original value: Sharing local Internet connection with device-->
+  <string name="bluetooth_pan_nap_profile_summary_connected">O compartilhamento de conexão de Internet local, com dispositivo de</string>
+  <!--Original value: Connected to Dun Server-->
+  <string name="bluetooth_dun_profile_summary_connected">Conectado ao Servidor Dun</string>
+  <!--Original value: Use for Internet access-->
+  <string name="bluetooth_pan_profile_summary_use_for">Uso para acesso à Internet</string>
+  <!--Original value: Use for map-->
+  <string name="bluetooth_map_profile_summary_use_for">Use para mapa</string>
+  <!--Original value: Use for SIM access-->
+  <string name="bluetooth_sap_profile_summary_use_for">Uso para acesso ao SIM</string>
+  <!--Original value: Use for media audio-->
+  <string name="bluetooth_a2dp_profile_summary_use_for">O uso de mídia de áudio</string>
+  <!--Original value: Use for phone audio-->
+  <string name="bluetooth_headset_profile_summary_use_for">Uso de telefone de áudio</string>
+  <!--Original value: Use for file transfer-->
+  <string name="bluetooth_opp_profile_summary_use_for">Uso para a transferência de arquivos</string>
+  <!--Original value: Use for input-->
+  <string name="bluetooth_hid_profile_summary_use_for">Usar para a entrada</string>
+  <!--Original value: Use for Dial-up Network access-->
+  <string name="bluetooth_dun_profile_summary_use_for">Uso para acesso à rede Dial-up de acesso à Rede</string>
+  <!--Original value: Pair-->
+  <string name="bluetooth_pairing_accept">Parelhar</string>
+  <!--Original value: PAIR-->
+  <string name="bluetooth_pairing_accept_all_caps">PARELHAR</string>
+  <!--Original value: Cancel-->
+  <string name="bluetooth_pairing_decline">Cancelar</string>
+  <!--Original value: Pairing grants access to your contacts and call history when connected.-->
+  <string name="bluetooth_pairing_will_share_phonebook">O emparelhamento permite o acesso a seus contatos e histórico de chamadas quando conectado.</string>
+  <!--Original value: "Couldn't pair with %1$s."-->
+  <string name="bluetooth_pairing_error_message">"Não pôde emparelhar com o %1$s."</string>
+  <!--Original value: "Couldn't pair with %1$s because of an incorrect PIN or passkey."-->
+  <string name="bluetooth_pairing_pin_error_message">"Não pode parelhar com o %1$s por causa de um PIN incorreto ou senha."</string>
+  <!--Original value: "Can't communicate with %1$s."-->
+  <string name="bluetooth_pairing_device_down_error_message">"Não pode se comunicar com o %1$s."</string>
+  <!--Original value: Pairing rejected by %1$s.-->
+  <string name="bluetooth_pairing_rejected_error_message">Emparelhamento rejeitado por %1$s.</string>
+  <!--Original value: Wifi turned off.-->
+  <string name="accessibility_wifi_off">Wi-fi desligado.</string>
+  <!--Original value: Wifi disconnected.-->
+  <string name="accessibility_no_wifi">Wi-fi desligado.</string>
+  <!--Original value: Wifi: one bar.-->
+  <string name="accessibility_wifi_one_bar">Wi-fi: uma bar.</string>
+  <!--Original value: Wifi: two bars.-->
+  <string name="accessibility_wifi_two_bars">Wi-fi: duas barras.</string>
+  <!--Original value: Wifi: three bars.-->
+  <string name="accessibility_wifi_three_bars">Wi-fi: três barras.</string>
+  <!--Original value: Wifi: Full.-->
+  <string name="accessibility_wifi_signal_full">Wifi: Full.</string>
+  <!--Original value: com.android.systemui.statusbar.phone.PhoneStatusBar-->
+  <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+  <!--Original value: wifi,bt,data1,location,hotspot,airplane,vibrate,ringersilent,rotation,supersnap,flashlight,userdefine,splitscreen,undisturbed,lowpowermode,fastscreenshot-->
+  <string name="quick_settings_tiles_default">wifi,bt,data1,location,hotspot,airplane,vibrate,ringersilent,rotation,supersnap,flashlight,userdefine,splitscreen,undisturbed,lowpowermode,fastscreenshot</string>
+  <!--Original value: wifi,bt,data1,data2,location,hotspot,airplane,vibrate,ringersilent,rotation,supersnap,userdefine,flashlight,splitscreen,undisturbed,lowpowermode,fastscreenshot-->
+  <string name="quick_settings_tiles_doublesim_default">wifi,bt,data1,data2,location,hotspot,airplane,vibrate,ringersilent,rotation,supersnap,userdefine,flashlight,splitscreen,undisturbed,lowpowermode,fastscreenshot</string>
+  <!--Original value: default-->
+  <string name="quick_settings_tiles">padrão</string>
+  <!--Original value: platform-->
+  <string name="velocity_tracker_impl">platform</string>
+  <!--Original value: 1s,10s,30s,60s,120s-->
+  <string name="doze_pulse_schedule">1s,10s,30s,60s,120s</string>
+  <!--Original value: -->
+  <string name="default_unlock_app_name" />
+  <!--Original value: @android:string/system_ui_date_pattern-->
+  <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
+  <!--Original value: [微信红包]-->
+  <string name="wechat_hongbao_text">[WeChat envelopes vermelhos]</string>
+  <!--Original value: 发了一个红包-->
+  <string name="wechat_send_one_hongbao">Emitido um envelope vermelho</string>
+  <!--Original value: 领取红包-->
+  <string name="wechat_get_hongbao">Receber um envelope vermelho</string>
+  <!--Original value: 發了一個紅包-->
+  <string name="wechat_send_one_hongbao_rtw">Emitido um envelope vermelho</string>
+  <!--Original value: 利是-->
+  <string name="wechat_send_one_hongbao_rhk">É</string>
+  <!--Original value: [QQ红包]-->
+  <string name="QQ_hongbao_text">[QQ红包]</string>
+  <!--Original value: 点击拆开-->
+  <string name="QQ_open_one_hongbao">Clique Em Abrir</string>
+  <!--Original value: 口令红包-->
+  <string name="QQ_kouling_hongbao">Palavra-passe de envelopes</string>
+  <!--Original value: Marshmallow Land-->
+  <string name="mland">Marshmallow Land</string>
+  <!--Original value: System UI-->
+  <string name="app_label">INTERFACE do usuário do sistema</string>
+  <!--Original value: Clear-->
+  <string name="status_bar_clear_all_button">Limpar</string>
+  <!--Original value: Remove from list-->
+  <string name="status_bar_recent_remove_item_title">Remover da lista</string>
+  <!--Original value: App info-->
+  <string name="status_bar_recent_inspect_item_title">Informações do aplicativo</string>
+  <!--Original value: No app runs now-->
+  <string name="status_bar_no_recent_apps">Nenhum aplicativo é executado agora</string>
+  <!--Original value: Close recent apps-->
+  <string name="status_bar_accessibility_dismiss_recents">Fechar aplicativos recentes</string>
+  <!--Original value: No notifications-->
+  <string name="status_bar_no_notifications_title">Sem notificações</string>
+  <!--Original value: Ongoing-->
+  <string name="status_bar_ongoing_events_title">Permanente</string>
+  <!--Original value: Notifications-->
+  <string name="status_bar_latest_events_title">Notificações</string>
+  <!--Original value: Low battery-->
+  <string name="battery_low_title">Bateria fraca</string>
+  <!--Original value: Low battery will cause auto power-off. Please charge.-->
+  <string name="battery_low_subtitle">Bateria fraca fará com que o auto power-off. Por favor carregue.</string>
+  <!--Original value: %d%% remaining-->
+  <string name="battery_low_percent_format">%d%% restantes</string>
+  <!--Original value: %d%% remaining, Powersaver is ON.-->
+  <string name="battery_low_percent_format_saver_started">%d%% restante, o Powersaver está ativado.</string>
+  <!--Original value: USB charging is not supported. Please use your charger.-->
+  <string name="invalid_charger">O carregamento por USB não é suportado. Por favor use o carregador.</string>
+  <!--Original value: USB charging not supported.-->
+  <string name="invalid_charger_title">O carregamento por USB não suportado.</string>
+  <!--Original value: Use only the supplied charger.-->
+  <string name="invalid_charger_text">Utilize apenas o carregador fornecido.</string>
+  <!--Original value: Settings-->
+  <string name="battery_low_why">Configurações</string>
+  <!--Original value: Turn on Powersaver?-->
+  <string name="battery_saver_confirmation_title">Ativar o Economizador de energia?</string>
+  <!--Original value: Turn on-->
+  <string name="battery_saver_confirmation_ok">Ativar</string>
+  <!--Original value: Turn on Powersaver-->
+  <string name="battery_saver_start_action">Ativar o Economizador de energia</string>
+  <!--Original value: Settings-->
+  <string name="status_bar_settings_settings_button">Configurações</string>
+  <!--Original value: Wi-Fi-->
+  <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+  <!--Original value: Airplane mode-->
+  <string name="status_bar_settings_airplane">Modo de avião</string>
+  <!--Original value: Auto-rotate-->
+  <string name="status_bar_settings_auto_rotation">Auto-rotação</string>
+  <!--Original value: MUTE-->
+  <string name="status_bar_settings_mute_label">MUDO</string>
+  <!--Original value: AUTO-->
+  <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+  <!--Original value: Notifications-->
+  <string name="status_bar_settings_notifications">Notificações</string>
+  <!--Original value: %d%%-->
+  <string name="status_bar_settings_battery_meter_format">%d%%</string>
+  <!--Original value: |-->
+  <string name="status_bar_network_name_separator">|</string>
+  <!--Original value: Tethering over Bluetooth-->
+  <string name="bluetooth_tethered">Tethering via Bluetooth</string>
+  <!--Original value: Set up a keyboard-->
+  <string name="status_bar_input_method_settings_configure_input_methods">Configurar um teclado</string>
+  <!--Original value: Physical keyboard-->
+  <string name="status_bar_use_physical_keyboard">Teclado físico</string>
+  <!--Original value: Allow the app %1$s to access the USB device?-->
+  <string name="usb_device_permission_prompt">Permite que o aplicativo %1$s para acessar o dispositivo USB?</string>
+  <!--Original value: Allow the app %1$s to access the USB accessory?-->
+  <string name="usb_accessory_permission_prompt">Permite que o aplicativo %1$s para acessar o acessório USB?</string>
+  <!--Original value: Are you sure to open %1$s when connecting the USB device?-->
+  <string name="usb_device_confirm_prompt">Tem a certeza de abrir %1$s quando ligar o dispositivo USB?</string>
+  <!--Original value: Are you sure to open %1$s when connecting the USB accessory?-->
+  <string name="usb_accessory_confirm_prompt">Tem a certeza de abrir %1$s quando ligar o acessório USB?</string>
+  <!--Original value: No app suitable for the USB accessory is installed. For details on the accessory, please visit %1$s-->
+  <string name="usb_accessory_uri_prompt">Nenhum aplicativo adequado para o acessório USB é instalado. Para mais detalhes sobre os acessórios, por favor, visite %1$s</string>
+  <!--Original value: USB accessory-->
+  <string name="title_usb_accessory">USB acessório</string>
+  <!--Original value: View-->
+  <string name="label_view">Visualizar</string>
+  <!--Original value: Used for the USB device by default-->
+  <string name="always_use_device">Usado para o dispositivo USB por padrão</string>
+  <!--Original value: Used for the USB accessory by default-->
+  <string name="always_use_accessory">Usado para o acessório USB por padrão</string>
+  <!--Original value: Allow USB debugging?-->
+  <string name="usb_debugging_title">Permitir a depuração USB?</string>
+  <!--Original value: "The computer's RSA key fingerprint is:
+%1$s"-->
+  <string name="usb_debugging_message">"O computador de chave RSA de impressões digitais é:
 %1$s"</string>
-   <string name="usb_debugging_always">Sempre permitir a depuração deste computador</string>
-   <string name="usb_debugging_secondary_user_title">Depuração USB não permitida</string>
-   <string name="usb_debugging_secondary_user_message">"O usuário atualmente conectado a este dispositivo não pode ativar a depuração por USB. Para usar este recurso, mude para o usuário principal “%s”."</string>
-   <string name="compat_mode_on">Encolher para preencher tela</string>
-   <string name="compat_mode_off">Esticar para preencher a tela</string>
-   <string name="screenshot_saving_ticker">Salvando captura de tela</string>
-   <string name="screenshot_saving_title">Salvando captura de tela</string>
-   <string name="screenshot_saving_text">Salvando captura de tela</string>
-   <string name="screenshot_saved_title">Captura de tela capturada.</string>
-   <string name="screenshot_saved_text">Toque para ver sua captura de tela.</string>
-   <string name="screenshot_failed_title">Não é possível capturar a captura de tela.</string>
-   <string name="screenshot_failed_text">Não é possível fazer captura de tela devido ao armazenamento ou restrição limitada pelo aplicativo.</string>
-   <string name="usb_preference_title">Opções de transferência de arquivos USB</string>
-   <string name="use_mtp_button_title">Monte como um media player (MTP)</string>
-   <string name="use_ptp_button_title">Monte como uma câmera (PTP)</string>
-   <string name="installer_cd_button_title">Instale o aplicativo Android File Transfer para Mac</string>
-   <string name="accessibility_back">Voltar</string>
-   <string name="accessibility_home">Início</string>
-   <string name="accessibility_menu">Menu</string>
-   <string name="accessibility_recent">Visão geral</string>
-   <string name="accessibility_search_light">Pesquisa</string>
-   <string name="accessibility_camera_button">Câmera</string>
-   <string name="accessibility_phone_button">Telefone</string>
-   <string name="accessibility_unlock_button">Desbloquear</string>
-   <string name="unlock_label">Desbloquear</string>
-   <string name="phone_label">Desbloquear para o telefone</string>
-   <string name="camera_label">Desbloqueie para a câmera</string>
-   <string name="recents_empty_message">Suas telas recentes aparecem aqui</string>
-   <string name="recents_app_info_button_label">Informação da Aplicação</string>
-   <string name="recents_lock_to_app_button_label">Tela bloqueada</string>
-   <string name="recents_search_bar_label">Pesquisa</string>
-   <string name="recents_launch_error_message">Não foi possível iniciar %s.</string>
-   <string name="expanded_header_battery_charged">Carregado</string>
-   <string name="expanded_header_battery_charging">Carregando</string>
-   <string name="expanded_header_battery_charging_with_time">%s até completar</string>
-   <string name="expanded_header_battery_not_charging">Não está carregando</string>
-   <string name="battery_meter_very_low_overlay_symbol">!</string>
-   <string name="ssl_ca_cert_warning">Rede pode ser monitorada</string>
-   <string name="description_target_search">Pesquisa</string>
-   <string name="description_direction_up">Deslize para cima %s.</string>
-   <string name="description_direction_left">Deslize para a esquerda para %s.</string>
-   <string name="zen_priority_introduction">Você não será perturbado por sons e vibrações, exceto por alarmes, lembretes, eventos e chamadores especificados.</string>
-   <string name="zen_priority_customize_button">Customizar</string>
-   <string name="zen_silence_introduction_voice">Isso bloqueia TODOS os sons e vibrações, inclusive de alarmes, músicas, vídeos e jogos. Você ainda poderá fazer chamadas telefônicas.</string>
-   <string name="zen_silence_introduction">Isso bloqueia TODOS os sons e vibrações, inclusive de alarmes, músicas, vídeos e jogos.</string>
-   <string name="zen_no_interruptions_with_warning">Sem interrupções (nem mesmo alarmes)</string>
-   <string name="zen_no_interruptions">Sem interrupções</string>
-   <string name="zen_important_interruptions">Apenas interrupções prioritárias</string>
-   <string name="zen_alarm_information_time">Seu próximo alarme está em %s</string>
-   <string name="zen_alarm_information_day_time">Seu próximo alarme está em %s</string>
-   <string name="keyguard_more_overflow_text">+%d</string>
-   <string name="speed_bump_explanation">Notificações menos urgentes abaixo</string>
-   <string name="notification_tap_again">Toque novamente para abrir</string>
-   <string name="phone_hint">Swipe right for phone</string>
-   <string name="camera_hint">Swipe left for camera</string>
-   <string name="interruption_level_none_with_warning">Silêncio total. Isso também silencia os leitores de tela.</string>
-   <string name="interruption_level_none">Nenhum</string>
-   <string name="interruption_level_priority">Prioridade</string>
-   <string name="interruption_level_all">Todos</string>
-   <string name="interruption_level_alarms">Somente alarmes</string>
-   <string name="interruption_level_none_twoline">"Total
-silêncio"</string>
-   <string name="interruption_level_priority_twoline">"Prioridade
-só"</string>
-   <string name="interruption_level_alarms_twoline">"Alarmes
-só"</string>
-   <string name="keyguard_indication_charging_time">Carregamento (%s até completar)</string>
-   <string name="accessibility_multi_user_switch_switcher">Mudar de utilizador</string>
-   <string name="accessibility_multi_user_switch_switcher_with_current">Alternar usuário, usuário atual %s</string>
-   <string name="accessibility_multi_user_switch_quick_contact">Mostrar perfil</string>
-   <string name="user_add_user">Adicionar usuário</string>
-   <string name="user_new_user_name">Novo usuário</string>
-   <string name="guest_nickname">Convidado</string>
-   <string name="guest_new_guest">Adic. convidado</string>
-   <string name="guest_exit_guest">Remover convidado</string>
-   <string name="guest_exit_guest_dialog_title">Remover convidado?</string>
-   <string name="guest_exit_guest_dialog_message">Todos os aplicativos e dados nesta sessão serão excluídos.</string>
-   <string name="guest_exit_guest_dialog_remove">Remover</string>
-   <string name="guest_wipe_session_title">Bem-vindo de volta, convidado!</string>
-   <string name="guest_wipe_session_message">Você quer continuar sua sessão?</string>
-   <string name="guest_wipe_session_wipe">Recomeçar</string>
-   <string name="guest_wipe_session_dontwipe">Sim, continuar</string>
-   <string name="user_add_user_title">Adicionar novo usuário?</string>
-   <string name="user_add_user_message_short">"Quando você adiciona um novo usuário, essa pessoa precisa configurar seu espaço.
+  <!--Original value: Always allow debugging from this computer-->
+  <string name="usb_debugging_always">Sempre permitir a depuração do computador</string>
+  <!--Original value: USB debugging not allowed-->
+  <string name="usb_debugging_secondary_user_title">A depuração USB não permitido</string>
+  <!--Original value: "The user currently signed in to this device can't turn on USB debugging. To use this feature, switch to the primary user “%s”."-->
+  <string name="usb_debugging_secondary_user_message">"O usuário conectado a este dispositivo não pode ativar a depuração USB. Para usar este recurso, alterne para o usuário principal "%s"."</string>
+  <!--Original value: Shrink to fill screen-->
+  <string name="compat_mode_on">Reduzir para preencher tela</string>
+  <!--Original value: Stretch to fill screen-->
+  <string name="compat_mode_off">Esticar para preencher a tela</string>
+  <!--Original value: Saving screenshot-->
+  <string name="screenshot_saving_ticker">Salvando imagem</string>
+  <!--Original value: Saving screenshot-->
+  <string name="screenshot_saving_title">Salvando imagem</string>
+  <!--Original value: Saving screenshot-->
+  <string name="screenshot_saving_text">Salvando imagem</string>
+  <!--Original value: Screenshot captured.-->
+  <string name="screenshot_saved_title">Imagem capturada.</string>
+  <!--Original value: Touch to view your screenshot.-->
+  <string name="screenshot_saved_text">Toque em para exibir sua imagem.</string>
+  <!--Original value: Cannot capture screenshot.-->
+  <string name="screenshot_failed_title">Não é possível capturar screenshot.</string>
+  <!--Original value: Cannot take screenshot due to limited storage or restriction by the app.-->
+  <string name="screenshot_failed_text">Não é possível realizar capturas de tela
+devido à limitação de armazenamento ou de restrição pelo aplicativo.</string>
+  <!--Original value: USB file transfer options-->
+  <string name="usb_preference_title">Opções de transferência de arquivos USB</string>
+  <!--Original value: Mount as a media player (MTP)-->
+  <string name="use_mtp_button_title">Monte como um media player (MTP)</string>
+  <!--Original value: Mount as a camera (PTP)-->
+  <string name="use_ptp_button_title">Monte como uma câmera (PTP)</string>
+  <!--Original value: Install Android File Transfer app for Mac-->
+  <string name="installer_cd_button_title">Instalar a Transferência de arquivos Android app para Mac</string>
+  <!--Original value: Back-->
+  <string name="accessibility_back">Voltar</string>
+  <!--Original value: Home-->
+  <string name="accessibility_home">Início</string>
+  <!--Original value: Menu-->
+  <string name="accessibility_menu">Menu</string>
+  <!--Original value: Overview-->
+  <string name="accessibility_recent">Visão geral</string>
+  <!--Original value: Search-->
+  <string name="accessibility_search_light">Pesquisa</string>
+  <!--Original value: Camera-->
+  <string name="accessibility_camera_button">Câmera</string>
+  <!--Original value: Phone-->
+  <string name="accessibility_phone_button">Telefone</string>
+  <!--Original value: Unlock-->
+  <string name="accessibility_unlock_button">Desbloquear</string>
+  <!--Original value: Unlock-->
+  <string name="unlock_label">Desbloquear</string>
+  <!--Original value: Unlock to Phone-->
+  <string name="phone_label">Desbloquear para o telefone</string>
+  <!--Original value: Unlock to camera-->
+  <string name="camera_label">Desbloquear para a câmera</string>
+  <!--Original value: Switch input method button.-->
+  <string name="accessibility_ime_switch_button">Mudar o método de entrada de botão.</string>
+  <!--Original value: Compatibility zoom button.-->
+  <string name="accessibility_compatibility_zoom_button">Compatibilidade botão de zoom.</string>
+  <!--Original value: Stretch to fill screen-->
+  <string name="accessibility_compatibility_zoom_example">Esticar para preencher a tela</string>
+  <!--Original value: Bluetooth connected.-->
+  <string name="accessibility_bluetooth_connected">Bluetooth ligado.</string>
+  <!--Original value: Bluetooth disconnected.-->
+  <string name="accessibility_bluetooth_disconnected">Bluetooth desligado.</string>
+  <!--Original value: No battery.-->
+  <string name="accessibility_no_battery">Sem bateria.</string>
+  <!--Original value: Battery: one bar.-->
+  <string name="accessibility_battery_one_bar">Bateria: uma barra.</string>
+  <!--Original value: Battery: two bars.-->
+  <string name="accessibility_battery_two_bars">Bateria: duas barras.</string>
+  <!--Original value: Battery: three bars.-->
+  <string name="accessibility_battery_three_bars">Bateria: três barras.</string>
+  <!--Original value: Battery: full.-->
+  <string name="accessibility_battery_full">Bateria: bateria completa.</string>
+  <!--Original value: No signal-->
+  <string name="accessibility_no_phone">Sem sinal</string>
+  <!--Original value: Signal: one bar-->
+  <string name="accessibility_phone_one_bar">Sinal: uma barra</string>
+  <!--Original value: Signal: two bars-->
+  <string name="accessibility_phone_two_bars">Sinal: duas barras</string>
+  <!--Original value: Signal: three bars-->
+  <string name="accessibility_phone_three_bars">Sinal: três barras</string>
+  <!--Original value: Signal: Full-->
+  <string name="accessibility_phone_signal_full">Sinal: Completo</string>
+  <!--Original value: No data.-->
+  <string name="accessibility_no_data">Sem dados.</string>
+  <!--Original value: Data: one bar.-->
+  <string name="accessibility_data_one_bar">De dados: uma barra.</string>
+  <!--Original value: Data: two bars.-->
+  <string name="accessibility_data_two_bars">Dados: duas barras.</string>
+  <!--Original value: Data: three bars.-->
+  <string name="accessibility_data_three_bars">Dados: três barras.</string>
+  <!--Original value: Data: Full-->
+  <string name="accessibility_data_signal_full">Dados: Total</string>
+  <!--Original value: Connected to %s.-->
+  <string name="accessibility_wifi_name">Conectado a %s.</string>
+  <!--Original value: Connected to %s.-->
+  <string name="accessibility_bluetooth_name">Connected to %s.</string>
+  <!--Original value: No WiMAX signal-->
+  <string name="accessibility_no_wimax">No WiMAX signal</string>
+  <!--Original value: WiMAX: one bar.-->
+  <string name="accessibility_wimax_one_bar">WiMAX: uma barra.</string>
+  <!--Original value: WiMAX: two bars.-->
+  <string name="accessibility_wimax_two_bars">WiMAX: duas barras.</string>
+  <!--Original value: WiMAX: three bars.-->
+  <string name="accessibility_wimax_three_bars">WiMAX: três barras.</string>
+  <!--Original value: WiMAX: Full.-->
+  <string name="accessibility_wimax_signal_full">WiMAX: Completo.</string>
+  <!--Original value: No signal.-->
+  <string name="accessibility_no_signal">Nenhum sinal.</string>
+  <!--Original value: Not connected.-->
+  <string name="accessibility_not_connected">Não conectado.</string>
+  <!--Original value: Zero bar.-->
+  <string name="accessibility_zero_bars">Zero barra.</string>
+  <!--Original value: One bar.-->
+  <string name="accessibility_one_bar">Uma barra.</string>
+  <!--Original value: Two bars.-->
+  <string name="accessibility_two_bars">Duas barras.</string>
+  <!--Original value: Three bars.-->
+  <string name="accessibility_three_bars">Três barras.</string>
+  <!--Original value: Signal full.-->
+  <string name="accessibility_signal_full">Sinal completo.</string>
+  <!--Original value: On-->
+  <string name="accessibility_desc_on">On</string>
+  <!--Original value: Off-->
+  <string name="accessibility_desc_off">Off</string>
+  <!--Original value: Connected-->
+  <string name="accessibility_desc_connected">Conectado</string>
+  <!--Original value: Connecting-->
+  <string name="accessibility_desc_connecting">Conectando</string>
+  <!--Original value: GPRS-->
+  <string name="accessibility_data_connection_gprs">GPRS</string>
+  <!--Original value: 1 X-->
+  <string name="accessibility_data_connection_1x">1 X</string>
+  <!--Original value: HSPA-->
+  <string name="accessibility_data_connection_hspa">HSPA</string>
+  <!--Original value: 3G-->
+  <string name="accessibility_data_connection_3g">3G</string>
+  <!--Original value: 3.5G-->
+  <string name="accessibility_data_connection_3.5g">3.5G</string>
+  <!--Original value: 4G-->
+  <string name="accessibility_data_connection_4g">4G</string>
+  <!--Original value: LTE-->
+  <string name="accessibility_data_connection_lte">LTE</string>
+  <!--Original value: CDMA-->
+  <string name="accessibility_data_connection_cdma">CDMA</string>
+  <!--Original value: Roaming-->
+  <string name="accessibility_data_connection_roaming">Roaming</string>
+  <!--Original value: Edge-->
+  <string name="accessibility_data_connection_edge">Edge</string>
+  <!--Original value: Wi-Fi-->
+  <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+  <!--Original value: No SIM card-->
+  <string name="accessibility_no_sim">Sem cartão SIM</string>
+  <!--Original value: Bluetooth tethering-->
+  <string name="accessibility_bluetooth_tether">Bluetooth tethering</string>
+  <!--Original value: Airplane mode-->
+  <string name="accessibility_airplane_mode">Modo de avião</string>
+  <!--Original value: Battery %d percent.-->
+  <string name="accessibility_battery_level">Bateria %d por cento.</string>
+  <!--Original value: System settings.-->
+  <string name="accessibility_settings_button">Configurações do sistema.</string>
+  <!--Original value: Notifications-->
+  <string name="accessibility_notifications_button">Notificações</string>
+  <!--Original value: Clear notifications-->
+  <string name="accessibility_remove_notification">Limpar notificações</string>
+  <!--Original value: GPS enabled-->
+  <string name="accessibility_gps_enabled">GPS ativado</string>
+  <!--Original value: GPS acquiring-->
+  <string name="accessibility_gps_acquiring">Aquisição de GPS</string>
+  <!--Original value: TeleTypewriter enabled-->
+  <string name="accessibility_tty_enabled">Teletipo habilitado</string>
+  <!--Original value: Ringer vibrate-->
+  <string name="accessibility_ringer_vibrate">Campainha vibrar</string>
+  <!--Original value: Ringer silent-->
+  <string name="accessibility_ringer_silent">Toque de silêncio</string>
+  <!--Original value: Projecting-->
+  <string name="accessibility_casting">Projetando</string>
+  <!--Original value: Dismiss %s.-->
+  <string name="accessibility_recents_item_will_be_dismissed">Descartar %s.</string>
+  <!--Original value: %s dismissed.-->
+  <string name="accessibility_recents_item_dismissed">%s descartado.</string>
+  <!--Original value: Starting %s.-->
+  <string name="accessibility_recents_item_launched">Iniciando %s.</string>
+  <!--Original value: Notification dismissed.-->
+  <string name="accessibility_notification_dismissed">Notificação descartada.</string>
+  <!--Original value: Notification shade.-->
+  <string name="accessibility_desc_notification_shade">Sombra de notificação.</string>
+  <!--Original value: Quick settings.-->
+  <string name="accessibility_desc_quick_settings">Configurações rápidas.</string>
+  <!--Original value: Lock screen.-->
+  <string name="accessibility_desc_lock_screen">Tela de bloqueio.</string>
+  <!--Original value: Settings-->
+  <string name="accessibility_desc_settings">Configurações</string>
+  <!--Original value: Overview.-->
+  <string name="accessibility_desc_recent_apps">Visão geral.</string>
+  <!--Original value: Close-->
+  <string name="accessibility_desc_close">Fechar</string>
+  <!--Original value: User %s.-->
+  <string name="accessibility_quick_settings_user">Usuário %s.</string>
+  <!--Original value: %1$s.-->
+  <string name="accessibility_quick_settings_wifi">%1$s.</string>
+  <!--Original value: Wifi turned off.-->
+  <string name="accessibility_quick_settings_wifi_changed_off">Wi-fi desligado.</string>
+  <!--Original value: Wifi turned on.-->
+  <string name="accessibility_quick_settings_wifi_changed_on">Wifi ligado.</string>
+  <!--Original value: Mobile %1$s. %2$s. %3$s.-->
+  <string name="accessibility_quick_settings_mobile">Móvel %1$s. %2$s. %3$s.</string>
+  <!--Original value: Battery %s.-->
+  <string name="accessibility_quick_settings_battery">Bateria %s.</string>
+  <!--Original value: Airplane mode off.-->
+  <string name="accessibility_quick_settings_airplane_off">Modo avião desligado.</string>
+  <!--Original value: Airplane mode on.-->
+  <string name="accessibility_quick_settings_airplane_on">O modo de avião ligado.</string>
+  <!--Original value: Airplane mode turned off.-->
+  <string name="accessibility_quick_settings_airplane_changed_off">O modo de avião desligado.</string>
+  <!--Original value: Airplane mode turned on.-->
+  <string name="accessibility_quick_settings_airplane_changed_on">O modo de avião ativado.</string>
+  <!--Original value: Mobile data off.-->
+  <string name="accessibility_quick_settings_data_off">Dados móveis desativados.</string>
+  <!--Original value: Mobile data on.-->
+  <string name="accessibility_quick_settings_data_on">Dados móveis ativados.</string>
+  <!--Original value: Roaming off.-->
+  <string name="accessibility_quick_settings_roaming_off">Roaming desligado.</string>
+  <!--Original value: Roaming on.-->
+  <string name="accessibility_quick_settings_roaming_on">Roaming ligado.</string>
+  <!--Original value: Bluetooth off.-->
+  <string name="accessibility_quick_settings_bluetooth_off">Bluetooth desligado.</string>
+  <!--Original value: Bluetooth on.-->
+  <string name="accessibility_quick_settings_bluetooth_on">Bluetooth ligado.</string>
+  <!--Original value: Bluetooth connecting.-->
+  <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth conectando.</string>
+  <!--Original value: Bluetooth connected.-->
+  <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth conectado.</string>
+  <!--Original value: Bluetooth turned off.-->
+  <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth desligado.</string>
+  <!--Original value: Bluetooth turned on.-->
+  <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth ligado.</string>
+  <!--Original value: Location reporting off.-->
+  <string name="accessibility_quick_settings_location_off">Relatórios de localização desligado.</string>
+  <!--Original value: Location reporting on.-->
+  <string name="accessibility_quick_settings_location_on">Relatórios de localização ligado.</string>
+  <!--Original value: Location reporting turned off.-->
+  <string name="accessibility_quick_settings_location_changed_off">Relatórios de localização desligado.</string>
+  <!--Original value: Location reporting turned on.-->
+  <string name="accessibility_quick_settings_location_changed_on">Relatórios de localização ligado.</string>
+  <!--Original value: Alarm set for %s.-->
+  <string name="accessibility_quick_settings_alarm">Alarme definido para %s.</string>
+  <!--Original value: Close panel.-->
+  <string name="accessibility_quick_settings_close">Fechar painel.</string>
+  <!--Original value: More time.-->
+  <string name="accessibility_quick_settings_more_time">Mais uma vez.</string>
+  <!--Original value: Less time.-->
+  <string name="accessibility_quick_settings_less_time">Menos tempo.</string>
+  <!--Original value: Flashlight off.-->
+  <string name="accessibility_quick_settings_flashlight_off">Lanterna desligada.</string>
+  <!--Original value: Flashlight on.-->
+  <string name="accessibility_quick_settings_flashlight_on">Lanterna ligada.</string>
+  <!--Original value: Flashlight turned off.-->
+  <string name="accessibility_quick_settings_flashlight_changed_off">Lanterna desligada.</string>
+  <!--Original value: Flashlight turned on.-->
+  <string name="accessibility_quick_settings_flashlight_changed_on">Lanterna ligada.</string>
+  <!--Original value: Color inversion turned off.-->
+  <string name="accessibility_quick_settings_color_inversion_changed_off">Inversão de cores desativado.</string>
+  <!--Original value: Color inversion turned on.-->
+  <string name="accessibility_quick_settings_color_inversion_changed_on">Inversão de cores ativado.</string>
+  <!--Original value: Mobile hotspot turned off.-->
+  <string name="accessibility_quick_settings_hotspot_changed_off">Hotspot móvel desligado.</string>
+  <!--Original value: Mobile hotspot turned on.-->
+  <string name="accessibility_quick_settings_hotspot_changed_on">Hotspot móvel ligado.</string>
+  <!--Original value: Screen projection stopped.-->
+  <string name="accessibility_casting_turned_off">Projeção de tela interrompida.</string>
+  <!--Original value: Screen brightness-->
+  <string name="accessibility_brightness">Brilho da tela</string>
+  <!--Original value: 2G-3G data turned off-->
+  <string name="data_usage_disabled_dialog_3g_title">Dados 2G-3G desligados</string>
+  <!--Original value: 4G data turned off-->
+  <string name="data_usage_disabled_dialog_4g_title">Dados 4G desligado</string>
+  <!--Original value: Cellular data turned off-->
+  <string name="data_usage_disabled_dialog_mobile_title">De dados da rede celular desligado</string>
+  <!--Original value: Data turned off-->
+  <string name="data_usage_disabled_dialog_title">Dados desligado</string>
+  <!--Original value: Your device turned off data because the data reached the limit you set. Turning it back on may lead to charges from your carrier.-->
+  <string name="data_usage_disabled_dialog">O seu dispositivo desligado dados, porque os dados atingir o limite definido. Ligá-lo novamente pode levar a encargos de sua operadora.</string>
+  <!--Original value: Turn on data-->
+  <string name="data_usage_disabled_dialog_enable">Ligar dados</string>
+  <!--Original value: Not connected to the Internet-->
+  <string name="status_bar_settings_signal_meter_disconnected">Não está conectado à Internet</string>
+  <!--Original value: Wi-Fi connected-->
+  <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi conectado</string>
+  <!--Original value: Searching for GPS-->
+  <string name="gps_notification_searching_text">Procurando GPS</string>
+  <!--Original value: Location set by GPS-->
+  <string name="gps_notification_found_text">Localização definida por GPS</string>
+  <!--Original value: Location requests active-->
+  <string name="accessibility_location_active">Pedidos de localização ativos</string>
+  <!--Original value: Clear all notifications.-->
+  <string name="accessibility_clear_all">Limpar todas as notificações.</string>
+  <!--Original value: Notification settings-->
+  <string name="status_bar_notification_inspect_item_title">Configurações de notificação</string>
+  <!--Original value: %s settings-->
+  <string name="status_bar_notification_app_settings_title">%s Configurações</string>
+  <!--Original value: Screen will rotate automatically.-->
+  <string name="accessibility_rotation_lock_off">A tela irá girar automaticamente.</string>
+  <!--Original value: Screen is locked in landscape mode-->
+  <string name="accessibility_rotation_lock_on_landscape">A tela está bloqueada no modo paisagem</string>
+  <!--Original value: Screen is locked in portrait mode-->
+  <string name="accessibility_rotation_lock_on_portrait">A tela está bloqueada no modo de retrato</string>
+  <!--Original value: Screen will rotate automatically.-->
+  <string name="accessibility_rotation_lock_off_changed">A tela irá girar automaticamente.</string>
+  <!--Original value: Screen is now locked in landscape mode-->
+  <string name="accessibility_rotation_lock_on_landscape_changed">Tela agora está bloqueada no modo paisagem</string>
+  <!--Original value: Screen is now locked in portrait mode-->
+  <string name="accessibility_rotation_lock_on_portrait_changed">Tela agora está bloqueada no modo de retrato</string>
+  <!--Original value: Dessert Case-->
+  <string name="dessert_case">Sobremesa Caso</string>
+  <!--Original value: Daydream-->
+  <string name="start_dreams">Sonhar acordado</string>
+  <!--Original value: Ethernet-->
+  <string name="ethernet_label">Ethernet</string>
+  <!--Original value: Airplane-->
+  <string name="quick_settings_airplane_mode_label">Avião</string>
+  <!--Original value: Mobile data-->
+  <string name="quick_settings_mobile_data_label">Dados móveis</string>
+  <!--Original value: Mobile data 1-->
+  <string name="quick_settings_mobile_data1_label">De dados móveis 1</string>
+  <!--Original value: Mobile data 2-->
+  <string name="quick_settings_mobile_data2_label">De dados móveis 2</string>
+  <!--Original value: Roaming-->
+  <string name="quick_settings_roaming_label">Roaming</string>
+  <!--Original value: Charging, %d%%-->
+  <string name="quick_settings_battery_charging_label">Carregando, %d%%</string>
+  <!--Original value: Charged-->
+  <string name="quick_settings_battery_charged_label">Carregado</string>
+  <!--Original value: Bluetooth-->
+  <string name="quick_settings_bluetooth_label">Bluetooth</string>
+  <!--Original value: Bluetooth (%d Devices)-->
+  <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d Dispositivos)</string>
+  <!--Original value: Bluetooth Off-->
+  <string name="quick_settings_bluetooth_off_label">Bluetooth Desligado</string>
+  <!--Original value: bluetooth scanning-->
+  <string name="quick_settings_bluetooth_detail_empty_text">bluetooth escaneando</string>
+  <!--Original value: Brightness-->
+  <string name="quick_settings_brightness_label">Brilho</string>
+  <!--Original value: Auto-rotate-->
+  <string name="quick_settings_rotation_unlocked_label">Auto-rotação</string>
+  <!--Original value: Rotation locked-->
+  <string name="quick_settings_rotation_locked_label">Rotação bloqueado</string>
+  <!--Original value: Portrait-->
+  <string name="quick_settings_rotation_locked_portrait_label">Retrato</string>
+  <!--Original value: Landscape-->
+  <string name="quick_settings_rotation_locked_landscape_label">Paisagem</string>
+  <!--Original value: Input Method-->
+  <string name="quick_settings_ime_label">Método De Entrada</string>
+  <!--Original value: Location-->
+  <string name="quick_settings_location_label">Localização</string>
+  <!--Original value: Location Off-->
+  <string name="quick_settings_location_off_label">Localização desligada</string>
+  <!--Original value: Media device-->
+  <string name="quick_settings_media_device_label">Dispositivo de mídia</string>
+  <!--Original value: RSSI-->
+  <string name="quick_settings_rssi_label">RSSI</string>
+  <!--Original value: Emergency Calls Only-->
+  <string name="quick_settings_rssi_emergency_only">Apenas Chamadas De Emergência</string>
+  <!--Original value: Settings-->
+  <string name="quick_settings_settings_label">Configurações</string>
+  <!--Original value: Time-->
+  <string name="quick_settings_time_label">Tempo</string>
+  <!--Original value: Me-->
+  <string name="quick_settings_user_label">Mim</string>
+  <!--Original value: User-->
+  <string name="quick_settings_user_title">Usuário</string>
+  <!--Original value: New user-->
+  <string name="quick_settings_user_new_user">Novo usuário</string>
+  <!--Original value: Wi-Fi-->
+  <string name="quick_settings_wifi_label">Wi-Fi</string>
+  <!--Original value: Not Connected-->
+  <string name="quick_settings_wifi_not_connected">Não Conectado</string>
+  <!--Original value: No Network-->
+  <string name="quick_settings_wifi_no_network">Sem Rede</string>
+  <!--Original value: Wi-Fi Off-->
+  <string name="quick_settings_wifi_off_label">O Wi-Fi Desligado</string>
+  <!--Original value: wifi scanning-->
+  <string name="quick_settings_wifi_detail_empty_text">escaneando wi-fi</string>
+  <!--Original value: Screen projection-->
+  <string name="quick_settings_cast_title">Projeção de Tela</string>
+  <!--Original value: Projecting-->
+  <string name="quick_settings_casting">Projetando</string>
+  <!--Original value: Unnamed device-->
+  <string name="quick_settings_cast_device_default_name">Dispositivo Sem nome</string>
+  <!--Original value: Ready to project-->
+  <string name="quick_settings_cast_device_default_description">Pronto para projeto</string>
+  <!--Original value: No devices available-->
+  <string name="quick_settings_cast_detail_empty_text">Nenhum dispositivo disponível</string>
+  <!--Original value: Brightness-->
+  <string name="quick_settings_brightness_dialog_title">Brilho</string>
+  <!--Original value: AUTO-->
+  <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTO</string>
+  <!--Original value: APN switch-->
+  <string name="quick_settings_apn_switch_label">mudar APN</string>
+  <!--Original value: Invert colors-->
+  <string name="quick_settings_inversion_label">Inverter cores</string>
+  <!--Original value: Color correction mode-->
+  <string name="quick_settings_color_space_label">O modo de correção de cor</string>
+  <!--Original value: More settings-->
+  <string name="quick_settings_more_settings">Mais configurações</string>
+  <!--Original value: Done-->
+  <string name="quick_settings_done">Feito</string>
+  <!--Original value: Connected-->
+  <string name="quick_settings_connected">Conectado</string>
+  <!--Original value: Connecting...-->
+  <string name="quick_settings_connecting">Conectando-se...</string>
+  <!--Original value: Tethering-->
+  <string name="quick_settings_tethering_label">Tethering</string>
+  <!--Original value: Hotspot-->
+  <string name="quick_settings_hotspot_label">Ponto acesso</string>
+  <!--Original value: Notifications-->
+  <string name="quick_settings_notifications_label">Notificações</string>
+  <!--Original value: Flashlight-->
+  <string name="quick_settings_flashlight_label">Lanterna</string>
+  <!--Original value: Mobile data-->
+  <string name="quick_settings_cellular_detail_title">Dados móveis</string>
+  <!--Original value: Flow usage-->
+  <string name="quick_settings_cellular_detail_data_usage">Fluxo de uso</string>
+  <!--Original value: Remaining flow-->
+  <string name="quick_settings_cellular_detail_remaining_data">Fluxo restante</string>
+  <!--Original value: Reached the maximum– your flow has been paused-->
+  <string name="quick_settings_cellular_detail_over_limit">Atingido o máximo, seu fluxo foi interrompido</string>
+  <!--Original value: %s used-->
+  <string name="quick_settings_cellular_detail_data_used">%s utilizados</string>
+  <!--Original value: %s limit-->
+  <string name="quick_settings_cellular_detail_data_limit">%s limite</string>
+  <!--Original value: %s warning-->
+  <string name="quick_settings_cellular_detail_data_warning">%s aviso</string>
+  <!--Original value: Card %d data-->
+  <string name="quick_settings_dds_sub">Cartão %d dados</string>
+  <!--Original value: Data off-->
+  <string name="quick_settings_data_off">Dados desligado</string>
+  <!--Original value: Your recent screens appear here-->
+  <string name="recents_empty_message">Suas telas recentes aparecem aqui</string>
+  <!--Original value: Application Info-->
+  <string name="recents_app_info_button_label">Informações da Aplicação</string>
+  <!--Original value: Locked screen-->
+  <string name="recents_lock_to_app_button_label">Tela bloqueada</string>
+  <!--Original value: Search-->
+  <string name="recents_search_bar_label">Pesquisa</string>
+  <!--Original value: Could not start %s.-->
+  <string name="recents_launch_error_message">Não pode iniciar %s.</string>
+  <!--Original value: Charged-->
+  <string name="expanded_header_battery_charged">Carregado</string>
+  <!--Original value: Charging-->
+  <string name="expanded_header_battery_charging">Carregando</string>
+  <!--Original value: %s until full-->
+  <string name="expanded_header_battery_charging_with_time">%s até está completa</string>
+  <!--Original value: Not charging-->
+  <string name="expanded_header_battery_not_charging">Not charging</string>
+  <!--Original value: !-->
+  <string name="battery_meter_very_low_overlay_symbol">!</string>
+  <!--Original value: Network may be monitored-->
+  <string name="ssl_ca_cert_warning">Network may be monitored</string>
+  <!--Original value: Search-->
+  <string name="description_target_search">Search</string>
+  <!--Original value: Swipe up for %s.-->
+  <string name="description_direction_up">Deslize para cima para %s.</string>
+  <!--Original value: Swipe left for %s.-->
+  <string name="description_direction_left">Deslize para a esquerda para %s.</string>
+  <!--Original value: You won’t be disturbed by sounds and vibrations, except from alarms, reminders, events, and callers you specify.-->
+  <string name="zen_priority_introduction">Você não será perturbado por sons e vibrações, exceto a partir de alarmes, lembretes, eventos, e os chamadores que você especificar.</string>
+  <!--Original value: Customize-->
+  <string name="zen_priority_customize_button">Personalizar</string>
+  <!--Original value: This blocks ALL sounds and vibrations, including from alarms, music, videos, and games. You’ll still be able to make phone calls.-->
+  <string name="zen_silence_introduction_voice">Isso bloqueia TODOS os sons e vibrações, incluindo alarmes, música, vídeos e jogos. Você ainda será capaz de fazer chamadas telefônicas.</string>
+  <!--Original value: This blocks ALL sounds and vibrations, including from alarms, music, videos, and games.-->
+  <string name="zen_silence_introduction">Isso bloqueia TODOS os sons e vibrações, incluindo alarmes, música, vídeos e jogos.</string>
+  <!--Original value: No interruptions (Not even alarms)-->
+  <string name="zen_no_interruptions_with_warning">Sem interrupções (nem mesmo alarmes)</string>
+  <!--Original value: No interruptions-->
+  <string name="zen_no_interruptions">Sem interrupções</string>
+  <!--Original value: Priority interruptions only-->
+  <string name="zen_important_interruptions">Prioridade das interrupções somente</string>
+  <!--Original value: Your next alarm is at %s-->
+  <string name="zen_alarm_information_time">Seu próximo alarme é em %s</string>
+  <!--Original value: Your next alarm is at %s-->
+  <string name="zen_alarm_information_day_time">Seu próximo alarme é em %s</string>
+  <!--Original value: +%d-->
+  <string name="keyguard_more_overflow_text">+%d</string>
+  <!--Original value: Less urgent notifications below-->
+  <string name="speed_bump_explanation">Menos urgente notificações abaixo</string>
+  <!--Original value: Touch again to open-->
+  <string name="notification_tap_again">Toque para abrir novamente</string>
+  <!--Original value: Swipe up to unlock-->
+  <string name="keyguard_unlock">Deslize o dedo para cima para desbloquear</string>
+  <!--Original value: Swipe right for phone-->
+  <string name="phone_hint">Deslize para a direita para telefone</string>
+  <!--Original value: Swipe left for camera-->
+  <string name="camera_hint">Deslize para a esquerda para a câmera</string>
+  <!--Original value: Total silence. This will also silence screen readers.-->
+  <string name="interruption_level_none_with_warning">Silêncio total. Isso também silencia os leitores de tela.</string>
+  <!--Original value: None-->
+  <string name="interruption_level_none">Nenhum</string>
+  <!--Original value: Priority-->
+  <string name="interruption_level_priority">Prioridade</string>
+  <!--Original value: All-->
+  <string name="interruption_level_all">Todos</string>
+  <!--Original value: Alarms only-->
+  <string name="interruption_level_alarms">Apenas alarmes</string>
+  <!--Original value: "Total
+silence"-->
+  <string name="interruption_level_none_twoline">"Total silêncio"</string>
+  <!--Original value: "Priority
+only"-->
+  <string name="interruption_level_priority_twoline">"Apenas prioridade"</string>
+  <!--Original value: "Alarms
+only"-->
+  <string name="interruption_level_alarms_twoline">"Alarmes apenas"</string>
+  <!--Original value: Charging (%s until full)-->
+  <string name="keyguard_indication_charging_time">Carregando (%s, até completar)</string>
+  <!--Original value: Switch user-->
+  <string name="accessibility_multi_user_switch_switcher">Mudar de usuário</string>
+  <!--Original value: Switch user, current user %s-->
+  <string name="accessibility_multi_user_switch_switcher_with_current">Mudar de usuário, usuário atual %s</string>
+  <!--Original value: Show profile-->
+  <string name="accessibility_multi_user_switch_quick_contact">Mostrar perfil</string>
+  <!--Original value: Add user-->
+  <string name="user_add_user">Adicionar usuário</string>
+  <!--Original value: New user-->
+  <string name="user_new_user_name">Novo usuário</string>
+  <!--Original value: Guest-->
+  <string name="guest_nickname">Convidado</string>
+  <!--Original value: Add guest-->
+  <string name="guest_new_guest">Adicionar convidado</string>
+  <!--Original value: Remove guest-->
+  <string name="guest_exit_guest">Remover convidado</string>
+  <!--Original value: Remove guest?-->
+  <string name="guest_exit_guest_dialog_title">Remover convidado?</string>
+  <!--Original value: All apps and data in this session will be deleted.-->
+  <string name="guest_exit_guest_dialog_message">Todos os aplicativos e dados nesta sessão serão excluídos.</string>
+  <!--Original value: Remove-->
+  <string name="guest_exit_guest_dialog_remove">Remover</string>
+  <!--Original value: Welcome back, guest!-->
+  <string name="guest_wipe_session_title">Bem-vindo de volta, convidado!</string>
+  <!--Original value: Do you want to continue your session?-->
+  <string name="guest_wipe_session_message">Você deseja continuar sua sessão?</string>
+  <!--Original value: Start over-->
+  <string name="guest_wipe_session_wipe">Recomeçar</string>
+  <!--Original value: Yes, continue-->
+  <string name="guest_wipe_session_dontwipe">Sim, continuar</string>
+  <!--Original value: Add new user?-->
+  <string name="user_add_user_title">Adicionar novo usuário?</string>
+  <!--Original value: "When you add a new user, that person needs to set up their space.
 
-Qualquer usuário pode atualizar aplicativos para todos os outros usuários."</string>
-   <string name="battery_saver_notification_title">Powersaver está ativo.</string>
-   <string name="battery_saver_notification_text">Comprometer o desempenho e limitar o fluxo de fundo</string>
-   <string name="battery_saver_notification_action_text">Desligar powersaver</string>
-   <string name="battery_level_template">%d%%</string>
-   <string name="notification_hidden_text">Conteúdo oculto</string>
-   <string name="media_projection_dialog_text">"%s começará a capturar tudo o que é exibido na sua tela."</string>
-   <string name="media_projection_remember_text">"Não mostrar novamente"</string>
-   <string name="clear_all_notifications_text">Limpar tudo</string>
-   <string name="media_projection_action_text">Iniciar agora</string>
-   <string name="empty_shade_text">Nenhuma notificação</string>
-   <string name="tasklistview_title">Gerênciador tarefa</string>
-   <string name="message_switch_fail">Não é possível mudar para esta tarefa porque não há interface!</string>
-   <string name="tasklist_killall">Fechar todos</string>
-   <string name="tasklist_memory_usage" formatted="false">Livre/Memória total: [%s] / [%s]</string>
-   <string name="message_keep_one_launcher">Deve manter pelo menos um papel de parede</string>
-   <string name="device_owned_footer">Ddispositivo pode ser monitorado</string>
-   <string name="profile_owned_footer">O perfil pode ser monitorado</string>
-   <string name="vpn_footer">Rede pode ser monitorada</string>
-   <string name="monitoring_title_device_owned">Dispositivo de monitoramento</string>
-   <string name="monitoring_title_profile_owned">Perfil de monitoramento</string>
-   <string name="monitoring_title">Rede de monitoramento</string>
-   <string name="disable_vpn">Desativar VPN</string>
-   <string name="disconnect_vpn">Desconectar VPN</string>
-   <string name="monitoring_description_device_owned">"Este dispositivo é gerenciado por:
-%1$s
+Any user can update apps for all other users."-->
+  <string name="user_add_user_message_short">"Quando você adicionar um novo usuário, o que a pessoa precisa para configurar o seu espaço.
 
-Seu administrador pode monitorar seu dispositivo e sua atividade na rede, incluindo e-mails, aplicativos e sites seguros.
-
-Para mais informações, contate seu administrador."</string>
-   <string name="monitoring_description_vpn">"Você deu \"%1$s\" permissão para configurar uma conexão VPN.
-
-Este aplicativo pode monitorar seu dispositivo e atividade de rede, incluindo e-mails, aplicativos e sites seguros."</string>
-   <string name="monitoring_description_legacy_vpn">"Você está conectado a uma VPN (\"%1$s\").
-
-Seu provedor de serviços de VPN pode monitorar seu dispositivo e atividade de rede, incluindo e-mails, aplicativos e sites seguros."</string>
-   <string name="monitoring_description_vpn_device_owned">"To dispositivo dele é gerenciado por:
-%1$s
-
-Seu administrador é capaz de monitorar sua atividade na rede, incluindo e-mails, aplicativos e sites seguros. Para mais informações, contate seu administrador.
-
-Além disso, você deu \"%2$s\" permissão para configurar uma conexão VPN. Este aplicativo também pode monitorar a atividade da rede."</string>
-   <string name="monitoring_description_legacy_vpn_device_owned">"Este dispositivo é gerenciado por:
-%1$s
-
-Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
-
-Also, you're connected to a VPN (\"%2$s\"). Your VPN service provider can monitor network activity too."</string>
-   <string name="monitoring_description_profile_owned">"This profile is managed by:
+Qualquer usuário pode atualizar aplicativos para todos os outros utilizadores."</string>
+  <!--Original value: Powersaver is on.-->
+  <string name="battery_saver_notification_title">Economia de energia está ligada.</string>
+  <!--Original value: Compromise performance and limit background flow-->
+  <string name="battery_saver_notification_text">Comprometer o desempenho e o limite de fluxo de fundo</string>
+  <!--Original value: Turn off powersaver-->
+  <string name="battery_saver_notification_action_text">Desligar a economia de energia</string>
+  <!--Original value: %d%%-->
+  <string name="battery_level_template">%d%%</string>
+  <!--Original value: Contents hidden-->
+  <string name="notification_hidden_text">Conteúdo oculto</string>
+  <!--Original value: "%s will start capturing everything that's displayed on your screen."-->
+  <string name="media_projection_dialog_text">"%s vai começar a capturar tudo o que é exibido na tela."</string>
+  <!--Original value: "Don't show again"-->
+  <string name="media_projection_remember_text">"Não mostrar novamente"</string>
+  <!--Original value: Clear all-->
+  <string name="clear_all_notifications_text">Limpar todos</string>
+  <!--Original value: Start now-->
+  <string name="media_projection_action_text">Comece agora</string>
+  <!--Original value: No notifications-->
+  <string name="empty_shade_text">Sem notificações</string>
+  <!--Original value: Task Manager-->
+  <string name="tasklistview_title">O Gerenciador De Tarefas</string>
+  <!--Original value: Unable to switch to this task because there is no interface!-->
+  <string name="message_switch_fail">Não é possível alternar para esta tarefa porque não há nenhuma interface!</string>
+  <!--Original value: Close all-->
+  <string name="tasklist_killall">Fechar todos</string>
+  <!--Original value: Free/Total Memory: [%s] / [%s]-->
+  <string name="tasklist_memory_usage" formatted="false">Livre/Total de Memória: [%s] / [%s]</string>
+  <!--Original value: Should keep at least one wallpaper-->
+  <string name="message_keep_one_launcher">Deve manter pelo menos um papel de parede</string>
+  <!--Original value: Device may be monitored-->
+  <string name="device_owned_footer">Dispositivo pode ser monitorado</string>
+  <!--Original value: Profile may be monitored-->
+  <string name="profile_owned_footer">O perfil pode ser monitorado</string>
+  <!--Original value: Network may be monitored-->
+  <string name="vpn_footer">A rede pode ser monitorado</string>
+  <!--Original value: Monitoring device-->
+  <string name="monitoring_title_device_owned">Dispositivo de monitoramento</string>
+  <!--Original value: Monitoring profile-->
+  <string name="monitoring_title_profile_owned">Monitoramento de perfil</string>
+  <!--Original value: Monitoring network-->
+  <string name="monitoring_title">Monitoramento de rede</string>
+  <!--Original value: Disable VPN-->
+  <string name="disable_vpn">Desativar a VPN</string>
+  <!--Original value: Disconnect VPN-->
+  <string name="disconnect_vpn">Desconectar VPN</string>
+  <!--Original value: "This device is managed by:
 %1$s
 
 Your administrator can monitor your device and network activity, including emails, apps and secure websites.
 
-For more information, contact your administrator."</string>
-   <string name="monitoring_description_device_and_profile_owned">"This device is managed by:
+For more information, contact your administrator."-->
+  <string name="monitoring_description_device_owned">"Este dispositivo é gerenciado por:
+%1$s
+
+O administrador pode monitorar o seu dispositivo e da actividade da rede, incluindo e-mails, aplicativos e web sites seguros.
+
+Para mais informações, contacte o seu administrador."</string>
+  <!--Original value: "You gave \"%1$s\" permission to set up a VPN connection.
+
+This app can monitor your device and network activity, including emails, apps and secure websites."-->
+  <string name="monitoring_description_vpn">"Você deu a \"%1$s\" permissão para configurar uma conexão VPN.
+
+Este aplicativo pode monitorar o seu dispositivo e da actividade da rede, incluindo e-mails, aplicativos e web sites seguros."</string>
+  <!--Original value: "You're connected to a VPN (\"%1$s\").
+
+Your VPN service provider can monitor your device and network activity including emails, apps, and secure websites."-->
+  <string name="monitoring_description_legacy_vpn">"Você está conectado a uma VPN (\"%1$s\").
+
+Seu provedor de serviço de VPN pode monitorizar o seu dispositivo e da actividade da rede, incluindo e-mails, aplicativos e web sites seguros."</string>
+  <!--Original value: "This device is managed by:
+%1$s
+
+Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
+
+Also, you gave \"%2$s\" permission to set up a VPN connection. This app can monitor network activity too."-->
+  <string name="monitoring_description_vpn_device_owned">"Este dispositivo é gerenciado por:
+%1$s
+
+O administrador é capaz de monitorar a sua atividade de rede, incluindo e-mails, aplicativos e web sites seguros. Para mais informações, contacte o seu administrador.
+
+Além disso, você deu \"%2$s\" permissão para configurar uma conexão VPN. Este aplicativo pode monitorar a atividade de rede também."</string>
+  <!--Original value: "This device is managed by:
+%1$s
+
+Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
+
+Also, you're connected to a VPN (\"%2$s\"). Your VPN service provider can monitor network activity too."-->
+  <string name="monitoring_description_legacy_vpn_device_owned">"Este dispositivo é gerenciado por:
+%1$s
+
+O administrador é capaz de monitorar a sua atividade de rede, incluindo e-mails, aplicativos e web sites seguros. Para mais informações, contacte o seu administrador.
+
+Além disso, você está conectado a uma VPN (\"%2$s\"). Seu provedor de serviço de VPN pode monitorar a atividade de rede também."</string>
+  <!--Original value: "This profile is managed by:
+%1$s
+
+Your administrator can monitor your device and network activity, including emails, apps and secure websites.
+
+For more information, contact your administrator."-->
+  <string name="monitoring_description_profile_owned">"Esse perfil é gerenciado por:
+%1$s
+
+O administrador pode monitorar o seu dispositivo e da actividade da rede, incluindo e-mails, aplicativos e web sites seguros.
+
+Para mais informações, contacte o seu administrador."</string>
+  <!--Original value: "This device is managed by:
 %1$s
 Your profile is managed by:
 %2$s
 
 Your administrator can monitor your device and network activity, including emails, apps and secure websites.
 
-For more information, contact your administrator."</string>
-   <string name="monitoring_description_vpn_profile_owned">"This profile is managed by:
+For more information, contact your administrator."-->
+  <string name="monitoring_description_device_and_profile_owned">"Este dispositivo é gerenciado por:
+%1$s
+Seu perfil é gerenciado por:
+%2$s
+
+O administrador pode monitorar o seu dispositivo e da actividade da rede, incluindo e-mails, aplicativos e web sites seguros.
+
+Para mais informações, contacte o seu administrador."</string>
+  <!--Original value: "This profile is managed by:
 %1$s
 
 Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
 
-Also, you gave \"%2$s\" permission to set up a VPN connection. This app can monitor network activity too."</string>
-   <string name="monitoring_description_legacy_vpn_profile_owned">"This profile is managed by:
+Also, you gave \"%2$s\" permission to set up a VPN connection. This app can monitor network activity too."-->
+  <string name="monitoring_description_vpn_profile_owned">"Esse perfil é gerenciado por:
+%1$s
+
+O administrador é capaz de monitorar a sua atividade de rede, incluindo e-mails, aplicativos e web sites seguros. Para mais informações, contacte o seu administrador.
+
+Além disso, você deu \"%2$s\" permissão para configurar uma conexão VPN. Este aplicativo pode monitorar a atividade de rede também."</string>
+  <!--Original value: "This profile is managed by:
 %1$s
 
 Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
 
-Also, you're connected to a VPN (\"%2$s\"). Your VPN service provider can monitor network activity too."</string>
-   <string name="monitoring_description_vpn_device_and_profile_owned">"This device is managed by:
+Also, you're connected to a VPN (\"%2$s\"). Your VPN service provider can monitor network activity too."-->
+  <string name="monitoring_description_legacy_vpn_profile_owned">"Esse perfil é gerenciado por:
+%1$s
+
+O administrador é capaz de monitorar a sua atividade de rede, incluindo e-mails, aplicativos e web sites seguros. Para mais informações, contacte o seu administrador.
+
+Além disso, você está conectado a uma VPN (\"%2$s\"). Seu provedor de serviço de VPN pode monitorar a atividade de rede também."</string>
+  <!--Original value: "This device is managed by:
 %1$s
 Your profile is managed by:
 %2$s
 
 Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
 
-Also, you gave \"%3$s\" permission to set up a VPN connection. This app can monitor network activity too."</string>
-   <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"This device is managed by:
+Also, you gave \"%3$s\" permission to set up a VPN connection. This app can monitor network activity too."-->
+  <string name="monitoring_description_vpn_device_and_profile_owned">"Este dispositivo é gerenciado por:
+%1$s
+Seu perfil é gerenciado por:
+%2$s
+
+O administrador é capaz de monitorar a sua atividade de rede, incluindo e-mails, aplicativos e web sites seguros. Para mais informações, contacte o seu administrador.
+
+Além disso, você deu \"%3$s\" permissão para configurar uma conexão VPN. Este aplicativo pode monitorar a atividade de rede também."</string>
+  <!--Original value: "This device is managed by:
 %1$s
 Your profile is managed by:
 %2$s
 
 Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
 
-Also, you're connected to a VPN (\"%3$s\"). Your VPN service provider can monitor network activity too."</string>
-   <string name="legacy_vpn_name">VPN</string>
-   <string name="monitoring_description_app">"You're connected to %1$s, which can monitor your network activity including emails, apps, and websites."</string>
-   <string name="monitoring_description_app_personal">"You're connected to %1$s, which can monitor your personal network activity, including emails, apps, and websites."</string>
-   <string name="monitoring_description_app_work">"Your work profile is managed by %1$s. It is connected to %2$s, which can monitor your work network activity, including emails, apps, and websites.
+Also, you're connected to a VPN (\"%3$s\"). Your VPN service provider can monitor network activity too."-->
+  <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Este dispositivo é gerenciado por:
+%1$s
+Seu perfil é gerenciado por:
+%2$s
 
-For more information, contact your administrator."</string>
-   <string name="monitoring_description_app_personal_work">"Your work profile is managed by %1$s. It is connected to %2$s, which can monitor your work network activity, including emails, apps, and websites.
+O administrador é capaz de monitorar a sua atividade de rede, incluindo e-mails, aplicativos e web sites seguros. Para mais informações, contacte o seu administrador.
 
-You're also connected to %3$s, which can monitor your personal network activity."</string>
-   <string name="monitoring_description_vpn_app_device_owned">"Your device is managed by %1$s.
+Além disso, você está conectado a uma VPN (\"%3$s\"). Seu provedor de serviço de VPN pode monitorar a atividade de rede também."</string>
+  <!--Original value: VPN-->
+  <string name="legacy_vpn_name">VPN</string>
+  <!--Original value: "You're connected to %1$s, which can monitor your network activity including emails, apps, and websites."-->
+  <string name="monitoring_description_app">"Você está conectado %1$s, que pode monitorar a sua atividade de rede, incluindo e-mails, aplicativos e sites."</string>
+  <!--Original value: "You're connected to %1$s, which can monitor your personal network activity, including emails, apps, and websites."-->
+  <string name="monitoring_description_app_personal">"Você está conectado %1$s, o que pode monitorar sua rede pessoal de actividade, incluindo e-mails, aplicativos e sites."</string>
+  <!--Original value: "Your work profile is managed by %1$s. It is connected to %2$s, which can monitor your work network activity, including emails, apps, and websites.
+
+For more information, contact your administrator."-->
+  <string name="monitoring_description_app_work">"O seu perfil de trabalho é gerenciado por %1$s. Ele está ligado a %2$s, que pode monitorar o seu trabalho de atividade de rede, incluindo e-mails, aplicativos e sites.
+
+Para mais informações, contacte o seu administrador."</string>
+  <!--Original value: "Your work profile is managed by %1$s. It is connected to %2$s, which can monitor your work network activity, including emails, apps, and websites.
+
+You're also connected to %3$s, which can monitor your personal network activity."-->
+  <string name="monitoring_description_app_personal_work">"O seu perfil de trabalho é gerenciado por %1$s. Ele está ligado a %2$s, que pode monitorar o seu trabalho de atividade de rede, incluindo e-mails, aplicativos e sites.
+
+Você também está ligado %3$s, o que pode monitorar sua rede pessoal de atividade."</string>
+  <!--Original value: "Your device is managed by %1$s.
 
 Your administrator can monitor and manage settings, corporate access, apps, data associated with your device, and your device's location information.
 
 You're connected to %2$s, which can monitor your network activity, including emails, apps, and websites.
 
-For more information, contact your administrator."</string>
-   <string name="keyguard_indication_trust_disabled">O dispositivo permanecerá bloqueado até você desbloquear manualmente</string>
-   <string name="hidden_notifications_title">Receba notificações mais rapidamente e de forma conveniente</string>
-   <string name="hidden_notifications_text">Visualizar notificações sem precisar desbloquear</string>
-   <string name="hidden_notifications_cancel">Não, obrigado</string>
-   <string name="hidden_notifications_setup">Configuração</string>
-   <string name="muted_by">Silenciado por %1$s</string>
-   <string name="zen_mode_and_condition">%1$s. %2$s</string>
-   <string name="volume_zen_end_now">Acabar agora</string>
-   <string name="accessibility_volume_expand">Expandir</string>
-   <string name="accessibility_volume_collapse">Recolher</string>
-   <string name="screen_pinning_title">A tela está fixada</string>
-   <string name="screen_pinning_description">Isso mantém em vista até você soltar. Toque e segure Voltar e Visão geral ao mesmo tempo para liberar.</string>
-   <string name="screen_pinning_description_accessible">Isso mantém em vista até você soltar. Toque e segure Visão geral para liberar.</string>
-   <string name="screen_pinning_positive">Consegui</string>
-   <string name="screen_pinning_negative">Não obrigado</string>
-   <string name="volumeui_prompt_message">%1$s quer ser o diálogo de volume.</string>
-   <string name="email_note" />   
-   <string name="volumeui_notification_title">%1$s é o diálogo de volume</string>
-   <string name="volumeui_notification_text">Toque para restaurar o original.</string>
-   <string name="managed_profile_foreground_toast">"Você está usando seu perfil de trabalho"</string>
-   <string name="volume_stream_muted">%s silêncio</string>
-   <string name="volume_stream_vibrate">%s vibrar</string>
-   <string name="volume_stream_suppressed">%1$s silêncio — %2$s</string>
-   <string name="volume_stream_muted_dnd">%s silêncio — Total silêncio</string>
-   <string name="volume_stream_limited_dnd">%s — Apenas prioridade</string>
-   <string name="volume_stream_vibrate_dnd">%s vibrar — Apenas prioridade</string>
-   <string name="ic_qs_take_screen">Captura de tela</string>
- <!-- adicionado --> 
-    <string name="incall_time">No telefone %1$s</string>
-   <string name="call_state_dialing">Discagem</string>
-   <string name="call_state_incoming">Entrada\u0009\u0009Clique de volta</string>
-   <string name="recorder_time">Na gravação %1$s</string>
-   <string name="wifi_hotspot_count">Contagem de conexão:%d</string>
-   <string name="recording_pause">Pausa de gravação %1$s</string>
-   <string name="quick_settings_reset_confirmation_title">Ocultar %1$s?</string>
-   <string name="zen_alarm_warning_indef">"Você não vai ouvir o seu próximo alarme %1$s a menos que você desligue isso antes disso"</string>
-   <string name="zen_alarm_warning">"Você não vai ouvir o seu alarme em %s"</string>
-   <string name="alarm_template">as %1$s</string>
-   <string name="alarm_template_far">em %1$s</string>
-   <string name="accessibility_quick_settings_detail">Configurações rápidas, %s.</string>
-   <string name="accessibility_managed_profile">Perfil de trabalho</string>
-   <string name="tuner_warning_title">Diversão para alguns, mas não para todos</string>
-   <string name="tuner_warning">O System UI Tuner oferece maneiras adicionais de ajustar e personalizar a interface do usuário do Android. Esses recursos experimentais podem mudar, quebrar ou desaparecer em versões futuras. Prossiga com cuidado.</string>
-   <string name="tuner_persistent_warning">Esses recursos experimentais podem mudar, quebrar ou desaparecer em versões futuras. Prossiga com cuidado.</string>
-   <string name="got_it">Consegui</string>
-   <string name="tuner_toast">Parabéns! Sintonizador de interface do usuário do sistema foi adicionado às configurações</string>
-   <string name="remove_from_settings">Remover das configurações</string>
-   <string name="remove_from_settings_prompt">Remover o System UI Tuner das configurações e parar de usar todos os seus recursos?</string>
-   <string name="unlock_tip_info_gallery">Clique duas vezes para</string>
-   <string name="sheild_title">Ocultar notificações</string>
-   <string name="sheild_title_tip">Desativar notificações para os aplicativos selecionados</string>
-   <string name="sheild_finish">Feito</string>
-   <string name="battery_low_percent_format_ticker_notification">Bateria: %d%% restante</string>
-   <string name="battery_notification">Notificação de bateria</string>
-   <string name="nubia_faceid_compare_timeout">tempo esgotado</string>
-   <string name="low_battery_toast">A bateria está fraca e desligará. Por favor, carregue.</string>
-   <!-- adicionado -->
-   <string name="wifi_lte_opened">Ligue aceleração turbo vai abrir wlan e lte, tem certeza?</string>
-   <string name="not_enable_environment">Ligue o wlan e lte ao mesmo tempo</string>
-   <string name="nothing" />
-   <string name="arrange_title_name">Organizar alterna</string>
-   <string name="confirm_new_sort">ok</string>
-   <string name="toast_memory_clear">Todos os aplicativos em segundo plano estão fechados.</string>
-   <string name="close_single_toast">O modo de uma mão está desligado</string>
-   <string name="close_single_text">Não é possível ativar o modo de uma mão quando a rotação automática está ativada. Desativará o modo de uma mão</string>
-   <string name="screen_saver_title">Modo de bolso</string>
-   <string name="screen_saver_message">Não cubra a parte superior do celular</string>
-   <string name="screen_saver_force_quite">Forçar saída: pressione Diminuir volume e Voltar ao mesmo tempo</string>
-   <string name="status_bar_setting_lockscreen">Tela bloqueio</string>
-   <string name="status_bar_setting_notification">Barra notificação</string>
-   <string name="status_bar_setting_miss" />
-   <string name="status_bar_setting_miss_sub">Chamada perdida e mensagem não lida serão exibidas na tela de bloqueio.</string>
-   <string name="status_bar_setting_app_lockscreen">aplicativo de tela de bloqueio</string>
-   <string name="status_bar_setting_app_lockscreen_sub">Apps exibidos na tela de bloqueio</string>
-   <string name="status_bar_setting_app_notification">Apps na barra de notificação</string>
-   <string name="status_bar_setting_app_notification_sub">Aplicativos exibidos na notificação</string>
-   <string name="statusbar_netspeed_display">velocidade de rede</string>
-   <string name="statusbar_netspeed_desc">mostra a velocidade atual da rede na barra de status</string>
-   <string name="status_bar_shortcuts">Atalhos</string>
-   <string name="status_bar_activity_name">Barra notificação</string>
-   <string name="statusbar_settings">Centro de notificações</string>
-   <string name="settings_low_battery_title">Alerta de bateria</string>
-   <string name="settings_low_battery_message">A bateria é inferior a 40%. Por favor, carregue.</string>
-   <string name="settings_low_battery_message_20">Bateria fraca, apenas 20% da bateria restante.</string>
-   <string name="settings_low_battery_message_10">Bateria fraca, apenas 10% da bateria restante.</string>
-   <string name="settings_low_battery_start">Baixa-Potência</string>
-   <string name="rotation_single_title">Dicas</string>
-   <string name="close_rotation_text">Não girar automaticamente no modo de uma mão. Desligará a rotação automática</string>
-   <string name="rotation_single_checkbox_text">Nunca me lembre</string>
-   <string name="rotation_single_cancel">Cancelar</string>
-   <string name="rotation_single_ok">OK</string>
-   <string name="split_close_single_text">Nenhum modo de uma mão durante multi janela. Desativará o modo de uma mão</string>
-   <string name="recent_nums_of_apps">Aplicativos</string>
-   <string name="nubia_rencent_left"> Esquerda</string>
-   <string name="nubia_recent_force_clear_success">%s fechado</string>
-   <string name="nubia_recent_force_close_fail">%s é um módulo do sistema. Não saia com força</string>
-   <string name="nubia_rencent_memory_calculating">Calculando RAM…</string>
-   <string name="nubia_rencent_memory_can_recycle">%1$d MB de RAM pode ser liberado</string>
-   <string name="nubia_rencent_memory_no_recycle">0 MB de RAM pode ser liberado</string>
-   <string name="nubia_recent_pull_up_text">Deslize para cima para fechar os aplicativos</string>
-   <string name="nubia_recent_pull_down_text">Deslize para baixo para adicionar à lista de proteção</string>
-   <string name="nubia_recent_guide_tip_text">Deslize para cima para fechar, deslize para baixo para bloquear</string>
-   <string name="guide_close">Eu sei</string>
-   <string name="white_service_list_guide_tips">Você pode colocar um aplicativo executado em segundo plano na lista branca para impedir que ele seja fechado por engano.</string>
-   <string name="reset_service_white_list">Redefinir lista branca</string>
-   <string name="guide_white_list_content">permitir que o aplicativo seja executado em segundo plano e envie uma notificação, evitando que seja fechado por engano</string>
-   <string name="guide_white_list_button">Eu sei</string>
-   <string name="more_options">Mais</string>
-   <string name="reset_service_white_list_conform">Remover este aplicativo da lista de desbloqueio pode causar mau funcionamento ao usar a remoção com um clique. Continuar?</string>
-   <string name="reset_service_white_list_tips">Nunca me lembre</string>
-   <string name="service_white_alert_dialog_title">Dicas</string>
-   <string name="service_white_list_confirm">Redefinir para padrão</string>
-   <string name="service_white_list_reset_dilaog_title">Redefinir</string>
-   <string name="service_white_list_title">Lista Branca de Serviços</string>
-   <string name="no_running_services">Nenhum serviço em execução agora</string>
-   <string name="settings_safetylegal_activity_loading">Loading…</string>
-   <string name="service_process_name">%1$s</string>
-   <string name="service_client_name">%1$s</string>
-   <string name="service_started_by_app">Started by app.</string>
-   <string name="running_processes_item_description_s_s">%1$d processo e %2$d serviço</string>
-   <string name="running_processes_item_description_s_p">%1$d processo e %2$d serviços</string>
-   <string name="running_processes_item_description_p_s">%1$d processos e %2$d serviço</string>
-   <string name="running_processes_item_description_p_p">%1$d processos e %2$d serviços</string>
-   <string name="running_process_item_user_label">Usuário: %1$s</string>
-   <string name="cached">Processo em segundo plano em cache</string>
-   <string name="lockscreen_app_list_title"> Esquerda</string>
-   <string name="switch_button_label">Trocar</string>
-   <string name="switch_sim_caution_title">Lembrete de fluxo</string>
-   <string name="switch_sim_caution_message">O cartão SIM %d atingiu o fluxo de aviso, você mudaria para outro cartão SIM para uso de dados?</string>
-   <string name="zen_mode_exit">Sair</string>
-   <string name="zen_mode_time_one">1h</string>
-   <string name="zen_mode_time_four">4h</string>
-   <string name="zen_mode_time_eight">8h</string>
-   <string name="zen_mode_time_forever">mantenha o silêncio</string>
-   <string name="sd_name">Cartão SD</string>
-   <string name="otg_name">Armazenamento USB</string>
-   <string name="mounted_title">Connetado a %s</string>
-   <string name="mounted_message">Clique para entrar no meu arquivo</string>
-   <string name="unmounting_title">Desmontando %s agora</string>
-   <string name="unmounting_message">esperando por desmontar</string>
-   <string name="unmounted_success_title">%s foi desmontado</string>
-   <string name="unmounted_success_message">Você pode remover com segurança %s now</string>
-   <string name="unmounted_fail_title">Não é possível desmontar %s agora</string>
-   <string name="unmounted_fail_message">Por favor, feche os aplicativos usando %s</string>
-   <string name="bad_removed_title">%s desconectado excepcionalmente</string>
-   <string name="bad_removed_message">recomendar a segurança removida para segurança</string>
-   <string name="unmount">desmontar</string>
-   <string name="open_storage">abrir %s?</string>
-   <string name="sd_mounted_title">Cartão SD inserido</string>
-   <string name="sd_mounted_message">clique para ver</string>
-   <string name="sd_unmounted_success_title">Cartão SD desmontado</string>
-   <string name="sd_unmounted_success_message">App no cartão SD estará indisponível</string>
-   <string name="service_name">Pacote Vermelho Está Chegando</string>
-   <string name="congratulatory_words">Muitas felicidades!</string>
-   <string name="somebody_send_hongbao">XX enviar um pacote vermelho</string>
-   <string name="send_wechat_hongbao">enviar pacote wechat</string>
-   <string name="wechat">Wechat</string>
-   <string name="send_QQ_hongbao">send QQ packet</string>
-   <string name="qq">QQ</string>
-   <string name="lockscreen_carrier_default">Sem serviço</string>
-   <string name="config_rat_2g">2G</string>
-   <string name="config_rat_3g">3G</string>
-   <string name="config_rat_4g">4G</string>
-   <string name="abbrev_wday_month_day_no_year">EEEEdMMMM</string>
-   <string name="abbrev_wday_month_day_no_year_alarm">EEEdMMM</string>
-   <string name="clock_12hr_format">hm</string>
-   <string name="clock_24hr_format">Hm</string>
-   <string name="date_format">EEEE, d MMMM</string>
-   <string name="date_format_paper">EEEE, d MMMM</string>
-   <string name="lockscreen_missing_sim_message_short">Nenhum cartão SIM</string>
-   <string name="lockscreen_permanent_disabled_sim_message_short">Unusable SIM card</string>
-   <string name="lockscreen_sim_puk_locked_message">SIM card is PUK-locked</string>
-   <string name="lockscreen_airplane_mode_on">Airplane Mode</string>
-   <string name="lockscreen_sim_locked_message">SIM card is locked</string>
-   <string name="China_Mobile">China Mobile</string>
-   <string name="China_Unicom">China Unicom</string>
-   <string name="China_Telecom">China Telecom</string>
-   <string name="BlackTea_Mobile">Redtea Mobile</string>
-   <string name="app_name">Keyguard</string>
-  
+For more information, contact your administrator."-->
+  <string name="monitoring_description_vpn_app_device_owned">"O seu dispositivo é gerido por %1$s.
 
+O administrador pode monitorar e gerenciar configurações, acesso corporativo, aplicações, dados associados com o seu dispositivo e o dispositivo de localização de informações.
+
+Você está conectado %2$s, que pode monitorar a sua atividade de rede, incluindo e-mails, aplicativos e sites.
+
+Para mais informações, contacte o seu administrador."</string>
+  <!--Original value: Device will stay locked until you manually unlock-->
+  <string name="keyguard_indication_trust_disabled">Dispositivo ficará bloqueado até você desbloquear manualmente</string>
+  <!--Original value: Get notifications more quickly and convenient-->
+  <string name="hidden_notifications_title">Receba as notificações de forma mais rápida e conveniente</string>
+  <!--Original value: View notifications without having to unlock-->
+  <string name="hidden_notifications_text">Exibir as notificações sem ter que desbloquear</string>
+  <!--Original value: No, thanks-->
+  <string name="hidden_notifications_cancel">Não, obrigado</string>
+  <!--Original value: Set up-->
+  <string name="hidden_notifications_setup">Configurar</string>
+  <!--Original value: Muted by %1$s-->
+  <string name="muted_by">Silenciado por %1$s</string>
+  <!--Original value: %1$s. %2$s-->
+  <string name="zen_mode_and_condition">%1$s. %2$s</string>
+  <!--Original value: End now-->
+  <string name="volume_zen_end_now">Acabar agora</string>
+  <!--Original value: Expand-->
+  <string name="accessibility_volume_expand">Expanda</string>
+  <!--Original value: Collapse-->
+  <string name="accessibility_volume_collapse">Colapso</string>
+  <!--Original value: Screen is pinned-->
+  <string name="screen_pinning_title">A tela está fixada</string>
+  <!--Original value: This keeps it in view until you unpin. Touch and hold Back and Overview at the same time to unpin.-->
+  <string name="screen_pinning_description">Isto mantém-nos ver até que você removê-lo. Toque e segure para Trás e Visão ao mesmo tempo para os remover.</string>
+  <!--Original value: This keeps it in view until you unpin. Touch and hold Overview to unpin.-->
+  <string name="screen_pinning_description_accessible">Isto mantém-nos ver até que você removê-lo. Toque e segure Visão geral para liberar.</string>
+  <!--Original value: Got it-->
+  <string name="screen_pinning_positive">consegui</string>
+  <!--Original value: No thanks-->
+  <string name="screen_pinning_negative">Não, obrigado</string>
+  <!--Original value: %1$s wants to be the volume dialog.-->
+  <string name="volumeui_prompt_message">%1$s quer ser o volume de diálogo.</string>
+  <!--Original value: -->
+  <string name="email_note" />
+  <!--Original value: Allow-->
+  <string name="volumeui_prompt_allow">Permitir</string>
+  <!--Original value: Deny-->
+  <string name="volumeui_prompt_deny">Negar</string>
+  <!--Original value: -->
+  <string name="mms_note" />
+  <!--Original value: Swipe up to unlock-->
+  <string name="unlock_tip_info">Deslize o dedo para cima para desbloquear</string>
+  <!--Original value: Swipe up to enter camera-->
+  <string name="unlock_camera_tip_info">Deslize o dedo para cima para entrar na câmara</string>
+  <!--Original value: %1$s is the volume dialog-->
+  <string name="volumeui_notification_title">%1$s é o volume de diálogo</string>
+  <!--Original value: Touch to restore the original.-->
+  <string name="volumeui_notification_text">Toque para restaurar o original.</string>
+  <!--Original value: "You're using your work profile"-->
+  <string name="managed_profile_foreground_toast">"Você está usando o seu perfil de trabalho"</string>
+  <!--Original value: %s silent-->
+  <string name="volume_stream_muted">%s silencioso</string>
+  <!--Original value: %s vibrate-->
+  <string name="volume_stream_vibrate">%s vibrar</string>
+  <!--Original value: %1$s silent — %2$s-->
+  <string name="volume_stream_suppressed">%1$s silencioso — %2$s</string>
+  <!--Original value: %s silent — Total silence-->
+  <string name="volume_stream_muted_dnd">%s em silêncio — silêncio Total</string>
+  <!--Original value: %s — Priority only-->
+  <string name="volume_stream_limited_dnd">%s — Prioridade só</string>
+  <!--Original value: %s vibrate — Priority only-->
+  <string name="volume_stream_vibrate_dnd">%s vibrar Prioridade apenas</string>
+  <!--Original value: Screenshot-->
+  <string name="ic_qs_take_screen">Captura de tela</string>
+  <!--Original value: Swipe right to view details-->
+  <string name="notification_swip_info">Deslize para a direita para ver os detalhes</string>
+  <!--Original value: On the phone %1$s-->
+  <string name="incall_time">No telefone %1$s</string>
+  <!--Original value: Dialing-->
+  <string name="call_state_dialing">Discagem</string>
+  <!--Original value: Incoming\u0009\u0009Click back-->
+  <string name="call_state_incoming">Entrada\u0009\u0009Click de volta</string>
+  <!--Original value: On recording %1$s-->
+  <string name="recorder_time">Na gravação %1$s</string>
+  <!--Original value: Connection count:%d-->
+  <string name="wifi_hotspot_count">Contagem de conexão:%d</string>
+  <!--Original value: Recording pause %1$s-->
+  <string name="recording_pause">Pausa de gravação %1$s</string>
+  <!--Original value: Hide %1$s?-->
+  <string name="quick_settings_reset_confirmation_title">Ocultar %1$s?</string>
+  <!--Original value: "You won't hear your next alarm %1$s unless you turn this off before then"-->
+  <string name="zen_alarm_warning_indef">"Você não vai ouvir o seu próximo alarme de %1$s a menos que você desative essa opção antes"</string>
+  <!--Original value: "You won't hear your alarm at %s"-->
+  <string name="zen_alarm_warning">"Você não vai ouvir o alarme de %s"</string>
+  <!--Original value: at %1$s-->
+  <string name="alarm_template">a %1$s</string>
+  <!--Original value: on %1$s-->
+  <string name="alarm_template_far">em %1$s</string>
+  <!--Original value: Quick Settings, %s.-->
+  <string name="accessibility_quick_settings_detail">Configurações rápidas, %s.</string>
+  <!--Original value: Hotspot-->
+  <string name="accessibility_status_bar_hotspot">Ponto acesso</string>
+  <!--Original value: Work profile-->
+  <string name="accessibility_managed_profile">Perfil de Trabalho</string>
+  <!--Original value: Fun for some but not for all-->
+  <string name="tuner_warning_title">Divertido para alguns, mas não para todos</string>
+  <!--Original value: System UI Tuner gives you extra ways to tweak and customize the Android user interface. These experimental features may change, break, or disappear in future releases. Proceed with caution.-->
+  <string name="tuner_warning">INTERFACE do usuário do sistema de Sintonizador dá-lhe formas extra para ajustar e personalizar a interface de usuário do Android. Estes recursos experimentais podem mudar, quebrar, ou desaparecer em futuras versões. Proceda com cuidado.</string>
+  <!--Original value: These experimental features may change, break, or disappear in future releases. Proceed with caution.-->
+  <string name="tuner_persistent_warning">Estes recursos experimentais podem mudar, quebrar, ou desaparecer em futuras versões. Proceda com cuidado.</string>
+  <!--Original value: Got it-->
+  <string name="got_it">Conseguir</string>
+  <!--Original value: Congrats! System UI Tuner has been added to Settings-->
+  <string name="tuner_toast">Parabéns! INTERFACE do usuário do sistema de Sintonizador foi adicionado para Configurações</string>
+  <!--Original value: Remove from Settings-->
+  <string name="remove_from_settings">Remover das configurações</string>
+  <!--Original value: Remove System UI Tuner from Settings and stop using all of its features?-->
+  <string name="remove_from_settings_prompt">Remover INTERFACE do usuário do Sistema de Sintonizador de Configurações e deixar de utilizar todos os seus recursos?</string>
+  <!--Original value: Double click to-->
+  <string name="unlock_tip_info_gallery">Duplo clique para</string>
+  <!--Original value: China Telecom-->
+  <string name="spn">A China Telecom</string>
+  <!--Original value: -->
+  <string name="mms_num_word" />
+  <!--Original value: Hide notifications-->
+  <string name="sheild_title">Ocultar notificações</string>
+  <!--Original value: Disable notifications for the selected apps-->
+  <string name="sheild_title_tip">Desativar notificações para as aplicações selecionadas</string>
+  <!--Original value: Done-->
+  <string name="sheild_finish">Feito</string>
+  <!--Original value: Battery:%d%% remaining-->
+  <string name="battery_low_percent_format_ticker_notification">Bateria:%d%% restantes</string>
+  <!--Original value: Battery Notification-->
+  <string name="battery_notification">Notificação De Bateria</string>
+  <!--Original value: timeout-->
+  <string name="nubia_faceid_compare_timeout">tempo esgotado</string>
+  <!--Original value: The battery is low and will power off. Please charge.-->
+  <string name="low_battery_toast">A bateria está fraca e vai desligar-se. Por favor carregue-a.</string>
+  <!--Original value: Wi-Fi-->
+  <string name="ic_qs_wifi">Wi-Fi</string>
+  <!--Original value: Bluetooth-->
+  <string name="ic_qs_bluetooth">Bluetooth</string>
+  <!--Original value: GPS-->
+  <string name="ic_qs_gps">GPS</string>
+  <!--Original value: Mobile data-->
+  <string name="ic_qs_mobile">Dados móveis</string>
+  <!--Original value: Sync-->
+  <string name="ic_qs_syn">Sincronizar</string>
+  <!--Original value: Brightness-->
+  <string name="ic_qs_auto">Brilho</string>
+  <!--Original value: Data-->
+  <string name="ic_qs_data">Dados</string>
+  <!--Original value: Sync-->
+  <string name="ic_qs_sync">Sincronizar</string>
+  <!--Original value: Rotation-->
+  <string name="ic_qs_rotation">Rotação</string>
+  <!--Original value: Motion-->
+  <string name="ic_qs_motion">Movimento</string>
+  <!--Original value: Silent-->
+  <string name="ic_qs_ringer">Silêncio</string>
+  <!--Original value: Vibrate-->
+  <string name="ic_qs_vibrate">Vibrar</string>
+  <!--Original value: Mute Mode-->
+  <string name="ic_qs_mute">Modo De Silêncio</string>
+  <!--Original value: Airplane-->
+  <string name="ic_qs_airplane">Avião</string>
+  <!--Original value: Powersaver-->
+  <string name="ic_qs_saving">Economia de energia</string>
+  <!--Original value: Pocket-->
+  <string name="ic_qs_pocket">Bolso</string>
+  <!--Original value: Conference-->
+  <string name="ic_qs_meeting">Conferência</string>
+  <!--Original value: Sleep-->
+  <string name="ic_qs_sleeping">Dormir</string>
+  <!--Original value: Visitor-->
+  <string name="ic_qs_visitor">Visitante</string>
+  <!--Original value: Brightness-->
+  <string name="ic_qs_brightness">Brilho</string>
+  <!--Original value: Screen projection-->
+  <string name="ic_qs_wificast">Projeção de Tela</string>
+  <!--Original value: Screenshot-->
+  <string name="ic_qs_screen_capture">Captura tela</string>
+  <!--Original value: Accelerate-->
+  <string name="ic_qs_clear">Acelerar</string>
+  <!--Original value: Sort-->
+  <string name="ic_qs_sort">Ordenar</string>
+  <!--Original value: One-handed-->
+  <string name="ic_qs_singlehand">Uma mão</string>
+  <!--Original value: Turbo-->
+  <string name="ic_qs_turbomanager">Turbo</string>
+  <!--Original value: Settings-->
+  <string name="ic_qs_settings">Configurações</string>
+  <!--Original value: Lock screen-->
+  <string name="ic_qs_lockscreen">Tela de bloqueio</string>
+  <!--Original value: Projecting-->
+  <string name="ic_qs_screenprojector">Projetando</string>
+  <!--Original value: Multi window-->
+  <string name="ic_qs_splitscreen">Multi janela</string>
+  <!--Original value: Undisturbed-->
+  <string name="ic_qs_undisturb">Não perturbadas</string>
+  <!--Original value: Karaoke-->
+  <string name="ic_qs_karaoke">Karaoke</string>
+  <!--Original value: Flashlight-->
+  <string name="ic_qs_flashlight">Lanterna</string>
+  <!--Original value: Supersnap-->
+  <string name="ic_qs_supersnap">Supersnap</string>
+  <!--Original value: Customize-->
+  <string name="ic_qs_userdefine">Personalizar</string>
+  <!--Original value: LowPower-->
+  <string name="ic_qs_lowpowermode">Baixa potência</string>
+  <!--Original value: Turn on turbo acceleration will open wlan and lte,are you sure?-->
+  <string name="wifi_lte_opened">Ativar o turbo aceleração vai abrir wlan e lte,você tem certeza?</string>
+  <!--Original value: Connect the wlan and lte at the same time-->
+  <string name="not_enable_environment">Conectar a wlan e lte, ao mesmo tempo,</string>
+  <!--Original value: -->
+  <string name="nothing" />
+  <!--Original value: Arrange Toggles-->
+  <string name="arrange_title_name">Organizar Alterna</string>
+  <!--Original value: ok-->
+  <string name="confirm_new_sort">ok</string>
+  <!--Original value: All the background applications are closed.-->
+  <string name="toast_memory_clear">Todos os aplicativos em segundo plano estão fechados.</string>
+  <!--Original value: One-handed mode is off-->
+  <string name="close_single_toast">Modo uma mão está desativado</string>
+  <!--Original value: Cannot activate one-handed mode when auto-rotate is on. Will turn off one-handed mode-->
+  <string name="close_single_text">Não é possível ativar uma mão e o modo de rotação automática está ativada. Irá desligar-se do modo uma mão</string>
+  <!--Original value: Pocket Mode-->
+  <string name="screen_saver_title">Modo Bolso</string>
+  <!--Original value: Do not cover the top of cellphone-->
+  <string name="screen_saver_message">Não cubra a parte superior do celular</string>
+  <!--Original value: Force exit: press Volume down and Back at the same time-->
+  <string name="screen_saver_force_quite">Forçar saída: pressione Diminuir volume e Voltar ao mesmo tempo</string>
+  <!--Original value: lockscreen-->
+  <string name="status_bar_setting_lockscreen">Tela bloqueio</string>
+  <!--Original value: Notification bar-->
+  <string name="status_bar_setting_notification">Barra de notificação</string>
+  <!--Original value: -->
+  <string name="status_bar_setting_miss" />
+  <!--Original value: Missed call and unread message will show on lock screen.-->
+  <string name="status_bar_setting_miss_sub">Chamadas perdidas e mensagens não lidas serão exibidas na tela de bloqueio.</string>
+  <!--Original value: lockscreen app-->
+  <string name="status_bar_setting_app_lockscreen">Aplicativo tela bloqueio</string>
+  <!--Original value: Apps showed on lock screen-->
+  <string name="status_bar_setting_app_lockscreen_sub">Apps exibidos na tela de bloqueio</string>
+  <!--Original value: Apps in notification bar-->
+  <string name="status_bar_setting_app_notification">Apps na barra de notificação</string>
+  <!--Original value: Apps showed in notification-->
+  <string name="status_bar_setting_app_notification_sub">Aplicativos exibidos na notificação</string>
+  <!--Original value: network speed-->
+  <string name="statusbar_netspeed_display">velocidade da rede</string>
+  <!--Original value: show current network speed in status bar-->
+  <string name="statusbar_netspeed_desc">mostrar a atual velocidade da rede na barra de status</string>
+  <!--Original value: Shortcuts-->
+  <string name="status_bar_shortcuts">Atalhos</string>
+  <!--Original value: Notification bar-->
+  <string name="status_bar_activity_name">Barra de notificação</string>
+  <!--Original value: Notification center-->
+  <string name="statusbar_settings">Centro de notificação</string>
+  <!--Original value: Battery alert-->
+  <string name="settings_low_battery_title">Alerta de bateria</string>
+  <!--Original value: Battery is less than 40%. Please charge.-->
+  <string name="settings_low_battery_message">A bateria está abaixo de 40%. Por favor carregar.</string>
+  <!--Original value: Low battery, only 20% battery left.-->
+  <string name="settings_low_battery_message_20">Bateria baixa, apenas 20% da bateria restante.</string>
+  <!--Original value: Low battery, only 10% battery left.-->
+  <string name="settings_low_battery_message_10">Bateria baixa, apenas 10% da bateria restante.</string>
+  <!--Original value: LowPower-->
+  <string name="settings_low_battery_start">Baixa potência</string>
+  <!--Original value: Tips-->
+  <string name="rotation_single_title">Dicas</string>
+  <!--Original value: No auto-roate in one-handed mode. Will turn off auto-rotate-->
+  <string name="close_rotation_text">Não girar automaticamente no modo de uma mão. Desligará a rotação automática</string>
+  <!--Original value: Never remind me-->
+  <string name="rotation_single_checkbox_text">Nunca me lembrar</string>
+  <!--Original value: Cancel-->
+  <string name="rotation_single_cancel">Cancelar</string>
+  <!--Original value: OK-->
+  <string name="rotation_single_ok">OK</string>
+  <!--Original value: No one-handed mode during multi window. Will turn off one-handed mode-->
+  <string name="split_close_single_text">Nenhum modo de uma mão durante multi janela. Desativará o modo de uma mão</string>
+  <!--Original value: Apps-->
+  <string name="recent_nums_of_apps">Aplicativos</string>
+  <!--Original value:  Left-->
+  <string name="nubia_rencent_left"> Esquerda</string>
+  <!--Original value: Phone has been accelerated-->
+  <string name="nubia_recent_clear_complete_tips">Telefone foi acelerado</string>
+  <!--Original value: %s closed-->
+  <string name="nubia_recent_force_clear_success">%s fechado</string>
+  <!--Original value: %s is a system module. Do not exit forcefully-->
+  <string name="nubia_recent_force_close_fail">%s é um módulo do sistema. Não saia com força</string>
+  <!--Original value: Calculating RAM…-->
+  <string name="nubia_rencent_memory_calculating">Cálculando RAM...</string>
+  <!--Original value: %1$d MB of RAM can be freed up-->
+  <string name="nubia_rencent_memory_can_recycle">%1$d MB de RAM pode ser liberado</string>
+  <!--Original value: 0 MB of RAM can be freed up-->
+  <string name="nubia_rencent_memory_no_recycle">0 MB de RAM pode ser liberado</string>
+  <!--Original value: close all-->
+  <string name="nubia_recent_memory_close_all">feche tudo</string>
+  <!--Original value: Swipe up to close Apps-->
+  <string name="nubia_recent_pull_up_text">Deslize o dedo para cima para fechar Apps</string>
+  <!--Original value: Swipe down to add into protection list-->
+  <string name="nubia_recent_pull_down_text">Deslize o dedo para baixo para adicionar na lista de proteção</string>
+  <!--Original value: Swipe up to close, Swipe down to lock-->
+  <string name="nubia_recent_guide_tip_text">Deslize o dedo para cima para fechar, Deslize o dedo para baixo para bloquear</string>
+  <!--Original value: I know-->
+  <string name="guide_close">Eu sei</string>
+  <!--Original value: You can put an app run in the background into white list to prevent it from being closed by mistake.-->
+  <string name="white_service_list_guide_tips">Você pode colocar um aplicativo executado no plano de fundo em lista branca para impedir que ele seja fechado por engano.</string>
+  <!--Original value: Reset whitelist-->
+  <string name="reset_service_white_list">Redefinir lista branca</string>
+  <!--Original value: allow app run in the background and send notification, and prevent it from being closed by mistake-->
+  <string name="guide_white_list_content">permitir que o aplicativo seja executado no plano de fundo e enviar a notificação, e o impede de ser fechado por engano</string>
+  <!--Original value: I know-->
+  <string name="guide_white_list_button">Eu sei</string>
+  <!--Original value: More-->
+  <string name="more_options">Mais</string>
+  <!--Original value: Removing this app from whitelist may cause misfunction when using one-click-remove. Continue?-->
+  <string name="reset_service_white_list_conform">Remover este aplicativo da lista de desbloqueio pode causar mau funcionamento ao usar a remoção com um clique. Continuar?</string>
+  <!--Original value: Never remind me-->
+  <string name="reset_service_white_list_tips">Nunca me lembrar</string>
+  <!--Original value: Tips-->
+  <string name="service_white_alert_dialog_title">Dicas</string>
+  <!--Original value: Reset to default-->
+  <string name="service_white_list_confirm">Redefinir para o padrão</string>
+  <!--Original value: Reset-->
+  <string name="service_white_list_reset_dilaog_title">Redefinir</string>
+  <!--Original value: Service Whitelist-->
+  <string name="service_white_list_title">Serviço De Lista Branca</string>
+  <!--Original value: No service running now-->
+  <string name="no_running_services">Nenhum serviço a executar agora</string>
+  <!--Original value: Loading…-->
+  <string name="settings_safetylegal_activity_loading">Carregando…</string>
+  <!--Original value: %1$s-->
+  <string name="service_process_name">%1$s</string>
+  <!--Original value: %1$s-->
+  <string name="service_client_name">%1$s</string>
+  <!--Original value: Started by app.-->
+  <string name="service_started_by_app">Iniciado pelo aplicativo.</string>
+  <!--Original value: %1$d process and %2$d service-->
+  <string name="running_processes_item_description_s_s">%1$d processo e %2$d serviço</string>
+  <!--Original value: %1$d process and %2$d services-->
+  <string name="running_processes_item_description_s_p">%1$d processo e %2$d serviços</string>
+  <!--Original value: %1$d processes and %2$d service-->
+  <string name="running_processes_item_description_p_s">%1$d processos e %2$d serviço</string>
+  <!--Original value: %1$d processes and %2$d services-->
+  <string name="running_processes_item_description_p_p">%1$d processos e %2$d serviços</string>
+  <!--Original value: User: %1$s-->
+  <string name="running_process_item_user_label">Usuário: %1$s</string>
+  <!--Original value: Cached background process-->
+  <string name="cached">Processo em segundo plano em cache</string>
+  <!--Original value:  Left-->
+  <string name="lockscreen_app_list_title"> Esquerda</string>
+  <!--Original value: Switch-->
+  <string name="switch_button_label">Mudar</string>
+  <!--Original value: Flow reminder-->
+  <string name="switch_sim_caution_title">Lembrete de fluxo</string>
+  <!--Original value: SIM card %d has reached the warning flow, would you switch to another SIM card for data usage?-->
+  <string name="switch_sim_caution_message">Cartão SIM %d atingiu o aviso de fluxo, você gostaria de mudar para outro cartão SIM para o uso de dados?</string>
+  <!--Original value: Exit-->
+  <string name="zen_mode_exit">Sair</string>
+  <!--Original value: 1h-->
+  <string name="zen_mode_time_one">1h</string>
+  <!--Original value: 4h-->
+  <string name="zen_mode_time_four">4h</string>
+  <!--Original value: 8h-->
+  <string name="zen_mode_time_eight">8h</string>
+  <!--Original value: keep silent-->
+  <string name="zen_mode_time_forever">manter o silêncio</string>
+  <!--Original value: SD card-->
+  <string name="sd_name">Cartão SD</string>
+  <!--Original value: USB storage-->
+  <string name="otg_name">Armazenamento USB</string>
+  <!--Original value: Connected to %s-->
+  <string name="mounted_title">Conectado a %s</string>
+  <!--Original value: Click to enter My File-->
+  <string name="mounted_message">Clique para entrar no Meu Arquivo</string>
+  <!--Original value: Unmounting %s now-->
+  <string name="unmounting_title">Desmontando %s agora</string>
+  <!--Original value: waiting for unmount-->
+  <string name="unmounting_message">esperando para desmontar</string>
+  <!--Original value: %s has been unmounted-->
+  <string name="unmounted_success_title">%s foi desmontado</string>
+  <!--Original value: You can safely remove %s now-->
+  <string name="unmounted_success_message">Você pode seguramente remover %s agora</string>
+  <!--Original value: Cannot unmount %s now-->
+  <string name="unmounted_fail_title">Não é possível desmontar %s agora</string>
+  <!--Original value: Please close the apps using %s-->
+  <string name="unmounted_fail_message">Por favor, feche os aplicativos usando %s</string>
+  <!--Original value: %s disconnected exceptionally-->
+  <string name="bad_removed_title">%s desconectado excepcionalmente</string>
+  <!--Original value: recommend safety removed for safe-->
+  <string name="bad_removed_message">recomendar a segurança removida para segurança</string>
+  <!--Original value: unmount-->
+  <string name="unmount">desmontar</string>
+  <!--Original value: open %s?-->
+  <string name="open_storage">abrir %s?</string>
+  <!--Original value: SD card inserted-->
+  <string name="sd_mounted_title">Cartão SD inserido</string>
+  <!--Original value: click to view-->
+  <string name="sd_mounted_message">clique para visualizar</string>
+  <!--Original value: SD card unmounted-->
+  <string name="sd_unmounted_success_title">Cartão SD desmontado</string>
+  <!--Original value: App on SD card will be unavailable-->
+  <string name="sd_unmounted_success_message">App no cartão SD estará indisponível</string>
+  <!--Original value: Red Packet is Coming-->
+  <string name="service_name">Pacote Vermelho está Vindo</string>
+  <!--Original value: Best wishes!-->
+  <string name="congratulatory_words">Os melhores cumprimentos!</string>
+  <!--Original value: XX send a red packet-->
+  <string name="somebody_send_hongbao">XX enviar um pacote vermelho</string>
+  <!--Original value: send wechat packet-->
+  <string name="send_wechat_hongbao">enviar wechat pacote</string>
+  <!--Original value: Wechat-->
+  <string name="wechat">Wechat</string>
+  <!--Original value: send QQ packet-->
+  <string name="send_QQ_hongbao">enviar QQ pacote</string>
+  <!--Original value: QQ-->
+  <string name="qq">QQ</string>
+  <!--Original value: @android:string/ok-->
+  <string name="ok">@android:string/ok</string>
+  <!--Original value: com.android.providers.telephony-->
+  <string name="default_quick_app">com.android.providers.telephony</string>
+  <!--Original value: No service-->
+  <string name="lockscreen_carrier_default">Sem serviço</string>
+  <!--Original value: 2G-->
+  <string name="config_rat_2g">2G</string>
+  <!--Original value: 3G-->
+  <string name="config_rat_3g">3G</string>
+  <!--Original value: 4G-->
+  <string name="config_rat_4g">4G</string>
+  <!--Original value: EEEEMMMMd-->
+  <string name="abbrev_wday_month_day_no_year">EEEEdMMMM</string>
+  <!--Original value: EEEMMMd-->
+  <string name="abbrev_wday_month_day_no_year_alarm">EEEdMMM</string>
+  <!--Original value: hm-->
+  <string name="clock_12hr_format">hm</string>
+  <!--Original value: Hm-->
+  <string name="clock_24hr_format">Hm</string>
+  <!--Original value: EEEE, MMMM d-->
+  <string name="date_format">EEEE, d \'de\' MMMM</string>
+  <!--Original value: EEEE, MMMM d-->
+  <string name="date_format_paper">EEEE, d \'de\' MMMM</string>
+  <!--Original value: No SIM card-->
+  <string name="lockscreen_missing_sim_message_short">Sem cartão SIM</string>
+  <!--Original value: Unusable SIM card-->
+  <string name="lockscreen_permanent_disabled_sim_message_short">Cartão SIM inutilizável</string>
+  <!--Original value: SIM card is PUK-locked-->
+  <string name="lockscreen_sim_puk_locked_message">O cartão SIM está bloqueado por PUK </string>
+  <!--Original value: Airplane Mode-->
+  <string name="lockscreen_airplane_mode_on">Modo De Avião</string>
+  <!--Original value: SIM card is locked-->
+  <string name="lockscreen_sim_locked_message">O cartão SIM está bloqueado</string>
+  <!--Original value: China Mobile-->
+  <string name="China_Mobile">China Mobile</string>
+  <!--Original value: China Unicom-->
+  <string name="China_Unicom">China Unicom</string>
+  <!--Original value: China Telecom-->
+  <string name="China_Telecom">China Telecom</string>
+  <!--Original value: Redtea Mobile-->
+  <string name="BlackTea_Mobile">Redtea Mobile</string>
+  <!--Original value: Keyguard-->
+  <string name="app_name">Keyguard</string>
+  <!--Original value: Enter PIN-->
+  <string name="keyguard_password_enter_pin_code">Digite o PIN</string>
+  <!--Original value: Enter SIM PUK and new PIN-->
+  <string name="keyguard_password_enter_puk_code">Digite o PUK do SIM  e o novo PIN</string>
+  <!--Original value: SIM PUK code-->
+  <string name="keyguard_password_enter_puk_prompt">SIM código PUK</string>
+  <!--Original value: New SIM PIN-->
+  <string name="keyguard_password_enter_pin_prompt">Novo PIN do SIM</string>
+  <!--Original value: Touch to enter password-->
+  <string name="keyguard_password_entry_touch_hint">Toque para introduzir a senha</string>
+  <!--Original value: Enter your password to unlock-->
+  <string name="keyguard_password_enter_password_code">Digite sua senha para desbloquear</string>
+  <!--Original value: Enter your PIN to unlock-->
+  <string name="keyguard_password_enter_pin_password_code">Introduza o PIN para desbloquear</string>
+  <!--Original value: Incorrect PIN-->
+  <string name="keyguard_password_wrong_pin_code">PIN incorreto</string>
+  <!--Original value: Invalid Card.-->
+  <string name="lockscreen_sim_error_message_short">Cartão Inválido.</string>
+  <!--Original value: Charged-->
+  <string name="keyguard_charged">Carregado</string>
+  <!--Original value: Charging-->
+  <string name="keyguard_plugged_in">Carregando</string>
+  <!--Original value: Charging rapidly-->
+  <string name="keyguard_plugged_in_charging_fast">Carregando rapidamente</string>
+  <!--Original value: Charging slowly-->
+  <string name="keyguard_plugged_in_charging_slowly">Carregando lentamente</string>
+  <!--Original value: Connect your charger.-->
+  <string name="keyguard_low_battery">Conecte o seu carregador.</string>
+  <!--Original value: Press the Menu key to unlock.-->
+  <string name="keyguard_instructions_when_pattern_disabled">Pressione a tecla Menu para desbloquear.</string>
+  <!--Original value: Network locked-->
+  <string name="keyguard_network_locked_message">Rede bloqueada</string>
+  <!--Original value: SIM/RUIM is Perso locked-->
+  <string name="keyguard_perso_locked_message">SIM/RUIM é Perso bloqueado</string>
+  <!--Original value: No SIM card-->
+  <string name="keyguard_missing_sim_message_short">Sem cartão SIM</string>
+  <!--Original value: No SIM card in phone.-->
+  <string name="keyguard_missing_sim_message">Nenhum cartão SIM no telefone.</string>
+  <!--Original value: Insert a SIM card.-->
+  <string name="keyguard_missing_sim_instructions">Insira um cartão SIM.</string>
+  <!--Original value: The SIM card is missing or unreadable, please insert a SIM card.-->
+  <string name="keyguard_missing_sim_instructions_long">O cartão SIM está em falta ou ilegíveis, por favor insira um cartão SIM.</string>
+  <!--Original value: Unusable SIM card.-->
+  <string name="keyguard_permanent_disabled_sim_message_short">Cartão SIM inutilizável.</string>
+  <!--Original value: "Your SIM card has been permanently disabled.
+ Contact your wireless service provider for another SIM card."-->
+  <string name="keyguard_permanent_disabled_sim_instructions">"Seu cartão SIM foi desativado permanentemente.
+  Entre em contato com seu provedor de serviços sem fio para obter outro cartão SIM."</string>
+  <!--Original value: SIM card is locked.-->
+  <string name="keyguard_sim_locked_message">O cartão SIM está bloqueado.</string>
+  <!--Original value: SIM card is PUK-locked.-->
+  <string name="keyguard_sim_puk_locked_message">O cartão SIM está bloqueado por PUK.</string>
+  <!--Original value: Unlocking SIM card…-->
+  <string name="keyguard_sim_unlock_progress_dialog_message">Desbloqueio de cartão SIM...</string>
+  <!--Original value: h:mm-->
+  <string name="keyguard_widget_12_hours_format">h:mm</string>
+  <!--Original value: k:mm-->
+  <string name="keyguard_widget_24_hours_format">k:mm</string>
+  <!--Original value: Pattern to unlock.-->
+  <string name="keyguard_accessibility_pattern_unlock">Padrão para desbloquear.</string>
+  <!--Original value: Pin to unlock.-->
+  <string name="keyguard_accessibility_pin_unlock">O Pin para desbloquear.</string>
+  <!--Original value: Password to unlock.-->
+  <string name="keyguard_accessibility_password_unlock">Senha para desbloquear.</string>
+  <!--Original value: Pattern area.-->
+  <string name="keyguard_accessibility_pattern_area">Padrão de área.</string>
+  <!--Original value: Slide area.-->
+  <string name="keyguard_accessibility_slide_area">Área do Slide.</string>
+  <!--Original value: PIN area-->
+  <string name="keyguard_accessibility_pin_area">PIN área</string>
+  <!--Original value: SIM PIN area-->
+  <string name="keyguard_accessibility_sim_pin_area">O PIN do SIM área</string>
+  <!--Original value: SIM PUK area-->
+  <string name="keyguard_accessibility_sim_puk_area">SIM PUK area</string>
+  <!--Original value: Your next alarm time is set as %1$s-->
+  <string name="keyguard_accessibility_next_alarm">Sua próxima hora do alarme está definida como %1$s</string>
+  <!--Original value: Delete-->
+  <string name="keyboardview_keycode_delete">Apagar</string>
+  <!--Original value: Enter-->
+  <string name="keyboardview_keycode_enter">Entrar</string>
+  <!--Original value: Forgot your pattern-->
+  <string name="kg_forgot_pattern_button_text">Esqueceu seu padrão</string>
+  <!--Original value: Wrong Pattern-->
+  <string name="kg_wrong_pattern">Padrão Errado</string>
+  <!--Original value: Wrong Password-->
+  <string name="kg_wrong_password">Senha Errada</string>
+  <!--Original value: Wrong Password-->
+  <string name="kg_wrong_pin">Senha Errada</string>
+  <!--Original value: Try again in %d seconds.-->
+  <string name="kg_too_many_failed_attempts_countdown">Tente novamente em %d segundos.</string>
+  <!--Original value: Draw your pattern-->
+  <string name="kg_pattern_instructions">Desenhe seu padrão</string>
+  <!--Original value: Enter SIM PIN-->
+  <string name="kg_sim_pin_instructions">Introduza o PIN do SIM</string>
+  <!--Original value: Enter SIM PIN for \"%1$s\"-->
+  <string name="kg_sim_pin_instructions_multi">Introduza o PIN do SIM para a \"%1$s\"</string>
+  <!--Original value: Enter PIN-->
+  <string name="kg_pin_instructions">Digite o PIN</string>
+  <!--Original value: Enter Password-->
+  <string name="kg_password_instructions">Introduza a senha</string>
+  <!--Original value: Your SIM is now disabled, please enter your PUK code to continue. Contact your operator for details.-->
+  <string name="kg_puk_enter_puk_hint">O seu SIM agora está desativado, por favor, introduza o código PUK para continuar. Contacte o seu operador de rede para obter detalhes.</string>
+  <!--Original value: SIM %1$s is now disabled. Enter PUK code to continue. Contact carrier for details.-->
+  <string name="kg_puk_enter_puk_hint_multi">SIM %1$s agora está desativado. Introduzir o código PUK para continuar. Contacte a operadora para obter mais informações.</string>
+  <!--Original value: Enter desired PIN-->
+  <string name="kg_puk_enter_pin_hint">Introduza o PINO desejado</string>
+  <!--Original value: Reenter desired PIN-->
+  <string name="kg_enter_confirm_pin_hint">Digite novamente PINO desejado</string>
+  <!--Original value: Unlocking SIM card…-->
+  <string name="kg_sim_unlock_progress_dialog_message">Desbloqueando cartão SIM...</string>
+  <!--Original value: Type a PIN that has 4 to 8 numbers.-->
+  <string name="kg_invalid_sim_pin_hint">Digite um PIN que tem de 4 a 8 números.</string>
+  <!--Original value: PUK code should be a 8-digit number.-->
+  <string name="kg_invalid_sim_puk_hint">Código PUK também deve ser um número de 8 dígitos.</string>
+  <!--Original value: Enter correct PUK code again. Repeated attempts will permanently disable the SIM.-->
+  <string name="kg_invalid_puk">Introduza o código PUK correto novamente. Repetidas tentativas de desativar permanentemente o SIM.</string>
+  <!--Original value: PIN code does not match-->
+  <string name="kg_invalid_confirm_pin_hint">Código PIN não corresponde</string>
+  <!--Original value: Too many pattern attempts-->
+  <string name="kg_login_too_many_attempts">Muitas tentativas de padrão</string>
+  <!--Original value: You have incorrectly typed your password %d times. Try again in %d seconds.-->
+  <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false" >Você digitou incorretamente sua senha% d vezes. Tente novamente em% d segundos.</string>
+  <!--Original value: You have incorrectly typed your password %d times. Try again in %d seconds.-->
+  <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">Você digitou incorretamente a sua senha %d vezes. Tente novamente em %d segundos.</string>
+  <!--Original value: You have incorrectly drawn your unlock pattern %d times. Try again in %d seconds.-->
+  <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">Você desenhou incorretamente o seu padrão de desbloqueio %d vezes. Tente novamente em %d segundos.</string>
+  <!--Original value: You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.-->
+  <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Você tentou desbloquear o telefone %d vezes. Depois de %d mais tentativas sem êxito, o telefone será redefinido para padrão de fábrica, e todos os dados do usuário serão perdidos.</string>
+  <!--Original value: You have incorrectly attempted to unlock the phone %d times. The phone will now be reset to factory default.-->
+  <string name="kg_failed_attempts_now_wiping" formatted="false">Você tentou desbloquear o telefone %d vezes. O telefone irá agora ser redefinido para o padrão de fábrica.</string>
+  <!--Original value: You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, this user will be removed, which will delete all user data.-->
+  <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">Você tentou desbloquear o telefone %d vezes. Depois de %d mais tentativas frustradas, esse usuário será removido, o que irá apagar todos os dados do usuário.</string>
+  <!--Original value: You have incorrectly attempted to unlock the phone %d times. This user will be removed, which will delete all user data.-->
+  <string name="kg_failed_attempts_now_erasing_user" formatted="false">Você tentou desbloquear o telefone %d vezes. Este usuário será removido, o que irá apagar todos os dados do usuário.</string>
+  <!--Original value: You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, the work profile will be removed, which will delete all profile data.-->
+  <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">Você desbloquear o telefone %d vezes. Depois de %d mais tentativas sem êxito, o trabalho perfil será removido, o que irá apagar todos os dados do perfil.</string>
+  <!--Original value: You have incorrectly attempted to unlock the phone %d times. The work profile will be removed, which will delete all profile data.-->
+  <string name="kg_failed_attempts_now_erasing_profile" formatted="false">Você desbloquear o telefone %d vezes. O trabalho perfil será removido, o que irá apagar todos os dados do perfil.</string>
+  <!--Original value: "You have incorrectly drawn your unlock pattern %d times. After %d more unsuccessful attempts, you will be asked to unlock your phone using an email account.
+
+ Try again in %d seconds."-->
+  <string name="kg_failed_attempts_almost_at_login" formatted="false">"Você desenhou incorretamente o seu padrão de desbloqueio %d vezes. Depois de %d mais tentativas sem êxito, você será solicitado para desbloquear seu telefone usando uma conta de e-mail.
+
+Tente novamente em %d segundos."</string>
+  <!--Original value: Incorrect SIM PIN code you must now contact your carrier to unlock your device.-->
+  <string name="kg_password_wrong_pin_code_pukked">SIM incorreto do código PIN, você deve contactar o seu operador para desbloquear o dispositivo.</string>
+  <!--Original value: SIM cannot be used, please contact your operator.-->
+  <string name="kg_password_wrong_puk_code_dead">SIM não pode ser usado, por favor, contacte o seu operador.</string>
+  <!--Original value: SIM PIN operation failed!-->
+  <string name="kg_password_pin_failed">O PIN do SIM " a operação falhou!</string>
+  <!--Original value: SIM PUK operation failed!-->
+  <string name="kg_password_puk_failed">SIM PUK operação falhou!</string>
+  <!--Original value: Code accepted!-->
+  <string name="kg_pin_accepted">Código aceite!</string>
+  <!--Original value: No service-->
+  <string name="keyguard_carrier_default">Sem serviço</string>
+  <!--Original value: Airplane mode-->
+  <string name="airplane_mode">Modo de avião</string>
+  <!--Original value: Pattern required when you restart device.-->
+  <string name="kg_prompt_reason_restart_pattern">Padrão exigido quando você reiniciar o dispositivo.</string>
+  <!--Original value: PIN required when you restart device.-->
+  <string name="kg_prompt_reason_restart_pin">PIN necessário quando você reiniciar o dispositivo.</string>
+  <!--Original value: Password required when you restart device.-->
+  <string name="kg_prompt_reason_restart_password">Senha necessária quando você reiniciar o dispositivo.</string>
+  <!--Original value: Pattern required for additional security.-->
+  <string name="kg_prompt_reason_timeout_pattern">Padrão exigido para segurança adicional.</string>
+  <!--Original value: PIN required for additional security.-->
+  <string name="kg_prompt_reason_timeout_pin">PIN necessário para segurança adicional.</string>
+  <!--Original value: Password required for additional security.-->
+  <string name="kg_prompt_reason_timeout_password">Senha necessária para segurança adicional.</string>
+  <!--Original value: Pattern required when you switch profiles.-->
+  <string name="kg_prompt_reason_switch_profiles_pattern">Padrão exigido quando você alternar entre os perfis.</string>
+  <!--Original value: PIN required when you switch profiles.-->
+  <string name="kg_prompt_reason_switch_profiles_pin">PIN necessário quando você alternar entre os perfis.</string>
+  <!--Original value: Password required when you switch profiles.-->
+  <string name="kg_prompt_reason_switch_profiles_password">Senha necessária quando você alternar entre os perfis.</string>
+  <!--Original value: Not recognized-->
+  <string name="fingerprint_not_recognized">Não reconhecido</string>
+  <!--Original value: OK-->
+  <string name="keyguard_sim_enter_button">OK</string>
+  <!--Original value: Cancel-->
+  <string name="keyguard_security_cancel_button">Cancelar</string>
+  <!--Original value: Skip-->
+  <string name="keyguard_security_skip_button">Pular</string>
+  <!--Original value: Unlock SIM card %d-->
+  <string name="keyguard_unlock_sim_head">Desbloquear o cartão SIM %d</string>
+  <!--Original value: Enter Password-->
+  <string name="keyguard_security_default_message">Introduza a senha</string>
+  <!--Original value: " AM"-->
+  <string name="keyguard_clock_am">" AM"</string>
+  <!--Original value: " PM"-->
+  <string name="keyguard_clock_pm">" PM"</string>
+  <!--Original value: Set up my holding method-->
+  <string name="keyguard_edge_settings_activity_title">Configure meu método de espera</string>
+  <!--Original value: Please hold your phone tight-->
+  <string name="gesture_set_first_tips">Por favor mantenha o seu telefone apertado</string>
+  <!--Original value: After releasing your hands-->
+  <string name="gesture_set_second_tips">Depois de soltar as mãos</string>
+  <!--Original value: Hold longer to try again-->
+  <string name="holding_time_too_short">Aguarde mais tempo para tentar novamente</string>
+  <!--Original value: Hold tighter to try again-->
+  <string name="holding_not_tight">Mantenha mais firme para tentar novamente</string>
+  <!--Original value: Two holding attempts not matched, please try again-->
+  <string name="holding_second_diff">Duas tentativas de exploração não correspondido, por favor, tente novamente</string>
+  <!--Original value: Two holding attempts not matched, please reset-->
+  <string name="holding_second_fail">Duas tentativas de exploração não correspondido, por favor redefina</string>
+  <!--Original value: Set successfully-->
+  <string name="gesture_set_success_tips">Definir com êxito</string>
+  <!--Original value: Done-->
+  <string name="gesture_set_success_complete">Feito</string>
+  <!--Original value: Please try again-->
+  <string name="nubia_fingerprints_keyguard_fail_tips">Por favor, tente novamente</string>
+  <!--Original value: Please unlock with your fingerprint or enter the PIN-->
+  <string name="nubia_fingerprints_keyguard_bouncer_pin_tips">Por favor desbloquear com sua impressão digital ou digitar o PIN</string>
+  <!--Original value: Please unlock with your fingerprint or enter the password-->
+  <string name="nubia_fingerprints_keyguard_bouncer_password_tips">Por favor desbloquear com sua impressão digital ou introduza a palavra-passe</string>
+  <!--Original value: Please unlock with your fingerprint or enter the pattern-->
+  <string name="nubia_fingerprints_keyguard_bouncer_pattern_tips">Por favor desbloquear com sua impressão digital ou de introduzir o padrão</string>
+  <!--Original value: Enter the password or try using your fingerprint after %dS-->
+  <string name="nubia_fingerprints_keyguard_bouncer_password_fail_tips">Introduza a senha ou tente usar sua impressão digital após %dS</string>
+  <!--Original value: Enter the PIN or try using fingerprint after %dS-->
+  <string name="nubia_fingerprints_keyguard_bouncer_pin_fail_tips">Introduza o PIN ou tente utilizar a impressão digital após %dS</string>
+  <!--Original value: Enter the pattern or try using fingerprint after %dS-->
+  <string name="nubia_fingerprints_keyguard_bouncer_pattern_fail_tips">Insira o padrão ou tente utilizar a impressão digital após %dS</string>
+  <!--Original value: Enter the password after rebooting your phone-->
+  <string name="nubia_fingerprints_keyguard_bouncer_password_boot_tips">Introduza a senha depois de reiniciar o seu telefone</string>
+  <!--Original value: Enter the PIN after rebooting your phone-->
+  <string name="nubia_fingerprints_keyguard_bouncer_pin_boot_tips">Introduza o PIN depois de reiniciar o seu telefone</string>
+  <!--Original value: Enter the pattern after rebooting your phone-->
+  <string name="nubia_fingerprints_keyguard_bouncer_pattern_boot_tips">Insira o padrão após a reinicialização do telefone</string>
+  <!--Original value: Start setup-->
+  <string name="gesture_set_guide_begin_set">Iniciar o programa de configuração</string>
+  <!--Original value: Hold instead of slide to unlock on the lock interface-->
+  <string name="gesture_set_guide_text">Segure em vez de deslizar para desbloquear na interface de bloqueio</string>
+  <!--Original value: Keep touching with the screen edges-->
+  <string name="gesture_set_record_text">Continue tocando nas bordas da tela</string>
+  <!--Original value: Repeat the previous holding operation-->
+  <string name="gesture_set_verify_text">Repita a operação anterior</string>
+  <!--Original value: Hold to unlock on the lock interface-->
+  <string name="gesture_set_success_text">Mantenha pressionado para desbloquear o bloqueio de interface</string>
+  <!--Original value: Please try again-->
+  <string name="nubia_fingerprints_keyguard_bouncer_unable_to_process">Por favor, tente novamente</string>
+  <!--Original value: Your phone is locked-->
+  <string name="nubia_fingerprints_keyguard_bouncer_lockout">O seu telefone está bloqueado</string>
+  <!--Original value: Using fingerprint or try after %dS-->
+  <string name="nubia_fingerprints_keyguard_bouncer_too_many_failed_attempts">Utilizando a impressão digital ou depois de tentar %dS</string>
+  <!--Original value: No SIM.-->
+  <string name="keyguard_no_sim">Sem SIM.</string>
+  <!--Original value: Delete-->
+  <string name="keyguard_security_delete_button">Apagar</string>
+  <!--Original value: Your phone is Locked-->
+  <string name="keyguard_password_timeout_dialog_title">O seu telefone está Bloqueado</string>
+  <!--Original value: 警告-->
+  <string name="weather_alarm">Aviso</string>
+  <!--Original value: Charging-->
+  <string name="keyguard_charge_info">Carregando</string>
+  <!--Original value: unlock with your face failed-->
+  <string name="nubia_faceid_compare_failed">desbloquear com o seu rosto falhou</string>
+  <!--Original value: face not found-->
+  <string name="nubia_faceid_not_found">rosto não encontrado</string>
+  <!--Original value: unlock with your face success-->
+  <string name="nubia_faceid_compare_success">desbloquear com a sua cara sucesso</string>
+  <!--Original value: unlock with your face-->
+  <string name="nubia_faceid_finger_pattern_tips">desbloquear com a sua cara</string>
+  <!--Original value: "try to "-->
+  <string name="nubia_fingerprints_faceid_pattern_tips">"tente "</string>
+  <!--Original value: Please unlock with your face or enter the PIN-->
+  <string name="nubia_faceid_keyguard_bouncer_pin_tips">Por favor desbloquear o seu rosto, ou digite o PIN</string>
+  <!--Original value: Please unlock with your face or enter the password-->
+  <string name="nubia_faceid_keyguard_bouncer_password_tips">Por favor desbloquear com a sua cara ou introduza a palavra-passe</string>
+  <!--Original value: Please unlock with your face or enter the pattern-->
+  <string name="nubia_faceid_keyguard_bouncer_pattern_tips">Por favor desbloquear com a sua cara ou a de introduzir o padrão</string>
+  <!--Original value: use unlock with your face,finger or pattern-->
+  <string name="nubia_faceid_fingerprints_pattern_tips">use desbloquear com a sua cara,dedo ou padrão</string>
+  <!--Original value: use unlock with your face,finger or password-->
+  <string name="nubia_faceid_fingerprints_pin_tips">use o desbloqueio com o seu rosto,o dedo ou a senha</string>
+  <!--Original value: use unlock with your face,finger or password-->
+  <string name="nubia_faceid_fingerprints_password_tips">use o desbloqueio com o seu rosto,o dedo ou a senha</string>
 </resources>

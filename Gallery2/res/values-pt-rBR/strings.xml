@@ -1,519 +1,1096 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="abc_action_mode_done">Concluído</string>
-    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
-    <string name="abc_action_bar_up_description">Navegar para cima</string>
-    <string name="abc_action_menu_overflow_description">Mais opções</string>
-    <string name="abc_toolbar_collapse_description">Recolher</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_searchview_description_search">Pesquisar</string>
-    <string name="abc_search_hint">Pesquisar...</string>
-    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
-    <string name="abc_searchview_description_clear">Limpar consulta</string>
-    <string name="abc_searchview_description_submit">Enviar consulta</string>
-    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
-    <string name="abc_activitychooserview_choose_application">Selecione um app</string>
-    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
-    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
-    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="abc_capital_on">ATIVAR</string>
-    <string name="abc_capital_off">DESATIVAR</string>
-    <string name="app_name">Galeria</string>
-    <string name="gadget_title">Moldura de uma imagem</string>
-    <string name="movie_view_label">Vídeo player</string>
-    <string name="loading_video">Carregando vídeo…</string>
-    <string name="loading_image">Carregando imagem…</string>
-    <string name="loading_account">Carregando conta…</string>
-    <string name="resume_playing_title">Retomar vídeo</string>
-    <string name="resume_playing_message">Retomar reprodução de %s ?</string>
-    <string name="resume_playing_resume">Retomar a reprodução</string>
-    <string name="loading">Carregando…</string>
-    <string name="fail_to_load">Não foi possível carregar</string>
-    <string name="fail_to_load_image">Não foi possível carregar a imagem</string>
-    <string name="no_thumbnail">Sem miniatura</string>
-    <string name="resume_playing_restart">Reiniciar</string>
-    <string name="crop_save_text">OK</string>
-    <string name="ok">OK</string>
-    <string name="multiface_crop_help">Toque em um rosto para começar.</string>
-    <string name="saving_image">Salvando imagem…</string>
-    <string name="save_error">Não é possível salvar a imagem cortada.</string>
-    <string name="crop_label">Cortar imagem</string>
-    <string name="select_image">Selecionar foto</string>
-    <string name="select_video">Selecionar vídeo</string>
-    <string name="select_item">Selecionar item</string>
-    <string name="select_album">Selecionar álbum</string>
-    <string name="select_group">Selecionar grupo</string>
-    <string name="set_image">Definir imagem como</string>
-    <string name="set_wallpaper">Definir papel de parede</string>
-    <string name="wallpaper">Definindo papel de parede…</string>
-    <string name="camera_setas_wallpaper">Papel de parede</string>
-    <string name="delete">Excluir</string>
-    <string name="confirm">Confirmar</string>
-    <string name="cancel">Cancelar</string>
-    <string name="share">Compartilhar</string>
-    <string name="deleted">Excluída</string>
-    <string name="undo">DESFAZER</string>
-    <string name="select_all">Selecionar tudo</string>
-    <string name="deselect_all">Desmarcar tudo</string>
-    <string name="slideshow">Apresentação de slides</string>
-    <string name="details">Detalhes</string>
-    <string name="details_title">%1$d de %2$d itens:</string>
-    <string name="close">Fechar</string>
-    <string name="switch_to_camera">Alternar para câmera</string>
-    <string name="show_on_map">Mostrar no mapa</string>
-    <string name="rotate_left">Girar para a esquerda</string>
-    <string name="rotate_right">Girar para a direita</string>
-    <string name="no_such_item">Não foi possível encontrar o item.</string>
-    <string name="edit">Editar</string>
-    <string name="process_caching_requests">Processando solicitações de armazenamento em cache</string>
-    <string name="caching_label">Cache...</string>
-    <string name="crop_action">Cortar</string>
-    <string name="set_as">Definir como</string>
-    <string name="video_err">Não é possível reproduzir o vídeo.</string>
-    <string name="group_by_location">Por local</string>
-    <string name="group_by_time">Por tempo</string>
-    <string name="group_by_tags">Por guias</string>
-    <string name="group_by_faces">Por pessoas</string>
-    <string name="group_by_album">Por álbum</string>
-    <string name="group_by_size">Por tamanho</string>
-    <string name="untagged">Sem guias</string>
-    <string name="no_location">Nenhum local</string>
-    <string name="no_connectivity">Alguns locais não foram identificados por problemas na rede.</string>
-    <string name="sync_album_error">Não foi possível baixar das fotos neste álbum. Tente novamente mais tarde.</string>
-    <string name="show_images_only">Apenas imagens</string>
-    <string name="show_videos_only">Somente vídeos</string>
-    <string name="show_all">Imagens e vídeos</string>
-    <string name="appwidget_title">Galeria de fotos</string>
-    <string name="appwidget_empty_text">Nenhuma foto.</string>
-    <string name="crop_saved">A imagem cortada foi salva em %s.</string>
-    <string name="no_albums_alert">Nenhum álbum disponível.</string>
-    <string name="empty_album">0 imagens/vídeos disponíveis.</string>
-    <string name="picasa_posts">Postagens</string>
-    <string name="make_available_offline">Tornar disponível offline</string>
-    <string name="sync_picasa_albums">Atualizar</string>
-    <string name="done">Concluído</string>
-    <string name="sequence_in_set">%1$d de %2$d itens:</string>
-    <string name="title">Título</string>
-    <string name="description">Descrição</string>
-    <string name="time">Horário</string>
-    <string name="location">Local</string>
-    <string name="path">Caminho</string>
-    <string name="width">Largura</string>
-    <string name="height">Altura</string>
-    <string name="orientation">Orientação</string>
-    <string name="duration">Duração</string>
-    <string name="mimetype">Tipo MIME</string>
-    <string name="file_size">Tam. arquivo</string>
-    <string name="maker">Criador</string>
-    <string name="model">Modelo</string>
-    <string name="flash">Flash</string>
-    <string name="aperture">Abertura</string>
-    <string name="focal_length">Comprimento focal</string>
-    <string name="white_balance">Balanç. branco</string>
-    <string name="exposure_time">Temp. exposiç.</string>
-    <string name="iso">ISO</string>
-    <string name="unit_mm">mm</string>
-    <string name="manual">Manual</string>
-    <string name="auto">Auto</string>
-    <string name="flash_on">Flash ativo</string>
-    <string name="flash_off">Sem flash</string>
-    <string name="unknown">Desconhecido</string>
-    <string name="try_to_set_local_album_available_offline">Este item está armazenado localmente e disponível offline.</string>
-    <string name="set_label_all_albums">Todos os álbuns</string>
-    <string name="set_label_local_albums">Álbuns locais</string>
-    <string name="set_label_mtp_devices">Dispositivos MTP</string>
-    <string name="set_label_picasa_albums">Álbuns do Picasa</string>
-    <string name="free_space_format">%s gratuito</string>
-    <string name="size_below">%1$s ou menos</string>
-    <string name="size_above">%1$s ou mais</string>
-    <string name="size_between">%1$s para %2$s</string>
-    <string name="Import">Importar</string>
-    <string name="import_complete">Importação concluída</string>
-    <string name="import_fail">Falha na importação</string>
-    <string name="camera_connected">Câmera conectada.</string>
-    <string name="camera_disconnected">Câmera desconectada.</string>
-    <string name="click_import">Toque aqui para importar</string>
-    <string name="widget_type_album">Escolher um álbum</string>
-    <string name="widget_type_shuffle">Reprod. aleator. as imagens</string>
-    <string name="widget_type_photo">Selecionar uma imagem</string>
-    <string name="widget_type">Escolher imagens</string>
-    <string name="slideshow_dream_name">Apresent. de slides</string>
-    <string name="albums">Álbuns</string>
-    <string name="times">Data e hora</string>
-    <string name="locations">Locais</string>
-    <string name="people">Pessoas</string>
-    <string name="tags">Etiquetas</string>
-    <string name="group_by">Agrupar por</string>
-    <string name="settings">Configurações</string>
-    <string name="add_account">Adicionar conta</string>
-    <string name="folder_camera">Câmera</string>
-    <string name="folder_download">Downloads</string>
-    <string name="folder_imported">Importado</string>
-    <string name="folder_screenshot">Capturas de tela</string>
-    <string name="help">Ajuda</string>
-    <string name="video_share">Compartilhar</string>
-    <string name="video_edit">Editar</string>
-    <string name="video_encrypt">Encriptar</string>
-    <string name="video_dolby">Dolby Digital Plus</string>
-    <string name="video_help">Ajuda</string>
-    <string name="video_details">Detalhes</string>
-    <string name="video_timer">Temporizador</string>
-    <string name="video_timer_off">Desligado</string>
-    <string name="video_timer_play_finish">Após terminar de jogar</string>
-    <string name="video_timer_thirty_min">Após 30 min</string>
-    <string name="video_timer_one_hour">Após uma hora</string>
-    <string name="video_timer_two_hour">Após duas horas</string>
-    <string name="video_send_not_available">Nenhum aplicativo disponível para envio</string>
-    <string name="video_start">Iniciar</string>
-    <string name="video_return">Voltar</string>
-    <string name="video_frame_save_as">Salvar como:</string>
-    <string name="video_cutframe">Recortar frame</string>
-    <string name="video_snapshot_failed">Instantâneo falhou</string>
-    <string name="video_snapshot_saving">Salvando instantâneo…</string>
-    <string name="video_not_support_snapshot">Instantâneo não suportado para este arquivo de vídeo.</string>
-    <string name="video_cannot_get_details">Não foi possível obter detalhes</string>
-    <string name="video">Vídeo</string>
-    <string name="video_unknown_title">Título desconhecido</string>
-    <string name="video_rename_failed">Renomear falhou</string>
-    <string name="video_notsupport_popupplay">Pop-up não suportado para este arquivo de vídeo.</string>
-    <string name="video_press_again">Pressionar novamente para sair</string>
-    <string name="wallpaper_instructions_preset">Predefina papel de parede</string>
-    <string name="no_storage">Sem armazenamento</string>
-    <string name="no_storage_available">Nenhum armazenamento externo disponível</string>
-    <string name="group_by_video">Por vídeo</string>
-    <string name="jigsaw">Jigsaw</string>
-    <string name="jigsaw_new">Jigsaw(2-9)</string>
-    <string name="makegif">Fazer Gif</string>
-    <string name="makegif_new">Fazer Gif(2-150)</string>
-    <string name="setmark">Marcar bandeira</string>
-    <string name="marked">Marcar</string>
-    <string name="group_by_mark">Por marca</string>
-    <string name="albumwidget_title">Álbum Electron</string>
-    <string name="show_last_choice">Última escolha</string>
-    <string name="content_selection">Seleção de conteúdo</string>
-    <string name="slideshow_setting">Definições de apresentação de slides</string>
-    <string name="slideshow_confirm">OK</string>
-    <string name="slideshow_option">Opções de apresentação de slides</string>
-    <string name="slideshow_motioncontrol">Controle de movimento</string>
-    <string name="slideshow_motioncontrol_value">Incline o celular, visualização rápida</string>
-    <string name="slideshow_playmusic">Reproduzir música</string>
-    <string name="slideshow_effect">Efeito de transição</string>
-    <string name="slideshow_effect_cube">Cubo</string>
-    <string name="slideshow_effect_flow">Fluxo</string>
-    <string name="slideshow_effect_fadeout">Ampliar</string>
-    <string name="slideshow_effect_compression">Compressão</string>
-    <string name="slideshow_select_music">Selecione música</string>
-    <string name="slideshow_effect_stack">Esmaecimento</string>
-    <string name="slideshow_effect_turn">Girar</string>
-    <string name="gif">Gif</string>
-    <string name="encrypt">Privado</string>
-    <string name="cut_to_target_folder">Recortar para</string>
-    <string name="create_new_folder">Nova pasta</string>
-    <string name="new_folder_name">Nome de pasta</string>
-    <string name="default_folder_name">Nova pasta</string>
-    <string name="foldername_invalid">Falha ao criar pasta. Nome contém caracteres inválidos.</string>
-    <string name="confirm_create">OK</string>
-    <string name="error_creating_new_folder_exist">A pasta foi criada</string>
-    <string name="dialog_cutting_folder">Recortando</string>
-    <string name="foldername_null">Insira nome de pasta</string>
-    <string name="savecopy_error">Apenas possível mover arquivo local</string>
-    <string name="move_error">Duplicar arquivo</string>
-    <string name="select_error">Selecione foto</string>
-    <string name="begin_jigsaw">Iniciar Jigsaw</string>
-    <string name="make_gif">Fazer Gif</string>
-    <string name="rename">Renomear</string>
-    <string name="filename">Nome de arquivo</string>
-    <string name="please_input">Introduza</string>
-    <string name="fileisexist">Esse nome já existe, tente novamente</string>
-    <string name="filenameisnull">Nome de arquivo vazio. Digite um nome de arquivo.</string>
-    <string name="filename_invalid">Falha ao renomear. Nome contém caracteres inválidos.</string>
-    <string name="rename_suc">Renomear efetuado</string>
-    <string name="silent">Silêncio</string>
-    <string name="improve_edit">Editar</string>
-    <string name="slideshowwidget">Apresentação de slides</string>
-    <string name="onephotowidget">Lembrar</string>
-    <string name="twophotowidget">Hora</string>
-    <string name="fourphotowidget">Cenário</string>
-    <string name="folder_mulitshoot">MultiShoot</string>
-    <string name="internal_storage">Armazenamento interno</string>
-    <string name="crop_save_text_lockscreen">Tela de bloqueio</string>
-    <string name="crop_save_text_both">Ambos</string>
-    <string name="wallpaper_instructions_lockscreen">Tela de bloqueio</string>
-    <string name="wallpaper_instructions_both">Ambos</string>
-    <string name="wallpaper_instructions">Papel de parede</string>
-    <string name="wallpaper_lock">Definir papel de parede da tela de bloqueio ...</string>
-    <string name="wallpaper_lock_both">Definir tela de bloqueio e papel de parede ...</string>
-    <string name="undo_delete">Clique aqui para cancelar a exclusão.</string>
-    <string name="switch_to_grid">Alternar para grade</string>
-    <string name="switch_to_map">Alternar para Mapa</string>
-    <string name="exceed_filename_size_limitation">Atingido limite de tamanho de arquivo de 100 caracteres.</string>
-    <string name="no_content">Nenhum conteúdo</string>
-    <string name="slide_to_delete">Deslize para cima / baixo para excluir</string>
-    <string name="move_selection">Operação Tipo de Seleção</string>
-    <string name="copy_to_target_folder">Copiar para</string>
-    <string name="dialog_copying_folder">Copiando</string>
-    <string name="selectmethod">Mais de 150 imagens selecionadas. Escolha um dos seguintes métodos para selecionar novamente.</string>
-    <string name="interval_select">Seleção de intervalo</string>
-    <string name="random_select">Seleção aleatória</string>
-    <string name="head_camera">Câmera</string>
-    <string name="head_myalbum">Meu álbum</string>
-    <string name="folder_recent">Álbum recente</string>
-    <string name="folder_mark">Marca</string>
-    <string name="today">Hoje</string>
-    <string name="yesterday">Ontem</string>
-    <string name="more">Mais</string>
-    <string name="show_hide_title">Ocultar</string>
-    <string name="hide_show_string">Ocultar</string>
-    <string name="addLocation">Adicionar</string>
-    <string name="map">Mapa</string>
-    <string name="no_storage1">Abrir armazenamento em massa USB.</string>
-    <string name="no_storage2">ainda não estão disponíveis.</string>
-    <string name="folder_frontcamera">Câmera Frontal</string>
-    <string name="folder_panocamera">Pano Câmara</string>
-    <string name="save_picture">Salvar</string>
-    <string name="save_ok">Salvo</string>
-    <string name="no_content_picture">Não existem fotos</string>
-    <string name="no_support_type">Tipo de arquivo não suportado.</string>
-    <string name="photos">Fotos</string>
-    <string name="encrypt_finish">Criptografia terminado. Você pode abrir a Central de Segurança.</string>
-    <string name="wrong_size">Apenas suporte</string>
-    <string name="wrong_size1">pixéis Imagens!</string>
-    <string name="sd_card">cartão SD</string>
-    <string name="f_number">Número F</string>
-    <string name="video_cannot_move">Vídeo não suportado.</string>
-    <string name="wallpaper_load_fail">Não foi possível carregar a imagem como papel de parede</string>
-    <string name="crop_wallpaper">Cortar papel de parede</string>
-    <string name="create_info">Este widget foi criado!</string>
-    <string name="tab_camera">Câmera</string>
-    <string name="tab_albumset">Definir albúm</string>
-    <string name="tab_cloud">Núvem</string>
-    <string name="click_to_login">Entrar na conta nubia</string>
-    <string name="toast_share_no_selection">Selecione algumas fotos.</string>
-    <string name="share_exceed_max_number">Limite superior 300 imagens</string>
-    <string name="next">Seguinte</string>
-    <string name="login">Login</string>
-    <string name="download">Baixar</string>
-    <string name="upload">Carregar</string>
-    <string name="upload_to_cloud">Carregar</string>
-    <string name="mycloud">Nuvem</string>
-    <string name="login_error">Erro, clique e tente novamente</string>
-    <string name="available">Disponível</string>
-    <string name="trajectory">Trajetória</string>
-    <string name="folder_startrail">folder_startrail</string>
-    <string name="crystal">Cristal</string>
-    <string name="effect">Efeito</string>
-    <string name="faceBeautify">FaceBeautify</string>
-    <string name="slowShutter">SlowShutter</string>
-    <string name="objectClear">ObjectClear</string>
-    <string name="highSpeedVideo">Vídeo</string>
-    <string name="lightDraw">LightDraw</string>
-    <string name="multiExposure">MultiExposure</string>
-    <string name="videoMaker">VideoMaker</string>
-    <string name="electronicFNO">ElectronicFNO</string>
-    <string name="demister">Denebulizador</string>
-    <string name="superNight">SuperNight</string>
-    <string name="days">Dias atrás</string>
-    <string name="hours">Horas atrás</string>
-    <string name="mins">Minutos atrás</string>
-    <string name="sec">Segundos atrás</string>
-    <string name="new_year">Ano</string>
-    <string name="new_month">Mês</string>
-    <string name="new_day">Dia</string>
-    <string name="num_format">%s milhares de</string>
-    <string name="hint_camera">Nenhumas fotos</string>
-    <string name="button_camera">Tirar fotos</string>
-    <string name="hint_album">Nenhuns álbuns locais</string>
-    <string name="hint_cloud">não há fotos, escolher algumas de Álbum ou fotos n para fazer upload</string>
-    <string name="download_confirm">Downloads</string>
-    <string name="download_cancel">Mais recentes</string>
-    <string name="action_setas_wallpaper">Definir papel de parede</string>
-    <string name="action_setas_lockscreen">Definir tela de bloqueio</string>
-    <string name="action_setas_all">Definir tudo</string>
-    <string name="gif_play">Jogar Gif</string>
-    <string name="albumset_share">Compartilhar álbum selecionado?</string>
-    <string name="albumset_delete">Eliminar seleção do álbum?</string>
-    <string name="no_wifi_title_upload">Não conectado a redes Wi-Fi, você tem certeza de ligar o Mobile Data para fazer o upload para o seu álbum Nuvem?</string>
-    <string name="no_wifi_title_download">Não conectado a redes Wi-Fi, você tem certeza de ligar o Mobile Data para baixar?</string>
-    <string name="unable_upload_to_cloudAlbum">Não é possível carregar, verifique a sua rede.</string>
-    <string name="unable_download_cloudpicture">Não é possível baixar, verifique a sua rede.</string>
-    <string name="upload_complete">Upload completo</string>
-    <string name="download_complete">Download completo</string>
-    <string name="upload_complete_msg">Verifique no seu álbum nuvem</string>
-    <string name="download_complete_msg">Verifique no seu álbum local</string>
-    <string name="uploading_to_cloudalbum">Carregar para álbum nuvem agora, verifique processo de upload na barra de notificação</string>
-    <string name="file_no_exisit">Arquivo não existe!</string>
-    <string name="file_name_invalid">Nome do arquivo ilegal!</string>
-    <string name="delete_cloud_file_failed">Excluir falhou, verifique a rede!</string>
-    <string name="downloadstarted">Baixe no plano de fundo</string>
-    <string name="downloadfinished">Download completo</string>
-    <string name="title_cloud">Álbum nuvem</string>
-    <string name="improve_nubia">Poster</string>
-    <string name="order_select">Selecione ordem</string>
-    <string name="reverse_order_select">Inverter ordem</string>
-    <string name="messagehint">Novas mensagens</string>
-    <string name="tryagain">Tente novamente</string>
-    <string name="onsuccess">Enviar</string>
-    <string name="onfail">Não enviada</string>
-    <string name="button_download">Baixar agora</string>
-    <string name="neo_account">Conta</string>
-    <string name="guest">Convidado</string>
-    <string name="clear_cache">Limpar cache</string>
-    <string name="tab_login">Login</string>
-    <string name="developing">Desenvolvendo ...</string>
-    <string name="share_default_words">Diga alguma coisa ...</string>
-    <string name="share_meanwhile">Sincronizar e compartilhar:</string>
-    <string name="share_original">Compartilhar fotos originais (sugere-se que abra sob wi-fi)</string>
-    <string name="share_other">Compartilhar outros</string>
-    <string name="share_neo_max_num">Limite superior %1$d</string>
-    <string name="share_empty_words">Escreva alguma coisa.</string>
-    <string name="loading_from_cloud">Fazendo login na nuvem, aguarde…</string>
-    <string name="click_to_preview">Login efetuado, selecione foto ou álbum local</string>
-    <string name="toshare">ir a maior visão</string>
-    <string name="releasetorefresh">Soltar para atualizar</string>
-    <string name="pulltorefresh">Puxar para atualizar</string>
-    <string name="releasetoload">Soltar para carregar</string>
-    <string name="neoshareloginhint">Oi, por favor acessar antes de usar a função!</string>
-    <string name="hint_download">Baixe neoShare para se juntar a uma comunidade de compartilhamento de fotos de alta qualidade!</string>
-    <string name="hint_network">Conecte-se à rede para ver mais!</string>
-    <string name="button_network">Definir redes</string>
-    <string name="networkhint">Conexão de rede falhou, verifique a rede.</string>
-    <string name="share_video_selected">Não suportam compartilhamento de vídeos</string>
-    <string name="camera_album_not_support">Não suportam a operação de álbum da câmera</string>
-    <string name="neo_invite_friends">Convidar amigos</string>
-    <string name="my_neo">Meu neoshare</string>
-    <string name="focus_manager">Gerenciador de foco</string>
-    <string name="find_more">Encontrar mais</string>
-    <string name="clear_cache_succeed">Limpar completo</string>
-    <string name="clear_cache_fail">Limpar falhou</string>
-    <string name="user_feedback">Feedback do usuário</string>
-    <string name="exit_account">Sair da conta</string>
-    <string name="has_logged_in">Já registrado</string>
-    <string name="toast_marked">marcado</string>
-    <string name="toast_unmarked">desmarcado</string>
-    <string name="login_nubiaaccount_first">Aceda à sua conta nubia primeiro</string>
-    <string name="video_dolby_atmos">Dolby Atmos</string>
-    <string name="folder_nubiaTransfer">nubia Transfer</string>	
-    <string name="sound_effects">Sound Effects</string>
-    <string name="sound_equipment_toast">Sound Effects will be automatically turned on when the loudspeaker is used</string>
-    <string name="module_gallery">Galeria na núvem</string>
-    <string name="module_gallery_description">Cloud Gallery</string>
-    <string name="slideshow_repeatplay">Repetir</string>
-    <string name="selcted_share_details">%1$d dados selecionados, total %2$s</string>
-    <string name="player_replay">Repetir para ***</string>
-    <string name="player_unknown_title">Título desconhecido</string>
-    <string name="no_enough_storage">Espaço de armazenamento insuficiente</string>
-    <string name="copy_item">Copiar</string>
-    <string name="cut_item">Cortar</string>
-	<string name="addto">Adicionar a</string>
-	<string name="slideshow_title">Apresentação</string>
-	<string name="encrypt_failed">Encriptação sem êxito</string>
-	<string name="encrypt_some_failed">Encripção feita, alguma falhada.</string>
-    <string name="clone_storage">Clonar armazenamento de aplicativo</string>	
-	<string name="dialog_adding_folder">Adicionando</string>
-    <string name="video_cannot_copy">Arquivos de video não podem ser copiados.</string>
-    <string name="video_cannot_cut">Arquivos de video não podem ser cortados.</string>
-    <string name="error_copy">Falha copiar</string>
-    <string name="error_add">Falha adicionar!</string>
-    <string name="error_cut">Falha cortar</string>
-    <string name="success_copy">Cópia feita</string>
-    <string name="success_cut">Corta feita</string>
-	<string name="share_neo">Compartilhar com NeoShare</string>	
-    <string name="widget_nopression">Nenhuma permissão concedida</string>
-    <string name="widget_open_app">Entrar Aplicativo</string>	
-	<string name="uploading_but_file_not_found">Nome de arquivo ilegal, para a carrega.</string>
-	<string name="upload_legal_file">Apenas carrega o arquivo legal</string>
-    <string name="overwrite">Sobrescrever</string>
-    <string name="save_as_new">Salvar como um novo arquivo</string>
-	<string name="slomovideo">Câmera lenta</string>
-	<string name="hint_share_no_neoshare">NeoShare apk não disponível</string>
-	<string name="clone">Clonar</string>
-	<string name="player_play_error">Não pode tocar este video.</string>
-	<string name="phonestorage">Armazenamento do telefone</string>
-	<string name="empty_image_album">Imagens indisponíveis</string>
-	<string name="folder_recycled">Apagados recentemente</string>
-    <string name="play">Tocar</string>
-    <string name="pause">Pausa</string>
-	<string name="menu_recover">Recuperar</string>
-	<string name="register">Registrar</string>
-	<string name="folder_photoeditor">Foto Editor</string>
-	<string name="spaceIsLow_tip">O espaço de armazenamento é insuficiente</string>
-	<string name="hint_isolation">não pode ser escondido.</string>
-	<string name="folder_pintu">Colagem</string>
-    <string name="select">Selecionar tudo</string>
-    <string name="unselect">Deselecionar tudo</string>
-	<string name="select_opera">Selecionar</string>	
-	<string name="folder_screen_recorder">Gravador de Tela</string>
-	<string name="dynamicphoto">Foto Dinámica</string>
-	<string name="hint_real_delete">Depois de apagados não vamos pôr no álbum apagado recentemente</string>
-	<string name="hint_aperture_text">Ajuste de focagem de fundo</string>
-	<string name="folder_new">Nova pasta</string>
-	<string name="menu_recover_all">Recuperar tudo</string>
-	<string name="menu_delete_all">Apagar tudo</string>
-	<string name="hint_delete_when_added">Apagar o item selecionado quando terminado</string>
-	<string name="recover_all_selection">Todos os itens serão recuperados.</string>
-	<string name="delete_all_selection">Todos os itens serão apagados.</string>
-	<string name="menu_shift_in">Transferencia-entrada</string>
-	<string name="shift_in_ok">Confirmar</string>
-	<string name="menu_shift_out">Transferencia-saida</string>
-	<string name="hint_shift_in">Outro Álbum ver o álbum</string>	
-	<string name="hint_recycled_album">Mostrar os dias restantes antes da eliminação. Depois deste tempo, os itens serão apagados permanentemente.</string>	
-	<string name="hint_photo_view_loading">Carregando…</string>
-    <string name="hint_confirm_delete_unsupport">Alguns itens selecionados não serão colocados no álbum excluído recentemente após a exclusão</string>	
-    <string name="hint_confirm_delete_unsupport_single">o item selecionado não será colocado no álbum excluído recentemente após a exclusão</string>
-    <string name="artist">Artista</string>	
-    <string name="time_format">dia d mês M ano yyyy</string>	
-    <string name="time_format_day">Dia d mês M</string>
-    <string name="time_format_month">dia d mês M ano yyyy</string>
-    <string name="time_format_cloud">"d.M.yyyy  HH:mm"</string>
-    <string name="cloud_is_empty">Empty Cloud Album, please upload photos</string>
-	<string name="select_multishoot_error">Os Multidisparo Álbuns não são suportados, favor selecione de novo</string>
-	<string name="down_from_cloud">Descarregando...</string>
-	<string name="nosystem_album_set_name">Outro Álbum</string>
-	<string name="system_album_set_name">Câmera Família</string>
-	<string name="update_from_delete">Atualizando...</string>
-	<string name="select_done">Feito</string>
-	<string name="select_back">Voltar</string>
-	<string name="exceed_max_num">O número excedeu limite máximo</string>
-	<string name="exceed_filename_input_size_limitation">Atingido Limite de tamanho de nome de arquivo de 50 carácteres.</string>
-	<string name="permission_request">Protocolo de usuário</string>
-	<string name="permission_allow">Permitir</string>
-    <string name="permission_deny">Sair</string>
-    <string name="permission_verify">Clicando em aceitar, você estará concordando com os termos.</string>	
-    <string name="gallery_permission">"1. Durante o processo de utilização, a aplicação solicita as permissões para Acesso de Rede Completo, incluindo os Dados Móveis e as Redes Wi-Fi. O tráfego de dados ocorridos serão cobrados directamente pelo seu operador. Para detalhes, favor consultar o seu operador.
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Done-->
+  <string name="abc_action_mode_done">Concluído</string>
+  <!--Original value: Navigate home-->
+  <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+  <!--Original value: Navigate up-->
+  <string name="abc_action_bar_up_description">Navegar para cima</string>
+  <!--Original value: More options-->
+  <string name="abc_action_menu_overflow_description">Mais opções</string>
+  <!--Original value: Collapse-->
+  <string name="abc_toolbar_collapse_description">Recolher</string>
+  <!--Original value: %1$s, %2$s-->
+  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+  <!--Original value: %1$s, %2$s, %3$s-->
+  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+  <!--Original value: Search-->
+  <string name="abc_searchview_description_search">Pesquisar</string>
+  <!--Original value: Search…-->
+  <string name="abc_search_hint">Pesquisar...</string>
+  <!--Original value: Search query-->
+  <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+  <!--Original value: Clear query-->
+  <string name="abc_searchview_description_clear">Limpar consulta</string>
+  <!--Original value: Submit query-->
+  <string name="abc_searchview_description_submit">Enviar consulta</string>
+  <!--Original value: Voice search-->
+  <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+  <!--Original value: Choose an app-->
+  <string name="abc_activitychooserview_choose_application">Selecione um app</string>
+  <!--Original value: See all-->
+  <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+  <!--Original value: Share with %s-->
+  <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+  <!--Original value: Share with-->
+  <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+  <!--Original value: 999+-->
+  <string name="status_bar_notification_info_overflow">999+</string>
+  <!--Original value: ON-->
+  <string name="abc_capital_on">ON</string>
+  <!--Original value: OFF-->
+  <string name="abc_capital_off">OFF</string>
+  <!--Original value: Gallery-->
+  <string name="app_name">Galeria</string>
+  <!--Original value: Picture frame-->
+  <string name="gadget_title">Moldura de uma imagem</string>
+  <!--Original value: %1$02d:%2$02d-->
+  <string name="details_ms">%1$02d:%2$02d</string>
+  <!--Original value: %1$d:%2$02d:%3$02d-->
+  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+  <!--Original value: Video player-->
+  <string name="movie_view_label">Vídeo player</string>
+  <!--Original value: Loading videos…-->
+  <string name="loading_video">Carregando vídeo…</string>
+  <!--Original value: Loading images…-->
+  <string name="loading_image">Carregando imagem…</string>
+  <!--Original value: Loading account…-->
+  <string name="loading_account">Carregando conta…</string>
+  <!--Original value: Resume playing videos-->
+  <string name="resume_playing_title">Retomar vídeo</string>
+  <!--Original value: Resume playing from %s ?-->
+  <string name="resume_playing_message">Retomar reprodução de %s ?</string>
+  <!--Original value: Resume playing-->
+  <string name="resume_playing_resume">Retomar a reprodução</string>
+  <!--Original value: Loading…-->
+  <string name="loading">Carregando…</string>
+  <!--Original value: Unable to load-->
+  <string name="fail_to_load">Não foi possível carregar</string>
+  <!--Original value: Unable to load this photo-->
+  <string name="fail_to_load_image">Não foi possível carregar a imagem</string>
+  <!--Original value: No thumbnail-->
+  <string name="no_thumbnail">Sem miniatura</string>
+  <!--Original value: Start over-->
+  <string name="resume_playing_restart">Reiniciar</string>
+  <!--Original value: OK-->
+  <string name="crop_save_text">OK</string>
+  <!--Original value: OK-->
+  <string name="ok">OK</string>
+  <!--Original value: Touch a face to start cropping-->
+  <string name="multiface_crop_help">Toque em um rosto para começar.</string>
+  <!--Original value: Saving picture…-->
+  <string name="saving_image">Salvando imagem…</string>
+  <!--Original value: Unable to save the cropped image.-->
+  <string name="save_error">Não é possível salvar a imagem cortada.</string>
+  <!--Original value: Crop picture-->
+  <string name="crop_label">Cortar imagem</string>
+  <!--Original value: Select a photo-->
+  <string name="select_image">Selecionar foto</string>
+  <!--Original value: Select a video-->
+  <string name="select_video">Selecionar vídeo</string>
+  <!--Original value: Select an item-->
+  <string name="select_item">Selecionar item</string>
+  <!--Original value: Select an album-->
+  <string name="select_album">Selecionar álbum</string>
+  <!--Original value: Select a group-->
+  <string name="select_group">Selecionar grupo</string>
+  <!--Original value: Set as-->
+  <string name="set_image">Definir imagem como</string>
+  <!--Original value: Set wallpaper-->
+  <string name="set_wallpaper">Definir papel de parede</string>
+  <!--Original value: Setting wallpaper…-->
+  <string name="wallpaper">Definindo papel de parede…</string>
+  <!--Original value: Wallpaper-->
+  <string name="camera_setas_wallpaper">Papel de parede</string>
+  <!--Original value: Delete-->
+  <string name="delete">Excluir</string>
+  <!--Original value: OK-->
+  <string name="confirm">Confirmar</string>
+  <!--Original value: Cancel-->
+  <string name="cancel">Cancelar</string>
+  <!--Original value: Share-->
+  <string name="share">Compartilhar</string>
+  <!--Original value: Deleted-->
+  <string name="deleted">Excluída</string>
+  <!--Original value: Undo-->
+  <string name="undo">DESFAZER</string>
+  <!--Original value: Select all-->
+  <string name="select_all">Selecionar tudo</string>
+  <!--Original value: Unselect all-->
+  <string name="deselect_all">Desmarcar tudo</string>
+  <!--Original value: Slideshow-->
+  <string name="slideshow">Apresentação de slides</string>
+  <!--Original value: Details-->
+  <string name="details">Detalhes</string>
+  <!--Original value: %1$d of %2$d items-->
+  <string name="details_title">%1$d de %2$d itens:</string>
+  <!--Original value: Close-->
+  <string name="close">Fechar</string>
+  <!--Original value: Switch to Camera-->
+  <string name="switch_to_camera">Alternar para câmera</string>
+  <!--Original value: Show on map-->
+  <string name="show_on_map">Mostrar no mapa</string>
+  <!--Original value: Rotate left-->
+  <string name="rotate_left">Girar para a esquerda</string>
+  <!--Original value: Rotate right-->
+  <string name="rotate_right">Girar para a direita</string>
+  <!--Original value: Designated items not found-->
+  <string name="no_such_item">Não foi possível encontrar o item.</string>
+  <!--Original value: Edit-->
+  <string name="edit">Editar</string>
+  <!--Original value: Processing cache request-->
+  <string name="process_caching_requests">Processando solicitações de armazenamento em cache</string>
+  <!--Original value: Caching…-->
+  <string name="caching_label">Cache...</string>
+  <!--Original value: Crop-->
+  <string name="crop_action">Cortar</string>
+  <!--Original value: Set as-->
+  <string name="set_as">Definir como</string>
+  <!--Original value: Unable to play video.-->
+  <string name="video_err">Não é possível reproduzir o vídeo.</string>
+  <!--Original value: By location-->
+  <string name="group_by_location">Por local</string>
+  <!--Original value: By time-->
+  <string name="group_by_time">Por tempo</string>
+  <!--Original value: By tags-->
+  <string name="group_by_tags">Por guias</string>
+  <!--Original value: By people-->
+  <string name="group_by_faces">Por pessoas</string>
+  <!--Original value: By album-->
+  <string name="group_by_album">Por álbum</string>
+  <!--Original value: By size-->
+  <string name="group_by_size">Por tamanho</string>
+  <!--Original value: Untagged-->
+  <string name="untagged">Sem guias</string>
+  <!--Original value: No location-->
+  <string name="no_location">Nenhum local</string>
+  <!--Original value: Unable to identify some locations due to network problems.-->
+  <string name="no_connectivity">Alguns locais não foram identificados por problemas na rede.</string>
+  <!--Original value: Unable to download the photos in this album, try again later.-->
+  <string name="sync_album_error">Não foi possível baixar das fotos neste álbum. Tente novamente mais tarde.</string>
+  <!--Original value: Images only-->
+  <string name="show_images_only">Apenas imagens</string>
+  <!--Original value: Videos only-->
+  <string name="show_videos_only">Somente vídeos</string>
+  <!--Original value: Images and videos-->
+  <string name="show_all">Imagens e vídeos</string>
+  <!--Original value: Photos-->
+  <string name="appwidget_title">Galeria de fotos</string>
+  <!--Original value: No photos.-->
+  <string name="appwidget_empty_text">Nenhuma foto.</string>
+  <!--Original value: The cropped images have been saved to %s.-->
+  <string name="crop_saved">A imagem cortada foi salva em %s.</string>
+  <!--Original value: No available albums-->
+  <string name="no_albums_alert">Nenhum álbum disponível.</string>
+  <!--Original value: No images or videos-->
+  <string name="empty_album">0 imagens/vídeos disponíveis.</string>
+  <!--Original value: Posts-->
+  <string name="picasa_posts">Postagens</string>
+  <!--Original value: Allowed to use offline-->
+  <string name="make_available_offline">Tornar disponível offline</string>
+  <!--Original value: Refresh-->
+  <string name="sync_picasa_albums">Atualizar</string>
+  <!--Original value: Done-->
+  <string name="done">Concluído</string>
+  <!--Original value: %1$d of %2$d items:-->
+  <string name="sequence_in_set">%1$d de %2$d itens:</string>
+  <!--Original value: Title-->
+  <string name="title">Título</string>
+  <!--Original value: Description-->
+  <string name="description">Descrição</string>
+  <!--Original value: Time-->
+  <string name="time">Horário</string>
+  <!--Original value: Location-->
+  <string name="location">Local</string>
+  <!--Original value: Path-->
+  <string name="path">Caminho</string>
+  <!--Original value: Width-->
+  <string name="width">Largura</string>
+  <!--Original value: Height-->
+  <string name="height">Altura</string>
+  <!--Original value: Orientation-->
+  <string name="orientation">Orientação</string>
+  <!--Original value: Duration-->
+  <string name="duration">Duração</string>
+  <!--Original value: MIME type-->
+  <string name="mimetype">Tipo MIME</string>
+  <!--Original value: File size-->
+  <string name="file_size">Tam. arquivo</string>
+  <!--Original value: Maker-->
+  <string name="maker">Criador</string>
+  <!--Original value: Model-->
+  <string name="model">Modelo</string>
+  <!--Original value: Flash-->
+  <string name="flash">Flash</string>
+  <!--Original value: Aperture-->
+  <string name="aperture">Abertura</string>
+  <!--Original value: Focal Length-->
+  <string name="focal_length">Comprimento focal</string>
+  <!--Original value: WB-->
+  <string name="white_balance">Balanç. branco</string>
+  <!--Original value: Exposure time-->
+  <string name="exposure_time">Temp. exposiç.</string>
+  <!--Original value: ISO-->
+  <string name="iso">ISO</string>
+  <!--Original value: mm-->
+  <string name="unit_mm">mm</string>
+  <!--Original value: Manual-->
+  <string name="manual">Manual</string>
+  <!--Original value: Auto-->
+  <string name="auto">Auto</string>
+  <!--Original value: Flash on-->
+  <string name="flash_on">Flash ativo</string>
+  <!--Original value: Flash off-->
+  <string name="flash_off">Sem flash</string>
+  <!--Original value: Unknown-->
+  <string name="unknown">Desconhecido</string>
+  <!--Original value: This item is stored locally and is available offline.-->
+  <string name="try_to_set_local_album_available_offline">Este item está armazenado localmente e disponível offline.</string>
+  <!--Original value: All albums-->
+  <string name="set_label_all_albums">Todos os álbuns</string>
+  <!--Original value: Local albums-->
+  <string name="set_label_local_albums">Álbuns locais</string>
+  <!--Original value: MTP device-->
+  <string name="set_label_mtp_devices">Dispositivos MTP</string>
+  <!--Original value: Picasa albums-->
+  <string name="set_label_picasa_albums">Álbuns do Picasa</string>
+  <!--Original value: Available space: %s-->
+  <string name="free_space_format">%s gratuito</string>
+  <!--Original value: %1$s or smaller-->
+  <string name="size_below">%1$s ou menos</string>
+  <!--Original value: %1$s or larger-->
+  <string name="size_above">%1$s ou mais</string>
+  <!--Original value: %1$s to %2$s-->
+  <string name="size_between">%1$s para %2$s</string>
+  <!--Original value: Import-->
+  <string name="Import">Importar</string>
+  <!--Original value: Importing succeeded-->
+  <string name="import_complete">Importação concluída</string>
+  <!--Original value: Importing failed-->
+  <string name="import_fail">Falha na importação</string>
+  <!--Original value: Camera connected.-->
+  <string name="camera_connected">Câmera conectada.</string>
+  <!--Original value: Camera disconnected.-->
+  <string name="camera_disconnected">Câmera desconectada.</string>
+  <!--Original value: Touch here to import-->
+  <string name="click_import">Toque aqui para importar</string>
+  <!--Original value: Choose an album-->
+  <string name="widget_type_album">Escolher um álbum</string>
+  <!--Original value: Shuffle all images-->
+  <string name="widget_type_shuffle">Reprod. aleator. as imagens</string>
+  <!--Original value: Choose an image-->
+  <string name="widget_type_photo">Selecionar uma imagem</string>
+  <!--Original value: Choose images-->
+  <string name="widget_type">Escolher imagens</string>
+  <!--Original value: Slideshow-->
+  <string name="slideshow_dream_name">Apresent. de slides</string>
+  <!--Original value: Albums-->
+  <string name="albums">Álbuns</string>
+  <!--Original value: Time-->
+  <string name="times">Data e hora</string>
+  <!--Original value: Location-->
+  <string name="locations">Locais</string>
+  <!--Original value: People-->
+  <string name="people">Pessoas</string>
+  <!--Original value: Tags-->
+  <string name="tags">Etiquetas</string>
+  <!--Original value: Group by-->
+  <string name="group_by">Agrupar por</string>
+  <!--Original value: Set-->
+  <string name="settings">Configurações</string>
+  <!--Original value: Add account-->
+  <string name="add_account">Adicionar conta</string>
+  <!--Original value: Camera-->
+  <string name="folder_camera">Câmera</string>
+  <!--Original value: Download-->
+  <string name="folder_download">Downloads</string>
+  <!--Original value: Imported-->
+  <string name="folder_imported">Importado</string>
+  <!--Original value: Screenshot-->
+  <string name="folder_screenshot">Capturas de tela</string>
+  <!--Original value: nubia Transfer-->
+  <string name="folder_nubiaTransfer">nubia Transfer</string>
+  <!--Original value: Help-->
+  <string name="help">Ajuda</string>
+  <!--Original value: -->
+  <string name="help_url_gallery_main" />
+  <!--Original value: Cloud Gallery-->
+  <string name="module_gallery">Galeria na núvem</string>
+  <!--Original value: Cloud Gallery-->
+  <string name="module_gallery_description">Cloud Gallery</string>
+  <!--Original value: Share-->
+  <string name="video_share">Compartilhar</string>
+  <!--Original value: Edit-->
+  <string name="video_edit">Editar</string>
+  <!--Original value: Encrypt-->
+  <string name="video_encrypt">Encriptar</string>
+  <!--Original value: Dolby Atmos-->
+  <string name="video_dolby_atmos">Dolby Atmos</string>
+  <!--Original value: Dolby Sound Effects-->
+  <string name="video_dolby">Dolby Digital Plus</string>
+  <!--Original value: DTS Sound Effects-->
+  <string name="video_dts">DTS Sound Effects</string>
+  <!--Original value: DTS Headphone:X-->
+  <string name="video_dtshpx">DTS Headphone:X</string>
+  <!--Original value: Sound Effects-->
+  <string name="sound_effects">Sound Effects</string>
+  <!--Original value: Sound Effects will be automatically turned on when the loudspeaker is used-->
+  <string name="sound_equipment_toast">Sound Effects will be automatically turned on when the loudspeaker is used</string>
+  <!--Original value: Help-->
+  <string name="video_help">Ajuda</string>
+  <!--Original value: Details-->
+  <string name="video_details">Detalhes</string>
+  <!--Original value: Timer-->
+  <string name="video_timer">Temporizador</string>
+  <!--Original value: Off-->
+  <string name="video_timer_off">Desligado</string>
+  <!--Original value: After playing-->
+  <string name="video_timer_play_finish">Após terminar de jogar</string>
+  <!--Original value: Within 30 minutes-->
+  <string name="video_timer_thirty_min">Após 30 min</string>
+  <!--Original value: Within an hour-->
+  <string name="video_timer_one_hour">Após uma hora</string>
+  <!--Original value: Within two hours-->
+  <string name="video_timer_two_hour">Após duas horas</string>
+  <!--Original value: No available apps-->
+  <string name="video_send_not_available">Nenhum aplicativo disponível para envio</string>
+  <!--Original value: Start-->
+  <string name="video_start">Iniciar</string>
+  <!--Original value: Back-->
+  <string name="video_return">Voltar</string>
+  <!--Original value: Repeat-->
+  <string name="slideshow_repeatplay">Repetir</string>
+  <!--Original value: %1$d data selected, total %2$s-->
+  <string name="selcted_share_details">%1$d dados selecionados, total %2$s</string>
+  <!--Original value: Save as:-->
+  <string name="video_frame_save_as">Salvar como:</string>
+  <!--Original value: Video Screenshot-->
+  <string name="video_cutframe">Recortar frame</string>
+  <!--Original value: Video screenshot failed.-->
+  <string name="video_snapshot_failed">Instantâneo falhou</string>
+  <!--Original value: Saving video screenshot…-->
+  <string name="video_snapshot_saving">Salvando instantâneo…</string>
+  <!--Original value: Unable to take a screenshot on this video-->
+  <string name="video_not_support_snapshot">Instantâneo não suportado para este arquivo de vídeo.</string>
+  <!--Original value: Unable to get details-->
+  <string name="video_cannot_get_details">Não foi possível obter detalhes</string>
+  <!--Original value: Video-->
+  <string name="video">Vídeo</string>
+  <!--Original value: Unknown title-->
+  <string name="video_unknown_title">Título desconhecido</string>
+  <!--Original value: Failed to rename-->
+  <string name="video_rename_failed">Renomear falhou</string>
+  <!--Original value: Unable to play video in a pop-up window-->
+  <string name="video_notsupport_popupplay">Pop-up não suportado para este arquivo de vídeo.</string>
+  <!--Original value: Press OK again to exit-->
+  <string name="video_press_again">Pressionar novamente para sair</string>
+  <!--Original value: Replay from ***-->
+  <string name="player_replay">Repetir para ***</string>
+  <!--Original value: Unknown title-->
+  <string name="player_unknown_title">Título desconhecido</string>
+  <!--Original value: Preset wallpapers-->
+  <string name="wallpaper_instructions_preset">Predefina papel de parede</string>
+  <!--Original value: No storage-->
+  <string name="no_storage">Sem armazenamento</string>
+  <!--Original value: Internal storage not available.-->
+  <string name="no_storage_available">Nenhum armazenamento externo disponível</string>
+  <!--Original value: Insufficient storage space.-->
+  <string name="no_enough_storage">Espaço de armazenamento insuficiente</string>
+  <!--Original value: Group by videos-->
+  <string name="group_by_video">Por vídeo</string>
+  <!--Original value: Copy to folder-->
+  <string name="copy_item">Copiar</string>
+  <!--Original value: Crop to folder-->
+  <string name="cut_item">Cortar</string>
+  <!--Original value: Jigsaw-->
+  <string name="jigsaw">Jigsaw</string>
+  <!--Original value: Jigsaw (Up to 9)-->
+  <string name="jigsaw_new">Jigsaw(2-9)</string>
+  <!--Original value: Add to-->
+  <string name="addto">Adicionar a</string>
+  <!--Original value: Make a GIF-->
+  <string name="makegif">Fazer Gif</string>
+  <!--Original value: Make a GIF (2-150)-->
+  <string name="makegif_new">Fazer Gif(2-150)</string>
+  <!--Original value: Favorites-->
+  <string name="setmark">Marcar bandeira</string>
+  <!--Original value: Favorites-->
+  <string name="marked">Marcar</string>
+  <!--Original value: Group by Favorites-->
+  <string name="group_by_mark">Por marca</string>
+  <!--Original value: Electronic Album-->
+  <string name="albumwidget_title">Álbum Electron</string>
+  <!--Original value: Last played-->
+  <string name="show_last_choice">Última escolha</string>
+  <!--Original value: Content Selection-->
+  <string name="content_selection">Seleção de conteúdo</string>
+  <!--Original value: Slideshow Settings-->
+  <string name="slideshow_setting">Definições de apresentação de slides</string>
+  <!--Original value: OK-->
+  <string name="slideshow_confirm">OK</string>
+  <!--Original value: Slideshow display options-->
+  <string name="slideshow_option">Opções de apresentação de slides</string>
+  <!--Original value: Motion Control-->
+  <string name="slideshow_motioncontrol">Controle de movimento</string>
+  <!--Original value: Tilt your phone to quickly browse-->
+  <string name="slideshow_motioncontrol_value">Incline o celular, visualização rápida</string>
+  <!--Original value: Play Music-->
+  <string name="slideshow_playmusic">Reproduzir música</string>
+  <!--Original value: Transition Effects-->
+  <string name="slideshow_effect">Efeito de transição</string>
+  <!--Original value: Cube-->
+  <string name="slideshow_effect_cube">Cubo</string>
+  <!--Original value: Flow-->
+  <string name="slideshow_effect_flow">Fluxo</string>
+  <!--Original value: Zoom-->
+  <string name="slideshow_effect_fadeout">Ampliar</string>
+  <!--Original value: Zip-->
+  <string name="slideshow_effect_compression">Compressão</string>
+  <!--Original value: Please select music-->
+  <string name="slideshow_select_music">Selecione música</string>
+  <!--Original value: Fadeout-->
+  <string name="slideshow_effect_stack">Esmaecimento</string>
+  <!--Original value: Flip-->
+  <string name="slideshow_effect_turn">Girar</string>
+  <!--Original value: Slideshow-->
+  <string name="slideshow_title">Apresentação</string>
+  <!--Original value: GIF-->
+  <string name="gif">Gif</string>
+  <!--Original value: Encrypt-->
+  <string name="encrypt">Privado</string>
+  <!--Original value: Encryption failed-->
+  <string name="encrypt_failed">Encriptação sem êxito</string>
+  <!--Original value: Encryption completed, but some files not encrypted-->
+  <string name="encrypt_some_failed">Encripção feita, alguma falhada.</string>
+  <!--Original value: Crop to folder-->
+  <string name="cut_to_target_folder">Recortar para</string>
+  <!--Original value: Create a folder-->
+  <string name="create_new_folder">Nova pasta</string>
+  <!--Original value: Rename a folder-->
+  <string name="new_folder_name">Nome de pasta</string>
+  <!--Original value: New folder-->
+  <string name="default_folder_name">Nova pasta</string>
+  <!--Original value: Failed to create a folder because the folder name contains invalid characters.-->
+  <string name="foldername_invalid">Falha ao criar pasta. Nome contém caracteres inválidos.</string>
+  <!--Original value: OK-->
+  <string name="confirm_create">OK</string>
+  <!--Original value: The folder already exists-->
+  <string name="error_creating_new_folder_exist">A pasta foi criada</string>
+  <!--Original value: Cropping-->
+  <string name="dialog_cutting_folder">Recortando</string>
+  <!--Original value: Please enter a folder name.-->
+  <string name="foldername_null">Insira nome de pasta</string>
+  <!--Original value: Can move local files only-->
+  <string name="savecopy_error">Apenas possível mover arquivo local</string>
+  <!--Original value: Already existed in local folder-->
+  <string name="move_error">Duplicar arquivo</string>
+  <!--Original value: Please select a photo-->
+  <string name="select_error">Selecione foto</string>
+  <!--Original value: Begin Jigsaw-->
+  <string name="begin_jigsaw">Iniciar Jigsaw</string>
+  <!--Original value: Make a GIF-->
+  <string name="make_gif">Fazer Gif</string>
+  <!--Original value: Rename-->
+  <string name="rename">Renomear</string>
+  <!--Original value: Filename-->
+  <string name="filename">Nome de arquivo</string>
+  <!--Original value: Please enter-->
+  <string name="please_input">Introduza</string>
+  <!--Original value: Duplicate filename, please enter again.-->
+  <string name="fileisexist">Esse nome já existe, tente novamente</string>
+  <!--Original value: Empty filename, please enter again.-->
+  <string name="filenameisnull">Nome de arquivo vazio. Digite um nome de arquivo.</string>
+  <!--Original value: Failed to rename because the name contains invalid characters.-->
+  <string name="filename_invalid">Falha ao renomear. Nome contém caracteres inválidos.</string>
+  <!--Original value: Renamed successfully-->
+  <string name="rename_suc">Renomear efetuado</string>
+  <!--Original value: Silent-->
+  <string name="silent">Silêncio</string>
+  <!--Original value: Edit-->
+  <string name="improve_edit">Editar</string>
+  <!--Original value: Slideshow-->
+  <string name="slideshowwidget">Apresentação de slides</string>
+  <!--Original value: Unique Memories-->
+  <string name="onephotowidget">Lembrar</string>
+  <!--Original value: Soft Times-->
+  <string name="twophotowidget">Hora</string>
+  <!--Original value: Landscape on the Wall-->
+  <string name="fourphotowidget">Cenário</string>
+  <!--Original value: Snapshot-->
+  <string name="folder_mulitshoot">MultiShoot</string>
+  <!--Original value: Internal storage-->
+  <string name="internal_storage">Armazenamento interno</string>
+  <!--Original value: Clone App Storage-->
+  <string name="clone_storage">Clonar armazenamento de aplicativo</string>
+  <!--Original value: Lockscreen-->
+  <string name="crop_save_text_lockscreen">Tela de bloqueio</string>
+  <!--Original value: Both-->
+  <string name="crop_save_text_both">Ambos</string>
+  <!--Original value: Set as Lockscreen-->
+  <string name="wallpaper_instructions_lockscreen">Tela de bloqueio</string>
+  <!--Original value: Set as Both-->
+  <string name="wallpaper_instructions_both">Ambos</string>
+  <!--Original value: Set as Home Screen-->
+  <string name="wallpaper_instructions">Papel de parede</string>
+  <!--Original value: Setting lockscreen wallpaper...-->
+  <string name="wallpaper_lock">Definir papel de parede da tela de bloqueio ...</string>
+  <!--Original value: Setting lockscreen and home screen wallpaper...-->
+  <string name="wallpaper_lock_both">Definir tela de bloqueio e papel de parede ...</string>
+  <!--Original value: Click here to revoke the deletion.-->
+  <string name="undo_delete">Clique aqui para cancelar a exclusão.</string>
+  <!--Original value: Switch to Album-->
+  <string name="switch_to_grid">Alternar para grade</string>
+  <!--Original value: Switch to Map-->
+  <string name="switch_to_map">Alternar para Mapa</string>
+  <!--Original value: Auto capture the first 50 characters because the file name has reached the maximum length-->
+  <string name="exceed_filename_size_limitation">Atingido limite de tamanho de arquivo de 100 caracteres.</string>
+  <!--Original value: No items-->
+  <string name="no_content">Nenhum conteúdo</string>
+  <!--Original value: Swipe up/down to delete-->
+  <string name="slide_to_delete">Deslize para cima / baixo para excluir</string>
+  <!--Original value: Operation Type Selection-->
+  <string name="move_selection">Operação Tipo de Seleção</string>
+  <!--Original value: Copy to folder-->
+  <string name="copy_to_target_folder">Copiar para</string>
+  <!--Original value: Copying-->
+  <string name="dialog_copying_folder">Copiando</string>
+  <!--Original value: Adding-->
+  <string name="dialog_adding_folder">Adicionando</string>
+  <!--Original value: The number of selected images exceeds 150, please reselect using the following methods-->
+  <string name="selectmethod">Mais de 150 imagens selecionadas. Escolha um dos seguintes métodos para selecionar novamente.</string>
+  <!--Original value: Interval Selection-->
+  <string name="interval_select">Seleção de intervalo</string>
+  <!--Original value: Random Selection-->
+  <string name="random_select">Seleção aleatória</string>
+  <!--Original value: Shoot-->
+  <string name="head_camera">Câmera</string>
+  <!--Original value: My Album-->
+  <string name="head_myalbum">Meu álbum</string>
+  <!--Original value: Recent-->
+  <string name="folder_recent">Álbum recente</string>
+  <!--Original value: Favorites-->
+  <string name="folder_mark">Marca</string>
+  <!--Original value: Today-->
+  <string name="today">Hoje</string>
+  <!--Original value: Yesterday-->
+  <string name="yesterday">Ontem</string>
+  <!--Original value: More-->
+  <string name="more">Mais</string>
+  <!--Original value: Hide-->
+  <string name="show_hide_title">Ocultar</string>
+  <!--Original value: Hide-->
+  <string name="hide_show_string">Ocultar</string>
+  <!--Original value: Add-->
+  <string name="addLocation">Adicionar</string>
+  <!--Original value: Map-->
+  <string name="map">Mapa</string>
+  <!--Original value: USB Mass Storage enabled-->
+  <string name="no_storage1">Abrir armazenamento em massa USB.</string>
+  <!--Original value: Not available now-->
+  <string name="no_storage2">ainda não estão disponíveis.</string>
+  <!--Original value: Selfie-->
+  <string name="folder_frontcamera">Câmera Frontal</string>
+  <!--Original value: Panorama-->
+  <string name="folder_panocamera">Pano Câmara</string>
+  <!--Original value: Save-->
+  <string name="save_picture">Salvar</string>
+  <!--Original value: Save success-->
+  <string name="save_ok">Salvo</string>
+  <!--Original value: No Images-->
+  <string name="no_content_picture">Não existem fotos</string>
+  <!--Original value: This file type is not supported.-->
+  <string name="no_support_type">Tipo de arquivo não suportado.</string>
+  <!--Original value: Images-->
+  <string name="photos">Fotos</string>
+  <!--Original value: "Encrypted to your neoSafe's privacy space."-->
+  <string name="encrypt_finish">Criptografia terminado. Você pode abrir a Central de Segurança.</string>
+  <!--Original value: Only support-->
+  <string name="wrong_size">Apenas suporte</string>
+  <!--Original value: Images with this resolution-->
+  <string name="wrong_size1">pixéis Imagens!</string>
+  <!--Original value: SD Card-->
+  <string name="sd_card">cartão SD</string>
+  <!--Original value: Aperture-->
+  <string name="f_number">Número F</string>
+  <!--Original value: Unable to move video-->
+  <string name="video_cannot_move">Vídeo não suportado.</string>
+  <!--Original value: Unable to copy video-->
+  <string name="video_cannot_copy">Arquivos de video não podem ser copiados.</string>
+  <!--Original value: Unable to crop video-->
+  <string name="video_cannot_cut">Arquivos de video não podem ser cortados.</string>
+  <!--Original value: Copy failure!-->
+  <string name="error_copy">Falha copiar</string>
+  <!--Original value: Add failure!-->
+  <string name="error_add">Falha adicionar!</string>
+  <!--Original value: Crop failure-->
+  <string name="error_cut">Falha cortar</string>
+  <!--Original value: Copy success-->
+  <string name="success_copy">Cópia feita</string>
+  <!--Original value: Crop success-->
+  <string name="success_cut">Corta feita</string>
+  <!--Original value: Loading wallpapers failed-->
+  <string name="wallpaper_load_fail">Não foi possível carregar a imagem como papel de parede</string>
+  <!--Original value: Crop wallpaper-->
+  <string name="crop_wallpaper">Cortar papel de parede</string>
+  <!--Original value: This widget has been created!-->
+  <string name="create_info">Este widget foi criado!</string>
+  <!--Original value: Photos-->
+  <string name="tab_camera">Câmera</string>
+  <!--Original value: Albums-->
+  <string name="tab_albumset">Definir albúm</string>
+  <!--Original value: Cloud-->
+  <string name="tab_cloud">Núvem</string>
+  <!--Original value: Log in to your nubia account and enjoy 5G cloud space-->
+  <string name="click_to_login">Entrar na conta nubia</string>
+  <!--Original value: Share to neoShare-->
+  <string name="share_neo">Compartilhar com NeoShare</string>
+  <!--Original value: No images or videos selected-->
+  <string name="toast_share_no_selection">Selecione algumas fotos.</string>
+  <!--Original value: Share up to 300 images-->
+  <string name="share_exceed_max_number">Limite superior 300 imagens</string>
+  <!--Original value: Next-->
+  <string name="next">Seguinte</string>
+  <!--Original value: Login-->
+  <string name="login">Login</string>
+  <!--Original value: Download-->
+  <string name="download">Baixar</string>
+  <!--Original value: Upload-->
+  <string name="upload">Carregar</string>
+  <!--Original value: Upload to Cloud-->
+  <string name="upload_to_cloud">Carregar</string>
+  <!--Original value: Cloud-->
+  <string name="mycloud">Nuvem</string>
+  <!--Original value: Error, please check your network connection and try again-->
+  <string name="login_error">Erro, clique e tente novamente</string>
+  <!--Original value: Available-->
+  <string name="available">Disponível</string>
+  <!--Original value: Trajectory-->
+  <string name="trajectory">Trajetória</string>
+  <!--Original value: Star Trail-->
+  <string name="folder_startrail">folder_startrail</string>
+  <!--Original value: Crystal-->
+  <string name="crystal">Cristal</string>
+  <!--Original value: Special Effects-->
+  <string name="effect">Efeito</string>
+  <!--Original value: Face Beauty-->
+  <string name="faceBeautify">FaceBeautify</string>
+  <!--Original value: Slow Shutter-->
+  <string name="slowShutter">SlowShutter</string>
+  <!--Original value: Clear Object-->
+  <string name="objectClear">ObjectClear</string>
+  <!--Original value: High-Speed Video-->
+  <string name="highSpeedVideo">Vídeo</string>
+  <!--Original value: Light Painting-->
+  <string name="lightDraw">LightDraw</string>
+  <!--Original value: Multi-Exposure-->
+  <string name="multiExposure">MultiExposure</string>
+  <!--Original value: Video Maker-->
+  <string name="videoMaker">VideoMaker</string>
+  <!--Original value: Electronic Aperture-->
+  <string name="electronicFNO">ElectronicFNO</string>
+  <!--Original value: Demister-->
+  <string name="demister">Denebulizador</string>
+  <!--Original value: Super Night-->
+  <string name="superNight">SuperNight</string>
+  <!--Original value: Days ago-->
+  <string name="days">Dias atrás</string>
+  <!--Original value: Hours ago-->
+  <string name="hours">Horas atrás</string>
+  <!--Original value: Minutes ago-->
+  <string name="mins">Minutos atrás</string>
+  <!--Original value: Seconds ago-->
+  <string name="sec">Segundos atrás</string>
+  <!--Original value: Year-->
+  <string name="new_year">Ano</string>
+  <!--Original value: Month-->
+  <string name="new_month">Mês</string>
+  <!--Original value: Day-->
+  <string name="new_day">Dia</string>
+  <!--Original value: %s-->
+  <string name="num_format">%s milhares de</string>
+  <!--Original value: No images or videos-->
+  <string name="hint_camera">Nenhumas fotos</string>
+  <!--Original value: Open camera-->
+  <string name="button_camera">Tirar fotos</string>
+  <!--Original value: No permissions obtained-->
+  <string name="widget_nopression">Nenhuma permissão concedida</string>
+  <!--Original value: Enter App-->
+  <string name="widget_open_app">Entrar Aplicativo</string>
+  <!--Original value: No local albums-->
+  <string name="hint_album">Nenhuns álbuns locais</string>
+  <!--Original value: "No images, please pick up some from Pics or \"Album\"
+ and upload them to Cloud"-->
+  <string name="hint_cloud">não há fotos, escolher algumas de Álbum ou fotos n para fazer upload</string>
+  <!--Original value: Download now-->
+  <string name="download_confirm">Downloads</string>
+  <!--Original value: Later-->
+  <string name="download_cancel">Mais recentes</string>
+  <!--Original value: Set as wallpaper-->
+  <string name="action_setas_wallpaper">Definir papel de parede</string>
+  <!--Original value: Set as lockscreen-->
+  <string name="action_setas_lockscreen">Definir tela de bloqueio</string>
+  <!--Original value: Set as both-->
+  <string name="action_setas_all">Definir tudo</string>
+  <!--Original value: Play GIF-->
+  <string name="gif_play">Jogar Gif</string>
+  <!--Original value: Share the selected album?-->
+  <string name="albumset_share">Compartilhar álbum selecionado?</string>
+  <!--Original value: Delete the selected album?-->
+  <string name="albumset_delete">Eliminar seleção do álbum?</string>
+  <!--Original value: Not connected to Wi-Fi networks, turn on your Mobile Data to upload to your Cloud album?-->
+  <string name="no_wifi_title_upload">Não conectado a redes Wi-Fi, você tem certeza de ligar o Mobile Data para fazer o upload para o seu álbum Nuvem?</string>
+  <!--Original value: Not connected to Wi-Fi networks, turn on your Mobile Data to download?-->
+  <string name="no_wifi_title_download">Não conectado a redes Wi-Fi, você tem certeza de ligar o Mobile Data para baixar?</string>
+  <!--Original value: Unable to upload, please check your network connection-->
+  <string name="unable_upload_to_cloudAlbum">Não é possível carregar, verifique a sua rede.</string>
+  <!--Original value: Unable to download, please check your network connection-->
+  <string name="unable_download_cloudpicture">Não é possível baixar, verifique a sua rede.</string>
+  <!--Original value: Upload success-->
+  <string name="upload_complete">Upload completo</string>
+  <!--Original value: Download success-->
+  <string name="download_complete">Download completo</string>
+  <!--Original value: Please check in your Cloud Album-->
+  <string name="upload_complete_msg">Verifique no seu álbum nuvem</string>
+  <!--Original value: Please check in your Local Album-->
+  <string name="download_complete_msg">Verifique no seu álbum local</string>
+  <!--Original value: Uploading to Cloud Album now...-->
+  <string name="uploading_to_cloudalbum">Carregar para álbum nuvem agora, verifique processo de upload na barra de notificação</string>
+  <!--Original value: Upload paused due to illegal filename-->
+  <string name="uploading_but_file_not_found">Nome de arquivo ilegal, para a carrega.</string>
+  <!--Original value: Filtered the files with illegal filename-->
+  <string name="upload_legal_file">Apenas carrega o arquivo legal</string>
+  <!--Original value: File does not exist-->
+  <string name="file_no_exisit">Arquivo não existe!</string>
+  <!--Original value: Illegal Filename-->
+  <string name="file_name_invalid">Nome do arquivo ilegal!</string>
+  <!--Original value: Failed to delete, please check network settings!-->
+  <string name="delete_cloud_file_failed">Excluir falhou, verifique a rede!</string>
+  <!--Original value: Download in background-->
+  <string name="downloadstarted">Baixe no plano de fundo</string>
+  <!--Original value: Download completed-->
+  <string name="downloadfinished">Download completo</string>
+  <!--Original value: Cloud Album-->
+  <string name="title_cloud">Álbum nuvem</string>
+  <!--Original value: Cloud Album backup-->
+  <string name="cloud_ablum_backup">Nuvem Álbum de cópia de segurança</string>
+  <!--Original value: Backed up all to Cloud Album-->
+  <string name="cloud_ablum_backup_all">Backup de todos os para a Nuvem Álbum</string>
+  <!--Original value: %1$d data waiting for backup after network connection-->
+  <string name="pending_cloud_ablum_backup_no_data_connection">%1$d dados de espera para cópia de segurança após a conexão de rede</string>
+  <!--Original value: %1$d data waiting for backup after Wi-Fi connection-->
+  <string name="pending_cloud_ablum_backup_no_wlan_connection">%1$d dados de espera para a cópia de segurança após a conexão Wi-Fi</string>
+  <!--Original value: Battery level is below 30%% now, %1$d data waiting for backup after enough battery-->
+  <string name="pending_cloud_ablum_backup_battery_level" formatted="false">Nível da bateria está abaixo de 30%,%, %1$d dados de espera para o backup depois de bateria suficiente</string>
+  <!--Original value: "Failed to backup %1$d tasks due to network connection, 
+ please click the Switch button and try again."-->
+  <string name="tasks_failed_hint" formatted="false">"Falha ao backup %1$d tarefas devido a conexão de rede, 
+por favor, clique no botão Mudar e tente novamente."</string>
+  <!--Original value: Backup Cloud Album in Wi-Fi only-->
+  <string name="wlan_backup">Backup em Nuvem Álbum Wi-Fi gratuito, apenas a</string>
+  <!--Original value: "Turn off this option? 
+ Turning if off might consume the data flow of your phone."-->
+  <string name="wlan_closing_dialog">"Desativar essa opção? 
+Voltando se pode consumir o fluxo de dados do seu telefone."</string>
+  <!--Original value: Backup Album Settings-->
+  <string name="cloud_ablum_backup_setting">Cópia De Segurança Álbum Definições</string>
+  <!--Original value: Cloud Album Settings-->
+  <string name="cloud_ablum_setting">Nuvem Álbum Definições</string>
+  <!--Original value: Transfer list-->
+  <string name="transfer_list">Lista de transferência</string>
+  <!--Original value: No files to upload-->
+  <string name="empty_upload">Não há arquivos para fazer upload</string>
+  <!--Original value: No files to download-->
+  <string name="empty_download">Não há arquivos para download</string>
+  <!--Original value: Downloading (%1$d)-->
+  <string name="download_now">Baixando (%1$d)</string>
+  <!--Original value: Downloaded (%1$d)-->
+  <string name="download_done">Transferido (%1$d)</string>
+  <!--Original value: Download error-->
+  <string name="download_error">Erro de Download</string>
+  <!--Original value: Uploading (%1$d)-->
+  <string name="upload_now">Carregamento (%1$d)</string>
+  <!--Original value: Uploaded (%1$d)-->
+  <string name="upload_done">Carregado (%1$d)</string>
+  <!--Original value: Upload error-->
+  <string name="upload_error">Erro de Upload</string>
+  <!--Original value: Upload paused-->
+  <string name="upload_pause">Upload pausa</string>
+  <!--Original value: Download paused-->
+  <string name="download_pause">Download em pausa</string>
+  <!--Original value: Waiting...-->
+  <string name="waiting">Aguardando...</string>
+  <!--Original value: %1$d selected-->
+  <string name="number_of_selected">%1$d selecionado</string>
+  <!--Original value: The selected files include the files being downloaded, delete them?-->
+  <string name="delete_download_now_msg">Os arquivos selecionados incluem os arquivos que estão sendo baixados, excluí-los?</string>
+  <!--Original value: Delete the download history instead of downloaded files-->
+  <string name="delete_download_done_msg">Excluir o histórico de download, em vez dos arquivos baixados</string>
+  <!--Original value: The selected files include the files being uploaded, delete them?-->
+  <string name="delete_upload_now_msg">Os arquivos selecionados incluem os arquivos que estão sendo carregados, excluí-los?</string>
+  <!--Original value: Delete the upload history instead of uploaded files-->
+  <string name="delete_upload_done_msg">Excluir o upload de história em vez de upload de arquivos</string>
+  <!--Original value: Please click to check the Transfer List-->
+  <string name="check_transfer_list">Por favor clique aqui para verificar a Lista de Transferência</string>
+  <!--Original value: Cannot upload the video files because they are filtered already-->
+  <string name="video_upload_not_support">Não é possível carregar os arquivos de vídeo porque eles são filtrados já</string>
+  <!--Original value: 1 photo selected-->
+  <string name="ztouch_photo_select_warning_one">1 foto selecionada</string>
+  <!--Original value: 2 photos selected-->
+  <string name="ztouch_photo_select_warning_two">2 fotos selecionadas</string>
+  <!--Original value: 3 photos selected-->
+  <string name="ztouch_photo_select_warning_three">3 fotos selecionadas</string>
+  <!--Original value: 4 photos selected-->
+  <string name="ztouch_photo_select_warning_four">4 fotos selecionadas</string>
+  <!--Original value: Failed to share, please check network settings.-->
+  <string name="nubia_share_error_no_network">Não conseguiu compartilhar, por favor, verifique as definições de rede.</string>
+  <!--Original value: View-->
+  <string name="menu_show_all">Visualizar</string>
+  <!--Original value: Multi-shot (%1$d photos)-->
+  <string name="hint_multishoot_text">Multi-shot (%1$d fotos)</string>
+  <!--Original value: Prague-->
+  <string name="effect2">Praga</string>
+  <!--Original value: Time-lapse-->
+  <string name="intervalometer">Lapso de tempo</string>
+  <!--Original value: Saving video to %1$s …-->
+  <string name="save_into">Salvando video para %1$s ...</string>
+  <!--Original value: Cropping-->
+  <string name="trimming">Cortando</string>
+  <!--Original value: Crop-->
+  <string name="trim">Cortar</string>
+  <!--Original value: Please wait-->
+  <string name="please_wait">Por favor, aguarde</string>
+  <!--Original value: Cannot crop a video due to illegal configurations-->
+  <string name="invalid_trim">Não é possível cortar um vídeo devido a configurações ilegal</string>
+  <!--Original value: _copy-->
+  <string name="trim_copy">_copy</string>
+  <!--Original value: Overwrite the original video-->
+  <string name="overwrite">Sobrescrever</string>
+  <!--Original value: Save as a new file-->
+  <string name="save_as_new">Salvar como um novo arquivo</string>
+  <!--Original value: Slow Motion-->
+  <string name="slomovideo">Câmera lenta</string>
+  <!--Original value: neoShare is not available.-->
+  <string name="hint_share_no_neoshare">NeoShare apk não disponível</string>
+  <!--Original value: Clone-->
+  <string name="clone">Clonar</string>
+  <!--Original value: "Can't play this video."-->
+  <string name="player_play_error">Não pode tocar este video.</string>
+  <!--Original value: Internal Storage-->
+  <string name="phonestorage">Armazenamento do telefone</string>
+  <!--Original value: No images-->
+  <string name="empty_image_album">Imagens indisponíveis</string>
+  <!--Original value: Recently deleted-->
+  <string name="folder_recycled">Apagados recentemente</string>
+  <!--Original value: Play-->
+  <string name="play">Tocar</string>
+  <!--Original value: Pause-->
+  <string name="pause">Pausa</string>
+  <!--Original value: WeChat-->
+  <string name="folder_weixin">WeChat</string>
+  <!--Original value: Restore-->
+  <string name="menu_recover">Recuperar</string>
+  <!--Original value: Register-->
+  <string name="register">Registrar</string>
+  <!--Original value: Please select an album you want to backup to the Cloud-->
+  <string name="select_backup_album">Por favor, seleccione um álbum que você deseja fazer o backup para a Nuvem</string>
+  <!--Original value: PhotoEditor-->
+  <string name="folder_photoeditor">Foto Editor</string>
+  <!--Original value: Insufficient storage space-->
+  <string name="spaceIsLow_tip">O espaço de armazenamento é insuficiente</string>
+  <!--Original value: "The system album can't be hidden."-->
+  <string name="hint_isolation">não pode ser escondido.</string>
+  <!--Original value: Jigsaw-->
+  <string name="folder_pintu">Colagem</string>
+  <!--Original value: GIF-->
+  <string name="folder_animation">GIF</string>
+  <!--Original value: Select all-->
+  <string name="select">Selecionar tudo</string>
+  <!--Original value: Unselect all-->
+  <string name="unselect">Deselecionar tudo</string>
+  <!--Original value: Select-->
+  <string name="select_opera">Selecionar</string>
+  <!--Original value: Screen Recording-->
+  <string name="folder_screen_recorder">Gravador de Tela</string>
+  <!--Original value: Live Photos-->
+  <string name="dynamicphoto">Foto Dinámica</string>
+  <!--Original value: After delete will not put in recent deleted album-->
+  <string name="hint_real_delete">Depois de apagados não vamos pôr no álbum apagado recentemente</string>
+  <!--Original value: Background blur adjustment-->
+  <string name="hint_aperture_text">Ajuste de focagem de fundo</string>
+  <!--Original value: New folder-->
+  <string name="folder_new">Nova pasta</string>
+  <!--Original value: Restore all-->
+  <string name="menu_recover_all">Recuperar tudo</string>
+  <!--Original value: Delete all-->
+  <string name="menu_delete_all">Apagar tudo</string>
+  <!--Original value: Delete the images in the original album after adding-->
+  <string name="hint_delete_when_added">Apagar o item selecionado quando terminado</string>
+  <!--Original value: Macro-->
+  <string name="folder_macrocamera">Macro</string>
+  <!--Original value: Mono-->
+  <string name="folder_mono">Mono</string>
+  <!--Original value: DNG-->
+  <string name="folder_dng">DNG</string>
+  <!--Original value: Restore all-->
+  <string name="recover_all_selection">Todos os itens serão recuperados.</string>
+  <!--Original value: Delete all-->
+  <string name="delete_all_selection">Todos os itens serão apagados.</string>
+  <!--Original value: Bluetooth-->
+  <string name="folder_bluetooth">Bluetooth</string>
+  <!--Original value: Vcard-->
+  <string name="folder_vcard">Vcard</string>
+  <!--Original value: Move to other albums-->
+  <string name="menu_shift_in">Transferencia-entrada</string>
+  <!--Original value: Confirm-->
+  <string name="shift_in_ok">Confirmar</string>
+  <!--Original value: Move out-->
+  <string name="menu_shift_out">Transferencia-saida</string>
+  <!--Original value: You can check the album in Album-Other Albums-->
+  <string name="hint_shift_in">Outro Álbum ver o álbum</string>
+  <!--Original value: Showing the number of remaining days before deletion. Items will be permanently deleted after expiration.-->
+  <string name="hint_recycled_album">Mostrar os dias restantes antes da eliminação. Depois deste tempo, os itens serão apagados permanentemente.</string>
+  <!--Original value: Loading...-->
+  <string name="hint_photo_view_loading">Carregando…</string>
+  <!--Original value: Some selected items will not put in recently deleted album after deletion-->
+  <string name="hint_confirm_delete_unsupport">Alguns itens selecionados não serão colocados no álbum excluído recentemente após a exclusão</string>
+  <!--Original value: selected item will not put in recently deleted album after deletion-->
+  <string name="hint_confirm_delete_unsupport_single">o item selecionado não será colocado no álbum excluído recentemente após a exclusão</string>
+  <!--Original value: Artist-->
+  <string name="artist">Artista</string>
+  <!--Original value: yyyy年M月d日-->
+  <string name="time_format">dia d mês M ano yyyy</string>
+  <!--Original value: M月d日-->
+  <string name="time_format_day">Dia d mês M</string>
+  <!--Original value: yyyy年M月d日-->
+  <string name="time_format_month">dia d mês M ano yyyy</string>
+  <!--Original value: "yyyy.M.d  HH:mm"-->
+  <string name="time_format_cloud">"d.M.yyyy  HH:mm"</string>
+  <!--Original value: Empty Cloud Album, please upload photos-->
+  <string name="cloud_is_empty">Empty Cloud Album, please upload photos</string>
+  <!--Original value: Multi-shot is not supported, please select again-->
+  <string name="select_multishoot_error">Os Multidisparo Álbuns não são suportados, favor selecione de novo</string>
+  <!--Original value: Downloading...-->
+  <string name="down_from_cloud">Descarregando...</string>
+  <!--Original value: Other Albums-->
+  <string name="nosystem_album_set_name">Outro Álbum</string>
+  <!--Original value: Camera Family-->
+  <string name="system_album_set_name">Câmera Família</string>
+  <!--Original value: Updating...-->
+  <string name="update_from_delete">Atualizando...</string>
+  <!--Original value: Done-->
+  <string name="select_done">Feito</string>
+  <!--Original value: Back-->
+  <string name="select_back">Voltar</string>
+  <!--Original value: The number of files has exceeded the maximum limit-->
+  <string name="exceed_max_num">O número excedeu limite máximo</string>
+  <!--Original value: The filename has reached the maximum size limit of 50 characters.-->
+  <string name="exceed_filename_input_size_limitation">Atingido Limite de tamanho de nome de arquivo de 50 carácteres.</string>
+  <!--Original value: Service Descriptions-->
+  <string name="permission_request">Protocolo de usuário</string>
+  <!--Original value: Agree-->
+  <string name="permission_allow">Permitir</string>
+  <!--Original value: Exit-->
+  <string name="permission_deny">Sair</string>
+  <!--Original value: By clicking Agree, you have agreed to the above terms.-->
+  <string name="permission_verify">Clicando em aceitar, você estará concordando com os termos.</string>
+  <!--Original value: "Welcome to Gallery. In order to provide you better services, the app requires the following permissions during the process of use:
+1.Will open CloudALbum and others CloudServices,and get Full Network Access permission, including Mobile Data and Wi-Fi Networks. You will be charged by your operator for data consumption, please consult your operator for details;
+2.Access your location information, including Approximate Location and Accurate Location;
+3.Access your contacts(apply for account permission)."-->
+  <string name="gallery_permission">"1. Durante o processo de utilização, a aplicação solicita as permissões para Acesso de Rede Completo, incluindo os Dados Móveis e as Redes Wi-Fi. O tráfego de dados ocorridos serão cobrados directamente pelo seu operador. Para detalhes, favor consultar o seu operador.
 2.Durante o processo de utilização, a aplicação solicita a recolha da sua informação de localização geografica.
 3.Durante o processo de utilização, a aplicação solicita o acesso à sua informação social de comunicação, incluindo os contactos, anexos de Email.
 4.Durante o processo de utilização, a aplicação solicita o acesso à sua informação, incluindo SMS, MMS.
 "</string>
-	<string name="wallpaper_histories">Histórias</string>
-	<string name="share_ok">Confirmar compartilhar</string>	
-	<string name="recover_ok">Confirmar recuperar</string>
-	<string name="delete_ok">Confirmar apagar</string>
-	<string name="delete_confirm">Confirmar apagar</string>
-	<string name="missing_required_permission">perdendo_solicitado_permissão</string>
-	<string name="permission_guide_title">Este recurso solicita que as seguintes permissões sejam activadas, vá a configurações e activar?</string>
-	<string name="permission_contacts">Contatos</string>
-	<string name="permission_location">Localização</string>
-	<string name="permission_audio">Microfone</string>
-	<string name="permission_telephone">Telefone</string>
-	<string name="permission_storage">Espaço armazenamento</string>
-	<string name="go_to_setting">Ativar</string>	
-	<string name="setas_wallpaper">Definir a foto como papel de parede</string>
-	<string name="setas_contactphoto">Definir a foto como foto do Contacto</string>
-    <string name="no_audio">Arquivos de áudio não encontrados</string>	
-    <string name="select_audiotrack">Selecione uma trilha de áudio</string>	
-    <string name="decode_select">Selecione decodificador</string>	
-    <string name="decode_mode_hw">Usar decodificador de hardware primeiro</string>	
-    <string name="decode_mode_sw">Usar decodificador de software</string>	
-    <string name="nubia_capital_on">LIGAR</string>
-    <string name="nubia_capital_off">DESLIGAR</string>	
-	<string name="image3d">Imagem 3d</string>
-	<string name="recent_picture">Fotos recentes</string>
-    <string name="force_touch_mark_label">Favorito</string>	
-    <string name="no_pic_or_video">Sem imagens ou videos</string>	
-    <string name="no_cloud_tips">CloudService não existe, o que leva ao CloudAlbum não está disponível.</string>	
-    <string name="sortasc">Retroceder pelo tempo</string>
-    <string name="sortdesc">Desfazer retroceder</string>	
-	
+  <!--Original value: History Wallpapers-->
+  <string name="wallpaper_histories">Histórias</string>
+  <!--Original value: Share the selected contents-->
+  <string name="share_ok">Confirmar compartilhar</string>
+  <!--Original value: Restore the selected contents-->
+  <string name="recover_ok">Confirmar recuperar</string>
+  <!--Original value: Delete the selected contents-->
+  <string name="delete_ok">Confirmar apagar</string>
+  <!--Original value: Delete-->
+  <string name="delete_confirm">Confirmar apagar</string>
+  <!--Original value: Missing required permissions-->
+  <string name="missing_required_permission">perdendo_solicitado_permissão</string>
+  <!--Original value: You need enable the following permissions to use this function, enable now?-->
+  <string name="permission_guide_title">Este recurso solicita que as seguintes permissões sejam activadas, vá a configurações e activar?</string>
+  <!--Original value: Contacts-->
+  <string name="permission_contacts">Contatos</string>
+  <!--Original value: Location-->
+  <string name="permission_location">Localização</string>
+  <!--Original value: Microphone-->
+  <string name="permission_audio">Microfone</string>
+  <!--Original value: Phone-->
+  <string name="permission_telephone">Telefone</string>
+  <!--Original value: SMS-->
+  <string name="permission_sms">SMS</string>
+  <!--Original value: Storage space-->
+  <string name="permission_storage">Espaço armazenamento</string>
+  <!--Original value: Enable-->
+  <string name="go_to_setting">Ativar</string>
+  <!--Original value: Set as Wallpaper-->
+  <string name="setas_wallpaper">Definir a foto como papel de parede</string>
+  <!--Original value: Set as Contact Photo-->
+  <string name="setas_contactphoto">Definir a foto como foto do Contacto</string>
+  <!--Original value: Audio files not detected-->
+  <string name="no_audio">Arquivos de áudio não encontrados</string>
+  <!--Original value: Select audiotrack-->
+  <string name="select_audiotrack">Selecione uma trilha de áudio</string>
+  <!--Original value: Select decoder-->
+  <string name="decode_select">Selecione decodificador</string>
+  <!--Original value: Use hardware decoder first-->
+  <string name="decode_mode_hw">Usar decodificador de hardware primeiro</string>
+  <!--Original value: Use software decoder-->
+  <string name="decode_mode_sw">Usar decodificador de software</string>
+  <!--Original value: ON-->
+  <string name="nubia_capital_on">LIGAR</string>
+  <!--Original value: OFF-->
+  <string name="nubia_capital_off">DESLIGAR</string>
+  <!--Original value: 照片-->
+  <string name="nubia_cloud_photofolder">Foto</string>
+  <!--Original value: 云相册-->
+  <string name="nubia_cloud_album">Álbum na nuvem</string>
+  <!--Original value: 3D Photos-->
+  <string name="image3d">Imagem 3d</string>
+  <!--Original value: Recent photos-->
+  <string name="recent_picture">Fotos recentes</string>
+  <!--Original value: Favorite-->
+  <string name="force_touch_mark_label">Favorito</string>
+  <!--Original value: No images or videos-->
+  <string name="no_pic_or_video">Sem imagens ou videos</string>
+  <!--Original value: CloudService does not exist,which leads to the CloudAlbum is not available.-->
+  <string name="no_cloud_tips">CloudService não existe, o que leva ao CloudAlbum não está disponível.</string>
+  <!--Original value: nubia Z17畅享版-->
+  <string name="nx591j_proj_name">núbia Z17畅享版</string>
+  <!--Original value: nubia red magic-->
+  <string name="nx609_j">núbia magia vermelha</string>
+  <!--Original value: nubia Z17 lite-->
+  <string name="nx591j_v2b_name">nubia Z17 lite</string>
+  <!--Original value: Rewind by Time-->
+  <string name="sortasc">Retroceder pelo tempo</string>
+  <!--Original value: Unrewind by Time-->
+  <string name="sortdesc">Desfazer retroceder</string>
+  <!--Original value: Service Notification-->
+  <string name="notification_name">Notificação De Serviço</string>
 </resources>

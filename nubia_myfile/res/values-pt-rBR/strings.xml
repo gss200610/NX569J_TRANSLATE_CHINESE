@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Navigate home-->
+  <string name="abc_action_bar_home_description">Navegue em casa</string>
+  <!--Original value: %1$s, %2$s-->
+  <string name="abc_action_bar_home_description_format" />
+  <!--Original value: %1$s, %2$s, %3$s-->
+  <string name="abc_action_bar_home_subtitle_description_format" />
+  <!--Original value: Navigate up-->
+  <string name="abc_action_bar_up_description">Navegue até</string>
+  <!--Original value: More options-->
+  <string name="abc_action_menu_overflow_description">Mais opções</string>
+  <!--Original value: Done-->
+  <string name="abc_action_mode_done">Feito</string>
+  <!--Original value: View all-->
+  <string name="abc_activity_chooser_view_see_all">Visualizar todos</string>
+  <!--Original value: Choose an app-->
+  <string name="abc_activitychooserview_choose_application">Escolha um aplicativo</string>
+  <!--Original value: Search...-->
+  <string name="abc_search_hint">Procurar...</string>
+  <!--Original value: Clear query-->
+  <string name="abc_searchview_description_clear">Limpar consulta</string>
+  <!--Original value: Search query-->
+  <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+  <!--Original value: Search-->
+  <string name="abc_searchview_description_search">Procura</string>
+  <!--Original value: Submit query-->
+  <string name="abc_searchview_description_submit">Enviar consulta</string>
+  <!--Original value: Voice search-->
+  <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+  <!--Original value: Share with-->
+  <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+  <!--Original value: Share with %s-->
+  <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+  <!--Original value: Collapse-->
+  <string name="abc_toolbar_collapse_description" />
+  <!--Original value: Navigate home-->
+  <string name="action_bar_home_description" />
+  <!--Original value: %1$s, %2$s-->
+  <string name="action_bar_home_description_format" />
+  <!--Original value: %1$s, %2$s, %3$s-->
+  <string name="action_bar_home_subtitle_description_format" />
+  <!--Original value: Navigate up-->
+  <string name="action_bar_up_description" />
+  <!--Original value: Nubia Common Resources-->
+  <string name="nubia_app_name" />
+  <!--Original value: Back-->
+  <string name="nubia_back_button_label" />
+  <!--Original value: OFF-->
+  <string name="nubia_capital_off" />
+  <!--Original value: ON-->
+  <string name="nubia_capital_on" />
+  <!--Original value: nubia-->
+  <string name="nubia_common_label" />
+  <!--Original value: day-->
+  <string name="nubia_date_day">dia</string>
+  <!--Original value: month-->
+  <string name="nubia_date_month">mês</string>
+  <!--Original value: year-->
+  <string name="nubia_date_year">ano</string>
+  <!--Original value: Empty content-->
+  <string name="nubia_empty_message">Conteúdo vazio</string>
+  <!--Original value: Cancel-->
+  <string name="nubia_more_popup_text">Cancelar</string>
+  <!--Original value: Next-->
+  <string name="nubia_next_button_label">Seguinte</string>
+  <!--Original value: %d hours ago-->
+  <string name="nubia_notification_hour_time">%d horas atrás</string>
+  <!--Original value: %d hours and %d minutes ago-->
+  <string name="nubia_notification_hours_minutes_time" formatted="false">%d horas e %d minutos atrás</string>
+  <!--Original value: %d hours and 1 minute ago-->
+  <string name="nubia_notification_hours_one_minute_time" formatted="false">%d horas e 1 minuto atrás</string>
+  <!--Original value: %d minutes ago-->
+  <string name="nubia_notification_minutes_time">%d minutos atrás</string>
+  <!--Original value: A hour and %d minutes ago-->
+  <string name="nubia_notification_one_hours_minutes_time" formatted="false">Uma hora e %d minutos atrás</string>
+  <!--Original value: Just now-->
+  <string name="nubia_notification_time_just_now">Só agora</string>
+  <!--Original value: A hour ago-->
+  <string name="nubia_notification_time_one_hour">Uma hora atrás</string>
+  <!--Original value: A hour and 1 minute ago-->
+  <string name="nubia_notification_time_one_hour_one_minute">Uma hora e 1 minuto atrás</string>
+  <!--Original value: A minute ago-->
+  <string name="nubia_notification_time_one_minute">Um minuto atrás</string>
+  <!--Original value: Clear query-->
+  <string name="nubia_searchview_description_clear">Limpar consulta</string>
+  <!--Original value: Submit query-->
+  <string name="nubia_searchview_description_submit">Enviar consulta</string>
+  <!--Original value: Voice search-->
+  <string name="nubia_searchview_description_voice">Pesquisa por voz</string>
+  <!--Original value: Select-->
+  <string name="nubia_select">Selecione</string>
+  <!--Original value: Set date-->
+  <string name="nubia_setting_date">Definir data</string>
+  <!--Original value: Skip-->
+  <string name="nubia_skip_button_label">Pular</string>
+  <!--Original value: Text copied to clipboard.-->
+  <string name="nubia_text_copied">O texto copiado para a área de transferência.</string>
+  <!--Original value: Clipboard-->
+  <string name="nubia_text_pastelist">Área de transferência</string>
+  <!--Original value: AM-->
+  <string name="nubia_time_am" />
+  <!--Original value: H-->
+  <string name="nubia_time_hour" />
+  <!--Original value: M-->
+  <string name="nubia_time_minute" />
+  <!--Original value: Set time-->
+  <string name="nubia_time_picker_dialog_title">Definir hora</string>
+  <!--Original value: PM-->
+  <string name="nubia_time_pm" />
+  <!--Original value: a total of %s-->
+  <string name="nubia_total_text">um total de %s</string>
+  <!--Original value: Space usage-->
+  <string name="account_capacity">Informações sobre o espaço</string>
+  <!--Original value: Account name-->
+  <string name="account_name">Nome da conta</string>
+  <!--Original value: There is no appropriate application to open this file-->
+  <string name="activity_not_found">Não há nenhum aplicativo apropriado para abrir este arquivo</string>
+  <!--Original value: Installed-->
+  <string name="apk_installed">Instalado</string>
+  <!--Original value: "Can't open the app"-->
+  <string name="apk_intent_not_fonud">Não é possível abrir este aplicativo</string>
+  <!--Original value: App option-->
+  <string name="apk_operation_title">Opções do Apk</string>
+  <!--Original value: Uninstalled-->
+  <string name="apk_uninstalled">Desinstalado</string>
+  <!--Original value: Version:-->
+  <string name="apk_version">Versão:</string>
+  <!--Original value: The application has been opened-->
+  <string name="app_has_opened">O aplicativo foi aberto</string>
+  <!--Original value: File Manager-->
+  <string name="app_name">Meu Arquivo</string>
+  <!--Original value: "Can't input more text because it has reached the maximum limit"-->
+  <string name="arrive_to_max_length">Não é possível digitar nenhum caractere mais porque o comprimento máximo foi atingido</string>
+  <!--Original value: Available: %s-->
+  <string name="available_capacity">%s Disponível/</string>
+  <!--Original value: Please install Baidu Cloud Framework-->
+  <string name="baidu_cloud_framework_not_installed">Por favor, instale o Baidu Cloud Framework</string>
+  <!--Original value: It is a hidden file whose name begins with a dot, so it may be hidden. Are you sure to rename with this name?-->
+  <string name="begin_with_dot">Isto é um arquivo oculto cujo nome começa com um ponto, por isso pode ser escondido. Tem certeza que deseja renomear com este nome?</string>
+  <!--Original value: B-->
+  <string name="byteShort">B</string>
+  <!--Original value: "Can't download folders"-->
+  <string name="can_not_download_folder">Não é possível transferir pastas</string>
+  <!--Original value: "Can't open the file because it does not exist in the local storage"-->
+  <string name="can_not_open_file_tip">Não é possível abrir o arquivo porque ele não existe no armazenamento local</string>
+  <!--Original value: "Can't send folders"-->
+  <string name="can_not_send_folder">Não foi possível enviar pastas</string>
+  <!--Original value: The uploading file cannot be empty-->
+  <string name="can_not_upload_empty_file">O carregamento de arquivos não pode estar vazio</string>
+  <!--Original value: Cancel-->
+  <string name="cancel">Cancelar</string>
+  <!--Original value: "Can't paste when searching"-->
+  <string name="cannot_paste">Não é possível colar sob o status de pesquisa</string>
+  <!--Original value: Browse by category-->
+  <string name="category">Navegação de categoria</string>
+  <!--Original value: Apks-->
+  <string name="category_apk">Apks</string>
+  <!--Original value: Docs-->
+  <string name="category_document">Docs</string>
+  <!--Original value: Music-->
+  <string name="category_music">Música</string>
+  <!--Original value: Other-->
+  <string name="category_other">Outros:</string>
+  <!--Original value: Pics-->
+  <string name="category_picture">Imagens</string>
+  <!--Original value: Search-->
+  <string name="category_search">Pesquisa</string>
+  <!--Original value: System occupation:-->
+  <string name="category_system">Sistema:</string>
+  <!--Original value: Videos-->
+  <string name="category_video">Vídeos</string>
+  <!--Original value: Zips-->
+  <string name="category_zip">Zips</string>
+  <!--Original value: Check the Cloud login status-->
+  <string name="check_cloud_account_state">Verifique o status de login na nuvem</string>
+  <!--Original value: %s Items-->
+  <string name="child_file_number_bracket">%s Itens</string>
+  <!--Original value: Clear history-->
+  <string name="clear">Claro</string>
+  <!--Original value: Available: %s,-->
+  <string name="cloud_available_capacity">Disponível: %s,</string>
+  <!--Original value: Cloud disk-->
+  <string name="cloud_storage">Disco nuvem</string>
+  <!--Original value: Total: %s-->
+  <string name="cloud_total_capacity">Total:%s</string>
+  <!--Original value: OK-->
+  <string name="confirm">OK</string>
+  <!--Original value: Clear?-->
+  <string name="confirm_clear_tip">Tem certeza que deseja excluir?</string>
+  <!--Original value: OK-->
+  <string name="confirm_know">OK</string>
+  <!--Original value: Delete the selected items-->
+  <string name="confirm_to_delete_tip">Tem certeza que deseja excluir todos os itens selecionados?</string>
+  <!--Original value: Select a method to open the file-->
+  <string name="dialog_select_type">Método de abertura</string>
+  <!--Original value: Hide-->
+  <string name="dismiss_progress">Esconder</string>
+  <!--Original value: Download-->
+  <string name="download">Baixar</string>
+  <!--Original value: Failed to download-->
+  <string name="download_failed">Falha ao baixar</string>
+  <!--Original value: Sorry, you can download up to 20 files at a time-->
+  <string name="download_file_num_limit_tip">Desculpe, você pode baixar até 20 arquivos de uma vez</string>
+  <!--Original value: Downloaded to the Download folder in the internal storage-->
+  <string name="download_finsh">Baixando para a pasta Download no armazenamento interno do telefone</string>
+  <!--Original value: The file will be downloaded to Internal storage/NubiaNetdisk/Download-->
+  <string name="download_path_tip">O arquivo será baixado para o Phone storage/NubiaNetdisk/Download</string>
+  <!--Original value: Downloading-->
+  <string name="downloading">Baixando</string>
+  <!--Original value: The number of downloads has reached the maximum limit of 3, waiting to download files now.-->
+  <string name="downloading_task_num_limit">O número de download atingiu o limite máximo de 3, de modo que o arquivo está esperando pelo download.</string>
+  <!--Original value: "   My File can't be used now because the external storage is unavailable"-->
+  <string name="enable_sd_card">“Meu Arquivo” não pode ser usado agora porque o armazenamento externo não está disponível</string>
+  <!--Original value: "The file name can't be ."-->
+  <string name="equals_dot">O nome do arquivo não pode ser .</string>
+  <!--Original value: Failed to create the folder-->
+  <string name="fail_to_create">Falha ao criar a pasta</string>
+  <!--Original value: Failed to create the folder because it already exists-->
+  <string name="fail_to_create_exists">Falha ao criar a pasta porque já existe.</string>
+  <!--Original value: Failed to create the folder due to insufficient storage space-->
+  <string name="fail_to_create_no_space">Falha ao criar a pasta porque não existe espaço suficiente</string>
+  <!--Original value: Deletion failed-->
+  <string name="fail_to_delete">Falha ao excluir</string>
+  <!--Original value: Failed to rename because the file already exists-->
+  <string name="fail_to_rename">Falha ao renomear o arquivo porque o nome do arquivo já existe.</string>
+  <!--Original value: Failed to get the Cloud Disk Space-->
+  <string name="failed_to_get_account_capacity_tip">Falha ao obter o Espaço de Disco Nuvem</string>
+  <!--Original value: Failed to unzip-->
+  <string name="failed_to_unzip">Falha ao descompactar</string>
+  <!--Original value: Failed to zip-->
+  <string name="failed_to_zip">Falha ao compactar</string>
+  <!--Original value: Resolution-->
+  <string name="file_info_density">Resolução</string>
+  <!--Original value: Duration:-->
+  <string name="file_info_duration">Duração:</string>
+  <!--Original value: File Path:-->
+  <string name="file_info_location">Caminho do Arquivo:</string>
+  <!--Original value: Date of modification:-->
+  <string name="file_info_modified">Data de Modificação:</string>
+  <!--Original value: File Size:-->
+  <string name="file_info_size">Tamanho do Arquivo:</string>
+  <!--Original value: You need download the file from the Cloud Disk because it is not found in the local storage. Download it?-->
+  <string name="file_not_exist_in_storage">O arquivo não existe no armazenamento local, então você precisa baixar a partir do Disco Nuvem Deseja baixar agora?</string>
+  <!--Original value: Folder Path:-->
+  <string name="folder_info_location">Caminho da Pasta:</string>
+  <!--Original value: Folder Size:-->
+  <string name="folder_info_size">Tamanho da Pasta:</string>
+  <!--Original value: An error occurs while getting the file list from the cloud disk:%s-->
+  <string name="get_file_list_error">Uma exceção ocorre ao obter a lista de arquivos no disco nuvem:%s</string>
+  <!--Original value: An error occurred while getting the transfer list:%s-->
+  <string name="get_task_list_error">Uma exceção ocorre ao obter a lista de transmissão:%s</string>
+  <!--Original value: GB-->
+  <string name="gigabyteShort">G</string>
+  <!--Original value: "Can't move to its child directory"-->
+  <string name="illegal_move">Incapaz de se mover para seu diretório infantil</string>
+  <!--Original value: "Can't paste itself to its child directory"-->
+  <string name="illegal_paste">Não é possível colar isto mesmo ao seu diretório infantil</string>
+  <!--Original value: " / "-->
+  <string name="information_separate">" / "</string>
+  <!--Original value: Install-->
+  <string name="installed_operation_install">Instalar</string>
+  <!--Original value: Open-->
+  <string name="installed_operation_open">Abrir</string>
+  <!--Original value: Remove-->
+  <string name="installed_operation_uninstall">Desinstalar</string>
+  <!--Original value: K-->
+  <string name="kilobyteShort">K</string>
+  <!--Original value: Loading the Cloud Disk Space-->
+  <string name="loading_capacity">Carregando o Espaço de Disco Nuvem</string>
+  <!--Original value: Loading data-->
+  <string name="loading_tip">Carregando dados</string>
+  <!--Original value: Login cancelled-->
+  <string name="login_cancelled">Login cancelado</string>
+  <!--Original value: An error occurred while logging in:%s-->
+  <string name="login_error">Uma exceção ocorre enquanto fizer o login no: %s</string>
+  <!--Original value: Upload up to %s files at a time-->
+  <string name="max_num_to_upload">Carregue até arquivos %s em um tempo</string>
+  <!--Original value: M-->
+  <string name="megabyteShort">M</string>
+  <!--Original value: Sort-->
+  <string name="menu_item_sort">Ordenar por</string>
+  <!--Original value: By Date-->
+  <string name="menu_item_sort_date">Data</string>
+  <!--Original value: By Name-->
+  <string name="menu_item_sort_name">Nome</string>
+  <!--Original value: By Size-->
+  <string name="menu_item_sort_size">Tamanho</string>
+  <!--Original value: By Type-->
+  <string name="menu_item_sort_type">Tipo</string>
+  <!--Original value: More-->
+  <string name="menu_more">Mais</string>
+  <!--Original value: Refresh-->
+  <string name="menu_refresh">Atualizar</string>
+  <!--Original value: Moved-->
+  <string name="move_completed_tip">movimentação concluída</string>
+  <!--Original value: Moving failed-->
+  <string name="move_failed_tip">Falha ao mover</string>
+  <!--Original value: Selected-->
+  <string name="multi_select_title">Selecionado</string>
+  <!--Original value: "The file name can't be empty"-->
+  <string name="name_empty">O nome do arquivo não pode ficar vazio</string>
+  <!--Original value: Contain invalid characters-->
+  <string name="name_invalid">Contêm caracteres inválidos</string>
+  <!--Original value: Network disconnected-->
+  <string name="network_is_not_connected">Rede desconectada</string>
+  <!--Original value: New-->
+  <string name="new_folder">Novo</string>
+  <!--Original value: New folder-->
+  <string name="new_folder_name">Nova pasta</string>
+  <!--Original value: Files not available now-->
+  <string name="no_file">Arquivos indisponíveis</string>
+  <!--Original value: No files to select-->
+  <string name="no_file_to_choose">Não há arquivos para selecionar</string>
+  <!--Original value: No contents-->
+  <string name="no_task">Nenhum conteúdo</string>
+  <!--Original value: Insufficient internal storage space-->
+  <string name="not_enough_space">O armazenamento interno do telefone não é suficiente</string>
+  <!--Original value: All-->
+  <string name="open_type_selection_all">Tudo</string>
+  <!--Original value: Audio-->
+  <string name="open_type_selection_audio">Auditivo</string>
+  <!--Original value: Image-->
+  <string name="open_type_selection_image">Imagem</string>
+  <!--Original value: Text-->
+  <string name="open_type_selection_text">Texto</string>
+  <!--Original value: Video-->
+  <string name="open_type_selection_video">Vídeo</string>
+  <!--Original value: Copy-->
+  <string name="operation_copy">Copiar</string>
+  <!--Original value: Copy to-->
+  <string name="operation_copy_to">Copiar para</string>
+  <!--Original value: New folder-->
+  <string name="operation_create_folder">Nova pasta</string>
+  <!--Original value: Desktop shortcut-->
+  <string name="operation_create_shortcut">Atalho da área de trabalho</string>
+  <!--Original value: Creating-->
+  <string name="operation_creating">Criar</string>
+  <!--Original value: Delete-->
+  <string name="operation_delete">Excluir</string>
+  <!--Original value: Deleting-->
+  <string name="operation_deleting">Excluindo</string>
+  <!--Original value: Operation failed because the file already exists-->
+  <string name="operation_failed_because_of_existing">Falhou porque o nome do arquivo já existe</string>
+  <!--Original value: Display by Grid-->
+  <string name="operation_grid">Apresentar por Grade</string>
+  <!--Original value: Details-->
+  <string name="operation_info">Detalhes</string>
+  <!--Original value: Display by List-->
+  <string name="operation_list">Exibição em Lista</string>
+  <!--Original value: Move-->
+  <string name="operation_move">Mover</string>
+  <!--Original value: Moving-->
+  <string name="operation_moving">Em movimento</string>
+  <!--Original value: Paste-->
+  <string name="operation_paste">Colar</string>
+  <!--Original value: Copying-->
+  <string name="operation_pasting">Copiando</string>
+  <!--Original value: Refresh-->
+  <string name="operation_refresh">Atualizar</string>
+  <!--Original value: Rename-->
+  <string name="operation_rename">Renomear</string>
+  <!--Original value: Search-->
+  <string name="operation_search">Pesquisa</string>
+  <!--Original value: Set as-->
+  <string name="operation_set_as">Definir como</string>
+  <!--Original value: Set as Ringtone-->
+  <string name="operation_set_as_ringtone">Definir como toque</string>
+  <!--Original value: Share-->
+  <string name="operation_share">Ação</string>
+  <!--Original value: Unzip-->
+  <string name="operation_unzip">Descompactar</string>
+  <!--Original value: Zip-->
+  <string name="operation_zip">Compactar</string>
+  <!--Original value: OTG device-My U disk-->
+  <string name="otg_storage">Armazenamento USB OTG</string>
+  <!--Original value: No storage devices found, please insert or connect with a storage device.-->
+  <string name="otg_tip">Conecte o seu telefone e a memória externa (como disco de U) com o cabo de dados OTG para ler os arquivos usando o seu telefone</string>
+  <!--Original value: Other storage-->
+  <string name="other_storage">Outros armazenamentos</string>
+  <!--Original value: Pause all-->
+  <string name="pause_all">Pausar tudo</string>
+  <!--Original value: Pausing-->
+  <string name="pausing">Pausando</string>
+  <!--Original value: P-->
+  <string name="petabyteShort">P</string>
+  <!--Original value: Internal phone storage-->
+  <string name="phone_storage">Armazenamento interno do telefone</string>
+  <!--Original value: Internal phone storage-->
+  <string name="phone_storage_capacity">Armazenamento interno</string>
+  <!--Original value: Contact Photo-->
+  <string name="pic_set_as_contact">Foto de Contato</string>
+  <!--Original value: Wallpaper-->
+  <string name="pic_set_as_wallpaper">Papel de parede</string>
+  <!--Original value: Select path-->
+  <string name="pick_path">Selec. caminho</string>
+  <!--Original value: Succeeded! refreshing data now-->
+  <string name="refreshing">Sucedido! dados sendo atualizados agora</string>
+  <!--Original value: Renamed successfully. Updating media database now, please wait-->
+  <string name="refreshing_picture_db_data">Renomeado com sucesso. Atualizando agora o banco de dados de mídia da Galeria, por favor, aguarde</string>
+  <!--Original value: Failed to rename-->
+  <string name="rename_failed">Falha ao renomear</string>
+  <!--Original value: Renaming now-->
+  <string name="renaming">Renomear agora</string>
+  <!--Original value: The files already exist in the download list-->
+  <string name="repetitive_task_tip">Arquivos já existentes na lista de download</string>
+  <!--Original value: Resume all-->
+  <string name="resume_all">Retornar tudo</string>
+  <!--Original value: Failed to set ringtone-->
+  <string name="ringtone_set_failed">Falha ao definir como toque</string>
+  <!--Original value: Set ringtone successfully-->
+  <string name="ringtone_set_success">Definição como toque feita com sucesso</string>
+  <!--Original value: "   SD card unavailable"-->
+  <string name="sd_not_available">Cartão SD Indisponível</string>
+  <!--Original value: Insert a SD card-->
+  <string name="sd_not_plug_in">Insira um cartão SD</string>
+  <!--Original value: SD card storage-->
+  <string name="sd_storage">Cartão SD</string>
+  <!--Original value:  Search files-->
+  <string name="search_hint">Pesquisar arquivos</string>
+  <!--Original value: Search file-->
+  <string name="search_tip">Pesquisar arquivo</string>
+  <!--Original value: Select all-->
+  <string name="select_all">Selecionar tudo</string>
+  <!--Original value: Select directory-->
+  <string name="select_directory">Escolha um diretório</string>
+  <!--Original value: Select files-->
+  <string name="select_file">Selecione os arquivos</string>
+  <!--Original value: Please select the files to upload-->
+  <string name="select_file_tip">Por favor, selecione os arquivos para fazer a atualização</string>
+  <!--Original value: %s selected-->
+  <string name="select_number_tip">%s selecionado(a)</string>
+  <!--Original value: For SIM 1 ringtone-->
+  <string name="set_as_ringtone_for_SIM_1">Para o toque do SIM 1</string>
+  <!--Original value: For SIM 2 ringtone-->
+  <string name="set_as_ringtone_for_SIM_2">Para o toque do SIM 2</string>
+  <!--Original value: Failed to set wallpaper-->
+  <string name="set_as_wallpaper_failed">Falha ao definir papel de parede</string>
+  <!--Original value: Set wallpaper successfully-->
+  <string name="set_as_wallpaper_success">Definição do papel de parede feita com sucesso</string>
+  <!--Original value: Set-->
+  <string name="setting">Cenário</string>
+  <!--Original value: Share up to 10 files at a time-->
+  <string name="share_max_num">Compartilhe até 10 arquivos de uma vez</string>
+  <!--Original value: Some files you want to download already exist in the download list-->
+  <string name="some_repetitive_task_tip">Alguns arquivos que você deseja baixar já existem na lista de download</string>
+  <!--Original value: Storage management-->
+  <string name="storage">Gerenciamento de armazenamento</string>
+  <!--Original value: Created the folder successfully-->
+  <string name="success_to_create">Pasta criada com sucesso</string>
+  <!--Original value: Initializing task, please wait-->
+  <string name="task_initial">A tarefa está inicializando, por favor, tente mais tarde</string>
+  <!--Original value: Task failed-->
+  <string name="task_transmission_failed">Falha na tarefa</string>
+  <!--Original value: Paused-->
+  <string name="task_transmission_paused">Pausado</string>
+  <!--Original value: Done-->
+  <string name="task_transmission_successful">Feito</string>
+  <!--Original value: Waiting to download-->
+  <string name="task_transmission_waiting_for_download">esperando</string>
+  <!--Original value: Waiting to upload-->
+  <string name="task_transmission_waiting_for_upload">esperando</string>
+  <!--Original value: T-->
+  <string name="terabyteShort">T</string>
+  <!--Original value: %s Total-->
+  <string name="total_capacity">%s Total</string>
+  <!--Original value: Transfer management-->
+  <string name="transmission">Gestão de Transmissão</string>
+  <!--Original value: Unknown-->
+  <string name="unknow_size_info">Desconhecido</string>
+  <!--Original value: Failed to unzip because the file already exists-->
+  <string name="unzip_has_exist">Falha ao descompactar porque o nome do arquivo já existe</string>
+  <!--Original value: File decompression is complete-->
+  <string name="unzip_success">Descompactado para%s</string>
+  <!--Original value: Upload-->
+  <string name="upload">Carregar</string>
+  <!--Original value: Uploading failed:%s-->
+  <string name="upload_failed">Falha ao carregar:%s</string>
+  <!--Original value: Uploading-->
+  <string name="uploading">Carregando</string>
+  <!--Original value: Disconnected-->
+  <string name="usb_not_plug_in">Conectar ao USB</string>
+  <!--Original value: Import to Contacts?-->
+  <string name="view_vcard">Importar para Contatos?</string>
+  <!--Original value: Failed to zip because the file already exists-->
+  <string name="zip_has_exist">Falha ao compactar porque o nome do arquivo já existe</string>
+  <!--Original value: The file is compressed-->
+  <string name="zip_success">%s pacotes criados</string>
+  <!--Original value: Just now-->
+  <string name="a_moment_ago">Agora mesmo</string>
+  <!--Original value: The file has been added to the transfer list-->
+  <string name="added_to_transfer_list_tip">O arquivo foi adicionado à lista de transferência</string>
+  <!--Original value: Album error-->
+  <string name="album_is_error">erro no Álbum</string>
+  <!--Original value: Clone App Storage-->
+  <string name="app_clone_storage">Clone App Storage</string>
+  <!--Original value: %s Available-->
+  <string name="available_capacity_secondaray">%s Disponível</string>
+  <!--Original value: Camera-->
+  <string name="camera_bucket_name">Câmera</string>
+  <!--Original value: "Can't share"-->
+  <string name="can_not_share">"Não é possível compartilhar"</string>
+  <!--Original value: Cancel move-->
+  <string name="cancel_move">Cancelar mover</string>
+  <!--Original value: Removed from favorites-->
+  <string name="cancelcollect_completed">Removido dos favoritos</string>
+  <!--Original value: Camera-->
+  <string name="category_camera">Cãmera</string>
+  <!--Original value: Favorites-->
+  <string name="category_collection">Favoritos</string>
+  <!--Original value: Gallery-->
+  <string name="category_gallery">Galeria</string>
+  <!--Original value: QQ-->
+  <string name="category_qq" />
+  <!--Original value: Recently added-->
+  <string name="category_recently">Adic. recentemente</string>
+  <!--Original value: Sound Recorder-->
+  <string name="category_record">Gravador de som</string>
+  <!--Original value: Screen Recorder-->
+  <string name="category_screen">Gravador de tela</string>
+  <!--Original value: Music-->
+  <string name="category_song">Música</string>
+  <!--Original value: Transfer-->
+  <string name="category_transfer">Transferir</string>
+  <!--Original value: WeChat-->
+  <string name="category_weixin" />
+  <!--Original value: Choose a file from the storage path-->
+  <string name="choose_file">Escolha um arquivo do caminho de armazenamento</string>
+  <!--Original value: Cloud album-->
+  <string name="cloud_album">Álbum núvem</string>
+  <!--Original value: Uploading failed-->
+  <string name="cloud_error">A Nuvem está errado, falha no carregamento</string>
+  <!--Original value: Insufficient Cloud storage space-->
+  <string name="cloud_not_enough_space">Espaço de armazenamento insuficiente na nuvem</string>
+  <!--Original value: Added to favorites-->
+  <string name="collect_completed">Adicionado aos favoritos</string>
+  <!--Original value: File Preview-->
+  <string name="compress_file_preview">Visualização do arquivo</string>
+  <!--Original value: Clear all records-->
+  <string name="confirm_to_clear_records">Limpar todos os registros</string>
+  <!--Original value: Failed to copy files-->
+  <string name="copy_failure">Falha ao copiar arquivos</string>
+  <!--Original value: Copying file, please operate later!-->
+  <string name="copying_cannot_operate">Copiando arquivo, por favor operar mais tarde!</string>
+  <!--Original value: Failed to crop files-->
+  <string name="cut_failure">Falha ao cortar arquivos</string>
+  <!--Original value: days ago-->
+  <string name="day_ago">dias atrás</string>
+  <!--Original value: days ago-->
+  <string name="days_ago">dias atrás</string>
+  <!--Original value: 0.00 B-->
+  <string name="default_size_info">0.00 B</string>
+  <!--Original value: items-->
+  <string name="default_unit">itens</string>
+  <!--Original value: Other-->
+  <string name="document_other">Outro</string>
+  <!--Original value: Continuing to download will consume %s data flow, it is recommended to connect to Wi-Fi.-->
+  <string name="download_by_datastream">Continuar a fazer o download consumirá %s de fluxo de dados, é recomendável conectar-se ao Wi-Fi.</string>
+  <!--Original value: Pull down to refresh-->
+  <string name="ds_listview_header_hint_normal">Puxe para baixo para atualizar</string>
+  <!--Original value: Release to refresh-->
+  <string name="ds_listview_header_hint_ready">Solte para atualizar</string>
+  <!--Original value: Refreshing-->
+  <string name="ds_listview_header_hint_synchronizing">Atualizando</string>
+  <!--Original value: Refreshed-->
+  <string name="ds_listview_header_synchronized_success">Atualizado</string>
+  <!--Original value: The file already exists-->
+  <string name="file_already_exists">O arquivo já existe</string>
+  <!--Original value: The file does not exist-->
+  <string name="file_inexistent">O arquivo não existe</string>
+  <!--Original value: files waiting for zip-->
+  <string name="files_been_prepared_for_zip">arquivos que estão esperando para zip</string>
+  <!--Original value: Done-->
+  <string name="finish_all_task">Feito</string>
+  <!--Original value: Done-->
+  <string name="finished">Feito</string>
+  <!--Original value: An error occurred when obtaining the file list from the Cloud Disk, please click Refresh-->
+  <string name="get_cloud_file_list_error">Ocorreu um erro ao obter a lista de arquivos a partir da Nuvem de Disco, por favor, clique em Atualizar</string>
+  <!--Original value: Continue-->
+  <string name="go_on">Continuar</string>
+  <!--Original value: History Wallpaper-->
+  <string name="histories_bucket_name">A História Do Papel De Parede</string>
+  <!--Original value: hours ago-->
+  <string name="hour_ago">horas atrás</string>
+  <!--Original value: hours ago-->
+  <string name="hours_ago">horas atrás</string>
+  <!--Original value: Loading more...-->
+  <string name="loading_more">Carregando mais...</string>
+  <!--Original value: Cancel-->
+  <string name="menu_item_sort_cancel">Cancelar</string>
+  <!--Original value: Default Sort-->
+  <string name="menu_item_sort_default">Classificação Padrão</string>
+  <!--Original value: minutes ago-->
+  <string name="minute_ago">minutos atrás</string>
+  <!--Original value: Moving file, please operate later!-->
+  <string name="moving_cannot_operate">Movendo arquivo, por favor operar mais tarde!</string>
+  <!--Original value: Continuous shooting-->
+  <string name="multishoot_bucket_name">Disparo contínuo</string>
+  <!--Original value: items-->
+  <string name="music_unit">itens</string>
+  <!--Original value: My Cloud Disk-->
+  <string name="my_cloud">Minha Nuvem</string>
+  <!--Original value: Not existed-->
+  <string name="no_exist">não existe</string>
+  <!--Original value: Insufficient OTG storage space-->
+  <string name="not_enough_otg_space">Insuficiente OTG espaço de armazenamento</string>
+  <!--Original value: Insufficient SD storage space-->
+  <string name="not_enough_sd_space">Insuficiente SD o espaço de armazenamento</string>
+  <!--Original value: Unzipping failed due to insufficient storage space-->
+  <string name="not_enough_storage_failed_to_unzip">Descompactar falhou devido à insuficiência de espaço de armazenamento</string>
+  <!--Original value: Zipping failed due to insufficient storage space-->
+  <string name="not_enough_storage_failed_to_zip">Fechando falhou devido à insuficiência de espaço de armazenamento</string>
+  <!--Original value: Not Logged in-->
+  <string name="not_logged_in">Não Conectado</string>
+  <!--Original value: nubia Cloud Disk-->
+  <string name="nubia_cloud">núbia Disco de Nuvem</string>
+  <!--Original value: Remove from favorites-->
+  <string name="operation_cancel_collect">Remover dos favoritos</string>
+  <!--Original value: Clear-->
+  <string name="operation_clean">Limpar</string>
+  <!--Original value: Clear history-->
+  <string name="operation_clear">Limpar histórico</string>
+  <!--Original value: Clearing-->
+  <string name="operation_clearing">Limpando</string>
+  <!--Original value: Favorites-->
+  <string name="operation_collect">Favoritos</string>
+  <!--Original value: Unzip-->
+  <string name="operation_compress">Descompacte</string>
+  <!--Original value: Crop-->
+  <string name="operation_cut">Cortar</string>
+  <!--Original value: Crop to-->
+  <string name="operation_cut_to">Copiar para</string>
+  <!--Original value: Cropping-->
+  <string name="operation_cutting">Cortando</string>
+  <!--Original value: Remove-->
+  <string name="otg_unmount_text">Remover</string>
+  <!--Original value: Pause-->
+  <string name="pause">Pausa</string>
+  <!--Original value: Paused-->
+  <string name="pause_all_task">Pausado</string>
+  <!--Original value: Available:%s-->
+  <string name="phone_storage_free_lable">Disponível em:%s</string>
+  <!--Original value: Total:%s-->
+  <string name="phone_storage_total_lable" />
+  <!--Original value: Photos-->
+  <string name="photo">Fotos</string>
+  <!--Original value: Album-->
+  <string name="photo_album" />
+  <!--Original value: items-->
+  <string name="picture_unit">itens</string>
+  <!--Original value: Please check the network status: %s-->
+  <string name="please_check_network">Por favor, verifique o status da rede: %s</string>
+  <!--Original value: "Can't use the Cloud Disk due to unsigned APK: %s"-->
+  <string name="please_login_after_sign">"Não é possível usar a Nuvem Disco devido a não assinados APK: %s"</string>
+  <!--Original value: Resume launch layout-->
+  <string name="recovery_launch_layout">Retomar o lançamento de layout</string>
+  <!--Original value: Android-->
+  <string name="remark_android" />
+  <!--Original value: Bluetooth-->
+  <string name="remark_bluetooth" />
+  <!--Original value: Albums-->
+  <string name="remark_dcim" />
+  <!--Original value: Downloads-->
+  <string name="remark_download">Transferências</string>
+  <!--Original value: NeoShare-->
+  <string name="remark_neoShare" />
+  <!--Original value: NotePad-->
+  <string name="remark_notepad" />
+  <!--Original value: nubia Cloud-->
+  <string name="remark_nubiacloud" />
+  <!--Original value: nubia music-->
+  <string name="remark_nubiamusic" />
+  <!--Original value: Pictures-->
+  <string name="remark_pictures">Fotos</string>
+  <!--Original value: nubia Backup-->
+  <string name="remark_pim" />
+  <!--Original value: Recordings-->
+  <string name="remark_recorder">Gravações</string>
+  <!--Original value: Screenshots-->
+  <string name="remark_screenshots">Capturas de tela</string>
+  <!--Original value: Clear records-->
+  <string name="remove_all_records">Registros claros</string>
+  <!--Original value: Network error, try again?-->
+  <string name="retry_or_not">Rede de erro, tente de novo?</string>
+  <!--Original value: Just now-->
+  <string name="right_now">Só agora</string>
+  <!--Original value: Failed to set ringtone because no SIM card is detected-->
+  <string name="ringtone_set_no_sim">Falha ao definir ringtone porque o cartão SIM não foi detectado</string>
+  <!--Original value: Screenshots-->
+  <string name="screenshots_bucket_name">Capturas de tela</string>
+  <!--Original value: SD card-->
+  <string name="sd_storage_simple_name">Cartão SD</string>
+  <!--Original value: Unselect all-->
+  <string name="select_none">Desmarcar todos</string>
+  <!--Original value: "%s selected  "-->
+  <string name="shareTitleNum">"%s selecionado "</string>
+  <!--Original value: %s Total-->
+  <string name="shareTitleSize" />
+  <!--Original value: Say something...-->
+  <string name="share_default_words">Diga alguma coisa...</string>
+  <!--Original value: Say something...-->
+  <string name="share_empty_words">Por favor, escreva alguma coisa.</string>
+  <!--Original value: Synchronously share to-->
+  <string name="share_meanwhile">Sincronizar e compartilhar:</string>
+  <!--Original value: Uploading to：Cloud Disk/MyShare-->
+  <string name="share_message">Carregando para: Cloud storage/MyShare</string>
+  <!--Original value: Please log in-->
+  <string name="share_not_login">Por Favor, Faça o Login</string>
+  <!--Original value: Share original picture (please turn it on under Wi-Fi)-->
+  <string name="share_original">Compartilhar fotos originais (sugiro para abrir sob Wi-Fi)</string>
+  <!--Original value: Share via other methods-->
+  <string name="share_other">Outros Compartilhamentos</string>
+  <!--Original value: Sharing the photo to NeoShare-->
+  <string name="share_success_tip">Compartilhamento</string>
+  <!--Original value: |-->
+  <string name="storage_seperator" />
+  <!--Original value: NeoShare-->
+  <string name="tab_shijie">Novo Compartilhamento</string>
+  <!--Original value: Transfer list-->
+  <string name="transmission_list">Lista de transferência</string>
+  <!--Original value: The file can be viewed after downloaded, download it?-->
+  <string name="transmission_list_download">O arquivo pode ser visualizado depois de baixado, download?</string>
+  <!--Original value: Transferring-->
+  <string name="transportation">Transferindo</string>
+  <!--Original value: Continuing to upload will consume %s data flow, it is recommended to connect to Wi-Fi.-->
+  <string name="upload_by_datastream">Continuando a carregar irá consumir %s de fluxo de dados, recomenda-se conectar à uma rede Wi-Fi.</string>
+  <!--Original value: Transfer after connecting to Wi-Fi-->
+  <string name="wait_WLAN_connect_transport">Transferência depois de se conectar à rede Wi-Fi</string>
+  <!--Original value: Transfer after connecting to network-->
+  <string name="wait_network_connect_transport">Transferência depois de se conectar à rede</string>
+  <!--Original value: Waiting-->
+  <string name="waiting">Aguardando</string>
+  <!--Original value: Zipped files-->
+  <string name="zip_files">Arquivos zipados</string>
+  <!--Original value: OK-->
+  <string name="agree" />
+  <!--Original value: Cancel-->
+  <string name="disagree">Cancelar</string>
+  <!--Original value: Excel-->
+  <string name="document_excel" />
+  <!--Original value: PDF-->
+  <string name="document_pdf" />
+  <!--Original value: PPT-->
+  <string name="document_ppt" />
+  <!--Original value: TXT-->
+  <string name="document_txt" />
+  <!--Original value: Word-->
+  <string name="document_word" />
+  <!--Original value: "Welcome to My Files. In order to provide you better services, the app requires the following permissions during the process of use:
+1. Get Full Network Access permission, including Mobile Data and Wi-Fi networks. You will be charged by your operator for data consumption, please consult your operator for details.
+
+By clicking “Agree”, you have agreed to the above terms."-->
+  <string name="notification_test">"Bem-vindo ao Meus Arquivos. A fim de fornecer melhores serviços, o aplicativo requer as seguintes permissões durante o processo de uso:
+1. Obter permissão de Acesso à Rede, incluindo Dados Móveis e redes Wi-Fi. Você vai ser cobrado por sua operadora para o consumo de dados, consulte a sua operadora para obter detalhes.
+
+Ao clicar em "aceito", você concordou com os termos acima."</string>
+  <!--Original value: Service Descriptions-->
+  <string name="notification_title">Descrição Do Serviço</string>
+  <!--Original value: Bluetooth-->
+  <string name="bluetooth_bucket_name" />
+  <!--Original value: Browse zip package-->
+  <string name="compress_actionbar_title">Procurar pacote zip</string>
+  <!--Original value: Confirm Download-->
+  <string name="confirm_download">Confirmar Download</string>
+  <!--Original value: Agree-->
+  <string name="cta_agree">Concordo</string>
+  <!--Original value: Exit-->
+  <string name="cta_exit">Sair</string>
+  <!--Original value: ·Camera-->
+  <string name="cts_Contacts" />
+  <!--Original value: ·Storage-->
+  <string name="cts_Storage" />
+  <!--Original value: ·Phone-->
+  <string name="cts_phone" />
+  <!--Original value: Download-->
+  <string name="download_bucket_name">Baixar</string>
+  <!--Original value: %1$d Y,%2$s M,%3$s D,%4$s W-->
+  <string name="nubia_date_lunar_title" />
+  <!--Original value: %4$s,%2$s %3$d,%1$d-->
+  <string name="nubia_date_solar_title" />
+  <!--Original value: download-->
+  <string name="nubia_download">baixar</string>
+  <!--Original value: 8-->
+  <string name="nubia_eight" />
+  <!--Original value: 5-->
+  <string name="nubia_five" />
+  <!--Original value: 4-->
+  <string name="nubia_four" />
+  <!--Original value: Bottom latest-->
+  <string name="nubia_guide_button_text">Inferior mais recente</string>
+  <!--Original value: leap-->
+  <string name="nubia_leap">salto</string>
+  <!--Original value: Lunar Calendar-->
+  <string name="nubia_lunar">Calendário Lunar</string>
+  <!--Original value: Lunar November-->
+  <string name="nubia_lunar_eleventh_month">Lunar De Novembro</string>
+  <!--Original value: First-->
+  <string name="nubia_lunar_first_day">Primeiro</string>
+  <!--Original value: Lunar January-->
+  <string name="nubia_lunar_first_month">Lunar De Janeiro</string>
+  <!--Original value: Lunar December-->
+  <string name="nubia_lunar_twelveth_month">Lunar De Dezembro</string>
+  <!--Original value: twenty-->
+  <string name="nubia_lunar_twentieth_day">vinte</string>
+  <!--Original value: 9-->
+  <string name="nubia_nine" />
+  <!--Original value: 1-->
+  <string name="nubia_one" />
+  <!--Original value: Select All-->
+  <string name="nubia_select_all">Selecionar Todos</string>
+  <!--Original value: Select None-->
+  <string name="nubia_select_none">Selecione Nenhum</string>
+  <!--Original value: 7-->
+  <string name="nubia_seven" />
+  <!--Original value: 6-->
+  <string name="nubia_six" />
+  <!--Original value: 10-->
+  <string name="nubia_ten" />
+  <!--Original value: 3-->
+  <string name="nubia_three" />
+  <!--Original value: %3$s,%2$s,%1$s,%5$s:%6$s %4$s-->
+  <string name="nubia_time_title" />
+  <!--Original value: The list moved down for one-handed operation-->
+  <string name="nubia_translation_list_dragged_text">A lista mudou-se para baixo para a operação com uma mão</string>
+  <!--Original value: 2-->
+  <string name="nubia_two" />
+  <!--Original value: week-->
+  <string name="nubia_week">semana</string>
+  <!--Original value: 0-->
+  <string name="nubia_zero" />
+  <!--Original value: Clear-->
+  <string name="operator_clear_confirm">Limpar</string>
+  <!--Original value: Other albums-->
+  <string name="otheralbums_bucket_name">Outros álbuns</string>
+  <!--Original value: You need to allow access to My Files.-->
+  <string name="permission_warmming">Você precisa permitir o acesso aos Meus Arquivos.</string>
+  <!--Original value: Select $s path-->
+  <string name="pick_path_adapter">Selecione $s caminho</string>
+  <!--Original value: Jigsaw-->
+  <string name="pintu_bucket_name">Quebra</string>
+  <!--Original value: QQ-->
+  <string name="qq_images_bucket_name" />
+  <!--Original value: Restore-->
+  <string name="recover">Restaurar</string>
+  <!--Original value: Set as-->
+  <string name="set_as">Definir como</string>
+  <!--Original value: Click to view-->
+  <string name="status_bar_click">Clique para visualizar</string>
+  <!--Original value: System Directory-->
+  <string name="subicon_creator_app_name_android">Diretório De Sistema</string>
+  <!--Original value: Album-->
+  <string name="subicon_creator_app_name_dcim" />
+  <!--Original value: Download-->
+  <string name="subicon_creator_app_name_download">Baixar</string>
+  <!--Original value: Music-->
+  <string name="subicon_creator_app_name_music">Música</string>
+  <!--Original value: Pictures-->
+  <string name="subicon_creator_app_name_pictures">Fotos</string>
+  <!--Original value: Tencent-->
+  <string name="subicon_creator_app_name_tencent">Tencent</string>
+  <!--Original value: Enable-->
+  <string name="tip_enable">Ativar</string>
+  <!--Original value: This feature requires the following permissions to be enabled,go to settings and enable them?-->
+  <string name="tip_message">Este recurso requer as seguintes permissões para ser ativado,vá em configurações e ative-los?</string>
+  <!--Original value: Cancel-->
+  <string name="tip_quit">Cancelar</string>
+  <!--Original value: Unzipping failed due to a device error-->
+  <string name="unzip_interrupted">Descompactar falhou devido a um erro de dispositivo de</string>
+  <!--Original value: unknown-->
+  <string name="video_duration_time_unknow">desconhecido</string>
+  <!--Original value: Recently deleted-->
+  <string name="virtualDelete">Recentemente excluído</string>
+  <!--Original value: WeChat-->
+  <string name="weixin_bucket_name" />
+  <!--Original value: Zipping failed due to a device error.-->
+  <string name="zip_interrupted">Fechando falhou devido a um erro do dispositivo.</string>
+  <!--Original value: V6.0.3-->
+  <string name="nubia_common_versionName" />
+  <!--Original value: AM-->
+  <string name="nubia_time_am_upper" />
+  <!--Original value: PM-->
+  <string name="nubia_time_pm_upper" />
+  <!--Original value: OFF-->
+  <string name="v7_preference_off" />
+  <!--Original value: ON-->
+  <string name="v7_preference_on" />
+</resources>
