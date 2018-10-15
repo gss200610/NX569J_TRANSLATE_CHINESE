@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locale_codes" />
+    <string name="simplified_chinese">简体中文</string>
+    <string name="traditional_chinese">繁體中文</string>
+    <string name="traditional_chinese_hk">繁體中文(香港)</string>
+    <string name="app_name">ZSetupWizard</string>
+    <string name="next">Next</string>
+    <string name="select_language">Please select language</string>
+    <string name="next_page_text">Start</string>
+    <string name="experience_nubiaui">Start experiencing your nubia UI</string>
+    <string name="start_experience">Start Experience</string>
+    <string name="user_experience_plan">User Experience Plan</string>
+    <string name="user_experience_plan_hint">To promote our product and service, we will statistically analyze the usage of various product functions. The whole process will comply with our privacy policy.</string>
+    <string name="join_user_experience_plan">Participate in nubia User Experience Plan</string>
+    <string name="user_agreement">User agreement</string>
+    <string name="privacy_policy">Privacy policies</string>
+    <string name="and">&amp;</string>
+    <string name="finish_register">Setting Finish</string>
+    <string name="initializing">Initializing…</string>
+    <string name="security_title">Information non-disclosure agreement</string>
+    <string name="security_agreement_confirm">I (the company) agree with all the above statements and commit to abide by</string>
+    <string name="comfirm">OK</string>
+    <string name="security_agreement1">This device is a test model not publically listed, therefore the information with regard to the model is important commercial secrets of Nubia Technology Co., Ltd (shortly referred to as Nubia). Please read and abide by the following agreements:</string>
+    <string name="security_agreement2">1. Do not disclose any information obtained from the model (including but not limited to appearance, used materials, configurations and functions); and do not disclose the relevant information to anyone except for Nubia.</string>
+    <string name="security_agreement3">2. Keep the model well and do not exhibit or demonstrate it to any third party.</string>
+    <string name="security_agreement4">"3. If you violate the above agreements, you shall undertake the corresponding responsibilities according to Nubia's information security system and applicable laws and regulations (including but not limited to internal punishment, dismissal, indemnification of economic losses, undertaking criminal responsibilities)."</string>
+    <string name="security_agreement5">"4. If you are one of Nubia's cooperative partners and violate the above agreements, you will be deemed as violating the NDA signed by both parties and undertake responsibilities under it."</string>
+    <string name="disagree">Disagree</string>
+    <string name="agree">Agree</string>
+    <string name="zsetup_finish">Settings have been completed</string>
+    <string name="zsetup_start_travel">Start your personal trip with nubia!</string>
+    <string name="one_key_replace_phone_left">Recommend to use</string>
+    <string name="one_key_replace_phone">" one key to exchange "</string>
+    <string name="one_key_replace_phone_right">transfer data</string>
+    <string name="welcome">Welcome</string>
+    <string name="theme">Theme</string>
+    <string name="select_theme">Choose personalized themes</string>
+    <string name="applying_theme">Applying theme...</string>
+    <string name="service_introduction_user_agreement_and_privacy_policy_hint">"You can continue to use your device only after you agree to nubia’s User Agreements, Privacy Policies and Service Descriptions. You need connect to network for nubia System Services and Basic Internet Services when activating your device. Your device can be activated once a valid network connection is established.
+
+ Descriptions of System Services
+ 1. When you are using your nubia Smartphone, your phone’s IMEI number and activated location information will be sent to nubia through your mobile data to get better after-sale services;
+ 2. In order to get better services, your device might regularly send any information in relation to you and your device to the selected service operator via Wi-Fi or mobile networks. 
+ 3. The following operations such as networking, positioning, etc., are required for the relevant system services: 
+ （1）ASU Service provides you upgrade service for system apps. During the process of use, the system apps will be automatically upgraded under Wi-Fi networks. In fewer cases, you might need to use your mobile data to check for updates of the system apps;
+ （2） (DA Service/FrameworkDataStaticsService) provides you better services. During the process of use, the app will connect to Wi-Fi or Mobile Data for relevant app data statistics (without involving any user’s personal information);
+ （3）In order to guarantee your system stability, JobDispatcher will promptly fix the relevant system bugs through network data;
+ （4）The Weather provides weather forecast and reminder services. During the process of use, the app will connect to network and access your location to update the local weather information for you;
+ （5）The Push Message Center provides you better Push Notification Service. The app will connect to network and access your location during the process of use;
+ （6）The Woodpecker will automatically record the exceptional information of apps and upload it for engineer analysis and repairing when the phone is being charged and connected to Wi-Fi;
+ （7）The LockScreen Wallpapers will automatically update the latest wallpapers under Wi-Fi networks, and access your location to provide the wallpaper that suits you best. The LockScreen Wallpapers can be turned off in Settings; 
+ （8）The Yellow Page (NBYulorePageService) provides you the function of Automatic Identification of Incoming Caller ID. In order to provide more accurate service, the app might need to use little data traffic and access your location, read/modify your contacts during the process of use. The Yellow Page service can be turned off in Contacts;
+ （9）The neoSafe provides you complete system services. During the process of use, the app will connect to network to update the relevant services and contents. “Harassment Interception will obtain and modify your contacts list, call logs and messaging text. You can disable the relevant services and functions in neoSafe;
+（10）The OwlSystem provides you better smart services. During the process of use, the app will access your location and relevant local data in order to optimize the Owl System;
+（11）The ProcessManager and OwlSystem will connect to network to collect certain app data and app behaviors, and then upload them to the server for analysis to provide better services and make more product improvements;
+（12）During the process of use, the app will connect to network, access your location and collect anonymous location data.
+（13）System updates automatically check and push new version of system upgrade for you through the network.
+（14）Quickapp will use the Internet to provide you with more convenient application services.
+
+        We undertake hereby that, your personal identity information shall not be publicly disclosed in any form or by any means, and that all the above behaviors shall comply with our User Agreements and Privacy Policies.
+
+        User Agreement (hereinafter referred to as This Agreement) is an agreement signed by you (or named as user, indicating any individual or organization registering, signing up, using or browsing the service) and Nubia Technology Co., Ltd. and its affiliated company (hereinafter referred to as Nubia) and its operating cooperation unit (hereinafter referred to as The Cooperation Unit) in terms of Nubia website (www.nubia.cn, hereinafter referred to as The Website and Nubia products, procedures and services).
+
+        Hereby, Nubia specially reminds users to carefully read and fully understand all articles in this Agreement, including the exception clause of absolution or limitation of Nubia's liability and the clause of restricting user's rights. Please carefully read and select whether to accept the Agreement or not (juveniles should read it under the escort of guardian). Unless you accept all the terms and conditions of this Agreement, you have no right to register, sign up, or use the related services covered by this Agreement. Your behaviors such as registration, signing up, using will be deemed as the acceptance to this Agreement, and you have agreed to be restricted by all terms and conditions under this Agreement.
+
+        Your acceptation to this Agreement means that you are voluntarily bound by the terms and conditions under this Agreement including accepting any modification made by Nubia to any article at any time. The Agreement shall be renewed by Nubia at any time, and the original terms and conditions shall be superseded by the renewed terms and conditions without further notice once released; users can refer to the latest version of this Agreement at our website. After Nubia makes any revision of relevant terms of the Agreement, please immediately stop using the services provided by Nubia if uses do not accept the revision; if uses continue to use the services provided by Nubia, it will be deemed that uses have accepted the revised Agreement.
+
+        1.\u0009User Operation Rules
+
+        1) You can browse this website without user account. But some website functions, Nubia products, procedures and services need you to register Nubia account. If you want to use the website and more functions of Nubia products, procedures and services, you must register relevant account and provide your personnel information at the registration page. You can stop using your account according to the website instruction, and the website can maintain or stop your account according to the regulations of the Agreement. You must promise and guarantee:
+
+        You understand and agree that, this website is an [application service product], users must take full responsibility to the authenticity, legitimacy and effectiveness of registration information; users shall not impersonate others nor use the name of others to issue any information; users shall not maliciously use the registered account to mistake other users; otherwise we shall have the right to immediately stop providing services, and you shall bear alone all the legal responsibilities arising therefrom. You must legally use the website, Nubia products, procedures and services, and must be responsible for all your behaviors under the registered account, including any content issued by you and any result arising therefrom. Users should judge the contents by themselves, and bear all the risks caused by using the contents, including the risks caused by relying on the correctness, completeness, or usefulness of the contents. Nubia cannot and won't bear any responsibility to the loss or damage caused by users' behaviors. You should keep secret to your logging information to avoid from being obtained and used by others, and you should be responsible for all your behaviors under this website account. You must notice the website about any behavior that may violate the laws, or any behavior of unauthorized use or suspected unauthorized use; the website shall not bear any responsibility to the loss caused by your failing to abide by the above requirements. The information issued by you through the website shall be regarded as the public information, any third party can get the information issued by users through the platform; any information issued by users can be treated as the public information, and users should bear all legal responsibilities to such behaviors alone; any information unwilling to be known by any third person should not be released at the platform.
+
+        2) You must acknowledge and confirm that:
+
+        Users should bear the risk to any unilateral alteration, suspension, restriction, termination or revocation caused by the website’s failing to provide all services or part of services without any notification due to the requirements of business development. The services provided by us may include advertisement and other activities; users agree to show the advertisement and other activities provided by us and affiliated party with the third-party suppliers or partners during the process of use. We shall have the right to exercise our own discretion with any reason to stop transmitting any related contents that violate the relevant laws and regulations or this Agreement, the contents that infringe, impair or threaten any one's right or security or counterfeit other person's behavior; and use our judgment to adopt appropriate legal action against any person that violates the Agreement, including but not limited to, deleting the contents with illegality, infringement and incorrectness, terminating the membership of violators, preventing them from using all or part of our services, and saving the relevant information and reporting to the related departments according to the law. Some of our products and services must be used online, including but not limited to the supermarket, subject, market, etc. You must bear personal Internet access or all communication costs, information costs and other related expenses charged by any third party (including but not limited to telecommunications or mobile communication provider). If any telecommunications value-added services are involve, we recommend you to confirm the relevant cost issues with value-added service providers.
+
+        2. User contents
+
+        1) User’s contents mean all contents caused by users’ downloading, publishing, or using this website, Nubia products, procedures and services with otherwise methods (such as your information, pictures, music and other contents); you will be the only person in charge for your user’s contents, and you will bear the risk of your user’s contents being released or being identified by any third party.
+
+        2) When you are uploading, publishing or using the users’ contents of the website, Nubia products, procedures and services with otherwise methods, it shall be seen that you have automatically authorized, promised and ensured that you have the right to authorize the irrevocable, non-exclusive, royalty-free and fully-paid global licensing to us:
+
+        Only for the purpose of providing the website, Nubia products, procedures and services; improving the website, Nubia products, procedures and services; or copying, distributing, publicly displaying, performing, making derivative works, intaking the other works, or using your user account in other ways (excluding your personal information); granting the transfer license of the above items; only for the purpose of providing your personnel information to the intended recipient, copying or publishing your personnel information of user’s contents; or you agree to declare the irrevocable, renunciative (being abandoned will be cause) moral rights and ownership about your user’s contents.
+
+        3. User Rights and Obligations
+
+        1) The right to legally use the website;
+
+        2) The right to upload, download, install and use Nubia products, procedures and services at all your mobile communication equipment.
+
+        3) The ownership of Nubia account shall belong to Nubia and its affiliated company; based on the consideration of account safety, it is not allowed to use other person's mobile phone number or email address to register Nubia account. After you complete the application and registration procedures, you will get the right to use Nubia account, such use right only belongs to the initial application registrant, and it is not allowed to grant, borrow, rent, transfer or sell. Nubia has right to recover u"</string>
+    <string name="nubia_common_versionName">V5.0.6</string>
+    <string name="nubia_common_label">nubia</string>
+    <string name="nubia_app_name">Nubia Common Resources</string>
+    <string name="nubia_capital_on">ON</string>
+    <string name="nubia_capital_off">OFF</string>
+    <string name="nubia_time_picker_dialog_title">Set time</string>
+    <string name="nubia_setting_date">Set date</string>
+    <string name="nubia_date_year">year</string>
+    <string name="nubia_date_month">month</string>
+    <string name="nubia_date_day">day</string>
+    <string name="nubia_time_hour">H</string>
+    <string name="nubia_time_minute">M</string>
+    <string name="nubia_text_pastelist">Clipboard</string>
+    <string name="nubia_select">Select</string>
+    <string name="nubia_text_copied">Text copied to clipboard.</string>
+    <string name="nubia_time_am">AM</string>
+    <string name="nubia_time_pm">PM</string>
+    <string name="nubia_searchview_description_clear">Clear query</string>
+    <string name="nubia_searchview_description_submit">Submit query</string>
+    <string name="nubia_searchview_description_voice">Voice search</string>
+    <string name="nubia_notification_time_just_now">Just now</string>
+    <string name="nubia_notification_time_one_minute">A minute ago</string>
+    <string name="nubia_notification_minutes_time">%d minutes ago</string>
+    <string name="nubia_notification_one_hours_minutes_time">A hour and %d minutes ago</string>
+    <string name="nubia_notification_hours_minutes_time" formatted="false">%d hours and %d minutes ago</string>
+    <string name="nubia_notification_time_one_hour">A hour ago</string>
+    <string name="nubia_notification_hour_time">%d hours ago</string>
+    <string name="nubia_notification_time_one_hour_one_minute">A hour and 1 minute ago</string>
+    <string name="nubia_notification_hours_one_minute_time">%d hours and 1 minute ago</string>
+    <string name="nubia_total_text">a total of %s</string>
+    <string name="nubia_more_popup_text">Cancel</string>
+    <string name="nubia_empty_message">Empty content</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_search_hint">Search...</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_activity_chooser_view_see_all">View all</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="action_bar_up_description">Navigate up</string>
+    <string name="action_bar_home_description">Navigate home</string>
+    <string name="action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="nubia_back_button_label">Back</string>
+    <string name="nubia_next_button_label">Next</string>
+    <string name="nubia_skip_button_label">Skip</string>
+    <string name="nubia_download">download</string>
+    <string name="nubia_lunar">Lunar Calendar</string>
+    <string name="nubia_week">week</string>
+    <string name="nubia_leap">leap</string>
+    <string name="nubia_lunar_first_day">First</string>
+    <string name="nubia_lunar_twentieth_day">twenty</string>
+    <string name="nubia_lunar_first_month">Lunar January</string>
+    <string name="nubia_lunar_eleventh_month">Lunar November</string>
+    <string name="nubia_lunar_twelveth_month">Lunar December</string>
+    <string name="nubia_zero">0</string>
+    <string name="nubia_one">1</string>
+    <string name="nubia_two">2</string>
+    <string name="nubia_three">3</string>
+    <string name="nubia_four">4</string>
+    <string name="nubia_five">5</string>
+    <string name="nubia_six">6</string>
+    <string name="nubia_seven">7</string>
+    <string name="nubia_eight">8</string>
+    <string name="nubia_nine">9</string>
+    <string name="nubia_ten">10</string>
+    <string name="nubia_time_am_upper">AM</string>
+    <string name="nubia_time_pm_upper">PM</string>
+    <string name="nubia_date_solar_title">%4$s,%2$s %3$d,%1$d</string>
+    <string name="nubia_date_lunar_title">%1$d Y,%2$s M,%3$s D,%4$s W</string>
+    <string name="nubia_time_title">%3$s,%2$s,%1$s,%5$s:%6$s %4$s</string>
+    <item type="string" name="APKTOOL_DUMMY_7a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7b">false</item>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_display_resolution_option_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="wifi_display_resolution_no_1080p_option_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="wifi_display_resolution_option">
+        <item>@string/wifi_display_resolution_option_1080</item>
+        <item>@string/wifi_display_resolution_option_720</item>
+        <item>@string/wifi_display_resolution_option_540</item>
+        <item>@string/wifi_display_resolution_option_480</item>
+    </string-array>
+    <string-array name="wifi_display_resolution_no_1080p_option">
+        <item>@string/wifi_display_resolution_option_720</item>
+        <item>@string/wifi_display_resolution_option_540</item>
+        <item>@string/wifi_display_resolution_option_480</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nove</item>
+        <item>Dec</item>
+    </string-array>
+</resources>

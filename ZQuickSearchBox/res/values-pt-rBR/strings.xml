@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: com.android.providers.applications/.ApplicationLauncher-->
+  <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
+  <!--Original value: com.android.browser/.BookmarkSearch-->
+  <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
+  <!--Original value: -->
+  <string name="apps_search_activity" />
+  <!--Original value: Search-->
+  <string name="app_name">Pesquisar</string>
+  <!--Original value: Search-->
+  <string name="search_widget">Pesquisar</string>
+  <!--Original value: Do you want to remove this item from the search history?-->
+  <string name="remove_from_history">Pretende remover este item do histórico de pesquisas?</string>
+  <!--Original value: "Couldn't remove item from history."-->
+  <string name="remove_from_history_failed">Não foi possível remover o item do histórico.</string>
+  <!--Original value: Search-->
+  <string name="corpus_selection_heading">Pesquisar</string>
+  <!--Original value: All-->
+  <string name="corpus_label_global">Tudo</string>
+  <!--Original value: Web-->
+  <string name="corpus_label_web">Web</string>
+  <!--Original value: Web search, bookmarks, and browser history-->
+  <string name="corpus_description_web">Pesquisa na web, marcadores e histórico do navegador</string>
+  <!--Original value: Apps-->
+  <string name="corpus_label_apps">Apps</string>
+  <!--Original value: Names of installed applications-->
+  <string name="corpus_description_apps">Nomes de aplicações instaladas</string>
+  <!--Original value: Search apps-->
+  <string name="corpus_hint_apps">Pesquisar aplicações</string>
+  <!--Original value: Search settings-->
+  <string name="menu_settings">Definições de pesquisa</string>
+  <!--Original value: Search settings-->
+  <string name="search_settings">Definições de pesquisa</string>
+  <!--Original value: Google Search-->
+  <string name="google_settings_category_title">Pesquisa Google</string>
+  <!--Original value: Clear shortcuts-->
+  <string name="device_settings_category_title">Limpar atalhos</string>
+  <!--Original value: Phone-->
+  <string name="system_search_category_title">Telefone</string>
+  <!--Original value: Searchable items-->
+  <string name="search_sources">Itens pesquisáveis</string>
+  <!--Original value: Quick Search-->
+  <string name="search_sources_title">Busca Rápida</string>
+  <!--Original value: (Do you mean Choose what to search on the phone.?)-->
+  <string name="search_sources_summary">Selecionar os itens a pesquisar no telefone</string>
+  <!--Original value: Clear shortcuts-->
+  <string name="clear_shortcuts">Limpar atalhos</string>
+  <!--Original value: Clear shortcuts to recently chosen search suggestions-->
+  <string name="clear_shortcuts_summary">Limpar atalhos para sugestões de pesquisa seleccionadas recentemente</string>
+  <!--Original value: "Do you want to clear all shortcuts to recently chosen search suggestions?
+
+To clear your Browser history, use the Browser's settings."-->
+  <string name="clear_shortcuts_prompt">"Pretende limpar todos os atalhos para as sugestões de pesquisa escolhidas recentemente?
+
+Para limpar o histórico do Navegador, utilize as definições do Navegador."</string>
+  <!--Original value: Clear shortcuts-->
+  <string name="clear_shortcuts_agree">Limpar atalhos</string>
+  <!--Original value: "Don't clear shortcuts"-->
+  <string name="clear_shortcuts_disagree">Não limpar atalhos</string>
+  <!--Original value: Help-->
+  <string name="menu_help">Ajuda</string>
+  <!--Original value: Search-->
+  <string name="google_search_label">Google</string>
+  <!--Original value: Google Search-->
+  <string name="google_app_label">Pesquisa do Google</string>
+  <!--Original value: Google Search-->
+  <string name="google_search_hint">Pesquisa do Google</string>
+  <!--Original value: Google Search suggestions-->
+  <string name="google_search_description">Sugestões da Pesquisa Google</string>
+  <!--Original value: Try saying:-->
+  <string name="voice_search_hint_title">Tente dizer:</string>
+  <!--Original value: \"-->
+  <string name="voice_search_hint_quotation_start">\"</string>
+  <!--Original value: \"-->
+  <string name="voice_search_hint_quotation_end">\"</string>
+  <!--Original value: Enter keyword(s)-->
+  <string name="enter_keys_to_search">Entrar a chave de palavra(s)</string>
+  <!--Original value: Recommend-->
+  <string name="recommend">Recomendo</string>
+  <!--Original value: " is locked, please click to see."-->
+  <string name="locked_hint">" está bloqueado, favor clique para ver."</string>
+  <!--Original value: no result for search.-->
+  <string name="no_result">sem resultado para buscar.</string>
+  <!--Original value: Search Internet, Apps, Contacts, Messages…-->
+  <string name="search_hint_text">Buscar Internet, Aplicações, Contatos, Mensagens...</string>
+  <!--Original value: Expend-->
+  <string name="expand">Expandir</string>
+  <!--Original value: Close-->
+  <string name="close">Fechar</string>
+  <!--Original value: Search-->
+  <string name="web_search_button">Pesquisar</string>
+  <!--Original value: Cancel-->
+  <string name="web_search_button_cancle">Cancelar</string>
+  <!--Original value: Search in the Internet-->
+  <string name="web_search_layout">Buscar na Internet</string>
+  <!--Original value: Web Search Result-->
+  <string name="web_search_title">Resultado de Busca da Web</string>
+  <!--Original value: Close-->
+  <string name="web_search_close">Fechar</string>
+  <!--Original value: Install-->
+  <string name="neoshop_install">Instalar</string>
+  <!--Original value: Network error-->
+  <string name="network_error">Erro de rede</string>
+  <!--Original value: Setting-->
+  <string name="network_set">Ajuste</string>
+  <!--Original value: Reload-->
+  <string name="network_reload">Recarregar</string>
+  <!--Original value: Network problem,please check your network settings.-->
+  <string name="network_unconnected">Problema de rede, favor verifique o ajuste do seu rede.</string>
+  <!--Original value: Search more-->
+  <string name="head_title">Pesquisar mais</string>
+  <!--Original value: Online Video-->
+  <string name="online_video_title">Video Online</string>
+  <!--Original value: If shutdown,the Launcher can not open the QuickSearchBox by sliding down.-->
+  <string name="search_sourch_switch_hint">Se o desligamento,o Lançador não pode abrir o QuickSearchBox deslizando para baixo.</string>
+  <!--Original value: Cancel-->
+  <string name="permission_cancel">Cancelar</string>
+  <!--Original value: Enable-->
+  <string name="permission_setting">Ativar</string>
+  <!--Original value: This feature requires the following permissions to be enabled, go to settings and enable them?-->
+  <string name="permission_title">Esta característica solicita as permissões seguintes para ser activadas, ir ajustar e ativá-las?</string>
+  <!--Original value: SMS-->
+  <string name="permission_sms">Mensagem de texto</string>
+  <!--Original value: Contacts-->
+  <string name="permission_contact">Contatos</string>
+  <!--Original value: Location-->
+  <string name="permission_location">Localização</string>
+  <!--Original value: Storage-->
+  <string name="permission_storage">Armazenamento</string>
+  <!--Original value: TelePhone-->
+  <string name="permission_phone">Telefone</string>
+  <!--Original value: Open-->
+  <string name="quick_open">Abrir</string>
+  <!--Original value: Services-->
+  <string name="service_title">Serviços</string>
+  <!--Original value: Service Descriptions-->
+  <string name="cta_authority_title">Descrição Do Serviço</string>
+  <!--Original value: Accept-->
+  <string name="cta_authority_confire">Aceitar</string>
+  <!--Original value: Exit-->
+  <string name="cta_authority_exit">Sair</string>
+  <!--Original value: "Welcome to QuickSearch. In order to provide you better services, the app requires the following permissions during the process of use: 
+1.Get your backGround ScreenShot permission; 
+2.Use your informations, including send your SMS/MMS,read your SMS/MMS,edit your SMS/MMS,modify your SMS/MMS,delete your SMS/MMS; 
+3.Get your personal information, including full contacts authority and phone authority; 
+4.Get your internet record; 
+5.Get full network access, including mobile data and Wi-Fi network, the resulting traffic costs will be charged directly by the operator, the details of the consultation you belong to the operator; 
+6.Use your phone to directly dial a number;； 
+
+By clicking Agree, you have agreed to the above terms."-->
+  <string name="cta_authority_content">"Bem-vindo para pesquisa rápida. A fim de fornecer melhores serviços, o aplicativo requer as seguintes permissões durante o processo de uso: 
+1.Obter seu plano de fundo Imagem de permissão; 
+2.Use suas informações, incluindo o envio de SMS/MMS,leitura de SMS/MMS,editar as suas mensagens SMS/MMS,modificar o seu SMS/MMS,excluir de SMS/MMS; 
+3.Obter suas informações pessoais, incluindo contatos completa autoridade e telefone autoridade; 
+4.Obter a sua internet de registro; 
+5.Obter acesso total à rede, incluindo dados móveis e Wi-Fi de rede, o tráfego resultantes custos serão cobrados diretamente pelo operador, os detalhes da consulta a que pertence o operador; 
+6.Use seu celular para ligar diretamente para um número;； 
+
+Clicando Concorda, você concordou com os termos acima."</string>
+  <!--Original value: V5.0.6-->
+  <string name="nubia_common_versionName">V5.0.6</string>
+  <!--Original value: nubia-->
+  <string name="nubia_common_label">nubia</string>
+  <!--Original value: Nubia Common Resources-->
+  <string name="nubia_app_name">Núbia Recursos Comuns</string>
+  <!--Original value: ON-->
+  <string name="nubia_capital_on">ON</string>
+  <!--Original value: OFF-->
+  <string name="nubia_capital_off">OFF</string>
+  <!--Original value: Set time-->
+  <string name="nubia_time_picker_dialog_title">Definir hora</string>
+  <!--Original value: Set date-->
+  <string name="nubia_setting_date">Definir data</string>
+  <!--Original value: year-->
+  <string name="nubia_date_year">ano</string>
+  <!--Original value: month-->
+  <string name="nubia_date_month">mês</string>
+  <!--Original value: day-->
+  <string name="nubia_date_day">dia</string>
+  <!--Original value: H-->
+  <string name="nubia_time_hour">H</string>
+  <!--Original value: M-->
+  <string name="nubia_time_minute">M</string>
+  <!--Original value: Clipboard-->
+  <string name="nubia_text_pastelist">Área de transferência</string>
+  <!--Original value: Select-->
+  <string name="nubia_select">Selecione</string>
+  <!--Original value: Text copied to clipboard.-->
+  <string name="nubia_text_copied">Texto copiado para a área de transferência.</string>
+  <!--Original value: AM-->
+  <string name="nubia_time_am">AM</string>
+  <!--Original value: PM-->
+  <string name="nubia_time_pm">PM</string>
+  <!--Original value: Clear query-->
+  <string name="nubia_searchview_description_clear">Enviar consulta</string>
+  <!--Original value: Submit query-->
+  <string name="nubia_searchview_description_submit">Enviar consulta</string>
+  <!--Original value: Voice search-->
+  <string name="nubia_searchview_description_voice">Pesquisa por voz</string>
+  <!--Original value: Just now-->
+  <string name="nubia_notification_time_just_now">Só agora</string>
+  <!--Original value: A minute ago-->
+  <string name="nubia_notification_time_one_minute">Um minuto atrás</string>
+  <!--Original value: %d minutes ago-->
+  <string name="nubia_notification_minutes_time">%d minutos atrás</string>
+  <!--Original value: A hour and %d minutes ago-->
+  <string name="nubia_notification_one_hours_minutes_time">Uma hora e %d minutos atrás</string>
+  <!--Original value: %d hours and %d minutes ago-->
+  <string name="nubia_notification_hours_minutes_time" formatted="false">%d horas e %d minutos atrás</string>
+  <!--Original value: A hour ago-->
+  <string name="nubia_notification_time_one_hour">Uma hora atrás</string>
+  <!--Original value: %d hours ago-->
+  <string name="nubia_notification_hour_time" formatted="false">%d horas atrás</string>
+  <!--Original value: A hour and 1 minute ago-->
+  <string name="nubia_notification_time_one_hour_one_minute">Uma hora e 1 minuto atrás</string>
+  <!--Original value: %d hours and 1 minute ago-->
+  <string name="nubia_notification_hours_one_minute_time">%d horas e 1 minuto atrás</string>
+  <!--Original value: a total of %s-->
+  <string name="nubia_total_text">um total de %s</string>
+  <!--Original value: Cancel-->
+  <string name="nubia_more_popup_text">Cancelar</string>
+  <!--Original value: Empty content-->
+  <string name="nubia_empty_message">Conteúdo vazio</string>
+  <!--Original value: Done-->
+  <string name="abc_action_mode_done">Feito</string>
+  <!--Original value: Navigate home-->
+  <string name="abc_action_bar_home_description">Navegar inicio</string>
+  <!--Original value: Navigate up-->
+  <string name="abc_action_bar_up_description">Navegar acima</string>
+  <!--Original value: More options-->
+  <string name="abc_action_menu_overflow_description">Mais opções</string>
+  <!--Original value: Collapse-->
+  <string name="abc_toolbar_collapse_description">Colapso</string>
+  <!--Original value: %1$s, %2$s-->
+  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+  <!--Original value: %1$s, %2$s, %3$s-->
+  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+  <!--Original value: Search-->
+  <string name="abc_searchview_description_search">Procura</string>
+  <!--Original value: Search...-->
+  <string name="abc_search_hint">Procurar...</string>
+  <!--Original value: Search query-->
+  <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+  <!--Original value: Clear query-->
+  <string name="abc_searchview_description_clear">Limpar consulta</string>
+  <!--Original value: Submit query-->
+  <string name="abc_searchview_description_submit">Enviar consulta</string>
+  <!--Original value: Voice search-->
+  <string name="abc_searchview_description_voice">A pesquisa por voz</string>
+  <!--Original value: Choose an app-->
+  <string name="abc_activitychooserview_choose_application">Escolha um aplicativo</string>
+  <!--Original value: View all-->
+  <string name="abc_activity_chooser_view_see_all">Ver todos</string>
+  <!--Original value: Share with %s-->
+  <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+  <!--Original value: Share with-->
+  <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+  <!--Original value: Navigate up-->
+  <string name="action_bar_up_description">Navegar acima</string>
+  <!--Original value: Navigate home-->
+  <string name="action_bar_home_description">Navegar início</string>
+  <!--Original value: %1$s, %2$s, %3$s-->
+  <string name="action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+  <!--Original value: %1$s, %2$s-->
+  <string name="action_bar_home_description_format">%1$s, %2$s</string>
+  <!--Original value: Back-->
+  <string name="nubia_back_button_label">Voltar</string>
+  <!--Original value: Next-->
+  <string name="nubia_next_button_label">Seguinte</string>
+  <!--Original value: Skip-->
+  <string name="nubia_skip_button_label">Pular</string>
+  <!--Original value: download-->
+  <string name="nubia_download">baixar</string>
+  <!--Original value: Lunar Calendar-->
+  <string name="nubia_lunar">Calendário Lunar</string>
+  <!--Original value: week-->
+  <string name="nubia_week">semana</string>
+  <!--Original value: leap-->
+  <string name="nubia_leap">salto</string>
+  <!--Original value: First-->
+  <string name="nubia_lunar_first_day">Primeiro</string>
+  <!--Original value: twenty-->
+  <string name="nubia_lunar_twentieth_day">vinte e</string>
+  <!--Original value: Lunar January-->
+  <string name="nubia_lunar_first_month">Lunar De Janeiro</string>
+  <!--Original value: Lunar November-->
+  <string name="nubia_lunar_eleventh_month">Lunar De Novembro</string>
+  <!--Original value: Lunar December-->
+  <string name="nubia_lunar_twelveth_month">Lunar De Dezembro</string>
+  <!--Original value: 0-->
+  <string name="nubia_zero">0</string>
+  <!--Original value: 1-->
+  <string name="nubia_one">1</string>
+  <!--Original value: 2-->
+  <string name="nubia_two">2</string>
+  <!--Original value: 3-->
+  <string name="nubia_three">3</string>
+  <!--Original value: 4-->
+  <string name="nubia_four">4</string>
+  <!--Original value: 5-->
+  <string name="nubia_five">5</string>
+  <!--Original value: 6-->
+  <string name="nubia_six">6</string>
+  <!--Original value: 7-->
+  <string name="nubia_seven">7</string>
+  <!--Original value: 8-->
+  <string name="nubia_eight">8</string>
+  <!--Original value: 9-->
+  <string name="nubia_nine">9</string>
+  <!--Original value: 10-->
+  <string name="nubia_ten">10</string>
+  <!--Original value: AM-->
+  <string name="nubia_time_am_upper">AM</string>
+  <!--Original value: PM-->
+  <string name="nubia_time_pm_upper">PM</string>
+  <!--Original value: %4$s,%2$s %3$d,%1$d-->
+  <string name="nubia_date_solar_title">%4$s,%2$s %3$d,%1$d</string>
+  <!--Original value: %1$d Y,%2$s M,%3$s D,%4$s W-->
+  <string name="nubia_date_lunar_title">%1$d Y,%2$s M,%3$s D,%4$s W</string>
+  <!--Original value: %3$s,%2$s,%1$s,%5$s:%6$s %4$s-->
+  <string name="nubia_time_title">%3$s,%2$s,%1$s,%5$s:%6$s %4$s</string>
+</resources>
