@@ -3430,7 +3430,7 @@ One card works on 3G network and the other one works on GSM 2G network."</string
     <string name="rotation">Auto-Rotate</string>
     <string name="ringersilent">Silent</string>
     <string name="flashlight">Flashlight</string>
-    <string name="screenshot">Screenshot</string>
+    <string name="screenshot">Captura tela</string>
     <string name="clear">One-key to clear</string>
     <string name="cast">Screen Projection</string>
     <string name="splitscreen">Screen Split</string>
@@ -4553,4 +4553,7 @@ Split the screen for multiple uses, playing games while refreshing your Weibo, w
     <string name="nubia_time_title">%3$s,%2$s,%1$s,%5$s:%6$s %4$s</string>
     <item type="string" name="APKTOOL_DUMMY_1247">false</item>
     <item type="string" name="APKTOOL_DUMMY_1248">false</item>
+    <string name="custom_data">"Dados: "</string>
+    <string name="custom_voice">"Voz: "</string>
+
 </resources>
