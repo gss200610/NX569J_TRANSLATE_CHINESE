@@ -4158,7 +4158,7 @@ Divida a tela para vários usos, jogando jogos enquanto atualiza seu Weibo, assi
     <string name="rom_gb">GB</string>
     <string name="wifi_speed_unit">" Mbps"</string>
     <string name="zmaster_btn_clound_backup_ru">Resetar telefone</string>
-    <string name="power_save_title">Pgerenciamento de economia de energia</string>
+    <string name="power_save_title">gerenciamento de economia de energia</string>
     <string name="power_save_summary">Sistema irá limpar aplicativos de fundo automaticamente de acordo com o uso do aplicativo</string>
     <string name="toggle_three_press_power_button_to_emergency_call_title">Pressione o botão para          Ligações de emergência</string>
     <string name="toggle_three_press_power_button_to_emergency_call_summary">Depois de ativado, rapidamente  pressione o botão de energia três vezes consecutivas para fazer uma chamada de emergência</string>
