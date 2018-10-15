@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: cn.nubia.mms-->
+  <string name="default_sms_application_ui30">cn.nubia.mms</string>
+  <!--Original value: nubia官方主题-->
+  <string name="theme_title">Tema oficial da Nubia</string>
+  <!--Original value: Swipe to power off-->
+  <string name="shutdown_text">Deslize para desligar</string>
+  <!--Original value: cancel-->
+  <string name="cancel_tip">cancelar</string>
+  <!--Original value: Swipe to restart-->
+  <string name="reboot_text">Deslize para reiniciar</string>
+  <!--Original value: nubia-->
+  <string name="nubia_common_label">nubia</string>
+  <!--Original value: nubia Common Resources-->
+  <string name="nubia_app_name">nubia Recursos comuns</string>
+  <!--Original value: ON-->
+  <string name="nubia_capital_on">ON</string>
+  <!--Original value: OFF-->
+  <string name="nubia_capital_off">OFF</string>
+  <!--Original value: Set time-->
+  <string name="nubia_time_picker_dialog_title">Definir hora</string>
+  <!--Original value: Set date-->
+  <string name="nubia_setting_date">Definir data</string>
+  <!--Original value: year-->
+  <string name="nubia_date_year">ano</string>
+  <!--Original value: month-->
+  <string name="nubia_date_month">mês</string>
+  <!--Original value: day-->
+  <string name="nubia_date_day">dia</string>
+  <!--Original value: H-->
+  <string name="nubia_time_hour">H</string>
+  <!--Original value: M-->
+  <string name="nubia_time_minute">M</string>
+  <!--Original value: Clipboard-->
+  <string name="nubia_text_pastelist">Área de transferência</string>
+  <!--Original value: Select-->
+  <string name="nubia_select">Selecione</string>
+  <!--Original value: Text copied to clipboard.-->
+  <string name="nubia_text_copied">O texto foi copiado para a área de transferência.</string>
+  <!--Original value: AM-->
+  <string name="nubia_time_am">SOU</string>
+  <!--Original value: PM-->
+  <string name="nubia_time_pm">PM</string>
+  <!--Original value: Clear query-->
+  <string name="nubia_searchview_description_clear">Limpar consulta</string>
+  <!--Original value: Submit query-->
+  <string name="nubia_searchview_description_submit">Enviar consulta</string>
+  <!--Original value: Voice search-->
+  <string name="nubia_searchview_description_voice">Pesquisa por voz</string>
+  <!--Original value: Power off-->
+  <string name="global_action_power_off">Desligar</string>
+  <!--Original value: Airplane mode-->
+  <string name="global_actions_toggle_airplane_mode">Modo de avião</string>
+  <!--Original value: Silent Mode-->
+  <string name="global_action_silent">Modo silencioso</string>
+  <!--Original value: Vibrate Mode-->
+  <string name="global_action_vibrate">Modo de vibração</string>
+  <!--Original value: MM-dd-->
+  <string name="clockwidget_time_format">MM-dd</string>
+  <!--Original value: MM/dd-->
+  <string name="clockwidget_digital_clock_date_format">MM/dd</string>
+  <!--Original value: hh:mm-->
+  <string name="clockwidget_digital_clock_hour_format_12">hh:mm</string>
+  <!--Original value: kk:mm-->
+  <string name="clockwidget_digital_clock_hour_format_24">kk:mm</string>
+  <!--Original value: E-->
+  <string name="clockwidget_digital_clock_week_format">E</string>
+  <!--Original value: Set Default Communication Card-->
+  <string name="dual_card_prompt_title">Definir cartão de comunicação padrão</string>
+  <!--Original value: Detected 2 SIM cards. Please set your default one in Contacts and Dual-SIM setting-->
+  <string name="dual_card_prompt_content">Detectado 2 cartões SIM. Por favor, defina o seu padrão em Contatos e Dual-SIM definição</string>
+  <!--Original value: Nubia customer service-->
+  <string name="nubia_service_name">Nubia atendimento ao cliente</string>
+  <!--Original value: Always-->
+  <string name="nubia_activity_resolver_use_always">Sempre</string>
+  <!--Original value: Just once-->
+  <string name="nubia_activity_resolver_use_once">Apenas uma vez</string>
+  <!--Original value: Just now-->
+  <string name="nubia_notification_time_just_now">Só agora</string>
+  <!--Original value: One minute ago-->
+  <string name="nubia_notification_time_one_minute">Um minuto atrás</string>
+  <!--Original value: %d minutes ago-->
+  <string name="nubia_notification_minutes_time">% d minutos atrás</string>
+  <!--Original value: One hour and %d minutes ago-->
+  <string name="nubia_notification_one_hours_minutes_time">Uma hora e %d minutos atrás</string>
+  <!--Original value: %d hours and %d minutes ago-->
+  <string name="nubia_notification_hours_minutes_time" formatted="false">% d horas e% d minutos atrás</string>
+  <!--Original value: One hour ago-->
+  <string name="nubia_notification_time_one_hour">Uma hora atrás</string>
+  <!--Original value: %d hours ago-->
+  <string name="nubia_notification_hour_time" formatted="false">% d horas atrás</string>
+  <!--Original value: One hour and one minute ago-->
+  <string name="nubia_notification_time_one_hour_one_minute">Uma hora e um minuto atrás</string>
+  <!--Original value: %d hours and one minute ago-->
+  <string name="nubia_notification_hours_one_minute_time" formatted="false">% d horas e um minuto atrás</string>
+  <!--Original value: a total of %s-->
+  <string name="nubia_total_text">um total de %s</string>
+  <!--Original value: Cancel-->
+  <string name="nubia_more_popup_text">Cancelar</string>
+  <!--Original value: sans-serif-regular-->
+  <string name="letter_tile_letter_font_family">sans-serif-regular</string>
+  <!--Original value: robot-serif-regular-->
+  <string name="letter_tile_letter_font_robot">robot-serif-regular</string>
+  <!--Original value: Empty content-->
+  <string name="nubia_empty_message">Conteúdo vazio</string>
+  <!--Original value: Reboot-->
+  <string name="reboot">Reinicie</string>
+  <!--Original value: Reboot your phone?-->
+  <string name="reboot_ext">Reinicie seu telefone?</string>
+  <!--Original value: Enable Mobile Hotspot %1$s-->
+  <string name="tethered_notification_wifi_title">Ativar o Hotspot para dispositivos móveis %1$s</string>
+  <!--Original value: Connected devices:%1$s-->
+  <string name="tethered_notification_wifi_message">Dispositivos conectados:%1$s</string>
+  <!--Original value: Projecting-->
+  <string name="wifi_display_notification_connecting_title">Projetando</string>
+  <!--Original value: Connecting to %1$s-->
+  <string name="wifi_display_notification_connecting_message">Conectando-se a %1$s</string>
+  <!--Original value: Projecting-->
+  <string name="wifi_display_notification_connected_title">Projetando</string>
+  <!--Original value: Connected to %1$s-->
+  <string name="wifi_display_notification_connected_message">Conectado a %1$s</string>
+  <!--Original value: Disconnect-->
+  <string name="wifi_display_notification_disconnect">desconectar</string>
+  <!--Original value: Projecting is paused-->
+  <string name="wifi_display_notification_resume_title">A projeção está pausada</string>
+  <!--Original value: Projecting will resume after the call ends.-->
+  <string name="wifi_display_notification_resume_for_call">A projeção será retomada após o término da chamada.</string>
+  <!--Original value: Brightness-->
+  <string name="edge_brightness_info">Brilho</string>
+  <!--Original value: No more apps below-->
+  <string name="fit_no_recent_tips">Não há mais aplicativos abaixo</string>
+  <!--Original value: The App has started-->
+  <string name="fit_has_start_tips">O aplicativo começou</string>
+  <!--Original value: The phone has been accelerated-->
+  <string name="fit_phone_acce">O telefone foi acelerado</string>
+  <!--Original value: Projector and screen cannot be on at the same time. Turn on screen after shutting down projector.-->
+  <string name="open_virtual_hint">O projetor e a tela não podem estar ligados ao mesmo tempo.</string>
+  <!--Original value: Projector and screen cannot be on at the same time. Turn on projector after shutting down screen.-->
+  <string name="open_wifi_hint">O projetor e a tela não podem estar ligados ao mesmo tempo.</string>
+  <!--Original value: Cannot activate one-handed mode when in landscape mode-->
+  <string name="cannot_open_su_in_landscape">Não é possível ativar uma mão e o modo de quando em modo paisagem</string>
+  <!--Original value: Cannot activate one-handed mode when in multiwindow mode-->
+  <string name="cannot_open_su_in_multiwindow">Não é possível ativar uma mão e o modo de quando em modo multiwindow</string>
+  <!--Original value: Cannot activate one-handed mode when in projector mode-->
+  <string name="cannot_open_su_in_projector">Não é possível ativar uma mão e o modo de quando em modo do projector</string>
+  <!--Original value: Double click an empty area to exit-->
+  <string name="single_ui_double_click">Clique duas vezes em uma área vazia para sair</string>
+  <!--Original value: Adjust-->
+  <string name="single_ui_adjust_text">Ajustar</string>
+  <!--Original value: Complete-->
+  <string name="single_ui_complete_text">Completo</string>
+  <!--Original value: Drag the window to a comfortable area-->
+  <string name="single_ui_drag_area">Arraste a janela para uma área confortável</string>
+  <!--Original value: Enable one-handed mode-->
+  <string name="open_single_mode">Ativar o modo de uma mão</string>
+  <!--Original value: One-handed mode is already detected, enable it now?-->
+  <string name="open_single_first_message">O modo de uma mão já foi detectado, ative agora?</string>
+  <!--Original value: Long press left key or right key,open single mode-->
+  <string name="open_single_prompt_message">Pressione longamente a tecla esquerda ou direita, abra o modo único</string>
+  <!--Original value: Swipe from left or right to quickly enable One-handed mode-->
+  <string name="open_single_dialog_content">Deslize da esquerda para a direita para ativar rapidamente o modo de uma mão</string>
+  <!--Original value: OK-->
+  <string name="open_single_dialog_button">OK</string>
+  <!--Original value: Unmounting USB OTG device-->
+  <string name="usb_otg_progress_unmounting">Desmontando o dispositivo USB OTG</string>
+  <!--Original value: Erasing USB OTG device-->
+  <string name="usb_otg_progress_erasing">Apagar o dispositivo USB OTG</string>
+  <!--Original value: "Can't erase USB OTG device"-->
+  <string name="usb_otg_format_error">"Não é possível apagar o dispositivo USB OTG"</string>
+  <!--Original value: USB OTG device was removed before unmounted.-->
+  <string name="usb_otg_media_bad_removal">O dispositivo USB OTG foi removido antes de ser desmontado.</string>
+  <!--Original value: Now checking USB OTG device-->
+  <string name="usb_otg_media_checking">Agora, verificando o dispositivo USB OTG</string>
+  <!--Original value: USB OTG device has been removed.-->
+  <string name="usb_otg_media_removed">O dispositivo USB OTG foi removido.</string>
+  <!--Original value: USB OTG storage device is currently in use by a computer.-->
+  <string name="usb_otg_media_shared">O dispositivo de armazenamento USB OTG está atualmente em uso por um computador.</string>
+  <!--Original value: Format USB OTG device?-->
+  <string name="usb_otg_extmedia_format_title">Formatar o dispositivo USB OTG?</string>
+  <!--Original value: All files in USB OTG device will be erased. This action cannot be reversed!-->
+  <string name="usb_otg_extmedia_format_message">Todos os arquivos no dispositivo USB OTG serão apagados.</string>
+  <!--Original value: Touch to switch SIM card.-->
+  <string name="data_usage_multi_sim_warning_body">Toque para mudar o cartão SIM.</string>
+  <!--Original value: Allow-->
+  <string name="allow">Permitir</string>
+  <!--Original value: Forbid(%1$ss)-->
+  <string name="deny">Proibir (%1$ss)</string>
+  <!--Original value: Remember my selection-->
+  <string name="permission_remember_choice">Lembre minha seleção</string>
+  <!--Original value: "%1$s requires %2$s, allow？
+ you can change the settings of permissions in nubia Manager-Permissions management."-->
+  <string name="permission">"%1$s requer %2$s, permitir？
+você pode alterar as configurações de permissões na núbia Manager-gerenciamento de Permissões."</string>
+  <!--Original value: Back-->
+  <string name="nubia_back_button_label">De volta</string>
+  <!--Original value: Next-->
+  <string name="nubia_next_button_label">Próximo</string>
+  <!--Original value: Skip-->
+  <string name="nubia_skip_button_label">Pular</string>
+  <!--Original value: more-->
+  <string name="nubia_resolver_more_text">more</string>
+  <!--Original value: share-->
+  <string name="nubia_resolver_default_title">compartilhar</string>
+  <!--Original value: Super snapshot is not supported under multi window-->
+  <string name="super_snapshot_multiwindow">Super instantâneo não é suportado em várias janelas</string>
+  <!--Original value: Please continue to enroll fingerprint after adjusting the contact postion-->
+  <string name="fingerprint_acquired_move_your_finger">Please continue to enroll fingerprint after adjusting the contact postion</string>
+  <!--Original value: download-->
+  <string name="nubia_download">baixar</string>
+  <!--Original value: Lunar Calendar-->
+  <string name="nubia_lunar">Calendário lunar</string>
+  <!--Original value: week-->
+  <string name="nubia_week">semana</string>
+  <!--Original value: leap-->
+  <string name="nubia_leap">salto</string>
+  <!--Original value: First-->
+  <string name="nubia_lunar_first_day">Primeiro</string>
+  <!--Original value: twenty-->
+  <string name="nubia_lunar_twentieth_day">vinte</string>
+  <!--Original value: Lunar January-->
+  <string name="nubia_lunar_first_month">Janeiro lunar</string>
+  <!--Original value: Lunar November-->
+  <string name="nubia_lunar_eleventh_month">Novembro lunar</string>
+  <!--Original value: Lunar December-->
+  <string name="nubia_lunar_twelveth_month">Dezembro lunar</string>
+  <!--Original value: 0-->
+  <string name="nubia_zero">0</string>
+  <!--Original value: 1-->
+  <string name="nubia_one">1</string>
+  <!--Original value: 2-->
+  <string name="nubia_two">2</string>
+  <!--Original value: 3-->
+  <string name="nubia_three">3</string>
+  <!--Original value: 4-->
+  <string name="nubia_four">4</string>
+  <!--Original value: 5-->
+  <string name="nubia_five">5</string>
+  <!--Original value: 6-->
+  <string name="nubia_six">6</string>
+  <!--Original value: 7-->
+  <string name="nubia_seven">7</string>
+  <!--Original value: 8-->
+  <string name="nubia_eight">8</string>
+  <!--Original value: 9-->
+  <string name="nubia_nine">9</string>
+  <!--Original value: 10-->
+  <string name="nubia_ten">10</string>
+  <!--Original value: AM-->
+  <string name="nubia_time_am_upper">SOU</string>
+  <!--Original value: PM-->
+  <string name="nubia_time_pm_upper">PM</string>
+  <!--Original value: %4$s,%2$s %3$d,%1$d-->
+  <string name="nubia_date_solar_title">%4$s,%2$s %3$d,%1$d</string>
+  <!--Original value: %1$d Y,%2$s M,%3$s D,%4$s W-->
+  <string name="nubia_date_lunar_title">%1$d Y,%2$s M,%3$s D,%4$s W</string>
+  <!--Original value: %3$s,%2$s,%1$s,%5$s:%6$s %4$s-->
+  <string name="nubia_time_title">%3$s,%2$s,%1$s,%5$s:%6$s %4$s</string>
+  <!--Original value: It is recommended to turn on \"Valid Apps in Game Mode\"-->
+  <string name="game_mode_waitinglist_title">Ele é recomendado para ativar o \"Válido Aplicativos no Modo de Jogo\"</string>
+  <!--Original value: After added, it can improve game performance and enhance your gaming experience; prevent interruptions from notifications and misoperations during games-->
+  <string name="game_mode_waitinglist_msg">Depois de adicionado, ele pode melhorar o desempenho do jogo e melhorar a sua experiência de jogo; evitar interrupções de notificações e misoperations durante os jogos</string>
+  <!--Original value: Join-->
+  <string name="game_mode_waitinglist_sure">Participar</string>
+  <!--Original value: Game Mode ON-->
+  <string name="game_mode_is_running">Modo de jogo ativado</string>
+  <!--Original value: The key is locked and double-click to unlock-->
+  <string name="game_mode_toast_guide">A chave está bloqueada e clique duas vezes para desbloquear</string>
+  <!--Original value: unlock-->
+  <string name="game_mode_unlock">desbloquear</string>
+  <!--Original value: locked-->
+  <string name="game_mode_locked">bloqueado</string>
+  <!--Original value: Skip ad-->
+  <string name="nubia_advertise_skip_ad">Pular Anúncio</string>
+  <!--Original value: Skip-->
+  <string name="nubia_advertise_skip">Pular</string>
+</resources>

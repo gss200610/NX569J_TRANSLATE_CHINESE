@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="app_ops_labels">
+    <!--Original value: coarse location-->
+    <item>localização grosseira</item>
+    <!--Original value: fine location-->
+    <item>boa localização</item>
+    <!--Original value: GPS-->
+    <item>GPS</item>
+    <!--Original value: vibrate-->
+    <item>vibrar</item>
+    <!--Original value: read contacts-->
+    <item>ler contatos</item>
+    <!--Original value: modify contacts-->
+    <item>modificar contatos</item>
+    <!--Original value: read call log-->
+    <item>ler registro de chamadas</item>
+    <!--Original value: modify call log-->
+    <item>modificar log de chamadas</item>
+    <!--Original value: read calendar-->
+    <item>leia o calendário</item>
+    <!--Original value: modify calendar-->
+    <item>modificar calendário</item>
+    <!--Original value: wi-fi scan-->
+    <item>varredura de wi-fi</item>
+    <!--Original value: notification-->
+    <item>notificação</item>
+    <!--Original value: cell scan-->
+    <item>varredura celular</item>
+    <!--Original value: call phone-->
+    <item>ligar para o telefone</item>
+    <!--Original value: read SMS/MMS-->
+    <item>leia SMS / MMS</item>
+    <!--Original value: write SMS-->
+    <item>escreva SMS</item>
+    <!--Original value: receive SMS-->
+    <item>receber SMS</item>
+    <!--Original value: receive emergency SMS-->
+    <item>receber SMS de emergência</item>
+    <!--Original value: receive MMS-->
+    <item>receber MMS</item>
+    <!--Original value: receive WAP push-->
+    <item>receber push WAP</item>
+    <!--Original value: send SMS-->
+    <item>Enviar SMS</item>
+    <!--Original value: read SMS/MMS-->
+    <item>leia SMS / MMS</item>
+    <!--Original value: write ICC SMS-->
+    <item>escreva ICC SMS</item>
+    <!--Original value: modify settings-->
+    <item>modificar configurações</item>
+    <!--Original value: Display pop-up window-->
+    <item>Exibir janela pop-up</item>
+    <!--Original value: access notifications-->
+    <item>notificações de acesso</item>
+    <!--Original value: camera-->
+    <item>Câmera</item>
+    <!--Original value: record audio-->
+    <item>gravar audio</item>
+    <!--Original value: play audio-->
+    <item>tocar áudio</item>
+    <!--Original value: read clipboard-->
+    <item>leia prancheta</item>
+    <!--Original value: modify clipboard-->
+    <item>modificar área de transferência</item>
+    <!--Original value: media buttons-->
+    <item>botões de mídia</item>
+    <!--Original value: audio focus-->
+    <item>foco de áudio</item>
+    <!--Original value: master volume-->
+    <item>volume máximo</item>
+    <!--Original value: voice volume-->
+    <item>volume de voz</item>
+    <!--Original value: ring volume-->
+    <item>volume de toque</item>
+    <!--Original value: media volume-->
+    <item>volume de mídia</item>
+    <!--Original value: alarm volume-->
+    <item>volume de alarme</item>
+    <!--Original value: notification volume-->
+    <item>volume de notificação</item>
+    <!--Original value: bluetooth volume-->
+    <item>volume do bluetooth</item>
+    <!--Original value: keep awake-->
+    <item>fique acordado</item>
+    <!--Original value: monitor location-->
+    <item>monitorar localização</item>
+    <!--Original value: monitor high power location-->
+    <item>monitorar a localização de alta potência</item>
+    <!--Original value: get usage stats-->
+    <item>obtenha estatísticas de uso</item>
+    <!--Original value: mute/unmute microphone-->
+    <item>mudo / mudo microfone</item>
+    <!--Original value: toast window-->
+    <item>janela de torrada</item>
+    <!--Original value: project media-->
+    <item>mídia de projeto</item>
+    <!--Original value: activate VPN-->
+    <item>ativar VPN</item>
+    <!--Original value: write wallpaper-->
+    <item>escreva papel de parede</item>
+    <!--Original value: assist structure-->
+    <item>estrutura de assistência</item>
+    <!--Original value: assist screenshot-->
+    <item>tela de ajuda</item>
+    <!--Original value: read phone state-->
+    <item>leia o estado do telefone</item>
+    <!--Original value: add voicemail-->
+    <item>adicionar correio de voz</item>
+    <!--Original value: use sip-->
+    <item>usar gole</item>
+    <!--Original value: process outgoing calls-->
+    <item>processar chamadas de saída</item>
+    <!--Original value: use fingerprint-->
+    <item>usar impressão digital</item>
+    <!--Original value: body sensors-->
+    <item>sensores corporais</item>
+    <!--Original value: read cell broadcasts-->
+    <item>ler transmissões celulares</item>
+    <!--Original value: mock location-->
+    <item>localização falsa</item>
+    <!--Original value: read external storage-->
+    <item>leia armazenamento externo</item>
+    <!--Original value: write external storage-->
+    <item>gravar armazenamento externo</item>
+    <!--Original value: turn screen on-->
+    <item>ativar a tela</item>
+    <!--Original value: get accounts-->
+    <item>obter contas</item>
+    <!--Original value: change wlan-->
+    <item>mudar wlan</item>
+    <!--Original value: change bluetooth-->
+    <item>mudar o bluetooth</item>
+    <!--Original value: send MMS-->
+    <item>enviar MMS</item>
+    <!--Original value: write MMS-->
+    <item>escrever MMS</item>
+    <!--Original value: delete SMS-->
+    <item>excluir SMS</item>
+    <!--Original value: delete MMS-->
+    <item>excluir MMS</item>
+    <!--Original value: delete contracts-->
+    <item>excluir contratos</item>
+    <!--Original value: delete call log-->
+    <item>excluir registro de chamadas</item>
+    <!--Original value: install shortcut-->
+    <item>instalar atalho</item>
+  </string-array>
+  <string-array name="nubia_weeks_full">
+    <!--Original value: Sunday-->
+    <item>domingo</item>
+    <!--Original value: Monday-->
+    <item>Segunda-feira</item>
+    <!--Original value: Tuesday-->
+    <item>terça</item>
+    <!--Original value: Wednesday-->
+    <item>Quarta-feira</item>
+    <!--Original value: Thursday-->
+    <item>Quinta-feira</item>
+    <!--Original value: Friday-->
+    <item>Sexta-feira</item>
+    <!--Original value: Saturday-->
+    <item>sábado</item>
+  </string-array>
+  <string-array name="nubia_weeks_short">
+    <!--Original value: Sun-->
+    <item>Dom</item>
+    <!--Original value: Mon-->
+    <item>seg</item>
+    <!--Original value: Tue-->
+    <item>ter</item>
+    <!--Original value: Wed-->
+    <item>qua</item>
+    <!--Original value: Thu-->
+    <item>qui</item>
+    <!--Original value: Fri-->
+    <item>Sex</item>
+    <!--Original value: Sat-->
+    <item>Sáb</item>
+  </string-array>
+  <string-array name="nubia_months_full">
+    <!--Original value: January-->
+    <item>janeiro</item>
+    <!--Original value: February-->
+    <item>fevereiro</item>
+    <!--Original value: March-->
+    <item>Março</item>
+    <!--Original value: April-->
+    <item>abril</item>
+    <!--Original value: May-->
+    <item>Maio</item>
+    <!--Original value: June-->
+    <item>Junho</item>
+    <!--Original value: July-->
+    <item>Julho</item>
+    <!--Original value: August-->
+    <item>agosto</item>
+    <!--Original value: September-->
+    <item>setembro</item>
+    <!--Original value: October-->
+    <item>Outubro</item>
+    <!--Original value: November-->
+    <item>novembro</item>
+    <!--Original value: December-->
+    <item>dezembro</item>
+  </string-array>
+  <string-array name="nubia_months_short">
+    <!--Original value: Jan-->
+    <item>Jan</item>
+    <!--Original value: Feb-->
+    <item>Fev</item>
+    <!--Original value: Mar-->
+    <item>Mar</item>
+    <!--Original value: Apr-->
+    <item>Abr</item>
+    <!--Original value: May-->
+    <item>Mai</item>
+    <!--Original value: Jun-->
+    <item>Jun</item>
+    <!--Original value: Jul-->
+    <item>Jul</item>
+    <!--Original value: Aug-->
+    <item>Ago</item>
+    <!--Original value: Sep-->
+    <item>Set</item>
+    <!--Original value: Oct-->
+    <item>Out</item>
+    <!--Original value: Nove-->
+    <item>Nove</item>
+    <!--Original value: Dec-->
+    <item>Dez</item>
+  </string-array>
+</resources>
