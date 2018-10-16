@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="nubia_months_full">
+    <!--Original value: January-->
+    <item>janeiro</item>
+    <!--Original value: February-->
+    <item>fevereiro</item>
+    <!--Original value: March-->
+    <item>Março</item>
+    <!--Original value: April-->
+    <item>abril</item>
+    <!--Original value: May-->
+    <item>Maio</item>
+    <!--Original value: June-->
+    <item>Junho</item>
+    <!--Original value: July-->
+    <item>Julho</item>
+    <!--Original value: August-->
+    <item>agosto</item>
+    <!--Original value: September-->
+    <item>setembro</item>
+    <!--Original value: October-->
+    <item>Outubro</item>
+    <!--Original value: November-->
+    <item>novembro</item>
+    <!--Original value: December-->
+    <item>dezembro</item>
+  </string-array>
+  <string-array name="nubia_months_short">
+    <!--Original value: Jan-->
+    <item>Jan</item>
+    <!--Original value: Feb-->
+    <item>Fev</item>
+    <!--Original value: Mar-->
+    <item>Mar</item>
+    <!--Original value: Apr-->
+    <item>Abr</item>
+    <!--Original value: May-->
+    <item>Mai</item>
+    <!--Original value: Jun-->
+    <item>Jun</item>
+    <!--Original value: Jul-->
+    <item>Jul</item>
+    <!--Original value: Aug-->
+    <item>Ago</item>
+    <!--Original value: Sep-->
+    <item>Set</item>
+    <!--Original value: Oct-->
+    <item>Out</item>
+    <!--Original value: Nove-->
+    <item>Nove</item>
+    <!--Original value: Dec-->
+    <item>Dez</item>
+  </string-array>
+  <string-array name="nubia_weeks_full">
+    <!--Original value: Sunday-->
+    <item>domingo</item>
+    <!--Original value: Monday-->
+    <item>Segunda-feira</item>
+    <!--Original value: Tuesday-->
+    <item>terça</item>
+    <!--Original value: Wednesday-->
+    <item>Quarta-feira</item>
+    <!--Original value: Thursday-->
+    <item>Quinta-feira</item>
+    <!--Original value: Friday-->
+    <item>Sexta-feira</item>
+    <!--Original value: Saturday-->
+    <item>sábado</item>
+  </string-array>
+  <string-array name="nubia_weeks_short">
+    <!--Original value: Sun-->
+    <item>Dom</item>
+    <!--Original value: Mon-->
+    <item>seg</item>
+    <!--Original value: Tue-->
+    <item>ter</item>
+    <!--Original value: Wed-->
+    <item>qua</item>
+    <!--Original value: Thu-->
+    <item>qui</item>
+    <!--Original value: Fri-->
+    <item>Sex</item>
+    <!--Original value: Sat-->
+    <item>Sáb</item>
+  </string-array>
+  <string-array name="alarm_level">
+    <!--Original value: @string/white_level-->
+    <item>@string/white_level</item>
+    <!--Original value: @string/blue_level-->
+    <item>@string/blue_level</item>
+    <!--Original value: @string/yellow_level-->
+    <item>@string/yellow_level</item>
+    <!--Original value: @string/orange_level-->
+    <item>@string/orange_level</item>
+    <!--Original value: @string/red_level-->
+    <item>@string/red_level</item>
+    <!--Original value: @string/black_level-->
+    <item>@string/black_level</item>
+  </string-array>
+  <string-array name="alarm_type">
+    <!--Original value: @string/typhoon-->
+    <item>@string/typhoon</item>
+    <!--Original value: @string/rainstorm-->
+    <item>@string/rainstorm</item>
+    <!--Original value: @string/snowstorm-->
+    <item>@string/snowstorm</item>
+    <!--Original value: @string/cold_wave-->
+    <item>@string/cold_wave</item>
+    <!--Original value: @string/gale-->
+    <item>@string/gale</item>
+    <!--Original value: @string/duststorm-->
+    <item>@string/duststorm</item>
+    <!--Original value: @string/high_temp-->
+    <item>@string/high_temp</item>
+    <!--Original value: @string/drought-->
+    <item>@string/drought</item>
+    <!--Original value: @string/lighting-->
+    <item>@string/lighting</item>
+    <!--Original value: @string/hail-->
+    <item>@string/hail</item>
+    <!--Original value: @string/frost-->
+    <item>@string/frost</item>
+    <!--Original value: @string/dense_fog-->
+    <item>@string/dense_fog</item>
+    <!--Original value: @string/haze-->
+    <item>@string/haze</item>
+    <!--Original value: @string/road_icing-->
+    <item>@string/road_icing</item>
+    <!--Original value: @string/dusthaze-->
+    <item>@string/dusthaze</item>
+    <!--Original value: @string/cold-->
+    <item>@string/cold</item>
+    <!--Original value: @string/thunderstorm-->
+    <item>@string/thunderstorm</item>
+    <!--Original value: @string/forest_fire-->
+    <item>@string/forest_fire</item>
+    <!--Original value: @string/cooling-->
+    <item>@string/cooling</item>
+    <!--Original value: @string/dry_hot_wind-->
+    <item>@string/dry_hot_wind</item>
+    <!--Original value: @string/low_temp-->
+    <item>@string/low_temp</item>
+    <!--Original value: @string/frozen-->
+    <item>@string/frozen</item>
+    <!--Original value: @string/heavy_pollution-->
+    <item>@string/heavy_pollution</item>
+    <!--Original value: @string/tornado-->
+    <item>@string/tornado</item>
+    <!--Original value: @string/low_temp_frost_damage-->
+    <item>@string/low_temp_frost_damage</item>
+    <!--Original value: @string/heat_wave-->
+    <item>@string/heat_wave</item>
+    <!--Original value: @string/avalanche-->
+    <item>@string/avalanche</item>
+    <!--Original value: @string/sea_winds-->
+    <item>@string/sea_winds</item>
+    <!--Original value: @string/high_temperature_heatstroke-->
+    <item>@string/high_temperature_heatstroke</item>
+    <!--Original value: @string/prairie_fire_risk-->
+    <item>@string/prairie_fire_risk</item>
+    <!--Original value: @string/low_temperature_rain_and_snow-->
+    <item>@string/low_temperature_rain_and_snow</item>
+    <!--Original value: @string/heavy_snow-->
+    <item>@string/heavy_snow</item>
+    <!--Original value: @string/waterlogging_risk-->
+    <item>@string/waterlogging_risk</item>
+    <!--Original value: @string/geological_hazards_meteorological_risk-->
+    <item>@string/geological_hazards_meteorological_risk</item>
+    <!--Original value: @string/air_pollution-->
+    <item>@string/air_pollution</item>
+  </string-array>
+  <string-array name="cloth_level">
+    <!--Original value: @string/cloth_index_lv1-->
+    <item>@string/cloth_index_lv1</item>
+    <!--Original value: @string/cloth_index_lv2-->
+    <item>@string/cloth_index_lv2</item>
+    <!--Original value: @string/cloth_index_lv3-->
+    <item>@string/cloth_index_lv3</item>
+    <!--Original value: @string/cloth_index_lv4-->
+    <item>@string/cloth_index_lv4</item>
+    <!--Original value: @string/cloth_index_lv5-->
+    <item>@string/cloth_index_lv5</item>
+    <!--Original value: @string/cloth_index_lv6-->
+    <item>@string/cloth_index_lv6</item>
+    <!--Original value: @string/cloth_index_lv7-->
+    <item>@string/cloth_index_lv7</item>
+  </string-array>
+  <string-array name="cloth_level_baseline">
+    <!--Original value: @string/cloth_index_lv1_baseline-->
+    <item>@string/cloth_index_lv1_baseline</item>
+    <!--Original value: @string/cloth_index_lv2_baseline-->
+    <item>@string/cloth_index_lv2_baseline</item>
+    <!--Original value: @string/cloth_index_lv3_baseline-->
+    <item>@string/cloth_index_lv3_baseline</item>
+    <!--Original value: @string/cloth_index_lv4_baseline-->
+    <item>@string/cloth_index_lv4_baseline</item>
+    <!--Original value: @string/cloth_index_lv5_baseline-->
+    <item>@string/cloth_index_lv5_baseline</item>
+    <!--Original value: @string/cloth_index_lv6_baseline-->
+    <item>@string/cloth_index_lv6_baseline</item>
+    <!--Original value: @string/cloth_index_lv7_baseline-->
+    <item>@string/cloth_index_lv7_baseline</item>
+  </string-array>
+  <string-array name="comfort_level">
+    <!--Original value: @string/comfort_index_lv1-->
+    <item>@string/comfort_index_lv1</item>
+    <!--Original value: @string/comfort_index_lv2-->
+    <item>@string/comfort_index_lv2</item>
+    <!--Original value: @string/comfort_index_lv3-->
+    <item>@string/comfort_index_lv3</item>
+    <!--Original value: @string/comfort_index_lv4-->
+    <item>@string/comfort_index_lv4</item>
+  </string-array>
+  <string-array name="comfort_level_baseline">
+    <!--Original value: @string/comfort_index_lv1_baseline-->
+    <item>@string/comfort_index_lv1_baseline</item>
+    <!--Original value: @string/comfort_index_lv2_baseline-->
+    <item>@string/comfort_index_lv2_baseline</item>
+    <!--Original value: @string/comfort_index_lv3_baseline-->
+    <item>@string/comfort_index_lv3_baseline</item>
+    <!--Original value: @string/comfort_index_lv4_baseline-->
+    <item>@string/comfort_index_lv4_baseline</item>
+  </string-array>
+  <string-array name="ray_level">
+    <!--Original value: @string/ray_index_lv1-->
+    <item>@string/ray_index_lv1</item>
+    <!--Original value: @string/ray_index_lv2-->
+    <item>@string/ray_index_lv2</item>
+    <!--Original value: @string/ray_index_lv3-->
+    <item>@string/ray_index_lv3</item>
+    <!--Original value: @string/ray_index_lv4-->
+    <item>@string/ray_index_lv4</item>
+    <!--Original value: @string/ray_index_lv5-->
+    <item>@string/ray_index_lv5</item>
+  </string-array>
+  <string-array name="ray_level_baseline">
+    <!--Original value: @string/ray_index_lv1_baseline-->
+    <item>@string/ray_index_lv1_baseline</item>
+    <!--Original value: @string/ray_index_lv2_baseline-->
+    <item>@string/ray_index_lv2_baseline</item>
+    <!--Original value: @string/ray_index_lv3_baseline-->
+    <item>@string/ray_index_lv3_baseline</item>
+    <!--Original value: @string/ray_index_lv4_baseline-->
+    <item>@string/ray_index_lv4_baseline</item>
+    <!--Original value: @string/ray_index_lv5_baseline-->
+    <item>@string/ray_index_lv5_baseline</item>
+  </string-array>
+  <string-array name="sport_level">
+    <!--Original value: @string/sport_index_lv1-->
+    <item>@string/sport_index_lv1</item>
+    <!--Original value: @string/sport_index_lv2-->
+    <item>@string/sport_index_lv2</item>
+    <!--Original value: @string/sport_index_lv3-->
+    <item>@string/sport_index_lv3</item>
+    <!--Original value: @string/sport_index_lv4-->
+    <item>@string/sport_index_lv4</item>
+    <!--Original value: @string/sport_index_lv5-->
+    <item>@string/sport_index_lv5</item>
+  </string-array>
+  <string-array name="weather_type">
+    <!--Original value: @string/sunny-->
+    <item>@string/sunny</item>
+    <!--Original value: @string/cloudy-->
+    <item>@string/cloudy</item>
+    <!--Original value: @string/overcast-->
+    <item>@string/overcast</item>
+    <!--Original value: @string/shower-->
+    <item>@string/shower</item>
+    <!--Original value: @string/thundershower-->
+    <item>@string/thundershower</item>
+    <!--Original value: @string/thundershower_with_hail-->
+    <item>@string/thundershower_with_hail</item>
+    <!--Original value: @string/sleet-->
+    <item>@string/sleet</item>
+    <!--Original value: @string/light_rain-->
+    <item>@string/light_rain</item>
+    <!--Original value: @string/moderate_rain-->
+    <item>@string/moderate_rain</item>
+    <!--Original value: @string/heavy_rain-->
+    <item>@string/heavy_rain</item>
+    <!--Original value: @string/rainstorm-->
+    <item>@string/rainstorm</item>
+    <!--Original value: @string/heavy_rainstorm-->
+    <item>@string/heavy_rainstorm</item>
+    <!--Original value: @string/torrential_rainstorm-->
+    <item>@string/torrential_rainstorm</item>
+    <!--Original value: @string/showery_snow-->
+    <item>@string/showery_snow</item>
+    <!--Original value: @string/light_snow-->
+    <item>@string/light_snow</item>
+    <!--Original value: @string/moderate_snow-->
+    <item>@string/moderate_snow</item>
+    <!--Original value: @string/heavy_snow-->
+    <item>@string/heavy_snow</item>
+    <!--Original value: @string/snowstorm-->
+    <item>@string/snowstorm</item>
+    <!--Original value: @string/mist-->
+    <item>@string/mist</item>
+    <!--Original value: @string/freezing_rain-->
+    <item>@string/freezing_rain</item>
+    <!--Original value: @string/duststorm-->
+    <item>@string/duststorm</item>
+    <!--Original value: @string/light_to_moderate_rain-->
+    <item>@string/light_to_moderate_rain</item>
+    <!--Original value: @string/moderate_to_heavy_rain-->
+    <item>@string/moderate_to_heavy_rain</item>
+    <!--Original value: @string/heavy_rain_to_rainstorm-->
+    <item>@string/heavy_rain_to_rainstorm</item>
+    <!--Original value: @string/rainstorm_to_heavy_rainstorm-->
+    <item>@string/rainstorm_to_heavy_rainstorm</item>
+    <!--Original value: @string/heavy_rainstorm_to_torrential_rainstorm-->
+    <item>@string/heavy_rainstorm_to_torrential_rainstorm</item>
+    <!--Original value: @string/light_to_moderate_snow-->
+    <item>@string/light_to_moderate_snow</item>
+    <!--Original value: @string/moderate_to_heavy_snow-->
+    <item>@string/moderate_to_heavy_snow</item>
+    <!--Original value: @string/heavy_snow_to_snowstorm-->
+    <item>@string/heavy_snow_to_snowstorm</item>
+    <!--Original value: @string/dust-->
+    <item>@string/dust</item>
+    <!--Original value: @string/sand-->
+    <item>@string/sand</item>
+    <!--Original value: @string/strong_sandstorm-->
+    <item>@string/strong_sandstorm</item>
+    <!--Original value: @string/fog-->
+    <item>@string/fog</item>
+    <!--Original value: @string/snow-->
+    <item>@string/snow</item>
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: @string/heavy_fog-->
+    <item>@string/heavy_fog</item>
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: @string/haze-->
+    <item>@string/haze</item>
+    <!--Original value: @string/moderate_haze-->
+    <item>@string/moderate_haze</item>
+    <!--Original value: @string/heavy_haze-->
+    <item>@string/heavy_haze</item>
+    <!--Original value: @string/specially_heavy_haze-->
+    <item>@string/specially_heavy_haze</item>
+    <!--Original value: @string/dense_fog-->
+    <item>@string/dense_fog</item>
+    <!--Original value: @string/specially_heavy_fog-->
+    <item>@string/specially_heavy_fog</item>
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: -->
+    <item />
+    <!--Original value: @string/default_weather-->
+    <item>@string/default_weather</item>
+  </string-array>
+  <string-array name="wind_level">
+    <!--Original value: @string/wind_level_0-->
+    <item>@string/wind_level_0</item>
+    <!--Original value: @string/wind_level_1-->
+    <item>@string/wind_level_1</item>
+    <!--Original value: @string/wind_level_2-->
+    <item>@string/wind_level_2</item>
+    <!--Original value: @string/wind_level_3-->
+    <item>@string/wind_level_3</item>
+    <!--Original value: @string/wind_level_4-->
+    <item>@string/wind_level_4</item>
+    <!--Original value: @string/wind_level_5-->
+    <item>@string/wind_level_5</item>
+    <!--Original value: @string/wind_level_6-->
+    <item>@string/wind_level_6</item>
+    <!--Original value: @string/wind_level_7-->
+    <item>@string/wind_level_7</item>
+    <!--Original value: @string/wind_level_8-->
+    <item>@string/wind_level_8</item>
+    <!--Original value: @string/wind_level_9-->
+    <item>@string/wind_level_9</item>
+  </string-array>
+  <string-array name="wind_type">
+    <!--Original value: @string/no_wind-->
+    <item>@string/no_wind</item>
+    <!--Original value: @string/northeaster-->
+    <item>@string/northeaster</item>
+    <!--Original value: @string/east-->
+    <item>@string/east</item>
+    <!--Original value: @string/southeaster-->
+    <item>@string/southeaster</item>
+    <!--Original value: @string/south-->
+    <item>@string/south</item>
+    <!--Original value: @string/southwester-->
+    <item>@string/southwester</item>
+    <!--Original value: @string/west-->
+    <item>@string/west</item>
+    <!--Original value: @string/northwester-->
+    <item>@string/northwester</item>
+    <!--Original value: @string/north-->
+    <item>@string/north</item>
+    <!--Original value: @string/rotational-->
+    <item>@string/rotational</item>
+  </string-array>
+</resources>

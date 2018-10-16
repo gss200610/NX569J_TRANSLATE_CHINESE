@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">努比亚动态主题</string>
+    <string name="click_open_download_center">Click and open the download center.</string>
+    <string name="n_downloading">%1$s task is being downloaded.</string>
+    <string name="open_fail">Open failed</string>
+    <string name="panel_function_app_name">Easy Swipe</string>
+    <string name="panel_function_name">Easy Swipe</string>
+    <string name="some_start_download">%1$sDownload started.</string>
+    <string name="task_already_exist">Download task has been exist, please check the download center!</string>
+</resources>

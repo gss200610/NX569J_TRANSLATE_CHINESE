@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Navigate home-->
+  <string name="abc_action_bar_home_description">Navigate home</string>
+  <!--Original value: %1$s, %2$s-->
+  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+  <!--Original value: %1$s, %2$s, %3$s-->
+  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+  <!--Original value: Navigate up-->
+  <string name="abc_action_bar_up_description">Navigate up</string>
+  <!--Original value: More options-->
+  <string name="abc_action_menu_overflow_description">More options</string>
+  <!--Original value: Done-->
+  <string name="abc_action_mode_done">Done</string>
+  <!--Original value: See all-->
+  <string name="abc_activity_chooser_view_see_all">See all</string>
+  <!--Original value: Choose an app-->
+  <string name="abc_activitychooserview_choose_application">Choose an app</string>
+  <!--Original value: OFF-->
+  <string name="abc_capital_off">OFF</string>
+  <!--Original value: ON-->
+  <string name="abc_capital_on">ON</string>
+  <!--Original value: Search…-->
+  <string name="abc_search_hint">Search…</string>
+  <!--Original value: Clear query-->
+  <string name="abc_searchview_description_clear">Clear query</string>
+  <!--Original value: Search query-->
+  <string name="abc_searchview_description_query">Search query</string>
+  <!--Original value: Search-->
+  <string name="abc_searchview_description_search">Search</string>
+  <!--Original value: Submit query-->
+  <string name="abc_searchview_description_submit">Submit query</string>
+  <!--Original value: Voice search-->
+  <string name="abc_searchview_description_voice">Voice search</string>
+  <!--Original value: Share with-->
+  <string name="abc_shareactionprovider_share_with">Share with</string>
+  <!--Original value: Share with %s-->
+  <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+  <!--Original value: Collapse-->
+  <string name="abc_toolbar_collapse_description">Collapse</string>
+  <!--Original value: Search-->
+  <string name="search_menu_title">Search</string>
+  <!--Original value: 999+-->
+  <string name="status_bar_notification_info_overflow">999+</string>
+  <!--Original value: 阅读-->
+  <string name="app_name">Leitura</string>
+  <!--Original value: 搜书-->
+  <string name="shortcut_label_search_book">Pesquisa do livro</string>
+  <!--Original value: 分享\"阅读\"-->
+  <string name="shortcut_label_share">Compartilhar o\"leitura\"</string>
+  <!--Original value: 签到-->
+  <string name="shortcut_label_sign">Assinar</string>
+  <!--Original value: 该分类名已存在-->
+  <string name="Bookshelf_class_exsit">O nome da categoria já existe</string>
+  <!--Original value: 分类名不能为空-->
+  <string name="Bookshelf_class_null">O nome da categoria não pode ser vazio</string>
+  <!--Original value: 分类中图书仍会显示在“全部图书”中-->
+  <string name="Bookshelf_class_remove">Classificação livros continuarão a aparecer no"todos os livros"</string>
+  <!--Original value: 确认删除该分类？-->
+  <string name="Bookshelf_class_remove_title">Confirmar a exclusão da classificação?</string>
+  <!--Original value: 更换封面-->
+  <string name="Bookshelf_updateCover">Substitua a tampa</string>
+  <!--Original value:  删除<font color=#e8554d>(%d)</font> -->
+  <string name="Classification_move"> Excluir&amp;lt;font color=#e8554d&amp;gt;(%d)&amp;lt;/font&amp;gt; </string>
+  <!--Original value: 15分钟-->
+  <string name="Light_15m">15 minutos</string>
+  <!--Original value: 15-->
+  <string name="Light_15m_value">15</string>
+  <!--Original value: 5分钟-->
+  <string name="Light_5m">5 minutos</string>
+  <!--Original value: 5-->
+  <string name="Light_5m_value">5</string>
+  <!--Original value: 常亮-->
+  <string name="Light_Continus">Muito brilhante</string>
+  <!--Original value: 12000-->
+  <string name="Light_Continus_value">12000</string>
+  <!--Original value: 系统-->
+  <string name="Light_Sys">Sistema</string>
+  <!--Original value: 0-->
+  <string name="Light_Sys_value">0</string>
+  <!--Original value: 页码-->
+  <string name="ReadProg_Page">Página</string>
+  <!--Original value: 1-->
+  <string name="ReadProg_Page_Value">1</string>
+  <!--Original value: 百分比-->
+  <string name="ReadProg_Percent">Porcentagem</string>
+  <!--Original value: 0-->
+  <string name="ReadProg_Percent_Value">0</string>
+  <!--Original value: 120分钟-->
+  <string name="Sleep_120m">120 minutos</string>
+  <!--Original value: 120-->
+  <string name="Sleep_120m_value">120</string>
+  <!--Original value: 45分钟-->
+  <string name="Sleep_45m">45 minutos</string>
+  <!--Original value: 45-->
+  <string name="Sleep_45m_value">45</string>
+  <!--Original value: 90分钟-->
+  <string name="Sleep_90m">90 minutos</string>
+  <!--Original value: 90-->
+  <string name="Sleep_90m_value">90</string>
+  <!--Original value: 关闭-->
+  <string name="Sleep_close">Fora</string>
+  <!--Original value: 0-->
+  <string name="Sleep_close_value">0</string>
+  <!--Original value: 微信客户端版本过低不支持分享-->
+  <string name="WXAppInstalled_api_low_friend_fail">WeChat versão do cliente é muito baixa não suporta compartilhamento</string>
+  <!--Original value: 尚未安装该应用，请安装后分享-->
+  <string name="WXAppInstalled_noSpace">Ainda não tem instalado o aplicativo, instale o depois de compartilhamento</string>
+  <!--Original value: 关于阅读-->
+  <string name="about_back_title">Ler em</string>
+  <!--Original value: 使用协议-->
+  <string name="about_legal_provision">Usando o Protocolo</string>
+  <!--Original value: 客服热线-->
+  <string name="about_service_hotline">Serviço de atendimento ao cliente</string>
+  <!--Original value: 4008813311-->
+  <string name="about_telphone">4008813311</string>
+  <!--Original value: 检查更新-->
+  <string name="about_update_soft">Verificar atualizações</string>
+  <!--Original value: 版本-->
+  <string name="about_version">Versão</string>
+  <!--Original value: 加速+-->
+  <string name="accelerate">Aceleração+</string>
+  <!--Original value: 即将自动登录……-->
+  <string name="account_auth_login">Ele será automaticamente login......</string>
+  <!--Original value: 掌阅账号-->
+  <string name="account_auth_zhangyue_id">Leitura da palma da conta</string>
+  <!--Original value: 不能重复添加-->
+  <string name="add_bookNote_isExist">Não pode ser repetida para adicionar</string>
+  <!--Original value: 正在添加文件到书架-->
+  <string name="add_book_shelf">É adicionar arquivos para a estante de livros</string>
+  <!--Original value: 成功加入书架-->
+  <string name="add_bookshelf_succ">Adicionado com êxito para a estante de livros</string>
+  <!--Original value: 新建分类-->
+  <string name="add_new_folder_name">Nova classificação</string>
+  <!--Original value: 分类名称（最多输入10个字）-->
+  <string name="add_new_folder_name_hint_text">Classificação Nome de Inserir até 10 palavras）</string>
+  <!--Original value: 一月以前-->
+  <string name="after_month">Janeiro anterior</string>
+  <!--Original value: 点击登录代表同意阅读-->
+  <string name="agree_login">Clique em login representantes concorda ler</string>
+  <!--Original value: 支付宝钱包登陆失败-->
+  <string name="alipay_login_failed">Alipay Carteira de início de sessão falhou</string>
+  <!--Original value: 支付宝钱包登陆成功-->
+  <string name="alipay_login_success">Alipay a Carteira de um pouso bem-sucedido</string>
+  <!--Original value: 全部-->
+  <string name="all">Todos</string>
+  <!--Original value: 应用下载失败-->
+  <string name="apk_download_fail">O download do aplicativo falhar</string>
+  <!--Original value: 您正在使用移动网络下载会消耗流量，是否继续?-->
+  <string name="apk_download_tips">Você está usando a rede celular para fazer o download irá consumir tráfego, quer continuar?</string>
+  <!--Original value: 正在登录...-->
+  <string name="app_auto_register">Sendo registado no...</string>
+  <!--Original value: 正在绑定...-->
+  <string name="app_bind_phone_num">Sendo vinculado...</string>
+  <!--Original value: 绑定失败-->
+  <string name="app_bind_phone_num_error">Fadado ao fracasso</string>
+  <!--Original value: "掌阅科技 版权所有
+Copyright © 2017 Zhangyue.All Rights Reserved"-->
+  <string name="app_copyright">"Direitos autorais da Palm Read Technology
+Copyright © 2017 Zhangyue.Todos Os Direitos Reservados"</string>
+  <!--Original value: 再按一次退出阅读-->
+  <string name="app_exist">Pressione novamente para sair da leitura</string>
+  <!--Original value: 您还未登录阅读，登录后马上使用-->
+  <string name="app_lock_bind_phone_msg">Você não está conectado a ler, faça login imediatamente após o uso</string>
+  <!--Original value: 您已经连续3次选错书籍-->
+  <string name="app_lock_choose_books_error_remind1">Você tem um contínuo de 3 vezes o errado livros</string>
+  <!--Original value:  <font color=#e8554d>%d秒</font><font color=#999999>后请继续尝试</font> -->
+  <string name="app_lock_choose_books_error_remind2"> &lt;font color=#e8554d&gt;%dSegundo&lt;/font&gt;&lt;font color=#999999&gt;Por favor, tente novamente mais tarde&lt;/font&gt; </string>
+  <!--Original value: 绘制解锁图案-->
+  <string name="app_lock_def_remind">Desenhe um padrão de desbloqueio</string>
+  <!--Original value: 找回密码-->
+  <string name="app_lock_find_password">Para recuperar sua senha</string>
+  <!--Original value: 忘记密码？-->
+  <string name="app_lock_forget_password">Esqueceu a sua senha?</string>
+  <!--Original value: 哪本书在您的书架上？-->
+  <string name="app_lock_forget_password_remind">Que livro em sua estante?</string>
+  <!--Original value: 别气馁，再接再厉！-->
+  <string name="app_lock_forget_password_remind1">Não desanime, fazer esforços persistentes!</string>
+  <!--Original value: 好好想一想你读了哪本书？-->
+  <string name="app_lock_forget_password_remind2">Bom acho que você leia o Que o livro?</string>
+  <!--Original value: 不要紧，还有机会！-->
+  <string name="app_lock_forget_password_remind3">Não importa, há uma chance!</string>
+  <!--Original value: 加油啊，骚年！-->
+  <string name="app_lock_forget_password_remind4">Venha, São anos!</string>
+  <!--Original value: 怎么搞的，是不是好久没来过了？-->
+  <string name="app_lock_forget_password_remind5">O que não é, não?</string>
+  <!--Original value: 下次看书一定要记书名啊！-->
+  <string name="app_lock_forget_password_remind6">Da próxima vez que você simplesmente se esqueça de escrever o título do livro!</string>
+  <!--Original value: 密码输入错误-->
+  <string name="app_lock_password_error">Palavra-passe de entrada erro</string>
+  <!--Original value: 至少连接4个点，请重新输入-->
+  <string name="app_lock_password_short">Pelo menos para se conectar 4 pontos, por favor, re-enter</string>
+  <!--Original value: 重新设置手势-->
+  <string name="app_lock_reset_password_btn">Re-definir o gesto</string>
+  <!--Original value: 请再次绘制解锁图案-->
+  <string name="app_lock_resetpassword">Por favor, novamente desenhar um padrão de desbloqueio</string>
+  <!--Original value: 两次密码输入不一致，请重新输入-->
+  <string name="app_lock_resetpassword_error">Duas vezes na entrada de senha é inconsistente, por favor, re-enter</string>
+  <!--Original value: 请设置手势密码-->
+  <string name="app_lock_set_password_title">Por favor, defina o gesto senha</string>
+  <!--Original value: 手势密码设置成功-->
+  <string name="app_lock_setpassword_ok">Gesto de definir a palavra-passe com sucesso</string>
+  <!--Original value: 请解锁-->
+  <string name="app_lock_title">Por favor desbloquear</string>
+  <!--Original value: 您还未安装支付宝客户端-->
+  <string name="app_not_installed_tip">Você ainda não instalou o cliente Alipay</string>
+  <!--Original value: 支付宝客户端版本过低不支持分享-->
+  <string name="app_version_low_tip">A versão do cliente Alipay é muito baixa para suportar o compartilhamento</string>
+  <!--Original value: 提示-->
+  <string name="ask_tital">Prompt</string>
+  <!--Original value: 授权失败-->
+  <string name="authorize_failure">Falha de autorização</string>
+  <!--Original value: 授权成功-->
+  <string name="authorize_sucess">Sucesso autorizado</string>
+  <!--Original value: 已退出自动翻页-->
+  <string name="auto_read_quit">已退出自动翻页</string>
+  <!--Original value: 自动翻页-->
+  <string name="auto_scroll_menu_text">自动翻页</string>
+  <!--Original value: 生成备份数据失败-->
+  <string name="backup_data">生成备份数据失败</string>
+  <!--Original value: 备份数据失败-->
+  <string name="backup_data_fail">备份数据失败</string>
+  <!--Original value: 备份数据成功-->
+  <string name="backup_data_succ">备份数据成功</string>
+  <!--Original value: 备份失败-->
+  <string name="backup_error">备份失败</string>
+  <!--Original value: 本地备份恢复-->
+  <string name="backup_restore">本地备份恢复</string>
+  <!--Original value: 备份成功-->
+  <string name="backup_success">备份成功</string>
+  <!--Original value: 处理中...-->
+  <string name="barcode_processing">处理中...</string>
+  <!--Original value: 正在加载…-->
+  <string name="being_paged">正在加载…</string>
+  <!--Original value: 一天以内-->
+  <string name="between_day">一天以内</string>
+  <!--Original value: 一月以内-->
+  <string name="between_month">一月以内</string>
+  <!--Original value: 一周以内-->
+  <string name="between_week">一周以内</string>
+  <!--Original value: 全部分类-->
+  <string name="bksh_all_class">全部分类</string>
+  <!--Original value: 详情-->
+  <string name="bksh_detail">详情</string>
+  <!--Original value: 正在处理中...-->
+  <string name="bksh_dialog_processing">正在处理中...</string>
+  <!--Original value: 分类-->
+  <string name="bksh_folder">分类</string>
+  <!--Original value: 分类名称不能为空-->
+  <string name="bksh_folder_name_cant_null">分类名称不能为空</string>
+  <!--Original value: 移动至-->
+  <string name="bksh_move_to">移动至</string>
+  <!--Original value: 书籍封面-->
+  <string name="book_cover_update">书籍封面</string>
+  <!--Original value: 作者：-->
+  <string name="book_detail_author">作者：</string>
+  <!--Original value: 位置：-->
+  <string name="book_detail_file_location">位置：</string>
+  <!--Original value: 书籍详情 >-->
+  <string name="book_detail_summary">书籍详情 &gt;</string>
+  <!--Original value: 未知-->
+  <string name="book_detail_unknow_info">未知</string>
+  <!--Original value: 正在下载-->
+  <string name="book_download_complete_tip">正在下载</string>
+  <!--Original value: 广告乱码-->
+  <string name="book_error_ad">广告乱码</string>
+  <!--Original value: 章节排序混乱-->
+  <string name="book_error_chapSort">章节排序混乱</string>
+  <!--Original value: 内容不完整-->
+  <string name="book_error_content">内容不完整</string>
+  <!--Original value: 文不对题-->
+  <string name="book_error_contentTitle">文不对题</string>
+  <!--Original value: 缺字错字-->
+  <string name="book_error_font">缺字错字</string>
+  <!--Original value: 其他-->
+  <string name="book_error_other">其他</string>
+  <!--Original value: 收藏出众好书单-->
+  <string name="book_list__auto_create_empty__title1">收藏出众好书单</string>
+  <!--Original value: 书友互助完善书单-->
+  <string name="book_list__auto_create_empty__title2">书友互助完善书单</string>
+  <!--Original value: 一键创建书单-->
+  <string name="book_list__book_shelf_folder__create_book_list">一键创建书单</string>
+  <!--Original value: 您的书架暂时没有书籍-->
+  <string name="book_list__cloud_book_shelf__empty">您的书架暂时没有书籍</string>
+  <!--Original value: 我的书籍-->
+  <string name="book_list__cloud_book_shelf__title">我的书籍</string>
+  <!--Original value: 创建书单失败-->
+  <string name="book_list__create_book_list__error">创建书单失败</string>
+  <!--Original value: 创建书单-->
+  <string name="book_list__create_book_list__title">创建书单</string>
+  <!--Original value: 此书在书单中已存在-->
+  <string name="book_list__general__add_book_repetition_toast">此书在书单中已存在</string>
+  <!--Original value: 加入书单成功-->
+  <string name="book_list__general__add_book_success_toast">加入书单成功</string>
+  <!--Original value: 添加书籍-->
+  <string name="book_list__general__add_book_title">添加书籍</string>
+  <!--Original value: 加入书单-->
+  <string name="book_list__general__add_to_book_list">加入书单</string>
+  <!--Original value: 自动创建-->
+  <string name="book_list__general__create_auto">自动创建</string>
+  <!--Original value: 手动创建-->
+  <string name="book_list__general__create_manipulative">手动创建</string>
+  <!--Original value: 创建为书单-->
+  <string name="book_list__general__create_to_book_list">创建为书单</string>
+  <!--Original value: 已加入-->
+  <string name="book_list__general__has_add_to_book_list">已加入</string>
+  <!--Original value: 请输入书单名称（最多15个字）-->
+  <string name="book_list__general__input_hint">请输入书单名称（最多15个字）</string>
+  <!--Original value: 抱歉，本地书暂不支持加入书单-->
+  <string name="book_list__general__local_book_can_not_add_to_book_list">抱歉，本地书暂不支持加入书单</string>
+  <!--Original value: 抱歉，本地书暂不支持创建书单-->
+  <string name="book_list__general__local_book_can_not_create_book_list">抱歉，本地书暂不支持创建书单</string>
+  <!--Original value: 提交-->
+  <string name="book_list__general__submit">提交</string>
+  <!--Original value: 共%d本-->
+  <string name="book_list__general_title__book_count">共%d本</string>
+  <!--Original value: 请输入书单描述-->
+  <string name="book_list__request_book_list_view__descrption_hint">请输入书单描述</string>
+  <!--Original value: 暂无匹配内容-->
+  <string name="book_list__search_book__empty">暂无匹配内容</string>
+  <!--Original value: 输入作者、书名、关键词-->
+  <string name="book_list__search_book__hint_text">输入作者、书名、关键词</string>
+  <!--Original value: 搜索结果-->
+  <string name="book_list__search_book__result_title">搜索结果</string>
+  <!--Original value: 新建书单-->
+  <string name="book_list_add_to_book_list_dialog__create_new">新建书单</string>
+  <!--Original value: 选择加入的书单-->
+  <string name="book_list_add_to_book_list_dialog__title">选择加入的书单</string>
+  <!--Original value: 书单名称 书名 作者 关键词-->
+  <string name="book_list_channel_search_hint">书单名称 书名 作者 关键词</string>
+  <!--Original value: 搜索书单-->
+  <string name="book_list_channel_search_title">搜索书单</string>
+  <!--Original value: 您还未输入任何词语，请重新输入-->
+  <string name="book_list_general__input_null">您还未输入任何词语，请重新输入</string>
+  <!--Original value: 图书打开失败-->
+  <string name="book_open_error">图书打开失败</string>
+  <!--Original value: 图书解析失败-->
+  <string name="book_parse_error">图书解析失败</string>
+  <!--Original value: 上传成功-->
+  <string name="book_shelf__wifi_transfer_window__upload_success_post">上传成功</string>
+  <!--Original value: -->
+  <string name="book_shelf__wifi_transfer_window__upload_success_prev" />
+  <!--Original value: WLAN未开启-->
+  <string name="book_shelf__wifi_transfer_window__wifi_invalid">WLAN未开启</string>
+  <!--Original value: 在电脑浏览器中输入以下地址-->
+  <string name="book_shelf__wifi_transfer_window__wifi_valid_hint">在电脑浏览器中输入以下地址</string>
+  <!--Original value: 对不起，播放不成功。-->
+  <string name="book_video_failure">对不起，播放不成功。</string>
+  <!--Original value: 请关闭其他音乐应用-->
+  <string name="book_video_trun_off_other">请关闭其他音乐应用</string>
+  <!--Original value:  <font color=#999999>作者： </font><font color=#333333>%s</font>-->
+  <string name="booklist_author_format"> &lt;font color=#999999&gt;作者： &lt;/font&gt;&lt;font color=#333333&gt;%s&lt;/font&gt;</string>
+  <!--Original value: 确定删除书单？-->
+  <string name="booklist_channel_delete_toast">确定删除书单？</string>
+  <!--Original value: 更多>-->
+  <string name="booklist_channel_more">更多&gt;</string>
+  <!--Original value: 搜索-->
+  <string name="booklist_channel_search">搜索</string>
+  <!--Original value: 没有搜索到相关书单-->
+  <string name="booklist_channel_search_no_data">没有搜索到相关书单</string>
+  <!--Original value: 书单频道-->
+  <string name="booklist_channel_title">书单频道</string>
+  <!--Original value: 修改标题-->
+  <string name="booklist_create_booklist_update_title">修改标题</string>
+  <!--Original value: 超过本数限制，将分为%d个书单创建-->
+  <string name="booklist_create_divide_parts">超过本数限制，将分为%d个书单创建</string>
+  <!--Original value: 创建书单成功-->
+  <string name="booklist_create_success">创建书单成功</string>
+  <!--Original value: 该书单内容已被用户全部删除-->
+  <string name="booklist_delete_all_toast">该书单内容已被用户全部删除</string>
+  <!--Original value: 删除失败-->
+  <string name="booklist_delete_error">删除失败</string>
+  <!--Original value: 正在删除书单...-->
+  <string name="booklist_delete_ing">正在删除书单...</string>
+  <!--Original value: 删除成功-->
+  <string name="booklist_delete_success">删除成功</string>
+  <!--Original value: 书单描述-->
+  <string name="booklist_description">书单描述</string>
+  <!--Original value: 加入书架-->
+  <string name="booklist_detail_add_bookshelf">加入书架</string>
+  <!--Original value: 收藏成功-->
+  <string name="booklist_detail_add_collect_sucess">收藏成功</string>
+  <!--Original value: 点击添加书单描述>>-->
+  <string name="booklist_detail_add_description">点击添加书单描述&gt;&gt;</string>
+  <!--Original value: 最多输入%d个字-->
+  <string name="booklist_detail_add_most_number">最多输入%d个字</string>
+  <!--Original value: 添加到书架失败-->
+  <string name="booklist_detail_add_shelf_fail">添加到书架失败</string>
+  <!--Original value: 书单里空空的，快快添加几本吧!-->
+  <string name="booklist_detail_add_some_book">书单里空空的，快快添加几本吧!</string>
+  <!--Original value: 书籍描述-->
+  <string name="booklist_detail_book_des">书籍描述</string>
+  <!--Original value: 书单为空，暂不支持分享-->
+  <string name="booklist_detail_can_not_share">书单为空，暂不支持分享</string>
+  <!--Original value: 取消成功-->
+  <string name="booklist_detail_cancle_collect_sucess">取消成功</string>
+  <!--Original value: 关闭-->
+  <string name="booklist_detail_close">关闭</string>
+  <!--Original value: 收藏-->
+  <string name="booklist_detail_collect">收藏</string>
+  <!--Original value: 书单正在审核中，暂不支持收藏-->
+  <string name="booklist_detail_collect_prompt">书单正在审核中，暂不支持收藏</string>
+  <!--Original value: 书单评论-->
+  <string name="booklist_detail_comment">书单评论</string>
+  <!--Original value: 提交评论不能为空-->
+  <string name="booklist_detail_comment_can_not_empty">提交评论不能为空</string>
+  <!--Original value: 该评论已删除-->
+  <string name="booklist_detail_comment_has_delete">该评论已删除</string>
+  <!--Original value: 评论-->
+  <string name="booklist_detail_comment_reduce">评论</string>
+  <!--Original value: 回复-->
+  <string name="booklist_detail_comment_reply">回复</string>
+  <!--Original value: 完成-->
+  <string name="booklist_detail_complete">完成</string>
+  <!--Original value: 这个人很懒什么都没有留下~-->
+  <string name="booklist_detail_default_tag">这个人很懒什么都没有留下~</string>
+  <!--Original value: 删除失败-->
+  <string name="booklist_detail_delete_fail">删除失败</string>
+  <!--Original value: 删除成功-->
+  <string name="booklist_detail_delete_sucess">删除成功</string>
+  <!--Original value: [展开]-->
+  <string name="booklist_detail_deploy">[展开]</string>
+  <!--Original value: 点赞失败-->
+  <string name="booklist_detail_do_like_fail">点赞失败</string>
+  <!--Original value: 点赞成功-->
+  <string name="booklist_detail_do_like_sucess">点赞成功</string>
+  <!--Original value: 点赞-->
+  <string name="booklist_detail_dolike">点赞</string>
+  <!--Original value: 编辑书单-->
+  <string name="booklist_detail_edit">编辑书单</string>
+  <!--Original value: 提示:文字中有敏感词汇,建议修改-->
+  <string name="booklist_detail_filter_prompt">提示:文字中有敏感词汇,建议修改</string>
+  <!--Original value: 所有人可见-->
+  <string name="booklist_detail_for_all">所有人可见</string>
+  <!--Original value: 仅自己可见-->
+  <string name="booklist_detail_for_self">仅自己可见</string>
+  <!--Original value: 来自：-->
+  <string name="booklist_detail_from">来自：</string>
+  <!--Original value: 您已经点过赞啦-->
+  <string name="booklist_detail_has_do_like">您已经点过赞啦</string>
+  <!--Original value: 暂无补充书籍-->
+  <string name="booklist_detail_has_no_book">暂无补充书籍</string>
+  <!--Original value: 暂无评论-->
+  <string name="booklist_detail_has_no_comment">暂无评论</string>
+  <!--Original value: 热门-->
+  <string name="booklist_detail_hot">热门</string>
+  <!--Original value: 请输入书籍描述-->
+  <string name="booklist_detail_input_book_des">请输入书籍描述</string>
+  <!--Original value: 请输入书籍推荐语~-->
+  <string name="booklist_detail_input_book_recomend">请输入书籍推荐语~</string>
+  <!--Original value: 输入评论~-->
+  <string name="booklist_detail_input_comment">输入评论~</string>
+  <!--Original value: 请输入书单描述-->
+  <string name="booklist_detail_input_description">请输入书单描述</string>
+  <!--Original value: 请输入标题-->
+  <string name="booklist_detail_input_title">请输入标题</string>
+  <!--Original value:  <font color=#999999>剩余</font><font color=#E8554D>%d</font><font color=#999999>字</font> -->
+  <string name="booklist_detail_last_name_number"> &lt;font color=#999999&gt;剩余&lt;/font&gt;&lt;font color=#E8554D&gt;%d&lt;/font&gt;&lt;font color=#999999&gt;字&lt;/font&gt; </string>
+  <!--Original value: 请输入书籍推荐语-->
+  <string name="booklist_detail_load_book_content">请输入书籍推荐语</string>
+  <!--Original value:  <font color=#333333>点击显示更多</font><font color=#e8554d>(%s)</font>-->
+  <string name="booklist_detail_load_more"> &lt;font color=#333333&gt;点击显示更多&lt;/font&gt;&lt;font color=#e8554d&gt;(%s)&lt;/font&gt;</string>
+  <!--Original value: 查看评论-->
+  <string name="booklist_detail_look_comment">查看评论</string>
+  <!--Original value: 最多补充5本书籍-->
+  <string name="booklist_detail_most_5_books">最多补充5本书籍</string>
+  <!--Original value: 已设置为所有人可见-->
+  <string name="booklist_detail_name_all_see">已设置为所有人可见</string>
+  <!--Original value: 已设置为可补充书籍-->
+  <string name="booklist_detail_name_can_add">已设置为可补充书籍</string>
+  <!--Original value: 已设置为不可补充书籍-->
+  <string name="booklist_detail_name_can_not_add">已设置为不可补充书籍</string>
+  <!--Original value: 书单名称不能为空，请重新输入-->
+  <string name="booklist_detail_name_is_empty">书单名称不能为空，请重新输入</string>
+  <!--Original value: 已设置为仅自己可见-->
+  <string name="booklist_detail_name_self_see">已设置为仅自己可见</string>
+  <!--Original value: 开启-->
+  <string name="booklist_detail_open">开启</string>
+  <!--Original value: 请输入书单名称-->
+  <string name="booklist_detail_please_input_name">请输入书单名称</string>
+  <!--Original value: 书友补充的书-->
+  <string name="booklist_detail_repenish">书友补充的书</string>
+  <!--Original value: 补充书籍-->
+  <string name="booklist_detail_replenish">补充书籍</string>
+  <!--Original value: 书友补充书籍-->
+  <string name="booklist_detail_replenish_books">书友补充书籍</string>
+  <!--Original value: 赞-->
+  <string name="booklist_detail_replenish_dolike">赞</string>
+  <!--Original value: 最热-->
+  <string name="booklist_detail_replenish_hotest">最热</string>
+  <!--Original value: 最新-->
+  <string name="booklist_detail_replenish_newest">最新</string>
+  <!--Original value: 求-->
+  <string name="booklist_detail_request">求</string>
+  <!--Original value: 书单正在审核中，暂不支持分享-->
+  <string name="booklist_detail_share_prompt">书单正在审核中，暂不支持分享</string>
+  <!--Original value: 正在提交中...-->
+  <string name="booklist_detail_sumbit">正在提交中...</string>
+  <!--Original value: 提交失败-->
+  <string name="booklist_detail_sumbit_fail">提交失败</string>
+  <!--Original value: 提交已发出...-->
+  <string name="booklist_detail_sumbit_send">提交已发出...</string>
+  <!--Original value: 标签:-->
+  <string name="booklist_detail_tag">标签:</string>
+  <!--Original value: [收起]-->
+  <string name="booklist_detail_up">[收起]</string>
+  <!--Original value: 修改失败-->
+  <string name="booklist_detail_update_fail">修改失败</string>
+  <!--Original value: 修改成功-->
+  <string name="booklist_detail_update_sucess">修改成功</string>
+  <!--Original value: 填写书籍推荐语>>-->
+  <string name="booklist_detail_write_description">填写书籍推荐语&gt;&gt;</string>
+  <!--Original value: 您的书单已超限，当前只能添加300本哦~-->
+  <string name="booklist_most_add_book_numbers">您的书单已超限，当前只能添加300本哦~</string>
+  <!--Original value: 书单名称-->
+  <string name="booklist_name">书单名称</string>
+  <!--Original value: 网络连接不可用-->
+  <string name="booklist_nonet_toast">网络连接不可用</string>
+  <!--Original value: 该书单已被设置访问权限-->
+  <string name="booklist_private_toast">该书单已被设置访问权限</string>
+  <!--Original value:  <font color=#999999>推荐者： </font><font color=#333333>%s</font>-->
+  <string name="booklist_referee_format"> &lt;font color=#999999&gt;Recomendador： &lt;/font&gt;&lt;font color=#333333&gt;%s&lt;/font&gt;</string>
+  <!--Original value: 共%d个-->
+  <string name="booklist_search_title_count">%d total</string>
+  <!--Original value: 您已设为仅自己可见，不支持分享-->
+  <string name="booklist_share_not_support">您已设为仅自己可见，不支持分享</string>
+  <!--Original value: 作者 : %s-->
+  <string name="bookshelf__detial_view__author">作者 : %s</string>
+  <!--Original value: 格式 : %s-->
+  <string name="bookshelf__detial_view__format">格式 : %s</string>
+  <!--Original value: 大小 : %s-->
+  <string name="bookshelf__detial_view__size">大小 : %s</string>
+  <!--Original value: 分类名称已经存在-->
+  <string name="bookshelf__general__file_name_exist">分类名称已经存在</string>
+  <!--Original value: 读书-->
+  <string name="bookshelf__general__without_category">读书</string>
+  <!--Original value: 请选择书籍-->
+  <string name="bookshelf__toast__request_select_book">请选择书籍</string>
+  <!--Original value: 本机导入-->
+  <string name="bookshelf_add_local_book">本机导入</string>
+  <!--Original value: 全部图书-->
+  <string name="bookshelf_class_default_name">全部图书</string>
+  <!--Original value: 清空-->
+  <string name="bookshelf_dialog_deleteAll_book_title">清空</string>
+  <!--Original value: 同时删除本地文件-->
+  <string name="bookshelf_dialog_delete_book">同时删除本地文件</string>
+  <!--Original value: 删除-->
+  <string name="bookshelf_dialog_delete_book_title">删除</string>
+  <!--Original value: 最多可以分享100本书呦~-->
+  <string name="bookshelf_share_most_book">最多可以分享100本书呦~</string>
+  <!--Original value: 推荐-->
+  <string name="bookshelf_share_recommend">推荐</string>
+  <!--Original value: 文件夹在前-->
+  <string name="bookshelf_sort_by_folder">文件夹在前</string>
+  <!--Original value: 导入书在前-->
+  <string name="bookshelf_sort_by_local">导入书在前</string>
+  <!--Original value: 按名称排序-->
+  <string name="bookshelf_sort_by_name">按名称排序</string>
+  <!--Original value: 最近阅读在前-->
+  <string name="bookshelf_sort_by_time">最近阅读在前</string>
+  <!--Original value: 阅读-->
+  <string name="bookshelf_title">阅读</string>
+  <!--Original value: WLAN传书-->
+  <string name="bookshelf_wifi_transfer">WLAN传书</string>
+  <!--Original value: 应用-->
+  <string name="btn_apply">aplicar</string>
+  <!--Original value: 已应用-->
+  <string name="btn_apply_ed">Aplicado</string>
+  <!--Original value: 取消-->
+  <string name="btn_cancel">cancelar</string>
+  <!--Original value: 确定-->
+  <string name="btn_ok">ok</string>
+  <!--Original value: 购买-->
+  <string name="buy_book">Compra</string>
+  <!--Original value: QQ版本过低，请先升级-->
+  <string name="can_not_support_qq_pay1">QQ版本过低，请先升级</string>
+  <!--Original value: 请先安装QQ-->
+  <string name="can_not_support_qq_pay2">请先安装QQ</string>
+  <!--Original value: 取消下载-->
+  <string name="cancel_download">取消下载</string>
+  <!--Original value: 加载失败,点击刷新-->
+  <string name="cartoon_chapter_load_error">加载失败,点击刷新</string>
+  <!--Original value: 正序-->
+  <string name="cartoon_chapter_sort">正序</string>
+  <!--Original value: 倒序-->
+  <string name="cartoon_chapter_sort_r">倒序</string>
+  <!--Original value: 网络异常,无法开始下载,请确定网络连接后重试-->
+  <string name="cartoon_download_network_prompt">网络异常,无法开始下载,请确定网络连接后重试</string>
+  <!--Original value: 目录-->
+  <string name="cartoon_menu_cata_text">目录</string>
+  <!--Original value: 上一话-->
+  <string name="cartoon_menu_last">上一话</string>
+  <!--Original value: 下一话-->
+  <string name="cartoon_menu_next">下一话</string>
+  <!--Original value: 左右翻页-->
+  <string name="cartoon_menu_page_h">左右翻页</string>
+  <!--Original value: 上下翻页-->
+  <string name="cartoon_menu_page_v">上下翻页</string>
+  <!--Original value: 无网络-->
+  <string name="cartoon_net_invalid">无网络</string>
+  <!--Original value: 第%d话-->
+  <string name="cartoon_read_bookmark_chapter">第%d话</string>
+  <!--Original value: 第%d页-->
+  <string name="cartoon_read_bookmark_page">第%d页</string>
+  <!--Original value: 双击图片缩放-->
+  <string name="cartoon_read_double_click_zoom">双击图片缩放</string>
+  <!--Original value: 已阅读到最新章节-->
+  <string name="cartoon_read_lastest_chapter">已阅读到最新章节</string>
+  <!--Original value: 移动网络在线阅读提醒-->
+  <string name="cartoon_read_network_prompt">移动网络在线阅读提醒</string>
+  <!--Original value: 本书已完结-->
+  <string name="cartoon_read_over">本书已完结</string>
+  <!--Original value: 横屏翻转屏幕-->
+  <string name="cartoon_read_sensor">横屏翻转屏幕</string>
+  <!--Original value: 后续无已购章节可进行下载-->
+  <string name="chap_download_buy_fail">后续无已购章节可进行下载</string>
+  <!--Original value: 正在下载已购章节,退出阅读将停止，是否退出-->
+  <string name="chap_download_cache_tip">正在下载已购章节,退出阅读将停止，是否退出</string>
+  <!--Original value: 正在验证已购章节-->
+  <string name="chap_download_fee_infor">正在验证已购章节</string>
+  <!--Original value: 正在下载已购章节-->
+  <string name="chap_download_ing">正在下载已购章节</string>
+  <!--Original value: 下载后续已购章节-->
+  <string name="chap_download_ordered">下载后续已购章节</string>
+  <!--Original value: 正在下载（%1$s）-->
+  <string name="chap_download_progress">正在下载（%1$s）</string>
+  <!--Original value: 已购章节下载完成-->
+  <string name="chap_download_success">已购章节下载完成</string>
+  <!--Original value: 附章-->
+  <string name="chap_name_none">附章</string>
+  <!--Original value: 章节获取失败-->
+  <string name="chapter_accept_fail">章节获取失败</string>
+  <!--Original value: 我的下载-->
+  <string name="chapter_download">我的下载</string>
+  <!--Original value: 添加下载-->
+  <string name="chapter_download_add">添加下载</string>
+  <!--Original value: 确定清空所有下载任务吗?-->
+  <string name="chapter_downloaded_clear_all">确定清空所有下载任务吗?</string>
+  <!--Original value: 确定删除所选任务吗?-->
+  <string name="chapter_downloaded_delete_all">确定删除所选任务吗?</string>
+  <!--Original value: 全部暂停-->
+  <string name="chapter_downloaded_pause_all">全部暂停</string>
+  <!--Original value: 已下载(%1$d个,共%2$s)-->
+  <string name="chapter_downloaded_size">已下载(%1$d个,共%2$s)</string>
+  <!--Original value: 全部开始-->
+  <string name="chapter_downloaded_start_all">全部开始</string>
+  <!--Original value: 正在下载(%1$d个,共%2$s)-->
+  <string name="chapter_downloading_size">正在下载(%1$d个,共%2$s)</string>
+  <!--Original value: 免费-->
+  <string name="chapter_free">免费</string>
+  <!--Original value: 不再提醒-->
+  <string name="chapter_net_not_remind">不再提醒</string>
+  <!--Original value: 漫画体积较大,可能会耗费您较多手机流量,是否继续?-->
+  <string name="chapter_net_prompt">漫画体积较大,可能会耗费您较多手机流量,是否继续?</string>
+  <!--Original value: 加载失败，请稍后重试-->
+  <string name="chapter_page_load_error">加载失败，请稍后重试</string>
+  <!--Original value: 离线-->
+  <string name="chapter_read_offline">离线</string>
+  <!--Original value: 选择需下载章节-->
+  <string name="chapter_select_download">选择需下载章节</string>
+  <!--Original value: (%1$d个,共%2$s)-->
+  <string name="chapter_start_download_size">(%1$d个,共%2$s)</string>
+  <!--Original value: 目录更新失败-->
+  <string name="chapterlist_update_fail">目录更新失败</string>
+  <!--Original value: 请选择程序-->
+  <string name="choose_title">请选择程序</string>
+  <!--Original value: 缓存清理完成-->
+  <string name="clean_cache_succ">缓存清理完成</string>
+  <!--Original value: 无效图书，请删除-->
+  <string name="clear_book_byBookshelf">无效图书，请删除</string>
+  <!--Original value: 清理掉其它无效图书-->
+  <string name="clear_other_book">清理掉其它无效图书</string>
+  <!--Original value: 享受全场景7*24小时在线的阅读体验，快去登录吧-->
+  <string name="cloud_bind_phone_msg">享受全场景7*24小时在线的阅读体验，快去登录吧</string>
+  <!--Original value: 图书正在从云端删除...-->
+  <string name="cloud_book_delete">图书正在从云端删除...</string>
+  <!--Original value: 图书已从云端删除-->
+  <string name="cloud_book_delete_success">图书已从云端删除</string>
+  <!--Original value: 部分图书正在下载，无法删除-->
+  <string name="cloud_book_delete_tips">部分图书正在下载，无法删除</string>
+  <!--Original value: 想法：-->
+  <string name="cloud_book_remark_title">想法：</string>
+  <!--Original value: 下载时间：%s-->
+  <string name="cloud_buyBookTime">下载时间：%s</string>
+  <!--Original value: 下载中-->
+  <string name="cloud_down_ing">下载中</string>
+  <!--Original value: "检测到您上次阅读进度为\" %4$s \"，
+是否跳转至该进度 "" "-->
+  <string name="cloud_load_book_sys">"检测到您上次阅读进度为\" %4$s \"，
+是否跳转至该进度 "" "</string>
+  <!--Original value: 正在获取云端想法...-->
+  <string name="cloud_load_my_notebook">正在获取云端想法...</string>
+  <!--Original value: "你还没有做过想法
+你可以在书籍中长按后选取文字添加想法"-->
+  <string name="cloud_load_my_notebook_null">"你还没有做过想法
+你可以在书籍中长按后选取文字添加想法"</string>
+  <!--Original value: "成功导出到
+%s"-->
+  <string name="cloud_my_notebook_Export_SUC">"成功导出到
+%s"</string>
+  <!--Original value: 导出-->
+  <string name="cloud_my_notebook_daochu">导出</string>
+  <!--Original value: 导出到本地-->
+  <string name="cloud_my_notebook_daochu_local">导出到本地</string>
+  <!--Original value: 其它方式导出-->
+  <string name="cloud_my_notebook_daochu_other">其它方式导出</string>
+  <!--Original value: 确定删除想法吗？-->
+  <string name="cloud_my_notebook_delete">确定删除想法吗？</string>
+  <!--Original value: 导出想法-->
+  <string name="cloud_my_notebook_edit_daochu">导出想法</string>
+  <!--Original value: 编辑-->
+  <string name="cloud_my_notebook_eidt">编辑</string>
+  <!--Original value: 我的想法-->
+  <string name="cloud_my_notebook_item">我的想法</string>
+  <!--Original value: 网络拥堵，点击重试-->
+  <string name="cloud_note_error">网络拥堵，点击重试</string>
+  <!--Original value: 想法：%s-->
+  <string name="cloud_note_remark">想法：%s</string>
+  <!--Original value: 原文：%s-->
+  <string name="cloud_note_summary">原文：%s</string>
+  <!--Original value: 我的书籍-->
+  <string name="cloud_shelf">我的书籍</string>
+  <!--Original value: 由于网络原因，想法无法导出-->
+  <string name="cloud_tip_note_none">由于网络原因，想法无法导出</string>
+  <!--Original value: 暂无书籍，去书城逛逛吧-->
+  <string name="cloudbook_none">暂无书籍，去书城逛逛吧</string>
+  <!--Original value: 我们读书，然后就不孤单-->
+  <string name="cloudbook_none_prompt">我们读书，然后就不孤单</string>
+  <!--Original value: 仅显示不在书架书籍-->
+  <string name="cloudbook_tab_exclude">仅显示不在书架书籍</string>
+  <!--Original value: 按书名-->
+  <string name="cloudbook_tab_name">按书名</string>
+  <!--Original value: 按时间-->
+  <string name="cloudbook_tab_time">按时间</string>
+  <!--Original value: 书籍更新失败-->
+  <string name="cloudbook_update_fail">书籍更新失败</string>
+  <!--Original value: 已有备份信息:-->
+  <string name="confirm_cover_curr_backup">已有备份信息:</string>
+  <!--Original value: 您当前没有备份-->
+  <string name="confirm_curr_backUp_exsit">您当前没有备份</string>
+  <!--Original value: 确定覆盖？-->
+  <string name="confirm_curr_backup">确定覆盖？</string>
+  <!--Original value: 复制完成-->
+  <string name="content_copy">复制完成</string>
+  <!--Original value: 创建下载文件失败，请重启软件后再次下载-->
+  <string name="create_folder_fail">创建下载文件失败，请重启软件后再次下载</string>
+  <!--Original value: 确定恢复至:-->
+  <string name="curr_backup_now">确定恢复至:</string>
+  <!--Original value: 自定义-->
+  <string name="custom">自定义</string>
+  <!--Original value: 自定义背景图-->
+  <string name="custom_read_bg_image">自定义背景图</string>
+  <!--Original value: 客服电话：4008813311-->
+  <string name="customer">客服电话：4008813311</string>
+  <!--Original value: 加载中...-->
+  <string name="dealing_tip">加载中...</string>
+</resources>  

@@ -2484,7 +2484,7 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "cartã
   <!--Original value: Erase all the data on the SD card, such as music or photos-->
   <string name="erase_external_storage_description">Apagar todos os dados do cartão SD, como músicas e fotos</string>
   <!--Original value: Reset phone-->
-  <string name="master_clear_button_text">Redefinir telefone</string>
+  <string name="master_clear_button_text">Resetar telefone</string>
   <!--Original value: Erase all your personal information and downloaded apps? Please note that this is an irreversible operation.-->
   <string name="master_clear_final_desc">Limpar todas as suas informações pessoais e apps baixados por download? Não é possível desfazer esta ação.</string>
   <!--Original value: Erase everything-->
@@ -8620,7 +8620,7 @@ Divida a tela para vários usos, jogando jogos enquanto atualiza seu Weibo, assi
   <!--Original value: Format personal data-->
   <string name="format_personal_data">Formatar dados pessoais</string>
   <!--Original value: Obligatory Item-->
-  <string name="master_clear_obligatory_item">Obligatory Item</string>
+  <string name="master_clear_obligatory_item">Item Obrigatório</string>
   <!--Original value: SIM 1 ringtone-->
   <string name="phone_one_ringtone">Toque do SIM 1</string>
   <!--Original value: SIM 2 ringtone-->

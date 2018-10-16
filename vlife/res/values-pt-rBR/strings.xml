@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: 努比亚动态主题-->
+  <string name="app_name">Tema dinâmico núbio</string>
+  <!--Original value: Click and open the download center.-->
+  <string name="click_open_download_center">Clique e abra o centro de download.</string>
+  <!--Original value: %1$s task is being downloaded.-->
+  <string name="n_downloading">%1$s tarefa está sendo baixado.</string>
+  <!--Original value: Open failed-->
+  <string name="open_fail">Falha ao abrir</string>
+  <!--Original value: Easy Swipe-->
+  <string name="panel_function_app_name">Fácil Deslize</string>
+  <!--Original value: Easy Swipe-->
+  <string name="panel_function_name">Fácil Deslize</string>
+  <!--Original value: %1$sDownload started.-->
+  <string name="some_start_download">%1$s baixar iniciado.</string>
+  <!--Original value: Download task has been exist, please check the download center!-->
+  <string name="task_already_exist">Download tarefa tem sido existir, por favor, verifique o centro de download!</string>
+</resources>

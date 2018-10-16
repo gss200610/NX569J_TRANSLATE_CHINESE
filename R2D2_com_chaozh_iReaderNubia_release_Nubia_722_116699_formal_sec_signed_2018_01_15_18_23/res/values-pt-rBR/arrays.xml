@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="alert_btn_clear">
+    <!--Original value: 清空-->
+    <item>Vazio</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_d">
+    <!--Original value: 确定-->
+    <item>OK</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_delete">
+    <!--Original value: 删除-->
+    <item>Apagar</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_fix_openfail">
+    <!--Original value: 重新下载-->
+    <item>Re-download</item>
+    <!--Original value: 继续打开-->
+    <item>Continuar a abrir</item>
+  </string-array>
+  <string-array name="alert_btn_tip_exit_pcode">
+    <!--Original value: 退出-->
+    <item>Sair</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_tip_exit_tts">
+    <!--Original value: 继续朗读-->
+    <item>Continuar lendo</item>
+    <!--Original value: 退出朗读-->
+    <item>Saia de leitura</item>
+  </string-array>
+  <string-array name="alert_btn_tip_install_dict">
+    <!--Original value: 安装(约48.7M)-->
+    <item>A instalação(cerca de 48. 7M)</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_tip_install_tts">
+    <!--Original value: 安装-->
+    <item>Instalação</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_tip_offline_tts">
+    <!--Original value: 离线朗读-->
+    <item>Leitura Offline</item>
+    <!--Original value: 继续播放-->
+    <item>Continuar a jogar</item>
+  </string-array>
+  <string-array name="alert_btn_tip_update_tts">
+    <!--Original value: 更新-->
+    <item>Atualização</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_cloud_login">
+    <!--Original value: 登录-->
+    <item>Login</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="apk_download_wifi_tips">
+    <!--Original value: 继续下载-->
+    <item>Continuar a baixar</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="btn_cancel">
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="btn_ok">
+    <!--Original value: 确定-->
+    <item>OK</item>
+  </string-array>
+  <string-array name="cancel">
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="cartoon_download_net_alert">
+    <!--Original value: 继续下载-->
+    <item>Continuar a baixar</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="cartoon_download_net_alert2">
+    <!--Original value: 继续下载-->
+    <item>Continuar a baixar</item>
+    <!--Original value: 全部暂停-->
+    <item>Pausar todos os</item>
+  </string-array>
+  <string-array name="cartoon_net_alert">
+    <!--Original value: 继续阅读-->
+    <item>Continuar lendo</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="chap_cache_download">
+    <!--Original value: 继续下载-->
+    <item>Continuar a baixar</item>
+    <!--Original value: 退出阅读-->
+    <item>Saia de leitura</item>
+  </string-array>
+  <string-array name="charset_array">
+    <!--Original value: Auto-Detect-->
+    <item>Auto-Detectar</item>
+    <!--Original value: Unicode(UTF-8)-->
+    <item>Unicode(UTF-8)</item>
+    <!--Original value: 简体中文(GBK)-->
+    <item>简体中文(GBK)</item>
+    <!--Original value: 简体中文(GB2312)-->
+    <item>简体中文(GB2312)</item>
+    <!--Original value: 繁体中文(BIG5)-->
+    <item>繁体中文(BIG5)</item>
+    <!--Original value: 繁体中文(Big5_HKSCS)-->
+    <item>繁体中文(Big5_HKSCS)</item>
+    <!--Original value: Western(ISO-8859-1)-->
+    <item>Western(ISO-8859-1)</item>
+    <!--Original value: Western(Windows)-->
+    <item>Western(Windows)</item>
+    <!--Original value: Central European(ISO-8859-2)-->
+    <item>Central European(ISO-8859-2)</item>
+    <!--Original value: Central European(Windows)-->
+    <item>Central European(Windows)</item>
+    <!--Original value: Unicode(UTF-16LE)-->
+    <item>Unicode(UTF-16LE)</item>
+    <!--Original value: Unicode(UTF-16BE)-->
+    <item>Unicode(UTF-16BE)</item>
+    <!--Original value: Arabic(ISO-8859-6)-->
+    <item>Arabic(ISO-8859-6)</item>
+    <!--Original value: Arabic(Windows)-->
+    <item>Arabic(Windows)</item>
+    <!--Original value: Baltic(ISO-8859-4)-->
+    <item>Baltic(ISO-8859-4)</item>
+    <!--Original value: Baltic(Windows)-->
+    <item>Baltic(Windows)</item>
+    <!--Original value: Cyrillic(ISO-8859-5)-->
+    <item>Cyrillic(ISO-8859-5)</item>
+    <!--Original value: Cyrillic(Windows)-->
+    <item>Cyrillic(Windows)</item>
+    <!--Original value: Cyrillic(KOI8-R)-->
+    <item>Cyrillic(KOI8-R)</item>
+    <!--Original value: Greek(ISO-8859-7)-->
+    <item>Greek(ISO-8859-7)</item>
+    <!--Original value: Greek(Windows)-->
+    <item>Greek(Windows)</item>
+    <!--Original value: Hebrew(ISO-8859-8)-->
+    <item>Hebrew(ISO-8859-8)</item>
+    <!--Original value: Hebrew(Windows)-->
+    <item>Hebrew(Windows)</item>
+    <!--Original value: Japanese(EUC-JP)-->
+    <item>Japanese(EUC-JP)</item>
+    <!--Original value: Japanese(Windows)-->
+    <item>Japanese(Windows)</item>
+    <!--Original value: Korean(EUC-KR)-->
+    <item>Korean(EUC-KR)</item>
+    <!--Original value: Korean(Windows)-->
+    <item>Korean(Windows)</item>
+    <!--Original value: Turkish(ISO-8859-9)-->
+    <item>Turkish(ISO-8859-9)</item>
+    <!--Original value: Turkish(Windows)-->
+    <item>Turkish(Windows)</item>
+    <!--Original value: Thai(Windows)-->
+    <item>Thai(Windows)</item>
+    <!--Original value: Vietnamese(Windows)-->
+    <item>Vietnamese(Windows)</item>
+  </string-array>
+  <string-array name="charset_value">
+    <!--Original value: auto-->
+    <item>auto</item>
+    <!--Original value: UTF-8-->
+    <item>UTF-8</item>
+    <!--Original value: GBK-->
+    <item>GBK</item>
+    <!--Original value: GB2312-->
+    <item>GB2312</item>
+    <!--Original value: BIG5-->
+    <item>BIG5</item>
+    <!--Original value: BIG5-HKSCS-->
+    <item>BIG5-HKSCS</item>
+    <!--Original value: ISO-8859-1-->
+    <item>ISO-8859-1</item>
+    <!--Original value: windows-1252-->
+    <item>windows-1252</item>
+    <!--Original value: ISO-8859-2-->
+    <item>ISO-8859-2</item>
+    <!--Original value: windows-1250-->
+    <item>windows-1250</item>
+    <!--Original value: UTF-16LE-->
+    <item>UTF-16LE</item>
+    <!--Original value: UTF-16BE-->
+    <item>UTF-16BE</item>
+    <!--Original value: ISO-8859-6-->
+    <item>ISO-8859-6</item>
+    <!--Original value: windows-1256-->
+    <item>windows-1256</item>
+    <!--Original value: ISO-8859-4-->
+    <item>ISO-8859-4</item>
+    <!--Original value: windows-1257-->
+    <item>windows-1257</item>
+    <!--Original value: ISO-8859-5-->
+    <item>ISO-8859-5</item>
+    <!--Original value: windows-1251-->
+    <item>windows-1251</item>
+    <!--Original value: KOI8-R-->
+    <item>KOI8-R</item>
+    <!--Original value: ISO-8859-7-->
+    <item>ISO-8859-7</item>
+    <!--Original value: windows-1253-->
+    <item>windows-1253</item>
+    <!--Original value: ISO-8859-8-->
+    <item>ISO-8859-8</item>
+    <!--Original value: windows-1255-->
+    <item>windows-1255</item>
+    <!--Original value: EUC-JP-->
+    <item>EUC-JP</item>
+    <!--Original value: Shift_JIS-->
+    <item>Shift_JIS</item>
+    <!--Original value: EUC-KR-->
+    <item>EUC-KR</item>
+    <!--Original value: ISO-2022-KR-->
+    <item>ISO-2022-KR</item>
+    <!--Original value: ISO-8859-9-->
+    <item>ISO-8859-9</item>
+    <!--Original value: windows-1254-->
+    <item>windows-1254</item>
+    <!--Original value: windows-874-->
+    <item>windows-874</item>
+    <!--Original value: windows-1258-->
+    <item>windows-1258</item>
+  </string-array>
+  <string-array name="cloudSave">
+    <!--Original value: 保存修改-->
+    <item>Salve as alterações</item>
+  </string-array>
+  <string-array name="diagnose_net_type">
+    <!--Original value: wifi-->
+    <item>wifi</item>
+    <!--Original value: 移动2G(net)-->
+    <item>Móvel 2G(net)</item>
+    <!--Original value: 移动3G(net)-->
+    <item>Móvel 3G(net)</item>
+    <!--Original value: 移动4G(net)-->
+    <item>Móvel 4G(net)</item>
+    <!--Original value: 移动2G(wap)-->
+    <item>Móvel 2G(wap)</item>
+    <!--Original value: 移动3G(wap)-->
+    <item>Móvel 3G(wap)</item>
+    <!--Original value: 移动4G(wap)-->
+    <item>Móvel 4G(wap)</item>
+    <!--Original value: 电信2G(net)-->
+    <item>Móvel 2G(net)</item>
+    <!--Original value: 电信3G(net)-->
+    <item>Móvel 3G(net)</item>
+    <!--Original value: 电信4G(net)-->
+    <item>Móvel 4G(net)</item>
+    <!--Original value: 电信2G(wap)-->
+    <item>Móvel 2G(wap)</item>
+    <!--Original value: 电信3G(wap)-->
+    <item>Móvel 3G(wap)</item>
+    <!--Original value: 电信4G(wap)-->
+    <item>Móvel 4G(wap)</item>
+    <!--Original value: 联通2G(net)-->
+    <item>Móvel 2G(net)</item>
+    <!--Original value: 联通3G(net)-->
+    <item>Móvel 3G(net)</item>
+    <!--Original value: 联通4G(net)-->
+    <item>Móvel 4G(net)</item>
+    <!--Original value: 联通2G(wap)-->
+    <item>Móvel 2G(wap)</item>
+    <!--Original value: 联通3G(wap)-->
+    <item>Móvel 3G(wap)</item>
+    <!--Original value: 联通4G(wap)-->
+    <item>Móvel 4G(wap)</item>
+    <!--Original value: 其他网络-->
+    <item>Rede</item>
+  </string-array>
+  <string-array name="go_setting">
+    <!--Original value: 去设置-->
+    <item>Vá para Configurações</item>
+  </string-array>
+  <string-array name="gps_setting_btn_d">
+    <!--Original value: 设置-->
+    <item>Conjunto</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="ok">
+    <!--Original value: 确定-->
+    <item>OK</item>
+  </string-array>
+  <string-array name="sinaShareSentence">
+    <!--Original value: 用两分钟快速简读一下，也许这是一本不容错过的好书哦！-->
+    <item>Com dois minutos, rápida e fácil de ler, talvez este é um livro a não perder bons livros!</item>
+    <!--Original value: 身为朋友，做你的“好书过滤器”是我的荣幸，别问我是谁，请叫我雷锋-->
+    <item>Como um amigo, fazer o seu"bom livro filtro"é o meu prazer, não me pergunte o que é, por favor me chame de Lei Feng</item>
+    <!--Original value: 读书时，是自己与自己对话最好的时光！-->
+    <item>Durante a leitura, é a sua própria com o seu próprio diálogo é a melhor hora!</item>
+    <!--Original value: 好书只晒给懂它的人-->
+    <item>Um bom livro, só o sol conhece-lo</item>
+    <!--Original value: 人生旅途中，我们总是疲惫不堪，读读这本《%s》吧！为了明天的希望-->
+    <item>A jornada da vida, estamos sempre cansada, e ler o%s! No fim a esperança para o amanhã</item>
+  </string-array>
+  <string-array name="theme_list10">
+    <!--Original value: theme_bg_huyan.xml-->
+    <item>theme_bg_huyan.xml</item>
+    <!--Original value: theme_bg_yejian7.xml-->
+    <item>theme_bg_yejian7.xml</item>
+    <!--Original value: theme_bg_yejian8.xml-->
+    <item>theme_bg_yejian8.xml</item>
+    <!--Original value: theme_bg_yejian9.xml-->
+    <item>theme_bg_yejian9.xml</item>
+    <!--Original value: theme_bg_yejian6.xml-->
+    <item>theme_bg_yejian6.xml</item>
+    <!--Original value: theme_pager.xml-->
+    <item>theme_pager.xml</item>
+    <!--Original value: theme_bg1.xml-->
+    <item>theme_bg1.xml</item>
+    <!--Original value: theme_bg2.xml-->
+    <item>theme_bg2.xml</item>
+    <!--Original value: theme_bg3.xml-->
+    <item>theme_bg3.xml</item>
+    <!--Original value: theme_bg5.xml-->
+    <item>theme_bg5.xml</item>
+    <!--Original value: theme_layout_pad100.xml-->
+    <item>theme_layout_pad100.xml</item>
+    <!--Original value: theme_layout_pad100_chuban.xml-->
+    <item>theme_layout_pad100_chuban.xml</item>
+    <!--Original value: theme_layout_pad100_wangwen.xml-->
+    <item>theme_layout_pad100_wangwen.xml</item>
+    <!--Original value: theme_layout_pad100_qingsuan.xml-->
+    <item>theme_layout_pad100_qingsuan.xml</item>
+    <!--Original value: theme_layout_manhua.xml-->
+    <item>theme_layout_manhua.xml</item>
+    <!--Original value: theme_user.xml-->
+    <item>theme_user.xml</item>
+  </string-array>
+  <string-array name="theme_list3">
+    <!--Original value: theme_bg_huyan.xml-->
+    <item>theme_bg_huyan.xml</item>
+    <!--Original value: theme_pager.xml-->
+    <item>theme_pager.xml</item>
+    <!--Original value: theme_bg1.xml-->
+    <item>theme_bg1.xml</item>
+    <!--Original value: theme_bg2.xml-->
+    <item>theme_bg2.xml</item>
+    <!--Original value: theme_bg3.xml-->
+    <item>theme_bg3.xml</item>
+    <!--Original value: theme_bg5.xml-->
+    <item>theme_bg5.xml</item>
+    <!--Original value: theme_bgfine.xml-->
+    <item>theme_bgfine.xml</item>
+    <!--Original value: theme_bg_yejian7.xml-->
+    <item>theme_bg_yejian7.xml</item>
+    <!--Original value: theme_bg_yejian8.xml-->
+    <item>theme_bg_yejian8.xml</item>
+    <!--Original value: theme_bg_yejian9.xml-->
+    <item>theme_bg_yejian9.xml</item>
+    <!--Original value: theme_bg_yejian6.xml-->
+    <item>theme_bg_yejian6.xml</item>
+    <!--Original value: theme_layout_phone35.xml-->
+    <item>theme_layout_phone35.xml</item>
+    <!--Original value: theme_layout_phone35_chuban.xml-->
+    <item>theme_layout_phone35_chuban.xml</item>
+    <!--Original value: theme_layout_phone35_wangwen.xml-->
+    <item>theme_layout_phone35_wangwen.xml</item>
+    <!--Original value: theme_layout_phone35_qingsuan.xml-->
+    <item>theme_layout_phone35_qingsuan.xml</item>
+    <!--Original value: theme_layout_manhua.xml-->
+    <item>theme_layout_manhua.xml</item>
+    <!--Original value: theme_user.xml-->
+    <item>theme_user.xml</item>
+  </string-array>
+  <string-array name="theme_list7">
+    <!--Original value: theme_bg_huyan.xml-->
+    <item>theme_bg_huyan.xml</item>
+    <!--Original value: theme_bg_yejian7.xml-->
+    <item>theme_bg_yejian7.xml</item>
+    <!--Original value: theme_bg_yejian8.xml-->
+    <item>theme_bg_yejian8.xml</item>
+    <!--Original value: theme_bg_yejian9.xml-->
+    <item>theme_bg_yejian9.xml</item>
+    <!--Original value: theme_bg_yejian6.xml-->
+    <item>theme_bg_yejian6.xml</item>
+    <!--Original value: theme_pager.xml-->
+    <item>theme_pager.xml</item>
+    <!--Original value: theme_bg1.xml-->
+    <item>theme_bg1.xml</item>
+    <!--Original value: theme_bg2.xml-->
+    <item>theme_bg2.xml</item>
+    <!--Original value: theme_bg3.xml-->
+    <item>theme_bg3.xml</item>
+    <!--Original value: theme_bg5.xml-->
+    <item>theme_bg5.xml</item>
+    <!--Original value: theme_layout_pad70.xml-->
+    <item>theme_layout_pad70.xml</item>
+    <!--Original value: theme_layout_pad70_chuban.xml-->
+    <item>theme_layout_pad70_chuban.xml</item>
+    <!--Original value: theme_layout_pad70_wangwen.xml-->
+    <item>theme_layout_pad70_wangwen.xml</item>
+    <!--Original value: theme_layout_pad70_qingsuan.xml-->
+    <item>theme_layout_pad70_qingsuan.xml</item>
+    <!--Original value: theme_layout_manhua.xml-->
+    <item>theme_layout_manhua.xml</item>
+    <!--Original value: theme_user.xml-->
+    <item>theme_user.xml</item>
+  </string-array>
+  <string-array name="umd_charset_array">
+    <!--Original value: Unicode(UTF-16LE)-->
+    <item>Unicode(UTF-16LE)</item>
+    <!--Original value: Unicode(UTF-16BE)-->
+    <item>Unicode(UTF-16BE)</item>
+  </string-array>
+  <string-array name="umd_charset_value">
+    <!--Original value: UTF-16LE-->
+    <item>UTF-16LE</item>
+    <!--Original value: UTF-16BE-->
+    <item>UTF-16BE</item>
+  </string-array>
+  <string-array name="alert_btn_account_bindphone">
+    <!--Original value: 去绑定-->
+    <item>Para vincular</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_account_level">
+    <!--Original value: 去升等级-->
+    <item>Vá para o nível L</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_install">
+    <!--Original value: 安装-->
+    <item>Instalação</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_light_note">
+    <!--Original value: 保存-->
+    <item>Salvar</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_login">
+    <!--Original value: 登录-->
+    <item>Login</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_setting_permission">
+    <!--Original value: 设置-->
+    <item>Conjunto</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_share">
+    <!--Original value: 分享-->
+    <item>Compartilhar</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_btn_sure">
+    <!--Original value: 确定-->
+    <item>OK</item>
+  </string-array>
+  <string-array name="alert_drm_fail_btn">
+    <!--Original value: 去购买-->
+    <item>Comprar</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_drm_fail_btn_unlogin">
+    <!--Original value: 去登录-->
+    <item>Vá em login</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="alert_voice_btn_d">
+    <!--Original value: 本次允许-->
+    <item>Isso permite que</item>
+    <!--Original value: 总是允许-->
+    <item>Permitir sempre</item>
+  </string-array>
+  <string-array name="break_pay">
+    <!--Original value: 去查看-->
+    <item>Para visualizar</item>
+    <!--Original value: 知道了-->
+    <item>Sei</item>
+  </string-array>
+  <string-array name="close_screen_time">
+    <!--Original value: 系统-->
+    <item>Sistema</item>
+    <!--Original value: 5分钟-->
+    <item>5 minutos</item>
+    <!--Original value: 15分钟-->
+    <item>15 minutos</item>
+    <!--Original value: 常亮-->
+    <item>Muito brilhante</item>
+  </string-array>
+  <string-array name="close_screen_time_value">
+    <!--Original value: 0-->
+    <item>0</item>
+    <!--Original value: 5-->
+    <item>5</item>
+    <!--Original value: 15-->
+    <item>15</item>
+    <!--Original value: 12000-->
+    <item>12000</item>
+  </string-array>
+  <string-array name="entries_list_preference">
+    <!--Original value: Alpha Option 01-->
+    <item>Alpha Opção 01</item>
+    <!--Original value: Beta Option 02-->
+    <item>Beta Opção 02</item>
+    <!--Original value: Charlie Option 03-->
+    <item>Charlie Opção 03</item>
+  </string-array>
+  <string-array name="entryvalues_list_preference">
+    <!--Original value: alpha-->
+    <item>alfa</item>
+    <!--Original value: beta-->
+    <item>beta</item>
+    <!--Original value: charlie-->
+    <item>charlie</item>
+  </string-array>
+  <string-array name="jazzy_effects">
+    <!--Original value: Standard-->
+    <item>Padrão</item>
+    <!--Original value: Tablet-->
+    <item>Comprimido</item>
+    <!--Original value: CubeIn-->
+    <item>CubeIn</item>
+    <!--Original value: CubeOut-->
+    <item>CubeOut</item>
+    <!--Original value: FlipVertical-->
+    <item>FlipVertical</item>
+    <!--Original value: FlipHorizontal-->
+    <item>FlipHorizontal</item>
+    <!--Original value: Stack-->
+    <item>Pilha</item>
+    <!--Original value: ZoomIn-->
+    <item>Mais Zoom</item>
+    <!--Original value: ZoomOut-->
+    <item>Reduzir o zoom</item>
+    <!--Original value: RotateUp-->
+    <item>RotateUp</item>
+    <!--Original value: RotateDown-->
+    <item>RotateDown</item>
+    <!--Original value: Accordion-->
+    <item>Acordeão</item>
+  </string-array>
+  <string-array name="progress_style">
+    <!--Original value: 百分比-->
+    <item>Porcentagem</item>
+    <!--Original value: 页码-->
+    <item>Página</item>
+  </string-array>
+  <string-array name="progress_style_value">
+    <!--Original value: 0-->
+    <item>0</item>
+    <!--Original value: 1-->
+    <item>1</item>
+  </string-array>
+  <string-array name="shelf_sync_tip">
+    <!--Original value: @string/dialog_i_know-->
+    <item>@string/dialog_i_know</item>
+  </string-array>
+  <string-array name="sleep_style">
+    <!--Original value: 45分钟-->
+    <item>45 minutos</item>
+    <!--Original value: 90分钟-->
+    <item>90 minutos</item>
+    <!--Original value: 120分钟-->
+    <item>120 minutos</item>
+    <!--Original value: 关闭-->
+    <item>Fora</item>
+  </string-array>
+  <string-array name="sleep_style_value">
+    <!--Original value: 45-->
+    <item>45</item>
+    <!--Original value: 90-->
+    <item>90</item>
+    <!--Original value: 120-->
+    <item>120</item>
+    <!--Original value: 0-->
+    <item>0</item>
+  </string-array>
+  <string-array name="tel_alert_btn">
+    <!--Original value: 拨打-->
+    <item>Chamada</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+  <string-array name="upload_error_btn">
+    <!--Original value: 一键上传-->
+    <item>Um botão de upload</item>
+    <!--Original value: 取消-->
+    <item>Cancelar</item>
+  </string-array>
+</resources>

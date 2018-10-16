@@ -1,71 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="wifi_display_resolution_option_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="wifi_display_resolution_no_1080p_option_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="wifi_display_resolution_option">
-        <item>@string/wifi_display_resolution_option_1080</item>
-        <item>@string/wifi_display_resolution_option_720</item>
-        <item>@string/wifi_display_resolution_option_540</item>
-        <item>@string/wifi_display_resolution_option_480</item>
-    </string-array>
-    <string-array name="wifi_display_resolution_no_1080p_option">
-        <item>@string/wifi_display_resolution_option_720</item>
-        <item>@string/wifi_display_resolution_option_540</item>
-        <item>@string/wifi_display_resolution_option_480</item>
-    </string-array>
-    <string-array name="nubia_weeks_full">
-        <item>Sunday</item>
-        <item>Monday</item>
-        <item>Tuesday</item>
-        <item>Wednesday</item>
-        <item>Thursday</item>
-        <item>Friday</item>
-        <item>Saturday</item>
-    </string-array>
-    <string-array name="nubia_weeks_short">
-        <item>Sun</item>
-        <item>Mon</item>
-        <item>Tue</item>
-        <item>Wed</item>
-        <item>Thu</item>
-        <item>Fri</item>
-        <item>Sat</item>
-    </string-array>
-    <string-array name="nubia_months_full">
-        <item>January</item>
-        <item>February</item>
-        <item>March</item>
-        <item>April</item>
-        <item>May</item>
-        <item>June</item>
-        <item>July</item>
-        <item>August</item>
-        <item>September</item>
-        <item>October</item>
-        <item>November</item>
-        <item>December</item>
-    </string-array>
-    <string-array name="nubia_months_short">
-        <item>Jan</item>
-        <item>Feb</item>
-        <item>Mar</item>
-        <item>Apr</item>
-        <item>May</item>
-        <item>Jun</item>
-        <item>Jul</item>
-        <item>Aug</item>
-        <item>Sep</item>
-        <item>Oct</item>
-        <item>Nove</item>
-        <item>Dec</item>
-    </string-array>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="wifi_display_resolution_option_values">
+    <!--Original value: 0-->
+    <item>0</item>
+    <!--Original value: 1-->
+    <item>1</item>
+    <!--Original value: 2-->
+    <item>2</item>
+    <!--Original value: 3-->
+    <item>3</item>
+  </string-array>
+  <string-array name="wifi_display_resolution_no_1080p_option_values">
+    <!--Original value: 1-->
+    <item>1</item>
+    <!--Original value: 2-->
+    <item>2</item>
+    <!--Original value: 3-->
+    <item>3</item>
+  </string-array>
+  <string-array name="wifi_display_resolution_option">
+    <!--Original value: @string/wifi_display_resolution_option_1080-->
+    <item>@string/wifi_display_resolution_option_1080</item>
+    <!--Original value: @string/wifi_display_resolution_option_720-->
+    <item>@string/wifi_display_resolution_option_720</item>
+    <!--Original value: @string/wifi_display_resolution_option_540-->
+    <item>@string/wifi_display_resolution_option_540</item>
+    <!--Original value: @string/wifi_display_resolution_option_480-->
+    <item>@string/wifi_display_resolution_option_480</item>
+  </string-array>
+  <string-array name="wifi_display_resolution_no_1080p_option">
+    <!--Original value: @string/wifi_display_resolution_option_720-->
+    <item>@string/wifi_display_resolution_option_720</item>
+    <!--Original value: @string/wifi_display_resolution_option_540-->
+    <item>@string/wifi_display_resolution_option_540</item>
+    <!--Original value: @string/wifi_display_resolution_option_480-->
+    <item>@string/wifi_display_resolution_option_480</item>
+  </string-array>
+  <string-array name="nubia_weeks_full">
+    <!--Original value: Sunday-->
+    <item>domingo</item>
+    <!--Original value: Monday-->
+    <item>Segunda-feira</item>
+    <!--Original value: Tuesday-->
+    <item>terça</item>
+    <!--Original value: Wednesday-->
+    <item>Quarta-feira</item>
+    <!--Original value: Thursday-->
+    <item>Quinta-feira</item>
+    <!--Original value: Friday-->
+    <item>Sexta-feira</item>
+    <!--Original value: Saturday-->
+    <item>sábado</item>
+  </string-array>
+  <string-array name="nubia_weeks_short">
+    <!--Original value: Sun-->
+    <item>Dom</item>
+    <!--Original value: Mon-->
+    <item>seg</item>
+    <!--Original value: Tue-->
+    <item>ter</item>
+    <!--Original value: Wed-->
+    <item>qua</item>
+    <!--Original value: Thu-->
+    <item>qui</item>
+    <!--Original value: Fri-->
+    <item>Sex</item>
+    <!--Original value: Sat-->
+    <item>sab</item>
+  </string-array>
+  <string-array name="nubia_months_full">
+    <!--Original value: January-->
+    <item>janeiro</item>
+    <!--Original value: February-->
+    <item>fevereiro</item>
+    <!--Original value: March-->
+    <item>Março</item>
+    <!--Original value: April-->
+    <item>abril</item>
+    <!--Original value: May-->
+    <item>Maio</item>
+    <!--Original value: June-->
+    <item>Junho</item>
+    <!--Original value: July-->
+    <item>Julho</item>
+    <!--Original value: August-->
+    <item>agosto</item>
+    <!--Original value: September-->
+    <item>setembro</item>
+    <!--Original value: October-->
+    <item>Outubro</item>
+    <!--Original value: November-->
+    <item>novembro</item>
+    <!--Original value: December-->
+    <item>dezembro</item>
+  </string-array>
+  <string-array name="nubia_months_short">
+    <!--Original value: Jan-->
+    <item>Jan</item>
+    <!--Original value: Feb-->
+    <item>Fev</item>
+    <!--Original value: Mar-->
+    <item>Mar</item>
+    <!--Original value: Apr-->
+    <item>Abr</item>
+    <!--Original value: May-->
+    <item>Mai</item>
+    <!--Original value: Jun-->
+    <item>Jun</item>
+    <!--Original value: Jul-->
+    <item>Jul</item>
+    <!--Original value: Aug-->
+    <item>Ago</item>
+    <!--Original value: Sep-->
+    <item>Set</item>
+    <!--Original value: Oct-->
+    <item>Out</item>
+    <!--Original value: Nove-->
+    <item>Nove</item>
+    <!--Original value: Dec-->
+    <item>Dez</item>
+  </string-array>
 </resources>

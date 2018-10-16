@@ -230,7 +230,7 @@ Clicando Concorda, você concordou com os termos acima."</string>
   <!--Original value: A hour and %d minutes ago-->
   <string name="nubia_notification_one_hours_minutes_time">Uma hora e %d minutos atrás</string>
   <!--Original value: %d hours and %d minutes ago-->
-  <string name="nubia_notification_hours_minutes_time">%d horas e %d minutos atrás</string>
+  <string name="nubia_notification_hours_minutes_time" formatted="false">%d horas e %d minutos atrás</string>
   <!--Original value: A hour ago-->
   <string name="nubia_notification_time_one_hour">Uma hora atrás</string>
   <!--Original value: %d hours ago-->

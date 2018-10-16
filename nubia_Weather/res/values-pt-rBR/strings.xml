@@ -1,364 +1,742 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="abc_action_bar_home_description">Navevar para inicio</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_action_bar_up_description">Navegar acima</string>
-    <string name="abc_action_menu_overflow_description">Mais opções</string>
-    <string name="abc_action_mode_done">Feito</string>
-    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
-    <string name="abc_activitychooserview_choose_application">Escolha um aplicativo</string>
-    <string name="abc_search_hint">Pesquisa...</string>
-    <string name="abc_searchview_description_clear">Limpar consulta</string>
-    <string name="abc_searchview_description_query">Pesquisar</string>
-    <string name="abc_searchview_description_search">Pesquisa</string>
-    <string name="abc_searchview_description_submit">Enviar consultar</string>
-    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
-    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
-    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <string name="abc_toolbar_collapse_description">Recolher</string>
-    <string name="action_bar_home_description">Navevar para inicio</string>
-    <string name="action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="action_bar_up_description">Navegar acima</string>
-    <string name="nubia_app_name">Recurso comuns nubia</string>
-    <string name="nubia_back_button_label">Voltar</string>
-    <string name="nubia_capital_off">Desligado</string>
-    <string name="nubia_capital_on">Ligado</string>
-    <string name="nubia_common_label">nubia</string>
-    <string name="nubia_date_day">dia</string>
-    <string name="nubia_date_month">mês</string>
-    <string name="nubia_date_year">ano</string>
-    <string name="nubia_empty_message">Conteúdo vazio</string>
-    <string name="nubia_more_popup_text">Cancelar</string>
-    <string name="nubia_next_button_label">Próximo</string>
-    <string name="nubia_notification_hour_time">%d horas atraz</string>
-    <string name="nubia_notification_hours_minutes_time" formatted="false">%d horas e %d minutos atraz</string>
-    <string name="nubia_notification_hours_one_minute_time">%d horas e 1 minuto atraz</string>
-    <string name="nubia_notification_minutes_time">%d minutos atraz</string>
-    <string name="nubia_notification_one_hours_minutes_time">Uma hora e %d minutos atraz</string>
-    <string name="nubia_notification_time_just_now">Just now</string>
-    <string name="nubia_notification_time_one_hour">A hour ago</string>
-    <string name="nubia_notification_time_one_hour_one_minute">A hour and 1 minute ago</string>
-    <string name="nubia_notification_time_one_minute">A minute ago</string>
-    <string name="nubia_searchview_description_clear">Clear query</string>
-    <string name="nubia_searchview_description_submit">Submit query</string>
-    <string name="nubia_searchview_description_voice">Voice search</string>
-    <string name="nubia_select">Select</string>
-    <string name="nubia_setting_date">Set date</string>
-    <string name="nubia_skip_button_label">Skip</string>
-    <string name="nubia_text_copied">Text copied to clipboard.</string>
-    <string name="nubia_text_pastelist">Clipboard</string>
-    <string name="nubia_time_am">AM</string>
-    <string name="nubia_time_hour">H</string>
-    <string name="nubia_time_minute">M</string>
-    <string name="nubia_time_picker_dialog_title">Set time</string>
-    <string name="nubia_time_pm">PM</string>
-    <string name="nubia_total_text">um total de %s</string>
-    <string name="Friday">Sexta-feira</string>
-    <string name="Monday">Segunda-feira</string>
-    <string name="Saturday">Sábado</string>
-    <string name="Sunday">Domingo</string>
-    <string name="Thursday">Quinta-feira</string>
-    <string name="Tuesday">Terça</string>
-    <string name="Wednesday">Quarta-feira</string>
-    <string name="action_settings">Configurações</string>
-    <string name="air_level_1">Excelente</string>
-    <string name="air_level_2">Boa</string>
-    <string name="air_level_3">poluição leve</string>
-    <string name="air_level_4">poluição média</string>
-    <string name="air_level_5">poluição pesada</string>
-    <string name="air_level_6">poluição séria</string>
-    <string name="app_name">Clima</string>
-    <string name="black_level">preto</string>
-    <string name="blue_level">azul</string>
-    <string name="centigrade">°</string>
-    <string name="city_add_enter_city_name">Procure a cidade doméstica ou ultramarina</string>
-    <string name="city_add_hot_city_title">Cidades quentes</string>
-    <string name="city_add_search_cancel_title">Cancelar</string>
-    <string name="city_add_search_city_country">China</string>
-    <string name="city_has_benn_added">A cidade foi adicionada</string>
-    <string name="city_list_actionbar_title_text">Gestão urbana</string>
-    <string name="city_list_add_city">Adicionar cidade</string>
-    <string name="city_list_add_city_text_delete">Excluir</string>
-    <string name="city_list_city_locating_alert">Posicionamento</string>
-    <string name="city_list_city_max_alert">Pode adicionar até 9 cidades!</string>
-    <string name="city_list_delete_item_alert_message">Excluir a cidade selecionada</string>
-    <string name="city_list_delete_item_cancel">Cancelar</string>
-    <string name="city_list_delete_item_toast_alert">Por favor, selecione pelo menos uma cidade</string>
-    <string name="city_list_is_night_temperature_message">Menor</string>
-    <string name="city_list_search_empty_text">Cidades relacionadas não encontradas</string>
-    <string name="city_list_selected_city">Selecionado</string>
-    <string name="city_list_selected_city_init">1 selecionado</string>
-    <string name="cloudy">Nublado</string>
-    <string name="cold">Frio</string>
-    <string name="cold_wave">Onda fria</string>
-    <string name="cooling">Resfriamento</string>
-    <string name="date_format">d \'de\' MMMM
-	\'de\' yyyy</string>
-    <string name="default_weather">Não</string>
-    <string name="dense_fog">Névoa densa</string>
-    <string name="drought">Seca</string>
-    <string name="dry_hot_wind">Dry-hot wind</string>
-    <string name="dust">Dust</string>
-    <string name="dusthaze">Dust haze</string>
-    <string name="duststorm">Duststorm</string>
-    <string name="early_warning_msg">Issues %3$s warning at %2$s on %1$s.</string>
-    <string name="early_warning_title">%1$s</string>
-    <string name="error_interrupted">Network interrupted</string>
-    <string name="error_noneNetwork">Network not available</string>
-    <string name="error_other">Get data error</string>
-    <string name="error_timeout">Network timeout</string>
-    <string name="fog">Fog</string>
-    <string name="forest_fire">Forest fire</string>
-    <string name="freezing_rain">Freezing rain</string>
-    <string name="frost">Frost</string>
-    <string name="frozen">Frozen</string>
-    <string name="gale">Gale</string>
-    <string name="hail">Hail</string>
-    <string name="haze">Haze</string>
-    <string name="heavy_fog">Heavy fog</string>
-    <string name="heavy_haze">Heavy haze</string>
-    <string name="heavy_rain">Heavy rain</string>
-    <string name="heavy_rain_to_rainstorm">Heavy rain to rainstorm</string>
-    <string name="heavy_rainstorm">Heavy rainstorm</string>
-    <string name="heavy_rainstorm_to_torrential_rainstorm">Heavy rainstorm to torrential rainstorm</string>
-    <string name="heavy_snow">Heavy snow</string>
-    <string name="heavy_snow_to_snowstorm">Heavy snow to snowstorm</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="high_temp">High temperature</string>
-    <string name="high_temperature">%s° higher than yesterday</string>
-    <string name="let_refresh">Release to refresh</string>
-    <string name="light_rain">Light rain</string>
-    <string name="light_snow">Light snow</string>
-    <string name="light_to_moderate_rain">Light to Moderate rain</string>
-    <string name="light_to_moderate_snow">Light to moderate snow</string>
-    <string name="lighting">Lightning</string>
-    <string name="low_temp">Low temperature</string>
-    <string name="low_temperature">%s° lower than yesterday</string>
-    <string name="lowest_temperature">lowest temperature</string>
-    <string name="mist">Mist</string>
-    <string name="moderate_haze">Moderate haze</string>
-    <string name="moderate_rain">Moderate rain</string>
-    <string name="moderate_snow">Moderate snow</string>
-    <string name="moderate_to_heavy_rain">Moderate to heavy rain</string>
-    <string name="moderate_to_heavy_snow">Moderate to heavy snow</string>
-    <string name="no_data">--</string>
-    <string name="orange_level">orange</string>
-    <string name="overcast">Overcast</string>
-    <string name="rain_remind_msg">It will rain at %1$s today, please take an umbrella.</string>
-    <string name="rain_remind_title">Rain reminder</string>
-    <string name="rainstorm">Rainstorm</string>
-    <string name="rainstorm_to_heavy_rainstorm">Rainstorm to heavy rainstorm</string>
-    <string name="red_level">red</string>
-    <string name="refresh_pull_title_day">Refreshed %d days ago</string>
-    <string name="refresh_pull_title_hour">Refreshed %d hours ago</string>
-    <string name="refresh_pull_title_later">Just refreshed</string>
-    <string name="refresh_pull_title_longtime">You have not refreshed for a long time</string>
-    <string name="refresh_pull_title_minute">Refreshed %d minutes ago</string>
-    <string name="refreshing">Refreshing</string>
-    <string name="road_icing">Road icing</string>
-    <string name="same_temperature">Same as yesterday</string>
-    <string name="sand">Sand</string>
-    <string name="search_word">Input a Keyword</string>
-    <string name="shower">Shower</string>
-    <string name="showery_snow">Showery snow</string>
-    <string name="sleet">Sleet</string>
-    <string name="small_widget_name">Weather4x1</string>
-    <string name="snow">Snow</string>
-    <string name="snowstorm">Snowstorm</string>
-    <string name="specially_heavy_fog">Specially heavy fog</string>
-    <string name="specially_heavy_haze">Specially heavy haze</string>
-    <string name="strong_sandstorm">Strong sandstorm</string>
-    <string name="sunny">Ensolarado</string>
-    <string name="thundershower">Thundershower</string>
-    <string name="thundershower_with_hail">Thundershower with hail</string>
-    <string name="thunderstorm">Thunderstorm</string>
-    <string name="time_format_string_12">ha</string>
-    <string name="time_format_string_24">HH:00</string>
-    <string name="tomorrow">Amanhã</string>
-    <string name="torrential_rainstorm">Torrential rainstorm</string>
-    <string name="typhoon">Typhoon</string>
-    <string name="ui_error_checkout_net">Please check the network</string>
-    <string name="ui_error_location">Positioning failed</string>
-    <string name="ui_error_no_information">Unable to get the weather information</string>
-    <string name="upgrade_find_new_version">The new version has improved the stability and performance of apps, and fixed some bugs. Please update to the latest version.</string>
-    <string name="warning">Warning</string>
-    <string name="weather_in_locating">Positioning</string>
-    <string name="weather_location_closed">Auto positioning</string>
-    <string name="weather_location_failed">Positioning failed，please check the network and try again.</string>
-    <string name="weather_net_error">Failed to refresh, please check the network and try again.</string>
-    <string name="white_level">white</string>
-    <string name="widget_name">Weather4x2</string>
-    <string name="yellow_level">yellow</string>
-    <string name="select_all">Select all</string>
-    <string name="unselect_all">Unselect all</string>
-    <string name="add_city">Adicionar cidade</string>
-    <string name="air_pollution">Air pollution</string>
-    <string name="alarm_link">Click for details</string>
-    <string name="alarm_observatory">%s observatory</string>
-    <string name="avalanche">avalanche</string>
-    <string name="city_list_current_city">(Cidade atual)</string>
-    <string name="city_search_net_error">Network not available</string>
-    <string name="city_search_net_setting">Network setting</string>
-    <string name="city_search_no_result">No related cities</string>
-    <string name="city_search_reload">Reload</string>
-    <string name="city_search_wating">Searching</string>
-    <string name="cloth_index_lv1">Midsummer outfit</string>
-    <string name="cloth_index_lv2">Summer outfit</string>
-    <string name="cloth_index_lv3">Spring fall outfit</string>
-    <string name="cloth_index_lv4">Early spring late fall outfit</string>
-    <string name="cloth_index_lv5">Early winter outfit</string>
-    <string name="cloth_index_lv6">Winter outfit</string>
-    <string name="cloth_index_lv7">Severe winter outfit</string>
-    <string name="comfort">Comfort</string>
-    <string name="comfort_index_lv1">Comfortable</string>
-    <string name="comfort_index_lv2">Relatively comfortable</string>
-    <string name="comfort_index_lv3">Uncomfortable</string>
-    <string name="comfort_index_lv4">very uncomfortable</string>
-    <string name="comfort_level">Comfortness %s</string>
-    <string name="cta_text">"1. During the process of use, the app requires permissions for Full Network Access, including Mobile Data or WiFi networks. You will be charged by your operator for data consumption. Please consult your operator for details. 
-2. During the process of use, the app needs to collects your geographic location information to provide better life services."</string>
-    <string name="cta_title">User Agreements</string>
-    <string name="dialog_gps">Location service is inavailable, please open it in Settings</string>
-    <string name="dialog_net">Please open Mobile Data or WLAN to access the weather service</string>
-    <string name="dress">Clothing</string>
-    <string name="east">East wind</string>
-    <string name="geological_hazards_meteorological_risk">Geological hazards meteorological risk</string>
-    <string name="heat_wave">Heat wave</string>
-    <string name="heavy_pollution">Heavy pollution</string>
-    <string name="high_temperature_heatstroke">High temperature heatstroke</string>
-    <string name="humidity">Umidade</string>
-    <string name="install_later">Later</string>
-    <string name="install_now">Install</string>
-    <string name="low_temp_frost_damage">Low temperature frost damage</string>
-    <string name="low_temperature_rain_and_snow">Low temperature rain and snow</string>
-    <string name="no_city">No city added</string>
-    <string name="no_data_txt">No data</string>
-    <string name="no_wind">No wind</string>
-    <string name="north">North wind</string>
-    <string name="northeaster">Northeast wind</string>
-    <string name="northwester">Northwest wind</string>
-    <string name="now">Agora</string>
-    <string name="nubia_date_lunar_title">%1$d Y,%2$s M,%3$s D,%4$s W</string>
-    <string name="nubia_date_solar_title">%4$s,%2$s %3$d,%1$d</string>
-    <string name="nubia_download">download</string>
-    <string name="nubia_eight">8</string>
-    <string name="nubia_five">5</string>
-    <string name="nubia_four">4</string>
-    <string name="nubia_guide_button_text">Bottom latest</string>
-    <string name="nubia_leap">leap</string>
-    <string name="nubia_lunar">Lunar Calendar</string>
-    <string name="nubia_lunar_eleventh_month">Lunar November</string>
-    <string name="nubia_lunar_first_day">First</string>
-    <string name="nubia_lunar_first_month">Lunar January</string>
-    <string name="nubia_lunar_twelveth_month">Lunar December</string>
-    <string name="nubia_lunar_twentieth_day">twenty</string>
-    <string name="nubia_nine">9</string>
-    <string name="nubia_one">1</string>
-    <string name="nubia_select_all">Select All</string>
-    <string name="nubia_select_none">Select None</string>
-    <string name="nubia_seven">7</string>
-    <string name="nubia_six">6</string>
-    <string name="nubia_ten">10</string>
-    <string name="nubia_three">3</string>
-    <string name="nubia_time_title">%3$s,%2$s,%1$s,%5$s:%6$s %4$s</string>
-    <string name="nubia_translation_list_dragged_text">The list moved down for one-handed operation</string>
-    <string name="nubia_two">2</string>
-    <string name="nubia_week">semana</string>
-    <string name="nubia_zero">0</string>
-    <string name="ok_gps_net">Open</string>
-    <string name="open_gps">Positioning failed，please turn on the GPS switch.</string>
-    <string name="prairie_fire_risk">Prairie fire risk</string>
-    <string name="ray">Ultraviolet rays</string>
-    <string name="ray_index_lv1">Weakest</string>
-    <string name="ray_index_lv2">Weak</string>
-    <string name="ray_index_lv3">Moderate</string>
-    <string name="ray_index_lv4">Strong</string>
-    <string name="ray_index_lv5">Very strong</string>
-    <string name="ray_level">Ray Level %s</string>
-    <string name="realfeel_level">Sentimento real %s°</string>
-    <string name="rotational">Whirl wind</string>
-    <string name="sea_winds">Sea winds</string>
-    <string name="south">South wind</string>
-    <string name="southeaster">Southeast wind</string>
-    <string name="southwester">Southwest wind</string>
-    <string name="sport">Esportes</string>
-    <string name="sport_index_lv1">Not Appropriate</string>
-    <string name="sport_index_lv2">Can be carried out</string>
-    <string name="sport_index_lv3">Relatively appropriate</string>
-    <string name="sport_index_lv4">Very appropriate</string>
-    <string name="sport_index_lv5">Inappropriate</string>
-    <string name="sport_level">Sport %s</string>
-    <string name="str_no_permission">Permissions disabled, please enable permissions when you enter the app next time!</string>
-    <string name="str_permission">Unable to use nubia Weather due to permissions disabled.</string>
-    <string name="sunrise">Nascer do sol</string>
-    <string name="sunset">Pôr do sol</string>
-    <string name="temprature_difference_high_msg">The temperature today is %1$d° higher than yesterday, please wear less clothes.</string>
-    <string name="temprature_difference_high_title">Temperature rise reminder</string>
-    <string name="temprature_difference_low_msg">The temperature today is %1$d° lower than yesterday, please wear more clothes.</string>
-    <string name="temprature_difference_low_title">Temperature reduction reminder</string>
-    <string name="tornado">Tornado</string>
-    <string name="ui_error_checkout_gps">Please check the GPS switch</string>
-    <string name="ui_error_no_loc_info">Unable to get the location information</string>
-    <string name="upgrade_dl_new_version">Detected a new version, install now?</string>
-    <string name="upgrade_now">Update Now</string>
-    <string name="visibility_level">Visibility %skm</string>
-    <string name="waterlogging_risk">Waterlogging risk</string>
-    <string name="weather_cts_location">·Location</string>
-    <string name="weather_cts_message">This feature requires the following permissions to be enabled, go to settings and enable them?</string>
-    <string name="weather_cts_phone">·Phone</string>
-    <string name="weather_cts_storage">·Storage</string>
-    <string name="weather_forecast">Weather forecast</string>
-    <string name="weather_tip_cancel">Cancelar</string>
-    <string name="weather_tip_enable">Ativar</string>
-    <string name="west">west wind</string>
-    <string name="wind">Wind direction</string>
-    <string name="wind_level">Level %s</string>
-    <string name="wind_level_0">Breeze</string>
-    <string name="wind_level_1">Nivel 3–4</string>
-    <string name="wind_level_2">Nivel 4–5</string>
-    <string name="wind_level_3">Nivel 5–6</string>
-    <string name="wind_level_4">Nivel 6–7</string>
-    <string name="wind_level_5">Nivel 7–8</string>
-    <string name="wind_level_6">Nivel 8–9</string>
-    <string name="wind_level_7">Nivel 9–10</string>
-    <string name="wind_level_8">Nivel 10–11</string>
-    <string name="wind_level_9">Nivel 11–12</string>
-    <string name="breeze">Breeze</string>
-    <string name="city_list_ellipsis">...</string>
-    <string name="cloth_index_lv1_baseline">Vestido de verão</string>
-    <string name="cloth_index_lv2_baseline">Vestido de verão</string>
-    <string name="cloth_index_lv3_baseline">Roupas de primavera e outono</string>
-    <string name="cloth_index_lv4_baseline">Início da primavera e outono</string>
-    <string name="cloth_index_lv5_baseline">Desgaste adiantado do inverno</string>
-    <string name="cloth_index_lv6_baseline">Roupas de inverno</string>
-    <string name="cloth_index_lv7_baseline">Roupas de inverno severo</string>
-    <string name="comfort_index_lv1_baseline">Confortável</string>
-    <string name="comfort_index_lv2_baseline">Mais confortável</string>
-    <string name="comfort_index_lv3_baseline">Desconfortável</string>
-    <string name="comfort_index_lv4_baseline">Muito desconfortável</string>
-    <string name="early_warning_ch">%3$s aviso quando %1$s dia %2$s</string>
-    <string name="main_widget_12_hours_format">h:mm</string>
-    <string name="main_widget_24_hours_format">kk:mm</string>
-    <string name="no_data_big">——</string>
-    <string name="nubia_common_versionName">V6.0.3</string>
-    <string name="nubia_time_am_upper">AM</string>
-    <string name="nubia_time_pm_upper">PM</string>
-    <string name="observatory_ch">Estação meteorológica</string>
-    <string name="ray_index_lv1_baseline">Mais fraco</string>
-    <string name="ray_index_lv2_baseline">Fraco</string>
-    <string name="ray_index_lv3_baseline">Médio</string>
-    <string name="ray_index_lv4_baseline">Forte</string>
-    <string name="ray_index_lv5_baseline">Muito forte</string>
-    <string name="sport_index_lv1_baseline">Adequado</string>
-    <string name="sport_index_lv2_baseline">Mais adequado</string>
-    <string name="sport_index_lv3_baseline">Menos adequado</string>
-    <string name="time_format_string_12_detail">h:mm</string>
-    <string name="time_format_string_24_detail">HH:mm</string>
-    <string name="ui_error_location_string">ui_error_location</string>
-    <string name="ui_error_no_information_string">ui_error_no_information</string>
-    <string name="v7_preference_off">Desligado</string>
-    <string name="v7_preference_on">Ligado</string>
-    <string name="week_format">EEEE</string>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+          Copyright (C) 2009 The Android Open Source Project
+
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
+
+          Editor: 
+            ArtfulBits Inc. (c) 2005-2009 (http://www.artfulbits.com)
+            Android Localizer (aiLocalizer)
+        -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Original value: Navigate home-->
+  <string name="abc_action_bar_home_description">Navegar para inicio</string>
+  <!--Original value: %1$s, %2$s-->
+  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+  <!--Original value: %1$s, %2$s, %3$s-->
+  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+  <!--Original value: Navigate up-->
+  <string name="abc_action_bar_up_description">Subir</string>
+  <!--Original value: More options-->
+  <string name="abc_action_menu_overflow_description">Mais opções</string>
+  <!--Original value: Done-->
+  <string name="abc_action_mode_done">Feito</string>
+  <!--Original value: View all-->
+  <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+  <!--Original value: Choose an app-->
+  <string name="abc_activitychooserview_choose_application">Escolha um aplicativo</string>
+  <!--Original value: Search...-->
+  <string name="abc_search_hint">Procurar...</string>
+  <!--Original value: Clear query-->
+  <string name="abc_searchview_description_clear">Limpar consulta</string>
+  <!--Original value: Search query-->
+  <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+  <!--Original value: Search-->
+  <string name="abc_searchview_description_search">Procurar</string>
+  <!--Original value: Submit query-->
+  <string name="abc_searchview_description_submit">Enviar consulta</string>
+  <!--Original value: Voice search-->
+  <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+  <!--Original value: Share with-->
+  <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+  <!--Original value: Share with %s-->
+  <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+  <!--Original value: Collapse-->
+  <string name="abc_toolbar_collapse_description">Colapso</string>
+  <!--Original value: Navigate home-->
+  <string name="action_bar_home_description">Navegue em casa</string>
+  <!--Original value: %1$s, %2$s-->
+  <string name="action_bar_home_description_format">%1$s, %2$s</string>
+  <!--Original value: %1$s, %2$s, %3$s-->
+  <string name="action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+  <!--Original value: Navigate up-->
+  <string name="action_bar_up_description">Subir</string>
+  <!--Original value: Nubia Common Resources-->
+  <string name="nubia_app_name">Nubia Common Resources</string>
+  <!--Original value: Back-->
+  <string name="nubia_back_button_label">Voltar</string>
+  <!--Original value: OFF-->
+  <string name="nubia_capital_off">OFF</string>
+  <!--Original value: ON-->
+  <string name="nubia_capital_on">ON</string>
+  <!--Original value: nubia-->
+  <string name="nubia_common_label">nubia</string>
+  <!--Original value: day-->
+  <string name="nubia_date_day">dia</string>
+  <!--Original value: month-->
+  <string name="nubia_date_month">mês</string>
+  <!--Original value: year-->
+  <string name="nubia_date_year">ano</string>
+  <!--Original value: Empty content-->
+  <string name="nubia_empty_message">Conteúdo vazio</string>
+  <!--Original value: Cancel-->
+  <string name="nubia_more_popup_text">Cancelar</string>
+  <!--Original value: Next-->
+  <string name="nubia_next_button_label">Próximo</string>
+  <!--Original value: %d hours ago-->
+  <string name="nubia_notification_hour_time">%d horas atrás</string>
+  <!--Original value: %d hours and %d minutes ago-->
+  <string name="nubia_notification_hours_minutes_time" formatted="false">%d horas e %d minutos atrás</string>
+  <!--Original value: %d hours and 1 minute ago-->
+  <string name="nubia_notification_hours_one_minute_time" formatted="false">%d horas e 1 minuto atrás</string>
+  <!--Original value: %d minutes ago-->
+  <string name="nubia_notification_minutes_time" formatted="false">%d minutos atrás</string>
+  <!--Original value: A hour and %d minutes ago-->
+  <string name="nubia_notification_one_hours_minutes_time" formatted="false">Uma hora e %d minutos atrás</string>
+  <!--Original value: Just now-->
+  <string name="nubia_notification_time_just_now">Agora mesmo</string>
+  <!--Original value: A hour ago-->
+  <string name="nubia_notification_time_one_hour">Uma hora atrás</string>
+  <!--Original value: A hour and 1 minute ago-->
+  <string name="nubia_notification_time_one_hour_one_minute">Uma hora e um minuto atrás</string>
+  <!--Original value: A minute ago-->
+  <string name="nubia_notification_time_one_minute">Um minuto atrás</string>
+  <!--Original value: Clear query-->
+  <string name="nubia_searchview_description_clear">Limpar consultar</string>
+  <!--Original value: Submit query-->
+  <string name="nubia_searchview_description_submit">Enviar consulta</string>
+  <!--Original value: Voice search-->
+  <string name="nubia_searchview_description_voice">Pesquisa por voz</string>
+  <!--Original value: Select-->
+  <string name="nubia_select">Selecione</string>
+  <!--Original value: Set date-->
+  <string name="nubia_setting_date">Definir data</string>
+  <!--Original value: Skip-->
+  <string name="nubia_skip_button_label">Pular</string>
+  <!--Original value: Text copied to clipboard.-->
+  <string name="nubia_text_copied">Texto copiado para a área de transferência.</string>
+  <!--Original value: Clipboard-->
+  <string name="nubia_text_pastelist">Área de transferência</string>
+  <!--Original value: AM-->
+  <string name="nubia_time_am">AM</string>
+  <!--Original value: H-->
+  <string name="nubia_time_hour">H</string>
+  <!--Original value: M-->
+  <string name="nubia_time_minute">M</string>
+  <!--Original value: Set time-->
+  <string name="nubia_time_picker_dialog_title">Definir hora</string>
+  <!--Original value: PM-->
+  <string name="nubia_time_pm">PM</string>
+  <!--Original value: a total of %s-->
+  <string name="nubia_total_text">um total de %s</string>
+  <!--Original value: Friday-->
+  <string name="Friday">Sexta-feira</string>
+  <!--Original value: Monday-->
+  <string name="Monday">Segunda-feira</string>
+  <!--Original value: Saturday-->
+  <string name="Saturday">Sábado</string>
+  <!--Original value: Sunday-->
+  <string name="Sunday">Domingo</string>
+  <!--Original value: Thursday-->
+  <string name="Thursday">Quinta-feira</string>
+  <!--Original value: Tuesday-->
+  <string name="Tuesday">Terça-feira</string>
+  <!--Original value: Wednesday-->
+  <string name="Wednesday">Quarta-feira</string>
+  <!--Original value: Settings-->
+  <string name="action_settings">Definições</string>
+  <!--Original value: excellent-->
+  <string name="air_level_1">excelente</string>
+  <!--Original value: good-->
+  <string name="air_level_2">bom</string>
+  <!--Original value: slight pollution-->
+  <string name="air_level_3">leve a poluição</string>
+  <!--Original value: medium pollution-->
+  <string name="air_level_4">média de poluição</string>
+  <!--Original value: heavy pollution-->
+  <string name="air_level_5">poluição pesada</string>
+  <!--Original value: serious pollution-->
+  <string name="air_level_6">grave de poluição</string>
+  <!--Original value: Weather-->
+  <string name="app_name">Tempo</string>
+  <!--Original value: black-->
+  <string name="black_level">preto</string>
+  <!--Original value: blue-->
+  <string name="blue_level">azul</string>
+  <!--Original value: °-->
+  <string name="centigrade">°</string>
+  <!--Original value: Search domestic or overseas city-->
+  <string name="city_add_enter_city_name">Pesquisa nacional ou no exterior da cidade</string>
+  <!--Original value: Hot cities-->
+  <string name="city_add_hot_city_title">Quente cidades</string>
+  <!--Original value: Cancel-->
+  <string name="city_add_search_cancel_title">Cancelar</string>
+  <!--Original value: China-->
+  <string name="city_add_search_city_country">China</string>
+  <!--Original value: The city has been added-->
+  <string name="city_has_benn_added">A cidade foi adicionado</string>
+  <!--Original value: Urban management-->
+  <string name="city_list_actionbar_title_text">Gestão urbana</string>
+  <!--Original value: Add city-->
+  <string name="city_list_add_city">Adicione cidade</string>
+  <!--Original value: Delete-->
+  <string name="city_list_add_city_text_delete">Apagar</string>
+  <!--Original value: Positioning-->
+  <string name="city_list_city_locating_alert">Posicionamento</string>
+  <!--Original value: Can add up to 9 cities!-->
+  <string name="city_list_city_max_alert">Pode adicionar até 9 cidades!</string>
+  <!--Original value: Delete the selected city-->
+  <string name="city_list_delete_item_alert_message">Excluir cidade selecionada</string>
+  <!--Original value: Cancel-->
+  <string name="city_list_delete_item_cancel">Cancelar</string>
+  <!--Original value: Please select at least one city-->
+  <string name="city_list_delete_item_toast_alert">Por favor seleccione pelo menos uma cidade</string>
+  <!--Original value: Lowest-->
+  <string name="city_list_is_night_temperature_message">Mais baixo</string>
+  <!--Original value: Related cities not found-->
+  <string name="city_list_search_empty_text">Cidades relacionadas não encontrado</string>
+  <!--Original value: Selected-->
+  <string name="city_list_selected_city">Selecionado</string>
+  <!--Original value: 1 selected-->
+  <string name="city_list_selected_city_init">1 selecionado</string>
+  <!--Original value: Cloudy-->
+  <string name="cloudy">Nublado</string>
+  <!--Original value: Cold-->
+  <string name="cold">Frio</string>
+  <!--Original value: Cold wave-->
+  <string name="cold_wave">Onda fria</string>
+  <!--Original value: Cooling-->
+  <string name="cooling">Resfriamento</string>
+  <!--Original value: MMMM d-->
+  <string name="date_format">d \'de\' MMMM</string>
+  <!--Original value: No-->
+  <string name="default_weather">Não</string>
+  <!--Original value: Dense fog-->
+  <string name="dense_fog">Névoa densa</string>
+  <!--Original value: Drought-->
+  <string name="drought">Seca</string>
+  <!--Original value: Dry-hot wind-->
+  <string name="dry_hot_wind">Vento seco-quente</string>
+  <!--Original value: Dust-->
+  <string name="dust">Poeira</string>
+  <!--Original value: Dust haze-->
+  <string name="dusthaze">Neblina de poeira</string>
+  <!--Original value: Duststorm-->
+  <string name="duststorm">Tempestade de areia</string>
+  <!--Original value: Issues %3$s warning at %2$s on %1$s.-->
+  <string name="early_warning_msg">Emite o aviso %3$s em %2$s em %1$s.</string>
+  <!--Original value: %1$s-->
+  <string name="early_warning_title">%1$s</string>
+  <!--Original value: Network interrupted-->
+  <string name="error_interrupted">Rede interrompida</string>
+  <!--Original value: Network not available-->
+  <string name="error_noneNetwork">Rede não disponível</string>
+  <!--Original value: Get data error-->
+  <string name="error_other">Obter erro de dados</string>
+  <!--Original value: Network timeout-->
+  <string name="error_timeout">Tempo limite da rede</string>
+  <!--Original value: Fog-->
+  <string name="fog">Névoa</string>
+  <!--Original value: Forest fire-->
+  <string name="forest_fire">fogo florestal</string>
+  <!--Original value: Freezing rain-->
+  <string name="freezing_rain">Chuva congelante</string>
+  <!--Original value: Frost-->
+  <string name="frost">geada</string>
+  <!--Original value: Frozen-->
+  <string name="frozen">Congeladas</string>
+  <!--Original value: Gale-->
+  <string name="gale">Gale</string>
+  <!--Original value: Hail-->
+  <string name="hail">Saudar</string>
+  <!--Original value: Haze-->
+  <string name="haze">Neblina</string>
+  <!--Original value: Heavy fog-->
+  <string name="heavy_fog">Neblina pesada</string>
+  <!--Original value: Heavy haze-->
+  <string name="heavy_haze">Neblina pesada</string>
+  <!--Original value: Heavy rain-->
+  <string name="heavy_rain">Chuva pesada</string>
+  <!--Original value: Heavy rain to rainstorm-->
+  <string name="heavy_rain_to_rainstorm">Chuva forte a tempestade</string>
+  <!--Original value: Heavy rainstorm-->
+  <string name="heavy_rainstorm">Tempestade pesada</string>
+  <!--Original value: Heavy rainstorm to torrential rainstorm-->
+  <string name="heavy_rainstorm_to_torrential_rainstorm">Tempestade forte a tempestade torrencial</string>
+  <!--Original value: Heavy snow-->
+  <string name="heavy_snow">Neve pesada</string>
+  <!--Original value: Heavy snow to snowstorm-->
+  <string name="heavy_snow_to_snowstorm">Neve pesada a tempestade de neve</string>
+  <!--Original value: Hello world!-->
+  <string name="hello_world">Olá Mundo!</string>
+  <!--Original value: High temperature-->
+  <string name="high_temp">Temperatura alta</string>
+  <!--Original value: %s° higher than yesterday-->
+  <string name="high_temperature">%s° mais que ontem</string>
+  <!--Original value: Release to refresh-->
+  <string name="let_refresh">Solte para atualizar</string>
+  <!--Original value: Light rain-->
+  <string name="light_rain">Chuva leve</string>
+  <!--Original value: Light snow-->
+  <string name="light_snow">Pouca neve</string>
+  <!--Original value: Light to Moderate rain-->
+  <string name="light_to_moderate_rain">Chuva leve a moderada</string>
+  <!--Original value: Light to moderate snow-->
+  <string name="light_to_moderate_snow">Leve a moderada neve</string>
+  <!--Original value: Lightning-->
+  <string name="lighting">Relâmpago</string>
+  <!--Original value: Low temperature-->
+  <string name="low_temp">Temperatura baixa</string>
+  <!--Original value: %s° lower than yesterday-->
+  <string name="low_temperature">%s° menor do que ontem</string>
+  <!--Original value: lowest temperature-->
+  <string name="lowest_temperature">temperatura mais baixa</string>
+  <!--Original value: Mist-->
+  <string name="mist">Névoa</string>
+  <!--Original value: Moderate haze-->
+  <string name="moderate_haze">Neblina moderada</string>
+  <!--Original value: Moderate rain-->
+  <string name="moderate_rain">Chuva moderada</string>
+  <!--Original value: Moderate snow-->
+  <string name="moderate_snow">Neve moderada</string>
+  <!--Original value: Moderate to heavy rain-->
+  <string name="moderate_to_heavy_rain">Chuva moderada a pesada</string>
+  <!--Original value: Moderate to heavy snow-->
+  <string name="moderate_to_heavy_snow">Neve moderada a pesada</string>
+  <!--Original value: - - -->
+  <string name="no_data">--</string>
+  <!--Original value: orange-->
+  <string name="orange_level">laranja</string>
+  <!--Original value: Overcast-->
+  <string name="overcast">Nublado</string>
+  <!--Original value: It will rain at %1$s today, please take an umbrella.-->
+  <string name="rain_remind_msg">Vai chover no %1$s hoje, por favor, levar um guarda-chuva.</string>
+  <!--Original value: Rain reminder-->
+  <string name="rain_remind_title">Lembrete de chuva</string>
+  <!--Original value: Rainstorm-->
+  <string name="rainstorm">Tempestade</string>
+  <!--Original value: Rainstorm to heavy rainstorm-->
+  <string name="rainstorm_to_heavy_rainstorm">Tempestade a forte tempestade</string>
+  <!--Original value: red-->
+  <string name="red_level">vermelho</string>
+  <!--Original value: Refreshed %d days ago-->
+  <string name="refresh_pull_title_day">Atualizada %d dias atrás</string>
+  <!--Original value: Refreshed %d hours ago-->
+  <string name="refresh_pull_title_hour">Atualizada %d horas atrás</string>
+  <!--Original value: Just refreshed-->
+  <string name="refresh_pull_title_later">Apenas refrescado</string>
+  <!--Original value: You have not refreshed for a long time-->
+  <string name="refresh_pull_title_longtime">Você não tiver atualizado por um longo tempo</string>
+  <!--Original value: Refreshed %d minutes ago-->
+  <string name="refresh_pull_title_minute">Atualizada %d minutos atrás</string>
+  <!--Original value: Refreshing-->
+  <string name="refreshing">Refrescante</string>
+  <!--Original value: Road icing-->
+  <string name="road_icing">Estrada de confeiteiro</string>
+  <!--Original value: Same as yesterday-->
+  <string name="same_temperature">Mesmo que ontem</string>
+  <!--Original value: Sand-->
+  <string name="sand">Areia</string>
+  <!--Original value: Input a Keyword-->
+  <string name="search_word">A entrada de uma Palavra-chave</string>
+  <!--Original value: Shower-->
+  <string name="shower">Chuveiro</string>
+  <!--Original value: Showery snow-->
+  <string name="showery_snow">Showery de neve</string>
+  <!--Original value: Sleet-->
+  <string name="sleet">Granizo</string>
+  <!--Original value: Weather4x1-->
+  <string name="small_widget_name">Weather4x1</string>
+  <!--Original value: Snow-->
+  <string name="snow">Neve</string>
+  <!--Original value: Snowstorm-->
+  <string name="snowstorm">Tempestade de neve</string>
+  <!--Original value: Specially heavy fog-->
+  <string name="specially_heavy_fog">Especialmente pesado nevoeiro</string>
+  <!--Original value: Specially heavy haze-->
+  <string name="specially_heavy_haze">Especialmente pesado neblina</string>
+  <!--Original value: Strong sandstorm-->
+  <string name="strong_sandstorm">Forte tempestade de areia</string>
+  <!--Original value: Sunny-->
+  <string name="sunny">Ensolarado</string>
+  <!--Original value: Thundershower-->
+  <string name="thundershower">Chuveiro de trovão</string>
+  <!--Original value: Thundershower with hail-->
+  <string name="thundershower_with_hail">Chuveiro trovão com granizo</string>
+  <!--Original value: Thunderstorm-->
+  <string name="thunderstorm">Trovoada</string>
+  <!--Original value: ha-->
+  <string name="time_format_string_12">ha</string>
+  <!--Original value: HH:00-->
+  <string name="time_format_string_24">HH:00</string>
+  <!--Original value: Tomorrow-->
+  <string name="tomorrow">Amanhã</string>
+  <!--Original value: Torrential rainstorm-->
+  <string name="torrential_rainstorm">Tempestade torrencial</string>
+  <!--Original value: Typhoon-->
+  <string name="typhoon">Tufão</string>
+  <!--Original value: Please check the network-->
+  <string name="ui_error_checkout_net">Por favor verifique a rede</string>
+  <!--Original value: Positioning failed-->
+  <string name="ui_error_location">Posicionamento falhou</string>
+  <!--Original value: Unable to get the weather information-->
+  <string name="ui_error_no_information">Não é possível obter as informações do tempo</string>
+  <!--Original value: The new version has improved the stability and performance of apps, and fixed some bugs. Please update to the latest version.-->
+  <string name="upgrade_find_new_version">A nova versão melhorou a estabilidade e o desempenho dos aplicativos e corrigiu alguns bugs.</string>
+  <!--Original value: Warning-->
+  <string name="warning">Aviso</string>
+  <!--Original value: Positioning-->
+  <string name="weather_in_locating">Posicionamento</string>
+  <!--Original value: Auto positioning-->
+  <string name="weather_location_closed">Posicionamento automático</string>
+  <!--Original value: Positioning failed，please check the network and try again.-->
+  <string name="weather_location_failed">Posicionamento falhou, por favor, verifique a rede e tente novamente.</string>
+  <!--Original value: Failed to refresh, please check the network and try again.-->
+  <string name="weather_net_error">Falha ao atualizar, verifique a rede e tente novamente.</string>
+  <!--Original value: white-->
+  <string name="white_level">branco</string>
+  <!--Original value: Weather4x2-->
+  <string name="widget_name">Weather4x2</string>
+  <!--Original value: yellow-->
+  <string name="yellow_level">amarelo</string>
+  <!--Original value: Select all-->
+  <string name="select_all">Selecionar tudo</string>
+  <!--Original value: Unselect all-->
+  <string name="unselect_all">Desmarque todos</string>
+  <!--Original value: Add City-->
+  <string name="add_city">Adicionar cidade</string>
+  <!--Original value: Air pollution-->
+  <string name="air_pollution">Poluição do ar</string>
+  <!--Original value: Click for details-->
+  <string name="alarm_link">Clique para detalhes</string>
+  <!--Original value: %s observatory-->
+  <string name="alarm_observatory">%s observatório</string>
+  <!--Original value: avalanche-->
+  <string name="avalanche">avalanche</string>
+  <!--Original value: (Current City)-->
+  <string name="city_list_current_city">(Cidade atual)</string>
+  <!--Original value: Network not available-->
+  <string name="city_search_net_error">Rede não disponível</string>
+  <!--Original value: Network setting-->
+  <string name="city_search_net_setting">Configuração de rede</string>
+  <!--Original value: No related cities-->
+  <string name="city_search_no_result">Nenhuma cidade relacionada</string>
+  <!--Original value: Reload-->
+  <string name="city_search_reload">recarregar</string>
+  <!--Original value: Searching-->
+  <string name="city_search_wating">Procurando</string>
+  <!--Original value: Midsummer outfit-->
+  <string name="cloth_index_lv1">Equipamento de verão</string>
+  <!--Original value: Summer outfit-->
+  <string name="cloth_index_lv2">Roupa de verão</string>
+  <!--Original value: Spring fall outfit-->
+  <string name="cloth_index_lv3">Roupa de outono primavera</string>
+  <!--Original value: Early spring late fall outfit-->
+  <string name="cloth_index_lv4">Roupa de outono atrasado no início da primavera</string>
+  <!--Original value: Early winter outfit-->
+  <string name="cloth_index_lv5">Roupa de inverno adiantado</string>
+  <!--Original value: Winter outfit-->
+  <string name="cloth_index_lv6">Roupa de inverno</string>
+  <!--Original value: Severe winter outfit-->
+  <string name="cloth_index_lv7">Roupa de inverno severa</string>
+  <!--Original value: Comfort-->
+  <string name="comfort">Conforto</string>
+  <!--Original value: Comfortable-->
+  <string name="comfort_index_lv1">Confortável</string>
+  <!--Original value: Relatively comfortable-->
+  <string name="comfort_index_lv2">Relativamente confortável</string>
+  <!--Original value: Uncomfortable-->
+  <string name="comfort_index_lv3">Desconfortável</string>
+  <!--Original value: very uncomfortable-->
+  <string name="comfort_index_lv4">muito desconfortável</string>
+  <!--Original value: Comfortness %s-->
+  <string name="comfort_level">Conforto %s</string>
+  <!--Original value: "1. During the process of use, the app requires permissions for Full Network Access, including Mobile Data or WiFi networks. You will be charged by your operator for data consumption. Please consult your operator for details. 
+2. During the process of use, the app needs to collects your geographic location information to provide better life services."-->
+  <string name="cta_text">"1. Durante o processo de uso, o aplicativo requer permissões para acesso total à rede, incluindo dados móveis ou redes WiFi. Você será cobrado pela sua operadora pelo consumo de dados. Consulte seu operador para obter detalhes.
+2. Durante o processo de uso, o aplicativo precisa coletar suas informações de localização geográfica para fornecer melhores serviços de vida. "</string>
+  <!--Original value: User Agreements-->
+  <string name="cta_title">Contratos do Usuário</string>
+  <!--Original value: Location service is inavailable, please open it in Settings-->
+  <string name="dialog_gps">O serviço de localização está indisponível, abra-o em Configurações</string>
+  <!--Original value: Please open Mobile Data or WLAN to access the weather service-->
+  <string name="dialog_net">Por favor, abra dados móveis ou WLAN para acessar o serviço meteorológico</string>
+  <!--Original value: Clothing-->
+  <string name="dress">Roupas</string>
+  <!--Original value: East wind-->
+  <string name="east">vento do Leste</string>
+  <!--Original value: Geological hazards meteorological risk-->
+  <string name="geological_hazards_meteorological_risk">Risco meteorológico de riscos geológicos</string>
+  <!--Original value: Heat wave-->
+  <string name="heat_wave">Onda de calor</string>
+  <!--Original value: Heavy pollution-->
+  <string name="heavy_pollution">Poluição pesada</string>
+  <!--Original value: High temperature heatstroke-->
+  <string name="high_temperature_heatstroke">Alta temperatura insolação</string>
+  <!--Original value: Humidity-->
+  <string name="humidity">Umidade</string>
+  <!--Original value: Later-->
+  <string name="install_later">Mais tarde</string>
+  <!--Original value: Install-->
+  <string name="install_now">Instalar</string>
+  <!--Original value: Low temperature frost damage-->
+  <string name="low_temp_frost_damage">Dano de geada de baixa temperatura</string>
+  <!--Original value: Low temperature rain and snow-->
+  <string name="low_temperature_rain_and_snow">Chuva e neve de baixa temperatura</string>
+  <!--Original value: No city added-->
+  <string name="no_city">Nenhuma cidade adicionada</string>
+  <!--Original value: No data-->
+  <string name="no_data_txt">Sem dados</string>
+  <!--Original value: No wind-->
+  <string name="no_wind">Sem vento</string>
+  <!--Original value: North wind-->
+  <string name="north">Vento Norte</string>
+  <!--Original value: Northeast wind-->
+  <string name="northeaster">Vento nordeste</string>
+  <!--Original value: Northwest wind-->
+  <string name="northwester">Vento noroeste</string>
+  <!--Original value: Now-->
+  <string name="now">Agora</string>
+  <!--Original value: %1$d Y,%2$s M,%3$s D,%4$s W-->
+  <string name="nubia_date_lunar_title">%1$d Y,%2$s M,%3$s D,%4$s W</string>
+  <!--Original value: %4$s,%2$s %3$d,%1$d-->
+  <string name="nubia_date_solar_title">%4$s,%2$s %3$d,%1$d</string>
+  <!--Original value: download-->
+  <string name="nubia_download">baixar</string>
+  <!--Original value: 8-->
+  <string name="nubia_eight">8</string>
+  <!--Original value: 5-->
+  <string name="nubia_five">5</string>
+  <!--Original value: 4-->
+  <string name="nubia_four">4</string>
+  <!--Original value: Bottom latest-->
+  <string name="nubia_guide_button_text">Mais recente</string>
+  <!--Original value: leap-->
+  <string name="nubia_leap">salto</string>
+  <!--Original value: Lunar Calendar-->
+  <string name="nubia_lunar">Calendário lunar</string>
+  <!--Original value: Lunar November-->
+  <string name="nubia_lunar_eleventh_month">Novembro lunar</string>
+  <!--Original value: First-->
+  <string name="nubia_lunar_first_day">Primeiro</string>
+  <!--Original value: Lunar January-->
+  <string name="nubia_lunar_first_month">Janeiro lunar</string>
+  <!--Original value: Lunar December-->
+  <string name="nubia_lunar_twelveth_month">Dezembro lunar</string>
+  <!--Original value: twenty-->
+  <string name="nubia_lunar_twentieth_day">vinte</string>
+  <!--Original value: 9-->
+  <string name="nubia_nine">9</string>
+  <!--Original value: 1-->
+  <string name="nubia_one">1</string>
+  <!--Original value: Select All-->
+  <string name="nubia_select_all">Selecionar tudo</string>
+  <!--Original value: Select None-->
+  <string name="nubia_select_none">Selecione nenhum</string>
+  <!--Original value: 7-->
+  <string name="nubia_seven">7</string>
+  <!--Original value: 6-->
+  <string name="nubia_six">6</string>
+  <!--Original value: 10-->
+  <string name="nubia_ten">10</string>
+  <!--Original value: 3-->
+  <string name="nubia_three">3</string>
+  <!--Original value: %3$s,%2$s,%1$s,%5$s:%6$s %4$s-->
+  <string name="nubia_time_title">%3$s,%2$s,%1$s,%5$s:%6$s %4$s</string>
+  <!--Original value: The list moved down for one-handed operation-->
+  <string name="nubia_translation_list_dragged_text">A lista foi movida para uma operação com uma mão</string>
+  <!--Original value: 2-->
+  <string name="nubia_two">2</string>
+  <!--Original value: week-->
+  <string name="nubia_week">semana</string>
+  <!--Original value: 0-->
+  <string name="nubia_zero">0</string>
+  <!--Original value: Open-->
+  <string name="ok_gps_net">Abrir</string>
+  <!--Original value: Positioning failed，please turn on the GPS switch.-->
+  <string name="open_gps">Posicionamento falhou, por favor, ligue o interruptor GPS.</string>
+  <!--Original value: Prairie fire risk-->
+  <string name="prairie_fire_risk">Risco de incêndio da pradaria</string>
+  <!--Original value: Ultraviolet rays-->
+  <string name="ray">Raios ultravioleta</string>
+  <!--Original value: Weakest-->
+  <string name="ray_index_lv1">Mais fraco</string>
+  <!--Original value: Weak-->
+  <string name="ray_index_lv2">Fraco</string>
+  <!--Original value: Moderate-->
+  <string name="ray_index_lv3">Moderado</string>
+  <!--Original value: Strong-->
+  <string name="ray_index_lv4">Forte</string>
+  <!--Original value: Very strong-->
+  <string name="ray_index_lv5">Muito forte</string>
+  <!--Original value: Ray Level %s-->
+  <string name="ray_level">Nível de Raio %s</string>
+  <!--Original value: RealFeel %s°-->
+  <string name="realfeel_level">RealFeel %s</string>
+  <!--Original value: Whirl wind-->
+  <string name="rotational">Giro do vento</string>
+  <!--Original value: Sea winds-->
+  <string name="sea_winds">Ventos marinhos</string>
+  <!--Original value: South wind-->
+  <string name="south">vento do sul</string>
+  <!--Original value: Southeast wind-->
+  <string name="southeaster">Vento sudeste</string>
+  <!--Original value: Southwest wind-->
+  <string name="southwester">Vento Sudoeste</string>
+  <!--Original value: Sports-->
+  <string name="sport">Esportes</string>
+  <!--Original value: Not Appropriate-->
+  <string name="sport_index_lv1">Não apropriado</string>
+  <!--Original value: Can be carried out-->
+  <string name="sport_index_lv2">Pode ser realizado</string>
+  <!--Original value: Relatively appropriate-->
+  <string name="sport_index_lv3">Relativamente apropriado</string>
+  <!--Original value: Very appropriate-->
+  <string name="sport_index_lv4">Muito apropriado</string>
+  <!--Original value: Inappropriate-->
+  <string name="sport_index_lv5">Inapropriado</string>
+  <!--Original value: Sport %s-->
+  <string name="sport_level">Esportes %s</string>
+  <!--Original value: Permissions disabled, please enable permissions when you enter the app next time!-->
+  <string name="str_no_permission">Permissões desativadas, ative as permissões quando você entrar no aplicativo na próxima vez!</string>
+  <!--Original value: Unable to use nubia Weather due to permissions disabled.-->
+  <string name="str_permission">Não é possível usar o nubia Tempo devido a permissões desativadas.</string>
+  <!--Original value: Sunrise-->
+  <string name="sunrise">Nascer do sol</string>
+  <!--Original value: Sunset-->
+  <string name="sunset">Pôr do sol</string>
+  <!--Original value: The temperature today is %1$d° higher than yesterday, please wear less clothes.-->
+  <string name="temprature_difference_high_msg">A temperatura hoje é %1$d° maior que ontem, por favor use menos roupa.</string>
+  <!--Original value: Temperature rise reminder-->
+  <string name="temprature_difference_high_title">Lembrete de aumento de temperatura</string>
+  <!--Original value: The temperature today is %1$d° lower than yesterday, please wear more clothes.-->
+  <string name="temprature_difference_low_msg">A temperatura hoje é %1$d° menor que ontem, por favor use mais roupas.</string>
+  <!--Original value: Temperature reduction reminder-->
+  <string name="temprature_difference_low_title">Lembrete de redução de temperatura</string>
+  <!--Original value: Tornado-->
+  <string name="tornado">Tornado</string>
+  <!--Original value: Please check the GPS switch-->
+  <string name="ui_error_checkout_gps">Por favor verifique o interruptor GPS</string>
+  <!--Original value: Unable to get the location information-->
+  <string name="ui_error_no_loc_info">Não é possível obter as informações de localização</string>
+  <!--Original value: Detected a new version, install now?-->
+  <string name="upgrade_dl_new_version">Detectada uma nova versão, instale agora?</string>
+  <!--Original value: Update Now-->
+  <string name="upgrade_now">Atualizar agora</string>
+  <!--Original value: Visibility %skm-->
+  <string name="visibility_level">Visibilidade %skm</string>
+  <!--Original value: Waterlogging risk-->
+  <string name="waterlogging_risk">Risco de alagamento</string>
+  <!--Original value: ·Location-->
+  <string name="weather_cts_location">·Localização</string>
+  <!--Original value: This feature requires the following permissions to be enabled, go to settings and enable them?-->
+  <string name="weather_cts_message">Este recurso requer que as seguintes permissões sejam ativadas, vá para configurações e ative-as?</string>
+  <!--Original value: ·Phone-->
+  <string name="weather_cts_phone">·Telefone</string>
+  <!--Original value: ·Storage-->
+  <string name="weather_cts_storage">·Armazenamento</string>
+  <!--Original value: Weather forecast-->
+  <string name="weather_forecast">Previsão do tempo</string>
+  <!--Original value: Cancel-->
+  <string name="weather_tip_cancel">Cancelar</string>
+  <!--Original value: Enable-->
+  <string name="weather_tip_enable">Habilitar</string>
+  <!--Original value: west wind-->
+  <string name="west">vento oeste</string>
+  <!--Original value: Wind direction-->
+  <string name="wind">Direção do vento</string>
+  <!--Original value: Level %s-->
+  <string name="wind_level">Nível %s</string>
+  <!--Original value: Breeze-->
+  <string name="wind_level_0">Brisa</string>
+  <!--Original value: Level 3–4-->
+  <string name="wind_level_1">Level 3–4</string>
+  <!--Original value: Level 4–5-->
+  <string name="wind_level_2">Level 4–5</string>
+  <!--Original value: Level 5–6-->
+  <string name="wind_level_3">Level 5–6</string>
+  <!--Original value: Level 6–7-->
+  <string name="wind_level_4">Level 6–7</string>
+  <!--Original value: Level 7–8-->
+  <string name="wind_level_5">Level 7–8</string>
+  <!--Original value: Level 8–9-->
+  <string name="wind_level_6">Level 8–9</string>
+  <!--Original value: Level 9–10-->
+  <string name="wind_level_7">Level 9–10</string>
+  <!--Original value: Level 10–11-->
+  <string name="wind_level_8">Level 10–11</string>
+  <!--Original value: Level 11–12-->
+  <string name="wind_level_9">Level 11–12</string>
+  <!--Original value: Breeze-->
+  <string name="breeze">Breeze</string>
+  <!--Original value: ...-->
+  <string name="city_list_ellipsis">...</string>
+  <!--Original value: 盛夏装-->
+  <string name="cloth_index_lv1_baseline">Roupa de verão</string>
+  <!--Original value: 夏装-->
+  <string name="cloth_index_lv2_baseline">Vestido de verão</string>
+  <!--Original value: 春秋装-->
+  <string name="cloth_index_lv3_baseline">A primavera e o outono roupa</string>
+  <!--Original value: 早春晚秋装-->
+  <string name="cloth_index_lv4_baseline">Início da primavera e no final do outono</string>
+  <!--Original value: 初冬装-->
+  <string name="cloth_index_lv5_baseline">Início de roupa de inverno</string>
+  <!--Original value: 冬装-->
+  <string name="cloth_index_lv6_baseline">As roupas de inverno</string>
+  <!--Original value: 严冬装-->
+  <string name="cloth_index_lv7_baseline">As roupas de inverno</string>
+  <!--Original value: 舒适-->
+  <string name="comfort_index_lv1_baseline">Confortável</string>
+  <!--Original value: 较舒适-->
+  <string name="comfort_index_lv2_baseline">Mais confortável</string>
+  <!--Original value: 不舒适-->
+  <string name="comfort_index_lv3_baseline">Desconfortável</string>
+  <!--Original value: 非常不舒适-->
+  <string name="comfort_index_lv4_baseline">Muito desconfortável</string>
+  <!--Original value: %1$s日%2$s时发布%3$s预警-->
+  <string name="early_warning_ch">%1$s Dias de%2$s postado%3$s aviso</string>
+  <!--Original value: h:mm-->
+  <string name="main_widget_12_hours_format">h:mm</string>
+  <!--Original value: kk:mm-->
+  <string name="main_widget_24_hours_format">kk:mm</string>
+  <!--Original value: ——-->
+  <string name="no_data_big">——</string>
+  <!--Original value: V6.0.3-->
+  <string name="nubia_common_versionName">V6.0.3</string>
+  <!--Original value: AM-->
+  <string name="nubia_time_am_upper">AM</string>
+  <!--Original value: PM-->
+  <string name="nubia_time_pm_upper">PM</string>
+  <!--Original value: 气象台-->
+  <string name="observatory_ch">Observatório</string>
+  <!--Original value: 最弱-->
+  <string name="ray_index_lv1_baseline">O mais fraco</string>
+  <!--Original value: 弱-->
+  <string name="ray_index_lv2_baseline">Fraco</string>
+  <!--Original value: 中等-->
+  <string name="ray_index_lv3_baseline">Médio</string>
+  <!--Original value: 强-->
+  <string name="ray_index_lv4_baseline">Forte</string>
+  <!--Original value: 很强-->
+  <string name="ray_index_lv5_baseline">Muito forte</string>
+  <!--Original value: 适宜-->
+  <string name="sport_index_lv1_baseline">Adequado</string>
+  <!--Original value: 较适宜-->
+  <string name="sport_index_lv2_baseline">Mais apropriado</string>
+  <!--Original value: 较不宜-->
+  <string name="sport_index_lv3_baseline">Não</string>
+  <!--Original value: h:mm-->
+  <string name="time_format_string_12_detail">h:mm</string>
+  <!--Original value: HH:mm-->
+  <string name="time_format_string_24_detail">HH:mm</string>
+  <!--Original value: ui_error_location-->
+  <string name="ui_error_location_string">ui_error_location</string>
+  <!--Original value: ui_error_no_information-->
+  <string name="ui_error_no_information_string">ui_error_no_information</string>
+  <!--Original value: OFF-->
+  <string name="v7_preference_off">OFF</string>
+  <!--Original value: ON-->
+  <string name="v7_preference_on">ON</string>
+  <!--Original value: EEEE-->
+  <string name="week_format">EEEE</string>
 </resources>

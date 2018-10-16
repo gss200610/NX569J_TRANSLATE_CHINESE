@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cn.nubia.weather" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="cn.nubia.weather.app.WeatherApplication" android:theme="@style/apptheme">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="a3f3a5f43723add0d603953eacc84de9"/>
+        <meta-data android:name="unique_key" android:value="100052"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="56e0cba1e0f55a5c32003c4b"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="nubia_weather"/>
+        <meta-data android:name="NUBIA_APPID" android:value="259501"/>
+        <meta-data android:name="NUBIA_APPKEY" android:value="57ca4cc348d0455b81528f87e3a9efc9"/>
+        <meta-data android:name="NUBIA_CHANNEL" android:value="nubiaWeather"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <activity android:clearTaskOnLaunch="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="cn.nubia.weather.ui.activity.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.opencity"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="cn.nubia.launcher.forcetouch.shortcuts" android:resource="@xml/add_city"/>
+        </activity>
+        <activity android:finishOnTaskLaunch="true" android:name="cn.nubia.weather.ui.activity.CityAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.AddCity"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="cn.nubia.weather.ui.activity.CityListActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="cn.nubia.weather.permission.HelpActivity" android:theme="@style/TransparentDialog"/>
+        <provider android:authorities="cn.nubia.weather.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <service android:enabled="true" android:name="com.amap.api.location.APSService" android:process=":remote"/>
+        <service android:exported="true" android:name="cn.nubia.upgrade.service.UpgradeService" android:process="cn.nubia.process.test"/>
+        <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="VVRGYHkqWOdlI8KljbLdhGom5y3S5krt"/>
+        <service android:name="cn.nubia.weather.service.UpdateService"/>
+        <service android:exported="true" android:name="cn.nubia.weather.service.WeatherJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="cn.nubia.weather.utils.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="cn.nubia.weather.TYPE_UPDATE_ALL_CITY_WEATHER"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="cn.nubia.weather.logic.db.WeatherProvider" android:exported="true" android:name="cn.nubia.weather.logic.db.WeatherProvider"/>
+        <receiver android:label="@string/widget_name" android:name="cn.nubia.weather.ui.widget.WeatherWidgetProvider">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/app"/>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.TIME_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.WALLPAPER_CHANGED"/>
+                <action android:name="android.intent.action.NUBIA.WEATHER.UPDATE"/>
+                <action android:name="com.nubia.themechanged"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/small_widget_name" android:name="cn.nubia.weather.ui.widget.WeatherSmallWidgetProvider">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/app_small"/>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.TIME_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.WALLPAPER_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.NUBIA.WEATHER.UPDATE"/>
+                <action android:name="com.nubia.themechanged"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.nubia.weather.ui.widget.WeatherPressWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.TIME_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.WALLPAPER_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.NUBIA.WEATHER.UPDATE"/>
+                <action android:name="com.nubia.themechanged"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/presswidget_info"/>
+        </receiver>
+    </application>
+</manifest>
