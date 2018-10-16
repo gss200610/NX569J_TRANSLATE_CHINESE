@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rank_nav_title_array">
+        <item>今日播放</item>
+        <item>周播放</item>
+        <item>用户好评</item>
+    </string-array>
+    <string-array name="week_array">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="select_history_items">
+        <item>删除</item>
+        <item>全部删除</item>
+    </string-array>
+    <string-array name="point_rule_title">
+        <item>积分有什么用？</item>
+        <item>如何获得积分</item>
+    </string-array>
+    <string-array name="point_rule_content">
+        <item>可在积分商城兑换礼品、参与抽奖，之后会陆续开放兑换特权等各种奖励，积分多多好处多多。</item>
+        <item>"1.做任务 完成新手任务、安全任务、冲级任务等可获得大量积分，这是获得积分最快的方式。 
+
+2.签到 可随机获得2-5积分，连续签到有惊喜！出勤率高也有奖励哦~ 
+
+3.发表评论、回复也可获得积分奖励，这是获得积分最稳定的方式。 
+
+4.活动 还有不定期的各类活动等你哟，除了积分奖励外还有大量实物奖励等你拿。"</item>
+    </string-array>
+    <string-array name="growth_rule_title">
+        <item>什么是聚力视频成长体系</item>
+        <item>P等级</item>
+    </string-array>
+    <string-array name="growth_rule_content">
+        <item>聚力视频成长体系是聚力视频最新推出的一套用于记录用户在使用聚力视频各项产品时活跃度的体系。在整套体系中，P等级用于表现用户的活跃程度，随着活跃天的累计而增长。通过提升P等级，用户便可获得更多的奖励与特权。这是用户在聚力视频尊贵身份的体现。</item>
+        <item>"1.P等级的增长规则
+用户的P等级会根据其所获得的活跃天发生变化，得到成长。根据不同的活跃天，客户将获得不同的等级以及相应的等级图标。
+            
+2.活跃天的增长规则
+活跃天每日的增长分为三部分：基础增长、会员加速以及额外加速。公式如下： 活跃天 = 基础增长 × 会员加速 + 额外加速公式中各项参数介绍如下：
+            
+1)  活跃天的基础增长
+通过开启聚力视频，播放一定时间的视频，以及观看一定个数的视频，均能够获得活跃天的基础增长，即：基础增长 = 累计观看时间增长 + 观看视频数量增长。
+            
+2)  会员加速
+在P等级的成长中，会员将获得更多增长奖励。
+            
+3)  额外加速：
+除了基础成长所累积活跃天之外，客户还能够通过其他方法获得额外的活跃天。如，保证每天的连续登录有助于获得活跃天。"</item>
+    </string-array>
+</resources>

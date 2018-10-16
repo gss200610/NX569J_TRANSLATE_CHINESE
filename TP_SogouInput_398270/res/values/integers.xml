@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_candidate_rows">4</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="category_container_duration">300</integer>
+    <integer name="category_edit_anim_duration">400</integer>
+    <integer name="max_category_text_show">8</integer>
+    <integer name="max_comment_caractters_plus_one">141</integer>
+    <integer name="max_comment_characters">140</integer>
+    <integer name="max_feedback_contact_characters">50</integer>
+    <integer name="max_feedback_reason_characters">200</integer>
+    <integer name="max_news_source_text_characters">8</integer>
+    <integer name="nubia_preference_fragment_scrollbarStyle">0x02000000</integer>
+    <integer name="passport_dimen_cleantextview_clean_padding_bottom">5</integer>
+    <integer name="passport_dimen_cleantextview_clean_padding_left">15</integer>
+    <integer name="passport_dimen_cleantextview_clean_padding_right">15</integer>
+    <integer name="passport_dimen_cleantextview_clean_padding_top">5</integer>
+    <integer name="passport_dimen_cleantextview_text_padding_bottom">5</integer>
+    <integer name="passport_dimen_cleantextview_text_padding_left">5</integer>
+    <integer name="passport_dimen_cleantextview_text_padding_right">5</integer>
+    <integer name="passport_dimen_cleantextview_text_padding_top">5</integer>
+    <integer name="passport_dimen_cleantextview_text_textsize">15</integer>
+    <integer name="passport_dimen_sso_dynasticuser_padding_left">10</integer>
+    <integer name="refresh_bounce_duration">150</integer>
+    <integer name="refresh_enter_delay">100</integer>
+    <integer name="refresh_enter_duration">100</integer>
+    <integer name="refresh_frame_duration">50</integer>
+    <integer name="refresh_rope_bend_duration">200</integer>
+    <integer name="refresh_stretch_duration">100</integer>
+    <integer name="refresh_tip_show_duration">400</integer>
+    <integer name="video_detail_max_aspect_ratio">2</integer>
+    <integer name="video_detail_min_aspect_ratio">1</integer>
+</resources>

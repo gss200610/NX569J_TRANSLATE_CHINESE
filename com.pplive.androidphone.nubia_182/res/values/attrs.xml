@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="image" format="reference" />
+    <attr name="text" format="reference" />
+    <attr name="resId" format="integer" />
+    <attr name="verticalSeekBarItemDown" format="boolean" />
+    <attr name="posId" format="string" />
+    <attr name="useOuterPlayer" format="boolean" />
+    <attr name="orientation" format="string" />
+    <attr name="posid" format="string" />
+    <attr name="sendDac" format="boolean" />
+    <attr name="showSkipButton" format="boolean" />
+    <attr name="adtimeshow" format="boolean" />
+    <attr name="adstillshow" format="boolean" />
+    <attr name="adShowSize" format="integer" />
+    <attr name="adbackshow" format="boolean" />
+    <attr name="addetailshow" format="boolean" />
+    <attr name="showclosebtn" format="boolean" />
+    <attr name="showscreenswitch" format="boolean" />
+    <attr name="rotate" format="integer" />
+    <attr name="item_goto_activity" format="string" />
+    <attr name="item_icon" format="reference" />
+    <attr name="item_title" format="string" />
+    <attr name="item_reminder" format="integer" />
+    <attr name="is_control_by_cloud" format="boolean" />
+    <attr name="img_src" format="reference" />
+    <attr name="text_str" format="reference|string" />
+    <attr name="bg" format="reference" />
+    <attr name="bt_bg" format="reference" />
+    <attr name="bg_control" format="boolean" />
+    <attr name="bg_visible" format="boolean" />
+    <attr name="button" format="reference" />
+    <attr name="tab1" format="reference" />
+    <attr name="tab2" format="reference" />
+    <attr name="pstsIndicatorColor" format="color" />
+    <attr name="pstsUnderlineColor" format="color" />
+    <attr name="pstsDividerColor" format="color" />
+    <attr name="pstsIndicatorHeight" format="dimension" />
+    <attr name="pstsIndicatorPadding" format="dimension" />
+    <attr name="pstsUnderlineHeight" format="dimension" />
+    <attr name="pstsDividerPadding" format="dimension" />
+    <attr name="pstsTabPaddingLeftRight" format="dimension" />
+    <attr name="pstsScrollOffset" format="dimension" />
+    <attr name="pstsTabBackground" format="reference" />
+    <attr name="pstsEnableFullWidth" format="boolean" />
+    <attr name="pstsTextAllCaps" format="boolean" />
+    <attr name="textSize" format="dimension" />
+    <attr name="sections" format="integer" />
+    <attr name="divider" format="color" />
+    <attr name="dividerWidth" format="dimension" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="digitBackground" format="reference" />
+    <attr name="digitSize" format="dimension" />
+    <attr name="digitColor" format="color" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="foregroundColor" format="color" />
+    <attr name="backgroundWidth" format="dimension" />
+    <attr name="foregroundWidth" format="dimension" />
+    <attr name="max" format="integer" />
+    <attr name="progress" format="integer" />
+    <attr name="align">
+        <enum name="center" value="1" />
+        <enum name="left" value="0" />
+        <enum name="right" value="2" />
+    </attr>
+    <attr name="alignLast" format="boolean" />
+    <attr name="outbg" format="reference" />
+    <attr name="small" format="float" />
+    <attr name="donut_progress" format="integer" />
+    <attr name="donut_max" format="integer" />
+    <attr name="donut_unfinished_color" format="color" />
+    <attr name="donut_finished_color" format="color" />
+    <attr name="donut_finished_stroke_width" format="dimension" />
+    <attr name="donut_unfinished_stroke_width" format="dimension" />
+    <attr name="donut_text_size" format="dimension" />
+    <attr name="donut_text_color" format="color" />
+    <attr name="donut_bottom_text_size" format="dimension" />
+    <attr name="donut_bottom_text_color" format="color" />
+    <attr name="donut_top_text_size" format="dimension" />
+    <attr name="donut_top_text_color" format="color" />
+    <attr name="donut_bottom_text" format="string" />
+    <attr name="donut_top_text" format="string" />
+    <attr name="donut_prefix_text" format="string" />
+    <attr name="donut_suffix_text" format="string" />
+    <attr name="donut_text" format="string" />
+    <attr name="donut_background_color" format="color" />
+    <attr name="donut_inner_bottom_text" format="string" />
+    <attr name="donut_inner_bottom_text_size" format="dimension" />
+    <attr name="donut_inner_bottom_text_color" format="color" />
+    <attr name="donut_circle_starting_degree" format="integer" />
+    <attr name="anim_progress" format="integer" />
+    <attr name="anim_color" format="color" />
+    <attr name="anim_stroke_width" format="dimension" />
+    <attr name="anim_starting_degree" format="integer" />
+    <attr name="hlv_listViewStyle" format="reference" />
+    <attr name="hlv_absHListViewStyle" format="reference" />
+    <attr name="hlv_listPreferredItemWidth" format="dimension" />
+    <attr name="hlv_expandableListViewStyle" format="reference" />
+    <attr name="hlv_dividerWidth" format="dimension" />
+    <attr name="hlv_headerDividersEnabled" format="boolean" />
+    <attr name="hlv_footerDividersEnabled" format="boolean" />
+    <attr name="hlv_overScrollHeader" format="reference|color" />
+    <attr name="hlv_overScrollFooter" format="reference|color" />
+    <attr name="hlv_measureWithChild" format="integer" />
+    <attr name="hlv_stackFromRight" format="boolean" />
+    <attr name="hlv_transcriptMode">
+        <enum name="alwaysScroll" value="2" />
+        <enum name="disabled" value="0" />
+        <enum name="normal" value="1" />
+    </attr>
+    <attr name="hlv_indicatorGravity">
+        <flag name="center" value="0x00000011" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="hlv_childIndicatorGravity">
+        <flag name="center" value="0x00000011" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="hlv_childDivider" format="reference|color" />
+    <attr name="hlv_groupIndicator" format="reference" />
+    <attr name="hlv_childIndicator" format="reference" />
+    <attr name="hlv_indicatorPaddingLeft" format="dimension" />
+    <attr name="hlv_indicatorPaddingTop" format="dimension" />
+    <attr name="hlv_childIndicatorPaddingLeft" format="dimension" />
+    <attr name="hlv_childIndicatorPaddingTop" format="dimension" />
+    <attr name="swipeOpenOnLongPress" format="boolean" />
+    <attr name="swipeAnimationTime" format="integer" />
+    <attr name="swipeOffsetLeft" format="dimension" />
+    <attr name="swipeOffsetRight" format="dimension" />
+    <attr name="swipeCloseAllItemsWhenMoveList" format="boolean" />
+    <attr name="swipeFrontView" format="reference" />
+    <attr name="swipeBackView" format="reference" />
+    <attr name="swipeMode">
+        <enum name="left" value="3" />
+        <enum name="right" value="2" />
+        <enum name="both" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="swipeActionLeft">
+        <enum name="choice" value="2" />
+        <enum name="dismiss" value="1" />
+        <enum name="reveal" value="0" />
+    </attr>
+    <attr name="swipeActionRight">
+        <enum name="choice" value="2" />
+        <enum name="dismiss" value="1" />
+        <enum name="reveal" value="0" />
+    </attr>
+    <attr name="swipeDrawableChecked" format="reference" />
+    <attr name="swipeDrawableUnchecked" format="reference" />
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    <attr name="vpiIconPageIndicatorStyle" format="reference" />
+    <attr name="vpiLinePageIndicatorStyle" format="reference" />
+    <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+    <attr name="vpiTabPageIndicatorStyle" format="reference" />
+    <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    <attr name="fillColor" format="color" />
+    <attr name="pageColor" format="color" />
+    <attr name="radius" format="dimension" />
+    <attr name="snap" format="boolean" />
+    <attr name="strokeColor" format="color" />
+    <attr name="lineWidth" format="dimension" />
+    <attr name="gapWidth" format="dimension" />
+    <attr name="clipPadding" format="dimension" />
+    <attr name="footerColor" format="color" />
+    <attr name="footerLineHeight" format="dimension" />
+    <attr name="footerIndicatorStyle">
+        <enum name="none" value="0" />
+        <enum name="triangle" value="1" />
+        <enum name="underline" value="2" />
+    </attr>
+    <attr name="footerIndicatorHeight" format="dimension" />
+    <attr name="footerIndicatorUnderlinePadding" format="dimension" />
+    <attr name="footerPadding" format="dimension" />
+    <attr name="linePosition">
+        <enum name="bottom" value="0" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="selectedBold" format="boolean" />
+    <attr name="titlePadding" format="dimension" />
+    <attr name="topPadding" format="dimension" />
+    <attr name="fades" format="boolean" />
+    <attr name="fadeDelay" format="integer" />
+    <attr name="fadeLength" format="integer" />
+    <attr name="showDividers">
+        <flag name="end" value="0x00000004" />
+        <flag name="none" value="0x00000000" />
+        <flag name="beginning" value="0x00000001" />
+        <flag name="middle" value="0x00000002" />
+    </attr>
+    <attr name="dividerPadding" format="dimension" />
+</resources>
