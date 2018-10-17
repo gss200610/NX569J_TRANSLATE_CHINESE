@@ -213,7 +213,6 @@ Tentativa efetuada: %s."</string>
     <string name="attach_record_video">Capturar vídeo</string>
     <string name="attach_sound">Áudio</string>
     <string name="attach_record_sound">Gravar áudio</string>
-    <string name="attach_slideshow">Apresentação de diapositivos</string>
     <string name="select_bottom_text">Texto na parte inferior</string>
     <string name="select_top_text">Texto na parte superior</string>
     <string name="notification_multiple">%s mensagens não lidas.</string>
@@ -288,7 +287,6 @@ Tentativa efetuada: %s."</string>
     <string name="disable_notifications_dialog_message">Parar notificações de mensagens de texto duplicadas na aplicação predefinida de Mensagens?</string>
     <string name="view_more_conversations">Ver mais conversas</string>
     <string name="attachment_audio">Áudio</string>
-    <string name="attachment_slideshow">Apresentação de Diapositivos</string>
     <string name="attachment_video">Vídeo</string>
     <string name="attachment_picture">Imagem</string>
     <string name="notification_separator">"  "</string>
@@ -340,7 +338,27 @@ Tentativa efetuada: %s."</string>
      <string name="default_phrases_thirteen">"Você é o melhor!"</string>
      <string name="default_phrases_fourteen">Onde está voce?</string>
      <string name="default_phrases_fifteen">Me liga.</string>
-	
-	
+	<string name="pref_xy_display_settings_title">Configurações inteligentes de SMS</string>
+	<string name="new_phrase">Nova frase</string>
+    <string name="pref_summary_sms_service_center">Verifique número do centro de SMS</string>
+    <string name="pref_title_card1_sms_service_center">SIM 1 Número do centro de SMS</string>
+    <string name="pref_summary_card1_sms_service_center">Cheque SIM 1 Número centro de SMS</string>
+    <string name="pref_title_card2_sms_service_center">SIM 2 Número do centro de SMS</string>
+    <string name="pref_summary_card2_sms_service_center">Cheque SIM 2 Número centro de SMS</string>
+	<string name="pref_summary_slideshow_open_mode">Jornais móveis</string>
+	<string name="open_mode_newspapers">Jornais móveis</string>
+	<string name="attach_slideshow">Apresentação de slides</string>
+	<string name="attachment_slideshow">Apresentação slides</string>
+	<string name="option_add_slideshow">Apresentação slides</string>
+	<string name="open_mode_slideshow">Apresentação slides</string>
+	<string name="msg_to_pop_up">Mensagens Pop-up</string>
+	<string name="receive_wappush">Receber Mensagem Push</string>
+	<string name="service_settings">Configurações de serviço</string>
+	<string name="open_PBS_Detail">Impedir mensagens de spam</string>
+	<string name="menu_more">Mais</string>
+    <string name="pref_title_restore_default_settings">Restaurar Configurações padrão</string>
+    <string name="pref_dialog_title_restore">Restaurar Configurações padrão</string>
+    <string name="pref_restore_dialog_confirm">OK</string>
+    <string name="pref_restore_dialog_cancel">Cancelar</string>
 	
 </resources>
