@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="empty_subject_strings">
+    <item>sem assunto</item>
+  </string-array>
+  <string-array name="select_dialog_items">
+    <item>@string/select_dialog_items_one</item>
+    <item>@string/select_dialog_items_two</item>
+    <item>@string/select_dialog_items_three</item>
+    <item>@string/select_dialog_items_four</item>
+    <item>@string/select_dialog_items_five</item>
+    <item>@string/select_dialog_items_six</item>
+    <item>@string/select_dialog_items_seven</item>
+    <item>@string/select_dialog_items_eight</item>
+    <item>@string/select_dialog_items_nine</item>
+    <item>@string/select_dialog_items_ten</item>
+    <item>@string/select_dialog_items_other</item>
+  </string-array>
+  <string-array name="pref_slideshow_open_mode_choices">
+    <item>@string/open_mode_newspapers</item>
+    <item>@string/open_mode_slideshow</item>
+  </string-array>
+  <string-array name="pref_slideshow_open_mode_values">
+    <item>JORNAL</item>
+    <item>SLIDESHOW</item>
+  </string-array>
+  <string-array name="default_phrases">
+    <item>@string/default_phrases_one</item>
+    <item>@string/default_phrases_two</item>
+    <item>@string/default_phrases_three</item>
+    <item>@string/default_phrases_four</item>
+    <item>@string/default_phrases_five</item>
+    <item>@string/default_phrases_six</item>
+    <item>@string/default_phrases_seven</item>
+    <item>@string/default_phrases_eight</item>
+    <item>@string/default_phrases_nine</item>
+    <item>@string/default_phrases_ten</item>
+    <item>@string/default_phrases_eleven</item>
+    <item>@string/default_phrases_twelve</item>
+    <item>@string/default_phrases_thirteen</item>
+    <item>@string/default_phrases_fourteen</item>
+    <item>@string/default_phrases_fifteen</item>
+  </string-array>
+  <string-array name="select_music_items">
+    <item>@string/select_music_items_one</item>
+    <item>@string/select_music_items_two</item>
+    <item>@string/select_music_items_three</item>
+  </string-array>
+  <string-array name="more_items">
+    <item>@string/message_order</item>
+    <item>@string/favourite_msg_label</item>
+    <item>@string/preferences_title</item>
+  </string-array>
+  <string-array name="nubia_weeks_full">
+    <item>domingo</item>
+    <item>Segunda-feira</item>
+    <item>terça</item>
+    <item>Quarta-feira</item>
+    <item>Quinta-feira</item>
+    <item>Sexta-feira</item>
+    <item>sábado</item>
+  </string-array>
+  <string-array name="nubia_weeks_short">
+    <item>Sun</item>
+    <item>Mon</item>
+    <item>Tue</item>
+    <item>Wed</item>
+    <item>Thu</item>
+    <item>Fri</item>
+    <item>Sat</item>
+  </string-array>
+  <string-array name="nubia_months_full">
+    <item>January</item>
+    <item>February</item>
+    <item>March</item>
+    <item>April</item>
+    <item>May</item>
+    <item>June</item>
+    <item>July</item>
+    <item>August</item>
+    <item>September</item>
+    <item>October</item>
+    <item>November</item>
+    <item>December</item>
+  </string-array>
+  <string-array name="nubia_months_short">
+    <item>Jan</item>
+    <item>Feb</item>
+    <item>Mar</item>
+    <item>Apr</item>
+    <item>May</item>
+    <item>Jun</item>
+    <item>Jul</item>
+    <item>Aug</item>
+    <item>Sep</item>
+    <item>Oct</item>
+    <item>Nove</item>
+    <item>Dec</item>
+  </string-array>
+</resources>
