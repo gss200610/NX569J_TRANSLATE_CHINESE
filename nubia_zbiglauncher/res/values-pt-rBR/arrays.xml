@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <string-array name="nubia_weeks_full">
+    <item>domingo</item>
+    <item>Segunda-feira</item>
+    <item>terça</item>
+    <item>Quarta-feira</item>
+    <item>Quinta-feira</item>
+    <item>Sexta-feira</item>
+    <item>sábado</item>
+  </string-array>
+  <string-array name="nubia_weeks_short">
+    <item>Dom</item>
+    <item>seg</item>
+    <item>ter</item>
+    <item>qua</item>
+    <item>qui</item>
+    <item>Sex</item>
+    <item>Sáb</item>
+  </string-array>
+  <string-array name="nubia_months_full">
+    <item>janeiro</item>
+    <item>fevereiro</item>
+    <item>Março</item>
+    <item>abril</item>
+    <item>Maio</item>
+    <item>Junho</item>
+    <item>Julho</item>
+    <item>agosto</item>
+    <item>setembro</item>
+    <item>Outubro</item>
+    <item>novembro</item>
+    <item>dezembro</item>
+  </string-array>
+  <string-array name="nubia_months_short">
+    <item>Jan</item>
+    <item>Fev</item>
+    <item>Mar</item>
+    <item>Abr</item>
+    <item>Mai</item>
+    <item>Jun</item>
+    <item>Jul</item>
+    <item>Ago</item>
+    <item>Set</item>
+    <item>Out</item>
+    <item>Nove</item>
+    <item>Dez</item>
+  </string-array>
+  <string-array name="fontSize">
+    <item>@string/normal</item>
+    <item>@string/setting_font_big</item>
+  </string-array>
+  <string-array name="modify">
+    <item>com.android.contacts</item>
+    <item>com.android.gallery3d</item>
+    <item>com.android.camera</item>
+    <item>cn.nubia.music.preset</item>
+    <item>cn.nubia.zbiglauncher.preset</item>
+    <item>cn.nubia.calculator2.preset</item>
+    <item>cn.nubia.v5light.preset</item>
+    <item>com.android.settings</item>
+    <item>com.android.mms</item>
+    <item>cn.nubia.gallery3d</item>
+    <item>cn.nubia.launcher</item>
+    <item>cn.nubia.mms</item>
+    <item>cn.nubia.contacts</item>
+    <item>com.android.providers.downloads.ui</item>
+  </string-array>
+  <string-array name="week">
+    <item>domingo</item>
+    <item>Segunda-feira</item>
+    <item>terça</item>
+    <item>Quarta-feira</item>
+    <item>Quinta-feira</item>
+    <item>Sexta-feira</item>
+    <item>sábado</item>
+  </string-array>
+  <string-array name="dayNames">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>24</item>
+    <item>25</item>
+    <item>26</item>
+    <item>27</item>
+    <item>28</item>
+    <item>29</item>
+    <item>30</item>
+    <item>31</item>
+  </string-array>
+</resources>
