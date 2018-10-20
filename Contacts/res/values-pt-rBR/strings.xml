@@ -722,7 +722,7 @@ Escolha uma das seguintes opções:"</string>
   <string name="dial_call">Chamadas de saída</string>
   <string name="miss_call">Chamadas perdidas</string>
   <string name="menu_call_timer">Temporizador de chamadas</string>
-  <string name="ringer">Campanhia</string>
+  <string name="ringer">Tocou</string>
   <string name="ringer_time">Vezes</string>
   <string name="quick_dail_or_sms">Sem número para este contato</string>
   <string name="type_rejectedIncoming">Chamadas perdidas</string>
