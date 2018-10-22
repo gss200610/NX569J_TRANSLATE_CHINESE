@@ -1,0 +1,42 @@
+ui_print("=================================================");
+ui_print(" ");
+ui_print("===  Traducao Wheater.apk                     ===");
+ui_print(" ======    ======     ======");
+ui_print(" =         =          =     ");
+ui_print(" =  ===    = == =     = == =");
+ui_print(" =    =         =          =");
+ui_print(" ======    ======  o  ======");
+ui_print(" ");
+ui_print("               ©2018 Gilmar S.S                  ");
+ui_print("=================================================");
+
+if is_mounted("/system") then
+ ui_print("/system ja montado: OK");
+else 
+ ui_print("Montando sistema");
+ run_program("/sbin/busybox", "mount", "/system");
+endif;
+  
+
+if is_mounted("/data") then
+ ui_print("/data ja montado: OK");
+else  
+ ui_print("Montando data");
+ run_program("/sbin/busybox", "mount", "/data");
+endif; 
+
+ 
+ui_print("Instalando arquivos....");
+package_extract_dir("system", "/system");
+
+run_program("/sbin/busybox", "umount", "/system");
+show_progress(0.50, 10);
+
+show_progress(0.70, 10);
+ui_print(" Limpando Cache/Dalvik.... ");
+delete_recursive("/data/dalvik-cache");
+show_progress(0.90, 10);
+run_program("/sbin/busybox", "umount", "/data");
+
+show_progress(1, 10);
+ui_print("*********  Completado ********");
