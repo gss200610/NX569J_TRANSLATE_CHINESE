@@ -87,6 +87,4 @@
     <string name="nubia_back_button_label">Back</string>
     <string name="nubia_next_button_label">Next</string>
     <string name="nubia_skip_button_label">Skip</string>
-	<string name="data_usage_multi_sim_warning_body">触摸可切卡</string>
-	<string name="nubia_service_name">nubia 客服</string>
 </resources>
