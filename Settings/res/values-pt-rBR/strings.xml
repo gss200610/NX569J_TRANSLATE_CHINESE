@@ -200,33 +200,6 @@
   <!--Original value: Back-->
   <string name="setup_wizard_back_button_label">De volta</string>
   <!--Original value: -->
-  <string name="additional_system_update" />
-  <!--Original value: -->
-  <string name="additional_system_update_menu" />
-  <!--Original value: cn.nubia.neopush/cn.nubia.neopush.service.PushNotificationService-->
-  <string name="def_enabled_notification_listener_neopush" />
-  <!--Original value: 0-->
-  <string name="input_method_selector_show_automatically_value" />
-  <!--Original value: 1-->
-  <string name="input_method_selector_always_show_value" />
-  <!--Original value: 2-->
-  <string name="input_method_selector_always_hide_value" />
-  <!--Original value: 0-->
-  <string name="input_method_selector_visibility_default_value" />
-  <!--Original value: com.android.settings.category.wireless-->
-  <string name="category_key_wireless">com.android.settings.category.wireless</string>
-  <!--Original value: com.android.settings.category.notification-->
-  <string name="category_key_notification" />
-  <!--Original value: com.android.settings.category.accounts-->
-  <string name="category_key_accounts" />
-  <!--Original value: com.android.settings.category.features-->
-  <string name="category_key_features" />
-  <!--Original value: com.android.settings.category.device-->
-  <string name="category_key_device">com.android.settings.category.device</string>
-  <!--Original value: com.android.settings.category.personal-->
-  <string name="category_key_personal">com.android.settings.category.personal</string>
-  <!--Original value: com.android.settings.category.system-->
-  <string name="category_key_system">com.android.settings.category.system</string>
   <!--Original value: Yes-->
   <string name="yes">Sim</string>
   <!--Original value: No-->
@@ -408,7 +381,6 @@
   <!--Original value: This will be disabled:<br><b>%1$s</b><br><br>From:<br><b>%2$s</b>-->
   <string name="bluetooth_disable_profile_message">Essa ação desativará o %1$s do %2$s</string>
   <!--Original value: -->
-  <string name="bluetooth_unknown" />
   <!--Original value: Unnamed Bluetooth device-->
   <string name="bluetooth_device">Dispositivo Bluetooth sem nome</string>
   <!--Original value: Searching-->
@@ -484,7 +456,6 @@ A transmissão usa sinais de Bluetooth de baixo consumo."</string>
   <!--Original value: Font size:-->
   <string name="display_font_size_label">Tamanho da fonte:</string>
   <!--Original value: Data:-->
-  <string name="intent_sender_data_label" />
   <!--Original value: Send broadcast-->
   <string name="intent_sender_sendbroadcast_text">Enviarbroadcast</string>
   <!--Original value: Action:-->
@@ -806,7 +777,6 @@ Esta configuração afeta todos os usuários do telefone."</string>
   <!--Original value: screen lock-->
   <string name="fingerprint_enable_keyguard_toggle_title">bloqueio de tela</string>
   <!--Original value: -->
-  <string name="security_settings_fingerprint_preference_summary_none" />
   <!--Original value: Fingerprint setup-->
   <string name="security_settings_fingerprint_enroll_onboard_title">Config. de imp digital</string>
   <!--Original value: To use your fingerprint to unlock your screen or confirm purchases, you’ll need to:-->
@@ -966,7 +936,6 @@ Para retomar o uso do seu smartphone, é necessário redefinir para as configura
   <!--Original value: None-->
   <string name="unlock_set_unlock_off_title">Nenhuma</string>
   <!--Original value: -->
-  <string name="unlock_set_unlock_off_summary" />
   <!--Original value: Slide unlock-->
   <string name="unlock_set_unlock_none_title">Deslizar</string>
   <!--Original value: No security-->
@@ -1122,7 +1091,6 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <!--Original value: Allow %1$s to access your contacts and call history-->
   <string name="bluetooth_pairing_shares_phonebook">Permitir que %1$s acesse seus contatos e histórico de chamadas</string>
   <!--Original value: -->
-  <string name="bluetooth_error_title" />
   <!--Original value: Unable to connect to %1$s.-->
   <string name="bluetooth_connecting_error_message">Não foi possível conectar ao %1$s.</string>
   <!--Original value: Scan for devices-->
@@ -1696,7 +1664,6 @@ Permitir isto para todos os apps que quiserem verificar?"</string>
   <!--Original value: Sound-->
   <string name="sound_settings">Som</string>
   <!--Original value: -->
-  <string name="ringtone_summary" />
   <!--Original value: Volume-->
   <string name="all_volume_title">Volumes</string>
   <!--Original value: Music effects-->
@@ -1932,7 +1899,6 @@ PIN possivelmente incorreto."</string>
   <!--Original value: System updates-->
   <string name="system_update_settings_list_item_title">Atualizações do sistema</string>
   <!--Original value: -->
-  <string name="system_update_settings_list_item_summary" />
   <!--Original value: Android version-->
   <string name="firmware_version">Versão do Android</string>
   <!--Original value: Android security patch level-->
@@ -2042,7 +2008,6 @@ PIN possivelmente incorreto."</string>
   <!--Original value: Install SD card-->
   <string name="sd_mount">Conectar cartão SD</string>
   <!--Original value: -->
-  <string name="sd_mount_summary" />
   <!--Original value: Format SD card-->
   <string name="sd_format">Apagar cartão SD</string>
   <!--Original value: Erases all data on SD card, such as music and photos-->
@@ -2058,7 +2023,6 @@ PIN possivelmente incorreto."</string>
   <!--Original value: If you unmount SD card, some apps you are using will stop and may be unavailable until you remount the SD card.-->
   <string name="dlg_confirm_unmount_text">Se você desconectar o cartão SD, alguns apps que estão em uso serão interrompidos e podem não estar disponíveis até você conectar o cartão SD novamente.</string>
   <!--Original value: -->
-  <string name="dlg_error_unmount_title" />
   <!--Original value: Unable to unmount SD card. Try again later.-->
   <string name="dlg_error_unmount_text">Não é possível desconectar o cartão SD. Tente novamente mais tarde.</string>
   <!--Original value: SD card will be unmounted.-->
@@ -2398,7 +2362,6 @@ Você pode usar um ^1 mais rápido para ter um desempenho melhor."</string>
   <!--Original value: Discard-->
   <string name="menu_cancel">Descartar</string>
   <!--Original value: -->
-  <string name="error_title" />
   <!--Original value: The Name field cannot be empty.-->
   <string name="error_name_empty">O campo Nome não pode ficar vazio.</string>
   <!--Original value: The APN cannot be empty.-->
@@ -2940,7 +2903,6 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "cartã
   <!--Original value: Cancel-->
   <string name="dlg_cancel">Cancelar</string>
   <!--Original value: -->
-  <string name="app_not_found_dlg_title" />
   <!--Original value: The app was not found in the list of installed apps.-->
   <string name="app_not_found_dlg_text">O app não foi encontrado na lista de apps instalados.</string>
   <!--Original value: Unable to clear app data.-->
@@ -3000,7 +2962,6 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "cartã
   <!--Original value: If you stop an app forcefully, it may cause an error.-->
   <string name="force_stop_dlg_text">Se você forçar a parada de um app, ele pode apresentar mau funcionamento.</string>
   <!--Original value: -->
-  <string name="move_app_failed_dlg_title" />
   <!--Original value: Unable to move app. %1$s-->
   <string name="move_app_failed_dlg_text">Não foi possível mover o app. %1$s</string>
   <!--Original value: Preferred install location-->
@@ -3124,7 +3085,6 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "cartã
   <!--Original value: Language-->
   <string name="phone_language">Idioma</string>
   <!--Original value: -->
-  <string name="phone_language_summary" />
   <!--Original value: Auto-replace-->
   <string name="auto_replace">Substituição automática</string>
   <!--Original value: Correct mistyped words-->
@@ -3174,7 +3134,6 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "cartã
   <!--Original value: Personal dictionary-->
   <string name="user_dict_settings_title">Dicionário pessoal</string>
   <!--Original value: -->
-  <string name="user_dict_settings_summary" />
   <!--Original value: Add-->
   <string name="user_dict_settings_add_menu_title">Adicionar</string>
   <!--Original value: Add to dictionary-->
@@ -4110,7 +4069,6 @@ Caso o dispositivo tenha vários usuários, este atalho na tela de bloqueio pode
   <!--Original value: Credentials are not available for this user-->
   <string name="credentials_settings_not_available">As credenciais não estão disponíveis para este usuário</string>
   <!--Original value: -->
-  <string name="credentials_unlock" />
   <!--Original value: Type the password for credential storage.-->
   <string name="credentials_unlock_hint">Digite a senha para o armazenamento de credenciais.</string>
   <!--Original value: Current password:-->
@@ -4176,7 +4134,6 @@ Caso o dispositivo tenha vários usuários, este atalho na tela de bloqueio pode
   <!--Original value: Setting backup password has failed-->
   <string name="local_backup_password_toast_validation_failure">Falha ao definir a senha de backup</string>
   <!--Original value: -->
-  <string name="backup_erase_dialog_title" />
   <!--Original value: Stop backing up your Wi-Fi passwords, bookmarks, other settings and app data, and erase all copies on Google servers?-->
   <string name="backup_erase_dialog_message">Interromper o backup de suas senhas de redes Wi-Fi, favoritos, outras configurações e dados de apps e apagar todas as cópias nos servidores do Google?</string>
   <!--Original value: Stop backing up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps), plus erase all copies on Google Drive?-->
@@ -5051,69 +5008,6 @@ Qualquer usuário pode atualizar apps para os demais usuários."</string>
   <string name="app_notifications_switch_label">Mostrar notificações</string>
   <!--Original value: Help and feedback-->
   <string name="help_label">Ajuda e feedback</string>
-  <!--Original value: -->
-  <string name="help_uri_default" />
-  <!--Original value: -->
-  <string name="help_uri_dashboard" />
-  <!--Original value: -->
-  <string name="help_uri_beam" />
-  <!--Original value: -->
-  <string name="help_uri_display" />
-  <!--Original value: -->
-  <string name="help_uri_wallpaper" />
-  <!--Original value: -->
-  <string name="help_uri_interruptions" />
-  <!--Original value: -->
-  <string name="help_uri_other_sounds" />
-  <!--Original value: -->
-  <string name="help_uri_notifications" />
-  <!--Original value: -->
-  <string name="help_uri_apps" />
-  <!--Original value: -->
-  <string name="help_uri_storage" />
-  <!--Original value: -->
-  <string name="help_uri_accessibility" />
-  <!--Original value: -->
-  <string name="help_uri_printing" />
-  <!--Original value: -->
-  <string name="help_uri_about" />
-  <!--Original value: -->
-  <string name="help_url_wifi" />
-  <!--Original value: -->
-  <string name="help_url_bluetooth" />
-  <!--Original value: -->
-  <string name="help_url_data_usage" />
-  <!--Original value: -->
-  <string name="help_url_more_networks" />
-  <!--Original value: -->
-  <string name="help_url_vpn" />
-  <!--Original value: -->
-  <string name="help_url_sound" />
-  <!--Original value: -->
-  <string name="help_url_battery" />
-  <!--Original value: -->
-  <string name="help_url_accounts" />
-  <!--Original value: -->
-  <string name="help_url_choose_lockscreen" />
-  <!--Original value: -->
-  <string name="help_url_backup_reset" />
-  <!--Original value: -->
-  <string name="help_url_tether" />
-  <!--Original value: -->
-  <string name="help_url_dreams" />
-  <!--Original value: -->
-  <string name="help_url_users" />
-  <!--Original value: -->
-  <string name="help_url_location_access" />
-  <!--Original value: -->
-  <string name="help_url_security" />
-  <!--Original value: -->
-  <string name="help_url_nfc_payment" />
-  <!--Original value: -->
-  <string name="help_url_remote_display" />
-  <!--Original value: -->
-  <string name="help_url_fingerprint" />
-  <!--Original value: Content account-->
   <string name="user_account_title">Conta para conteúdo</string>
   <!--Original value: Photo ID-->
   <string name="user_picture_title">ID de foto</string>
@@ -5198,8 +5092,6 @@ Qualquer usuário pode atualizar apps para os demais usuários."</string>
   <!--Original value: Select photo-->
   <string name="user_image_photo_selector">Selecionar foto</string>
   <!--Original value: -->
-  <string name="regulatory_info_text" />
-  <!--Original value: SIM card-->
   <string name="sim_setup_wizard_title">Cartões SIM</string>
   <!--Original value: SIM cards-->
   <string name="sim_settings_title">Cartões SIM</string>
@@ -5612,7 +5504,6 @@ Qualquer usuário pode atualizar apps para os demais usuários."</string>
   <!--Original value: Send feedback about this device-->
   <string name="device_feedback">Enviar feedback sobre o dispositivo</string>
   <!--Original value: -->
-  <string name="oem_preferred_feedback_reporter" />
   <!--Original value: Enter administrator PIN-->
   <string name="restr_pin_enter_admin_pin">Inserir PIN do administrador</string>
   <!--Original value: On-->
@@ -6608,7 +6499,6 @@ One card works on 3G network and the other one works on GSM 2G network."-->
   <!--Original value: Do not remind again-->
   <string name="checkbox_text">Não lembre de novo</string>
   <!--Original value: OK-->
-  <string name="dialog_ok" />
   <!--Original value: Cancel-->
   <string name="dialog_cancel">Cancelar</string>
   <!--Original value: Reboot-->
@@ -6774,7 +6664,6 @@ One card works on 3G network and the other one works on GSM 2G network."-->
   <!--Original value: The breath light flashes when there is a notification in screen-off mode-->
   <string name="notification_center_breathlight_tip">A respiração, a luz pisca quando existe uma notificação no ecrã-modo off</string>
   <!--Original value:       -->
-  <string name="notification_center_blank" />
   <!--Original value: Notification bar-->
   <string name="notification_center_dropdown">Barra de notificação</string>
   <!--Original value: Heads-up Notification-->
@@ -6910,7 +6799,7 @@ One card works on 3G network and the other one works on GSM 2G network."-->
   <!--Original value: Turn off WiFi-->
   <string name="wifi_enable_preference_title_off">Desligado</string>
   <!--Original value: "Please input %1$s's password"-->
-  <string name="wifi_dialog_title">"Please input %1$s's password"</string>
+  <string name="wifi_dialog_title">"Por favor insira senha para %1$s's"</string>
   <!--Original value: "Please select %1$s's certificate"-->
   <string name="wifi_dialog_wapi_cert_title">"Please select %1$s's certificate"</string>
   <!--Original value: %1$s network details-->
@@ -7510,7 +7399,6 @@ One card works on 3G network and the other one works on GSM 2G network."-->
   <!--Original value: Mount UICC device-->
   <string name="uicc_mount">Monte UICC dispositivo</string>
   <!--Original value: -->
-  <string name="uicc_mount_summary" />
   <!--Original value: Insert UICC device to mount-->
   <string name="uicc_insert_summary">Insert UICC device to mount</string>
   <!--Original value: Unmount USB device?-->
@@ -7732,9 +7620,6 @@ One card works on 3G network and the other one works on GSM 2G network."-->
   <!--Original value: Verify your fingerprint or enter your unlock pattern-->
   <string name="lockpattern_need_to_unlock_finger">Confirme o padrão ou a impressão digital salvos</string>
   <!--Original value: -->
-  <string name="lockpattern_need_to_unlock_footer" />
-  <!--Original value: -->
-  <string name="lockpattern_need_to_unlock_wrong_footer" />
   <!--Original value: Erasing SD card…-->
   <string name="progress_erasing">Apagando o cartão SD ...</string>
   <!--Original value: Erase SD card-->
@@ -7758,9 +7643,6 @@ One card works on 3G network and the other one works on GSM 2G network."-->
   <!--Original value: Average speed-->
   <string name="average_speed">Velocidade média</string>
   <!--Original value: %-->
-  <string name="percent" />
-  <!--Original value: 0-->
-  <string name="speed" />
   <!--Original value: Had used data-->
   <string name="data_usage_tips">Had used data</string>
   <!--Original value: Turn on turbo acceleration for speed-->
@@ -7772,7 +7654,7 @@ One card works on 3G network and the other one works on GSM 2G network."-->
   <!--Original value: M-->
   <string name="unit">M</string>
   <!--Original value: Connect the wlan for turbo acceleration-->
-  <string name="wifi_connected">Ligue o wlan para aceleração turbo</string>
+  <string name="wifi_connected">Conectar</string>
   <!--Original value: Connect the lte for turbo acceleration-->
   <string name="lte_connected">Connect the lte for turbo acceleration</string>
   <!--Original value: on-->
@@ -8036,7 +7918,6 @@ Divida a tela para vários usos, jogando jogos enquanto atualiza seu Weibo, assi
   <!--Original value: M-->
   <string name="megabyteShort">M</string>
   <!--Original value: G-->
-  <string name="gigabyteShort" />
   <!--Original value: T-->
   <string name="terabyteShort">T</string>
   <!--Original value: P-->
@@ -8386,7 +8267,6 @@ Divida a tela para vários usos, jogando jogos enquanto atualiza seu Weibo, assi
   <!--Original value: Disable %1$s-->
   <string name="disable_app_message">Desativar %1$s</string>
   <!--Original value: -->
-  <string name="wps_second_message" />
   <!--Original value: Press the WPS button on your router. It may be called \"WPS\" or contain this symbol: %s-->
   <string name="wifi_wps_onstart_content">Pressione o botão WPS no seu router. Ele pode ser chamado de \"WPS\" ou conter este símbolo: %s</string>
   <!--Original value: Unable to access Internet-->
