@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="flycow_picture_display_album_name">
+        <item>Camera</item>
+        <item>Front Camera</item>
+        <item>Portrait</item>
+        <item>Panorama</item>
+        <item>Snapshot</item>
+        <item>Jigsaw</item>
+        <item>Screenshots</item>
+        <item>Multi-exposure</item>
+        <item>LightDraw</item>
+        <item>Electronic Aperture</item>
+        <item>Slow Shutter</item>
+        <item>StarTrail</item>
+        <item>VideoMaker</item>
+        <item>Trajectory</item>
+        <item>Dng</item>
+        <item>Clone</item>
+        <item>Macro</item>
+        <item>3D</item>
+        <item>ZoomBlur</item>
+        <item>Time Shuttle</item>
+        <item>QQ</item>
+        <item>Mono</item>
+        <item>Download</item>
+        <item>Bluetooth</item>
+        <item>WeChat</item>
+        <item>Other Albums</item>
+    </string-array>
+    <string-array name="more_items">
+        <item>@string/transfer_list</item>
+        <item>@string/version_update</item>
+        <item>@string/str_help_notifications</item>
+    </string-array>
+    <integer-array name="system_app_type">
+        <item>16</item>
+        <item>15</item>
+        <item>17</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </integer-array>
+    <string-array name="trans_msg_map_keys">
+        <item>has_send</item>
+        <item>has_process</item>
+    </string-array>
+    <string-array name="trans_msg_map_values">
+        <item>@string/send_data_count</item>
+        <item>@string/send_data_restore_count</item>
+    </string-array>
+</resources>
