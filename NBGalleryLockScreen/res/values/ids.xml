@@ -98,12 +98,26 @@
     <item type="id" name="button2">false</item>
     <item type="id" name="button3">false</item>
     <item type="id" name="button1">false</item>
+    <item type="id" name="nubia_title_content_bg">false</item>
+    <item type="id" name="nubia_title_content_divider">false</item>
+    <item type="id" name="nubia_bold_divider">false</item>
+    <item type="id" name="nubia_button_bg">false</item>
+    <item type="id" name="nubia_center_title_content_divider">false</item>
     <item type="id" name="progress">false</item>
     <item type="id" name="progress_percent">false</item>
     <item type="id" name="progress_number">false</item>
+    <item type="id" name="nubia_button_left">false</item>
+    <item type="id" name="nubia_button_mid1">false</item>
+    <item type="id" name="nubia_button_mid2">false</item>
+    <item type="id" name="nubia_button_right">false</item>
+    <item type="id" name="name">false</item>
     <item type="id" name="nubia_year_label">false</item>
     <item type="id" name="nubia_month_label">false</item>
     <item type="id" name="nubia_day_label">false</item>
+    <item type="id" name="nubia_date_picker_view">false</item>
+    <item type="id" name="nubia_lunar_date_layout">false</item>
+    <item type="id" name="nubia_lunar_textview">false</item>
+    <item type="id" name="nubia_switch_button">false</item>
     <item type="id" name="nubia_dialog_activity_panel">false</item>
     <item type="id" name="nubia_dialog_activity_cancel">false</item>
     <item type="id" name="nubia_dialog_activity_ok">false</item>
@@ -111,6 +125,14 @@
     <item type="id" name="nubia_dialog_activity_content">false</item>
     <item type="id" name="nubia_card1">false</item>
     <item type="id" name="nubia_card2">false</item>
+    <item type="id" name="nubia_progressBar">false</item>
+    <item type="id" name="download_button">false</item>
+    <item type="id" name="my_list_view_2">false</item>
+    <item type="id" name="bottom">false</item>
+    <item type="id" name="nubia_month_day_spinner">false</item>
+    <item type="id" name="nubia_time_hour_textview">false</item>
+    <item type="id" name="nubia_lunar_time_picker_view">false</item>
+    <item type="id" name="nubia_lunar_time_layout">false</item>
     <item type="id" name="nubia_more_popup_panel">false</item>
     <item type="id" name="nubia_more_popup_mock_status_bar">false</item>
     <item type="id" name="nubia_more_popup_top_View">false</item>
@@ -130,17 +152,8 @@
     <item type="id" name="next_button">false</item>
     <item type="id" name="nubia_seekbar">false</item>
     <item type="id" name="nubia_switchWidget">false</item>
+    <item type="id" name="nubia_preference_category_right_layout">false</item>
     <item type="id" name="body">false</item>
-    <item type="id" name="nubia_resolver_list">false</item>
-    <item type="id" name="nubia_indicator">false</item>
-    <item type="id" name="nubia_divider">false</item>
-    <item type="id" name="nubia_button_bar">false</item>
-    <item type="id" name="nubia_button_always">false</item>
-    <item type="id" name="nubia_button_once">false</item>
-    <item type="id" name="nubia_button_cancel">false</item>
-    <item type="id" name="nubia_icon">false</item>
-    <item type="id" name="nubia_text1">false</item>
-    <item type="id" name="nubia_text2">false</item>
     <item type="id" name="nubia_search_button">false</item>
     <item type="id" name="nubia_search_edit_frame">false</item>
     <item type="id" name="nubia_search_mag_icon">false</item>
@@ -153,7 +166,6 @@
     <item type="id" name="seekbar">false</item>
     <item type="id" name="text1">false</item>
     <item type="id" name="nubia_ampm_spinner">false</item>
-    <item type="id" name="nubia_time_hour_textview">false</item>
     <item type="id" name="share_item_icon">false</item>
     <item type="id" name="share_item_name">false</item>
     <item type="id" name="cancel">false</item>

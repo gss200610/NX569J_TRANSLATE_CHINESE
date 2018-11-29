@@ -39,6 +39,9 @@
     <attr name="colorControlNormalSecondaryDark" format="color" />
     <attr name="colorControlNormalDarkSelectAll" format="color" />
     <attr name="alertDialogTitleTextAppearance" format="reference" />
+    <attr name="dialogButtonTextColor" format="reference|color" />
+    <attr name="textColorRed" format="color" />
+    <attr name="textColorGreen" format="color" />
     <attr name="tabTextSize" format="dimension" />
     <attr name="tabActivatedColor" format="reference|color" />
     <attr name="tabIndicatorTriangle" format="reference" />
@@ -259,4 +262,23 @@
     <attr name="barSize" format="dimension" />
     <attr name="thickness" format="dimension" />
     <attr name="drawerArrowStyle" format="reference" />
+    <attr name="progressNubia" format="integer" />
+    <attr name="maxProgressNubia" format="integer" />
+    <attr name="progressUnreachedColor" format="color" />
+    <attr name="progressReachedColor" format="color" />
+    <attr name="progressTextSize" format="dimension" />
+    <attr name="progressTextColor" format="color" />
+    <attr name="progressCircleRadius" format="dimension" />
+    <attr name="progressCircleSize" format="dimension" />
+    <attr name="circleProgressBarStyle" format="reference" />
+    <attr name="circleProgressBarStyleLarge" format="reference" />
+    <attr name="preferenceCategoryTextColor" format="color" />
+    <attr name="preferenceCategoryTextSize" format="dimension" />
+    <attr name="capsuleSelectedTextColor" format="reference|color" />
+    <attr name="capsuleNormalTextColor" format="reference|color" />
+    <attr name="capsuleBackgroundLeft" format="reference|color" />
+    <attr name="capsuleBackgroundMid" format="reference|color" />
+    <attr name="capsuleBackgroundRight" format="reference|color" />
+    <attr name="capsuleButtonStyle" format="reference" />
+    <attr name="maxHeightRatio" format="reference|float" />
 </resources>
